@@ -1,0 +1,16 @@
+company_name,github_org,frameworks
+Rocket Companies,rocketmortgage,
+Stryker,stryker-mutator,"gin, junit, typescript"
+Duo Security (Cisco),duosecurity,
+StockX,stockx,"gin, jest, react, redis, typescript, webpack"
+May Mobility,maymobility,
+TechSmith,TechSmith,
+Altair Engineering,altair-viz,"numpy, pandas"
+Plex Systems,PlexSystems,typescript
+Censys,censys,"django, gin, grpc, react, spring, terraform, typescript"
+Benzinga,Benzinga,"gin, jest, react, typescript, vite"
+Detroit Labs,detroit-labs,"gin, jest, react, typescript"
+Atomic Object,atomicobject,"react, typescript, vite"
+OneMagnify,onemagnify,
+Gentherm,gentherm,
+Domino's Pizza,dominos-pizza-engineering,

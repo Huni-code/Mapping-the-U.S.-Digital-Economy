@@ -1,0 +1,264 @@
+company_name,github_org,repo_count,total_stars,total_forks,top_languages,last_push,found
+Pie Insurance,PiedmontAdmin,,,,,,yes
+HiBob,hibobio,19,3,31,"JavaScript, Scala, Java, Python, Shell",2026-03-23,yes
+Headway,headway,15,1,0,"Python, JavaScript, Java, HCL",2026-03-16,yes
+Klaviyo,klaviyo,112,556,336,"Python, JavaScript, TypeScript, PHP, Go",2026-03-24,yes
+The PNC Financial Services Group,,0,0,0,,,no
+McMaster-Carr,McMaster-Carr-Supply-Company,,,,,,yes
+Onebrief,Onebrief,7,1,0,"TypeScript, Go, Python",2026-03-21,yes
+Inato,inato,24,696,230,"TypeScript, Python, JavaScript",2026-03-20,yes
+Playground (tryplayground.com),,0,0,0,,,no
+HRL Laboratories,HRL-Laboratories,2,36,5,"Python, Jupyter Notebook",2026-03-23,yes
+IMC Trading,imc-trading,25,264,55,"Python, Java, HTML, Go, Shell",2026-03-23,yes
+Sage,Sage,123,2253,472,"Ruby, JavaScript, TypeScript, C#, Shell",2026-03-23,yes
+Graphcore,graphcore,80,1132,255,"Python, C++, Jupyter Notebook, MLIR, Starlark",2026-03-20,yes
+"Findigs, Inc.",,0,0,0,,,no
+Terakeet,terakeet,4,0,0,"Python, Shell, JavaScript, HTML",2025-12-11,yes
+HopSkipDrive,hopskipdrive,24,0,1,"Ruby, Go, Objective-C, JavaScript, Java",2026-03-20,yes
+Sendbird,sendbird,198,2310,1493,"TypeScript, Swift, JavaScript, Kotlin, Python",2026-03-24,yes
+Udemy,udemy,14,36,9,"Python, JavaScript, Scala, Go Template, Swift",2026-03-22,yes
+Advisor360,advisor360-transfer,,,,,,yes
+Halo Investing,HaloDeFi,21,0,1,"TypeScript, JavaScript, HTML, Solidity",2021-02-12,yes
+Gradient AI,gradient-ai,305,371,229,"Jupyter Notebook, Python, HTML, Dockerfile, HCL",2024-12-16,yes
+Taboola,taboola,66,206,1684,"Java, JavaScript, Swift, Go, Python",2026-03-24,yes
+CrowdStrike,CrowdStrike,258,7670,2238,"Python, TypeScript, JavaScript, Go, HCL",2026-03-24,yes
+SOPHiA GENETICS,sophiagenetics,1,0,0,JavaScript,2026-03-16,yes
+Globe Life,Globe-Life,,,,,,yes
+Take-Two Interactive Software,,0,0,0,,,no
+FourKites,FourKites,1,1,1,PHP,2019-12-06,yes
+CarGurus,cargurus,14,13,7,"Go, JavaScript, HTML, Starlark, TypeScript",2026-02-09,yes
+New York Life Insurance Company,,0,0,0,,,no
+Affirm,Affirm,113,196,282,"Python, Shell, Java, JavaScript, Objective-C",2026-03-24,yes
+Rundoo,rundoo,1,0,0,Go,2025-09-19,yes
+Postman,postmanlabs,208,32597,6655,"JavaScript, TypeScript, Go, Shell, Python",2026-03-23,yes
+PagerDuty,PagerDuty,123,3569,1573,"Ruby, Dockerfile, Python, Elixir, TypeScript",2026-03-23,yes
+EZ Texting,,0,0,0,,,no
+Magna International,MagnaRobotics,,,,,,yes
+Belvedere Trading,belvedere-trading,9,30,17,"Python, C++, Starlark, TypeScript, JavaScript",2025-08-20,yes
+Geneva Trading,,0,0,0,,,no
+Worksmith,Worksmith,,,,,,yes
+Octus,octus,,,,,,yes
+Dandy,orthly,8,1,1,"JavaScript, Python, TypeScript",2025-11-12,yes
+ServiceNow,ServiceNow,261,7628,48659,"Python, JavaScript, TypeScript, Jupyter Notebook, Java",2026-03-24,yes
+mabl,mablhq,29,147,68,"TypeScript, JavaScript, Java, Python, PowerShell",2026-03-07,yes
+Micron Technology,Micron-Technology,1,1,0,C,2017-05-23,yes
+Teachable,UseFedora,83,15,147,"JavaScript, Ruby, Python, CSS, TypeScript",2025-04-29,yes
+Engrain,engrain-io,4,0,0,JavaScript,2016-09-02,yes
+Mixbook,Mixbook,50,33,36,"Ruby, JavaScript, Dart, TypeScript, Shell",2025-09-26,yes
+Click Therapeutics,clicktherapeutics,7,0,2,"JavaScript, Python, Shell",2025-02-27,yes
+Assembled,assembledhq,10,1,1,"Go, Swift, Kotlin, Ruby",2026-02-24,yes
+Addition Wealth,additionwealth,1,0,0,TypeScript,2024-01-23,yes
+GRAIL,grails,73,1852,1178,"Groovy, Java, HTML, Shell, CSS",2025-11-07,yes
+Ethic,EthicalML,24,23611,3086,"JavaScript, HTML, Python, Jupyter Notebook",2026-03-23,yes
+GumGum,gumgum,27,98,49,"JavaScript, PHP, Python, CSS, HTML",2026-03-09,yes
+Superblocks,superblocksteam,32,76,92,"TypeScript, Shell, JavaScript, HCL, Python",2026-03-23,yes
+Enova,enova,35,440,178,"Ruby, Go, PLpgSQL, TypeScript, JavaScript",2026-02-09,yes
+Moov,moov-io,64,3412,1140,"Go, TypeScript, Ruby, Shell, XSLT",2026-03-24,yes
+RigUp,rigup,20,38,6,"JavaScript, TypeScript, Ruby, Go, HCL",2026-03-02,yes
+Braze,braze-inc,133,513,514,"Ruby, TypeScript, JavaScript, Swift, Go",2026-03-24,yes
+Compa,companieshouse,662,376,789,"HCL, Java, HTML, TypeScript, Dockerfile",2026-03-23,yes
+Bounteous,Bounteous-Inc,129,767,319,"JavaScript, Java, PHP, C#, HTML",2026-03-16,yes
+Healthee,GetHealthee,1,0,0,Python,2024-04-08,yes
+Arch Systems Inc.,,0,0,0,,,no
+Particle Health,ParticleHealth,16,4,1,"Go, C++, HCL, Python, TypeScript",2026-03-24,yes
+Crunchyroll,crunchyroll,64,94,44,"Swift, Go, JavaScript, Python, Shell",2025-12-15,yes
+Radar,radareorg,83,30996,4862,"C, Python, Makefile, Rust, TypeScript",2026-03-24,yes
+Alliant Credit Union,alliant-credit-union,,,,,,yes
+Citadel,citadel,,,,,,yes
+Rain,raindropio,12,3129,422,"JavaScript, Swift, MDX, TypeScript, HTML",2026-03-20,yes
+Accuris,Accuris,3,0,0,C,2018-04-04,yes
+Opendoor,opendoor,1,61,9,Go,2024-03-14,yes
+Tempus AI,tempus-ai,,,,,,yes
+Augury,augurysys,23,15,9,"Go, Jupyter Notebook, C, Objective-C, Rust",2026-03-11,yes
+Nisos,nisos,,,,,,yes
+Scrunch,excelsa-labs,2,0,0,"Python, TypeScript",2026-01-26,yes
+Learneo,LearnEon-Edutech,,,,,,yes
+Lansweeper,Lansweeper,,,,,,yes
+Block,block,107,36755,3610,"Kotlin, Go, Python, TypeScript, Rust",2026-03-24,yes
+Realtor.com,,0,0,0,,,no
+SoFi,Sofi-Tech,10,13,2,"TypeScript, Rust",2026-03-10,yes
+Attain,attainu,1140,104,262,"JavaScript, Python, HTML, Handlebars, CSS",2024-03-26,yes
+Garner Health,AlmiHealth,,,,,,yes
+Northslope Technologies,northslope-tech,1,4,0,Shell,2026-02-23,yes
+Oso,osodevops,207,436,274,"HCL, Python, Rust, Shell, Dockerfile",2026-03-23,yes
+ALIS,alist-org,5,46,101,"HTML, TypeScript, JavaScript",2026-03-16,yes
+Inspira Financial,Inspira-Financial,,,,,,yes
+Kalderos,KalderosLLC,2,0,0,Shell,2025-08-01,yes
+PwC,PwCUK-CTO,12,170,27,"Python, YARA, Rich Text Format",2026-01-05,yes
+Optimum,getoptimum,10,18,15,"Go, Starlark, TypeScript, Assembly",2026-03-24,yes
+Jasper,JasperFx,25,7555,1205,"C#, HTML, TypeScript",2026-03-24,yes
+Fora,fora,,,,,,yes
+Hiya Inc.,,0,0,0,,,no
+zLinq,getzlinq,,,,,,yes
+GrayMatter Robotics,GrayMatter-Robotics,24,0,1,C++,2025-11-25,yes
+M-Files,M-Files,13,135,168,"C#, HTML, JavaScript",2026-03-19,yes
+Zynga,zynga,23,1392,345,"JavaScript, Python, C#, Hack, PHP",2024-10-18,yes
+Fulcrum GT,fulcrumgt,,,,,,yes
+Relativity Space,,0,0,0,,,no
+Datadog,DataDog,1162,43839,19100,"Go, Python, Ruby, Java, Shell",2026-03-24,yes
+Tulip,tulip,92,155,41,"JavaScript, Go, TypeScript, C, Python",2026-03-23,yes
+Beyond Finance,Beyond-Finance,12,33,15,"Ruby, HTML, JavaScript, Jupyter Notebook, Shell",2026-03-24,yes
+TrueML,trueml-ghc,,,,,,yes
+January,January-2023-QA-Bootcamp,7,5,5,"Java, Gherkin",2023-10-07,yes
+Apryse,ApryseSDK,143,2204,1221,"JavaScript, TypeScript, C#, Java, CSS",2026-03-21,yes
+Kalshi,Kalshi,8,154,112,"Go, Rust, Python, HTML, Jupyter Notebook",2026-02-06,yes
+Rokt,ROKT,67,23,17,"Go, Smarty, Python, Shell, Swift",2026-03-24,yes
+The Farmer's Dog,farmersdog,19,25,7,"JavaScript, Shell, SQL, Go, Python",2025-05-08,yes
+Genius Sports,genius-sports,6,0,0,"C, Rust",2026-01-26,yes
+OCC,occrp,44,123,32,"Shell, JavaScript, Python, Dockerfile, PHP",2026-03-20,yes
+BrainPOP,brainpop,,,,,,yes
+Tastewise,tastewise,5,0,0,"TypeScript, JavaScript",2025-03-10,yes
+Doximity,doximity,61,305,55,"Ruby, JavaScript, Go, HCL, Swift",2026-03-19,yes
+DigitalOcean,digitalocean,348,49821,11649,"Go, Python, JavaScript, Shell, Ruby",2026-03-23,yes
+Vibes,vibes,35,14,8,"Ruby, Java, Swift, Objective-C, JavaScript",2026-02-17,yes
+Alloy,alloy-rs,18,3449,1426,Rust,2026-03-23,yes
+Liberty Mutual Insurance,libertymutual,53,85,66,"Java, Go, Ruby, JavaScript, HTML",2026-03-20,yes
+ReversingLabs,reversinglabs,59,1009,162,"Python, Java, HTML, Jupyter Notebook, YARA",2026-03-18,yes
+"Vestmark, Inc.",,0,0,0,,,no
+ClickMint,,0,0,0,,,no
+WHOOP,WhoopInc,65,632,104,"JavaScript, Python, Swift, Erlang, Java",2026-03-21,yes
+Snap Inc.,snap-inc,1,0,0,C#,2019-03-14,yes
+Findhelp,auntbertha,3,47,28,Python,2024-05-19,yes
+Webflow,webflow,52,625,217,"JavaScript, TypeScript, Go, Python, Scala",2026-03-23,yes
+Kensho Technologies,kensho-technologies,40,1777,272,"Python, JavaScript, Go, TypeScript, Jsonnet",2026-03-23,yes
+Zeta Global,Zeta-Global,1,0,0,,2026-01-29,yes
+SciPlay,,0,0,0,,,no
+Centerfield,centerfieldmedia,1,0,0,,2021-08-27,yes
+DraftKings,,0,0,0,,,no
+Million Dollar Baby Co.,,0,0,0,,,no
+Superhuman,superhuman,95,505,83,"JavaScript, Go, Swift, Objective-C, C++",2026-03-16,yes
+RTB House,RTBHOUSE,87,219,75,"Java, Python, C++, Go, C",2026-03-24,yes
+Vannevar,vannevar-labs,7,3,0,"Python, JavaScript, Jupyter Notebook",2026-02-05,yes
+Built In,Instabug,44,1068,353,"Ruby, Dart, Swift, Go, Java",2026-03-05,yes
+Edmunds,edmunds,33,251,80,"Java, JavaScript, Objective-C, Ruby, Python",2026-01-09,yes
+Cin7,Cin7Americas,,,,,,yes
+Dynatrace,Dynatrace,282,2812,1950,"Java, Python, Shell, Ruby, Go",2026-03-24,yes
+Navan,Accenture-Navan,5,0,2,TypeScript,2024-10-24,yes
+Bitnomial,bitnomial,51,119,66,"Haskell, JavaScript, TypeScript, Nix, Ruby",2026-03-12,yes
+Rula,pathccm,11,0,0,"HCL, TypeScript, Python, Shell, Ruby",2026-03-21,yes
+Enverus,Enverus,,,,,,yes
+LogicGate,LogicGateTech,8,5,10,"Shell, HTML, Java, Python, TypeScript",2026-03-23,yes
+ARB Interactive,ARB-Interactive,,,,,,yes
+MassMutual,massmutual,23,1,4,"Python, Scala, Shell, Go, Smarty",2024-06-10,yes
+Fusion Risk Management,,0,0,0,,,no
+Scratch Financial,Scratch-Financial-Inc,4,0,0,"Java, Go",2023-01-10,yes
+Apex Fintech Solutions,apex-fintech-solutions,3,0,1,"Smarty, Go",2025-06-27,yes
+Locusview,locusview,14,0,3,"Java, Objective-C, Groovy, JavaScript, Objective-C++",2025-12-08,yes
+Peaksware,Peaksware,,,,,,yes
+Toast,toasttab,46,4,10,"Java, Go, Python, TypeScript, Shell",2026-01-02,yes
+Definitive Healthcare,,0,0,0,,,no
+Red 6,aXR6,43,56,24,"Shell, Python, HCL, Jupyter Notebook, Batchfile",2025-09-23,yes
+Agora RE,RedeSolary,5,0,0,"Java, CSS",2022-02-19,yes
+Ahold Delhaize USA,,0,0,0,,,no
+Comcast,Comcast,233,15372,4726,"Go, JavaScript, Java, Python, Ruby",2026-03-23,yes
+Adyen,Adyen,64,2601,1946,"TypeScript, PHP, JavaScript, Swift, Kotlin",2026-03-23,yes
+Arm,arm,44,1222,228,"C++, Python, C, Go, Shell",2026-03-24,yes
+Applied Systems,AppliedPurpleTeaming,1,4,2,,2022-12-10,yes
+Catalant Technologies,,0,0,0,,,no
+Apollo.io,apolloio,39,21,26,"Ruby, TypeScript, JavaScript, Java, Go",2026-03-20,yes
+True Anomaly,True-Anomaly,,,,,,yes
+NinjaOne,NinjaRMM,31,21,199,"Java, JavaScript, Go, Python, C++",2026-03-11,yes
+HCSS,hcss-utils,75,14,2,"HTML, Python, JavaScript, Jupyter Notebook, TypeScript",2026-03-23,yes
+Avant,AVANT,7,3,3,"JavaScript, Haskell, CSS, HTML, Go",2017-08-23,yes
+HERE Technologies,heremaps,75,5584,2188,"JavaScript, Java, Python, TypeScript, C++",2026-03-23,yes
+PRIMA,primait,83,506,114,"Elixir, Rust, Elm, Python, JavaScript",2026-03-24,yes
+Sittercity,sittercity,65,179,49,"Ruby, Go, PHP, Java, JavaScript",2026-02-19,yes
+RapDev,rapdev-io,44,39,22,"JavaScript, Python, Java, Go, TypeScript",2026-03-23,yes
+Possible Finance,polfinance,,,,,,yes
+Canoe,CANOE-main,15,18,17,"Python, HTML",2026-03-23,yes
+Britebound,Britebound-Data-Engineering,,,,,,yes
+Jellyfish,Jellyfish-AI,13,27,20,"Python, PowerShell, JavaScript, TypeScript, Shell",2026-03-23,yes
+AMP,ampproject,60,24297,6999,"JavaScript, TypeScript, HTML, PHP, Go",2026-03-23,yes
+OppFi,oppfi-inc,,,,,,yes
+Commerce,FormidableLabs,327,98062,7010,"JavaScript, TypeScript, HCL, CSS, Java",2026-03-13,yes
+"Charted, Inc.",,0,0,0,,,no
+GameChanger,gamechanger,118,677,89,"Python, JavaScript, Objective-C, Ruby, Swift",2026-03-23,yes
+AcuityMD,acuitymd,3,12,1,"Rust, TypeScript",2026-03-16,yes
+Revivn,Revivn,,,,,,yes
+8am (Formerly AffiniPay),,0,0,0,,,no
+Scotch,scotch,15,610,148,"Python, JavaScript, Go, CSS",2020-08-31,yes
+Vantor,VantorStudio,4,0,0,TypeScript,2025-07-12,yes
+Hebbia,hebbia,3,4,1,"JavaScript, HTML, TypeScript",2023-07-19,yes
+Capital One,capital-one,,,,,,yes
+Cedar,cedar,3,22,6,"C++, Python",2026-02-24,yes
+Zscaler,zscaler,52,284,167,"HCL, Go, Python, PowerShell, Bicep",2026-03-23,yes
+Granica,granica-ai,7,4,1,"HCL, Python, Jupyter Notebook",2026-03-23,yes
+Wells Fargo,wells-fargo,,,,,,yes
+Spark Advisors,Spark-Advisors,2,0,0,Python,2025-03-24,yes
+Analytics8,analytics8,,,,,,yes
+Arity,arity-cn,5,0,0,"Java, Go, PHP, JavaScript, Python",2023-05-30,yes
+Intellistack,Intellistack2026,1,1,0,,2026-03-08,yes
+CertifID,CertifID,2,0,0,C#,2026-03-16,yes
+"Riot Platforms, Inc.",,0,0,0,,,no
+FloQast,FloQast,,,,,,yes
+Nourish,nourish,10,0,0,"Go, HTML, JavaScript",2016-09-28,yes
+BlackRock,blackrock,13,283,115,"Python, Scala, TypeScript, Java, Rust",2026-03-23,yes
+Cohere Health,CoherenceAppsLLC,1,0,0,JavaScript,2017-03-07,yes
+Pluralsight,pluralsight,127,6025,1646,"JavaScript, Python, Swift, SaltStack, Scala",2024-08-28,yes
+Snyk,snyk,232,14655,3774,"TypeScript, Go, JavaScript, Java, Python",2026-03-24,yes
+Chime,chime,3,1288,94,"Go, HCL",2026-03-19,yes
+Wolverine Trading,,0,0,0,,,no
+ePayPolicy,,0,0,0,,,no
+Thrive Market,thrive-market,,,,,,yes
+Agero,agero-private,,,,,,yes
+Lob,lob,53,1537,459,"JavaScript, Go, TypeScript, Elixir, Ruby",2026-03-21,yes
+Flourish,flourishlib,16,415,105,"PHP, JavaScript, HTML",2022-02-17,yes
+Arcadia,arcadia,3,0,4,"Java, HCL",2019-02-19,yes
+Perk,travelperk,25,34,10,"Python, JavaScript, TypeScript, HCL, HTML",2026-03-10,yes
+"BAE Systems, Inc.",,0,0,0,,,no
+monday.com,mondaycom,42,1632,768,"TypeScript, JavaScript, Python, Shell, Ruby",2026-03-23,yes
+John Deere,JohnDeere,18,79,86,"Java, C#, Python, JavaScript, PHP",2026-03-19,yes
+ABN AMRO Clearing USA LLC,,0,0,0,,,no
+Freed,FreedomIntelligence,118,16304,1792,"Python, JavaScript, TypeScript, Java, C++",2026-03-23,yes
+Trumid,Trumid,1,78,40,C++,2023-03-01,yes
+Mirakl,mirakl,22,108,39,"Java, JavaScript, Go, PHP, Smarty",2026-03-21,yes
+Optum,Optum,87,1061,422,"TypeScript, Ruby, Lua, Go, Java",2026-03-23,yes
+Robin,robinhoodmarkets,21,11,9,"Python, PHP, JavaScript, Go, Java",2026-02-11,yes
+Mochi Health,,0,0,0,,,no
+Magnite,MagniteEngineering,25,17,10,"Objective-C, Java, Go, Swift, Kotlin",2026-03-16,yes
+Ibotta,Ibotta,79,690,252,"Ruby, JavaScript, Java, Python, Objective-C",2026-03-21,yes
+Carbon Robotics,carbonrobotics,35,3,0,"Python, C, C++, Go, Jupyter Notebook",2026-02-20,yes
+Caliola Engineering,,0,0,0,,,no
+Mondelēz International,,0,0,0,,,no
+Chamberlain Group,Chamberlain-Group,,,,,,yes
+Teragonia,teragonia,1,0,0,,2025-06-10,yes
+Federal Reserve Bank of Boston,,0,0,0,,,no
+Pontera,pontera,,,,,,yes
+Opto Investments,,0,0,0,,,no
+Hireology,,0,0,0,,,no
+MarketAxess,marketaxess,,,,,,yes
+MongoDB,mongodb,299,97943,28414,"Go, Python, JavaScript, TypeScript, Java",2026-03-24,yes
+"Duda, Inc.",,0,0,0,,,no
+Blacksmith,useblacksmith,48,66,25,"TypeScript, Go, JavaScript, Rust, HTML",2026-03-20,yes
+Sprinter Health,Pulsetera,,,,,,yes
+McCain Foods,,0,0,0,,,no
+Camber,CamberCloud-Inc,13,0,3,"Jupyter Notebook, Python, Roff, C, C++",2025-11-03,yes
+Toro TMS,Toro-TMS,12,1,16,"JavaScript, Shell, Go, Ruby",2026-01-24,yes
+M13,M13KdGitHub,83,0,26,"Java, C#, PHP, C, JavaScript",2018-08-29,yes
+Basis,Basis,19,4,0,"Python, JavaScript",2016-11-01,yes
+Pfizer,pfizer,,,,,,yes
+Bilt,biltrewards,5,0,0,Java,2026-03-23,yes
+KUBRA,kubra-bp,,,,,,yes
+Whatnot,Whatnot-Inc,45,8,40,"Elixir, Python, Shell, Erlang, Swift",2026-03-20,yes
+"The HEICO Companies, LLC",,0,0,0,,,no
+360Learning,360Learning,15,121,87,"Objective-C, JavaScript, TypeScript, HTML, Swift",2026-03-19,yes
+Nexthink,nexthink,1,0,0,,2025-11-19,yes
+Amplify Platform,shikshalokam,85,6,104,"JavaScript, TypeScript, Java, HTML, Python",2026-03-02,yes
+Energy CX,Energy-CX,,,,,,yes
+Domino Data Lab,dominodatalab,282,461,416,"Jupyter Notebook, Python, SAS, Go, HCL",2026-03-24,yes
+Flywire,flywirecorp,69,87,33,"Ruby, JavaScript, HCL, CSS, Go",2026-03-09,yes
+Applecart,applecart,1,0,0,Scala,2018-09-28,yes
+Ericsson,Ericsson,164,5068,1334,"Ruby, Python, C++, Java, JavaScript",2026-03-24,yes
+Tufin,Tufin,16,239,71,"Go, Shell, Ruby, Python",2025-02-24,yes
+Ellevation Education,ellevation,9,0,3,"HCL, PowerShell, JavaScript",2026-01-22,yes
+CAIS,usc-caisplusplus,12,9,8,"Python, Jupyter Notebook, SCSS, JavaScript",2026-03-06,yes
+Benchling,benchling,60,207,63,"Python, JavaScript, TypeScript, Shell, Go",2026-03-07,yes
+Hometap,HomeTap,1,3,0,JavaScript,2015-12-04,yes
+Anduril,anduril,15,679,209,"Python, Go, TypeScript, Rust, Java",2026-03-24,yes
+"BigTime Software, Inc.",,0,0,0,,,no
+Halter,halter,23,15,0,"Go, Python, Lua, HTML, Rust",2026-03-23,yes
+Hi Marley,himarley,13,9,0,"JavaScript, TypeScript, Ruby, HCL",2024-06-21,yes
+Northwestern Mutual,northwestern-mutual,,,,,,yes
+Supernova Technology,supernovait,,,,,,yes
+Vivid Seats,VividSeats,,,,,,yes
+NBCUniversal,NBCUniversal-OTS,7,0,0,"PHP, JavaScript",2026-01-13,yes
