@@ -325,21 +325,30 @@ _sal_yr_first = int(_sal_first["year"]) if _sal_first is not None else 2017
 _sal_growth   = int((_sal_last["median_salary"] - _sal_first["median_salary"]) / _sal_first["median_salary"] * 100) if _sal_first is not None else 49
 
 col1, col2, col3 = st.columns(3)
-col1.metric(
-    f"🏢 Fastest-growing sector",
-    f"{_top_growth_pct}% revenue growth",
-    f"{_top_growth_sector} · 2019→2024",
-)
-col2.metric(
-    "🤖 AI tool adoption surged",
-    f"Claude: {_claude_2024}% → {_claude_2025}%",
-    "2024→2025",
-)
-col3.metric(
-    "💰 Developer salaries rising",
-    f"${_sal_median}K median",
-    f"+{_sal_growth}% since {_sal_yr_first}",
-)
+with col1:
+    st.markdown(f"""
+    <div class="stat-card">
+      <div class="big-stat-label">🏢 Fastest-growing sector</div>
+      <div class="big-stat">{_top_growth_pct}%</div>
+      <div class="big-stat-label">revenue growth &nbsp;·&nbsp; {_top_growth_sector} &nbsp;·&nbsp; 2019→2024</div>
+    </div>
+    """, unsafe_allow_html=True)
+with col2:
+    st.markdown(f"""
+    <div class="stat-card">
+      <div class="big-stat-label">🤖 AI tool adoption</div>
+      <div class="big-stat">{_claude_2024}% → {_claude_2025}%</div>
+      <div class="big-stat-label">Claude adoption &nbsp;·&nbsp; 2024→2025</div>
+    </div>
+    """, unsafe_allow_html=True)
+with col3:
+    st.markdown(f"""
+    <div class="stat-card">
+      <div class="big-stat-label">💰 Developer salaries</div>
+      <div class="big-stat">${_sal_median}K</div>
+      <div class="big-stat-label">median salary &nbsp;·&nbsp; +{_sal_growth}% since {_sal_yr_first}</div>
+    </div>
+    """, unsafe_allow_html=True)
 
 st.divider()
 
@@ -363,28 +372,42 @@ with tabs[0]:
 
     col_a, col_b = st.columns(2)
 
-    # Chart 1: Sector distribution
+    # Chart 1: Sector distribution (donut)
     with col_a:
         st.subheader("Sector Distribution")
-        st.caption("💡 Click any bar to see companies in that sector")
+        st.caption("💡 Click any slice to see companies in that sector")
         sector_counts = (
             companies.groupby("sector").size().reset_index(name="count")
-            .sort_values("count", ascending=True)
+            .sort_values("count", ascending=False)
         )
-        fig1 = px.bar(
-            sector_counts, x="count", y="sector",
-            orientation="h",
-            color="count", color_continuous_scale="Blues",
-            labels={"count": "Number of Companies", "sector": ""},
+        fig1 = px.pie(
+            sector_counts, values="count", names="sector",
+            hole=0.52,
+            color_discrete_sequence=px.colors.sequential.Blues_r[::-1][2:] +
+                                     px.colors.sequential.Purples_r[::-1][2:],
             height=520,
         )
-        fig1.update_layout(coloraxis_showscale=False, margin=dict(l=0))
+        fig1.update_traces(
+            textposition="inside",
+            textinfo="label+percent",
+            textfont_size=10,
+            pull=[0.03] * len(sector_counts),
+        )
+        fig1.update_layout(
+            showlegend=False,
+            margin=dict(l=0, r=0, t=10, b=0),
+            annotations=[dict(
+                text=f"<b>{len(sector_counts)}</b><br>sectors",
+                x=0.5, y=0.5, font_size=16, showarrow=False,
+                font_color="#1a237e",
+            )],
+        )
         sec1_event = st.plotly_chart(
             fig1, use_container_width=True,
             on_select="rerun", selection_mode="points", key="sec1_sector_chart"
         )
         if sec1_event and sec1_event.selection and sec1_event.selection.points:
-            clicked = sec1_event.selection.points[0].get("y")
+            clicked = sec1_event.selection.points[0].get("label")
             if clicked:
                 show_sector_drilldown(clicked, companies, company_revenue)
 
