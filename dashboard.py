@@ -372,42 +372,29 @@ with tabs[0]:
 
     col_a, col_b = st.columns(2)
 
-    # Chart 1: Sector distribution (donut)
+    # Chart 1: Sector distribution (bar, clickable)
     with col_a:
         st.subheader("Sector Distribution")
-        st.caption("💡 Click any slice to see companies in that sector")
+        st.caption("💡 Click any bar to see companies in that sector")
         sector_counts = (
             companies.groupby("sector").size().reset_index(name="count")
-            .sort_values("count", ascending=False)
+            .sort_values("count", ascending=True)
         )
-        fig1 = px.pie(
-            sector_counts, values="count", names="sector",
-            hole=0.52,
-            color_discrete_sequence=px.colors.sequential.Blues_r[::-1][2:] +
-                                     px.colors.sequential.Purples_r[::-1][2:],
+        fig1 = px.bar(
+            sector_counts, x="count", y="sector",
+            orientation="h",
+            color="count",
+            color_continuous_scale=["#bbdefb", "#1565c0", "#0d47a1"],
+            labels={"count": "Number of Companies", "sector": ""},
             height=520,
         )
-        fig1.update_traces(
-            textposition="inside",
-            textinfo="label+percent",
-            textfont_size=10,
-            pull=[0.03] * len(sector_counts),
-        )
-        fig1.update_layout(
-            showlegend=False,
-            margin=dict(l=0, r=0, t=10, b=0),
-            annotations=[dict(
-                text=f"<b>{len(sector_counts)}</b><br>sectors",
-                x=0.5, y=0.5, font_size=16, showarrow=False,
-                font_color="#1a237e",
-            )],
-        )
+        fig1.update_layout(coloraxis_showscale=False, margin=dict(l=0))
         sec1_event = st.plotly_chart(
             fig1, use_container_width=True,
             on_select="rerun", selection_mode="points", key="sec1_sector_chart"
         )
         if sec1_event and sec1_event.selection and sec1_event.selection.points:
-            clicked = sec1_event.selection.points[0].get("label")
+            clicked = sec1_event.selection.points[0].get("y")
             if clicked:
                 show_sector_drilldown(clicked, companies, company_revenue)
 
@@ -837,92 +824,58 @@ with tabs[3]:
     st.warning("⚠️ **Public companies only:** Revenue figures are from SEC EDGAR (2,937 public companies). "
                "Private company revenue is not included — growth figures represent the publicly traded segment of each sector.")
 
-    col_a, col_b = st.columns([3, 2])
+    # Revenue Growth summary — full chart is in Section 5
+    st.info(
+        "📈 **Revenue Growth by Sector:** AI Foundation Models +386%, Advertising +374%, "
+        "E-learning +311% (2019→2024). All sectors grew. "
+        "→ Full breakdown and Opportunity Score analysis in **Section 5: Investment Opportunities**."
+    )
 
-    # Chart 7: Revenue growth by sector
-    with col_a:
-        st.subheader("Revenue Growth by Sector (2019→2024)")
+    # Compute rev_pivot here (needed for Section 5 later)
+    rev_growth = sec[sec["year"].isin([2019, 2024]) & sec["revenue"].notna()].copy()
+    rev_pivot = (
+        rev_growth.groupby(["sector", "year"])["revenue"]
+        .mean().unstack("year").reset_index()
+    )
+    rev_pivot.columns = ["sector", "rev_2019", "rev_2024"]
+    rev_pivot = rev_pivot.dropna()
+    rev_pivot["growth_pct"] = (
+        (rev_pivot["rev_2024"] - rev_pivot["rev_2019"]) / rev_pivot["rev_2019"] * 100
+    ).round(1)
+    rev_pivot = rev_pivot.sort_values("growth_pct", ascending=True)
 
-        rev_growth = sec[sec["year"].isin([2019, 2024]) & sec["revenue"].notna()].copy()
-        rev_pivot = (
-            rev_growth.groupby(["sector", "year"])["revenue"]
-            .mean().unstack("year").reset_index()
-        )
-        rev_pivot.columns = ["sector", "rev_2019", "rev_2024"]
-        rev_pivot = rev_pivot.dropna()
-        rev_pivot["growth_pct"] = (
-            (rev_pivot["rev_2024"] - rev_pivot["rev_2019"]) / rev_pivot["rev_2019"] * 100
-        ).round(1)
-        rev_pivot = rev_pivot.sort_values("growth_pct", ascending=True)
+    # Net Income as the main chart
+    st.subheader("Net Income Trend — Top Sectors (2015–2024)")
 
-        colors = ["#e53935" if v < 0 else "#43a047" if v > 150 else "#1e88e5"
-                  for v in rev_pivot["growth_pct"]]
+    top_rev_sectors = rev_pivot.nlargest(6, "growth_pct")["sector"].tolist()
+    ni_trend = (
+        sec[sec["sector"].isin(top_rev_sectors) & sec["net_income"].notna()]
+        .groupby(["year", "sector"])["net_income"].mean()
+        .reset_index()
+    )
+    ni_trend["ni_bn"] = ni_trend["net_income"] / 1e9
 
-        fig9 = px.bar(
-            rev_pivot, x="growth_pct", y="sector",
-            orientation="h",
-            color="growth_pct",
-            color_continuous_scale=["#e53935", "#fff9c4", "#43a047"],
-            color_continuous_midpoint=100,
-            labels={"growth_pct": "Revenue Growth (%)", "sector": ""},
-            height=480,
-        )
-        top_row = rev_pivot.iloc[-1]
-        fig9.add_annotation(
-            x=top_row["growth_pct"], y=top_row["sector"],
-            text=f"🚀 +{top_row['growth_pct']:.0f}%",
-            showarrow=True, arrowhead=2, arrowcolor="#2e7d32",
-            font=dict(color="#2e7d32", size=12, family="Arial Black"),
-            xshift=10,
-        )
-        fig9.update_layout(coloraxis_showscale=False)
-        st.plotly_chart(fig9, use_container_width=True)
+    fig10 = px.line(
+        ni_trend, x="year", y="ni_bn", color="sector",
+        markers=True,
+        labels={"year": "Year", "ni_bn": "Avg Net Income ($B)", "sector": "Sector"},
+        height=460,
+    )
+    fig10.add_hline(y=0, line_dash="dash", line_color="gray", opacity=0.4)
+    st.plotly_chart(fig10, use_container_width=True)
 
-        st.markdown("""
-        <div class="insight-box">
-          <b>What we see:</b> AI Foundation Models lead with 386% growth, followed by
-          Advertising (374%) and E-learning (311%). Even "slow" sectors like Fintech grew 116%
-          over 5 years. No sector declined.<br><br>
-          <b>Why it happens:</b> The 2019–2024 window captures both the COVID digital acceleration
-          (2020–21) and the AI investment wave (2022–24). Almost all tech sectors benefited.<br><br>
-          <b>What it means:</b> While all sectors grew, AI-native sectors grew at 3–4× the rate
-          of mature sectors. The divergence is widening, not converging.
-        </div>
-        """, unsafe_allow_html=True)
-        st.markdown('<div class="takeaway">📌 AI Foundation Models grew 386% vs 37–116% for mature sectors — a 3–4× divergence.</div>', unsafe_allow_html=True)
-
-    with col_b:
-        st.subheader("Net Income Trend — Top Sectors (2015–2024)")
-
-        top_rev_sectors = rev_pivot.nlargest(6, "growth_pct")["sector"].tolist()
-        ni_trend = (
-            sec[sec["sector"].isin(top_rev_sectors) & sec["net_income"].notna()]
-            .groupby(["year", "sector"])["net_income"].mean()
-            .reset_index()
-        )
-        ni_trend["ni_bn"] = ni_trend["net_income"] / 1e9
-
-        fig10 = px.line(
-            ni_trend, x="year", y="ni_bn", color="sector",
-            markers=True,
-            labels={"year": "Year", "ni_bn": "Avg Net Income ($B)", "sector": "Sector"},
-            height=480,
-        )
-        fig10.add_hline(y=0, line_dash="dash", line_color="gray", opacity=0.4)
-        st.plotly_chart(fig10, use_container_width=True)
-
-        st.markdown("""
-        <div class="insight-box">
-          <b>What we see:</b> High-growth sectors don't always translate to high profitability —
-          AI Foundation Models show strong revenue growth but thin or negative net income,
-          reflecting massive R&D reinvestment. E-learning and Advertising show more consistent profits.<br><br>
-          <b>Why it happens:</b> AI companies are in land-grab mode — spending profits on compute
-          and talent to maintain competitive position.<br><br>
-          <b>What it means:</b> Revenue growth ≠ profitability. Investors should distinguish
-          between "investing for future dominance" (AI) vs "compounding stable cash flows" (Fintech, Advertising).
-        </div>
-        """, unsafe_allow_html=True)
-        st.markdown('<div class="takeaway">📌 AI sectors: high revenue growth but profit reinvested into R&D — a bet on future dominance, not current returns.</div>', unsafe_allow_html=True)
+    st.markdown("""
+    <div class="insight-box">
+      <b>What we see:</b> High-growth sectors don't always translate to high profitability —
+      AI Foundation Models show strong revenue growth but thin or negative net income,
+      reflecting massive R&D reinvestment. E-learning and Advertising show more consistent profits.<br><br>
+      <b>Why it happens:</b> AI companies are in land-grab mode — spending profits on compute
+      and talent to maintain competitive position.<br><br>
+      <b>What it means:</b> Revenue growth ≠ profitability. Investors should distinguish
+      between "investing for future dominance" (AI) vs "compounding stable cash flows" (Fintech, Advertising).
+    </div>
+    """, unsafe_allow_html=True)
+    st.markdown('<div class="takeaway">📌 AI sectors: high revenue growth but profit reinvested into R&D — a bet on future dominance, not current returns.</div>', unsafe_allow_html=True)
 
     # BLS Employment growth
     st.subheader("Employment Growth by Tech Sector (BLS, 2015–2024)")
