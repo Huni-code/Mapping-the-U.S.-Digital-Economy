@@ -10,8 +10,6 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
-from sklearn.linear_model import LinearRegression
-from sklearn.preprocessing import LabelEncoder
 import numpy as np
 
 # ── Config ───────────────────────────────────────────────────────────────────
@@ -189,7 +187,7 @@ def load_data():
 
     sec = pd.read_sql("""
         SELECT sf.company_id, sf.year, sf.revenue, sf.rd_expense, sf.net_income,
-               cc.sector
+               sf.operating_cash_flow, cc.sector
         FROM sec_financials sf
         JOIN company_classifications cc ON sf.company_id = cc.company_id
         WHERE sf.year BETWEEN 2015 AND 2024
@@ -216,11 +214,16 @@ def load_data():
         ) latest ON sf.company_id = latest.company_id AND sf.year = latest.max_year
     """, conn)
 
+    # Phase G sector-level Investing metrics (CAGR 40% / SFR 30% / Margin 30%, 2020-2024)
+    sector_metrics = pd.read_sql("SELECT * FROM sector_opportunity_metrics", conn)
+
     conn.close()
-    return companies, sec, bls, ai_adoption, salary, devtype, tools, desire_gap, company_revenue
+    return (companies, sec, bls, ai_adoption, salary, devtype, tools, desire_gap,
+            company_revenue, sector_metrics)
 
 
-companies, sec, bls, ai_adoption, salary, devtype, tools, desire_gap, company_revenue = load_data()
+(companies, sec, bls, ai_adoption, salary, devtype, tools, desire_gap,
+ company_revenue, sector_metrics) = load_data()
 
 # ── Color palette ────────────────────────────────────────────────────────────
 SECTOR_COLORS = px.colors.qualitative.Plotly
@@ -235,12 +238,10 @@ companies["hub_label"] = companies["hub"].map(HUB_LABELS).fillna(companies["hub"
 SIZE_ORDER = ["Startup", "Small", "Mid-size", "Enterprise"]
 
 # ── Session state defaults ────────────────────────────────────────────────────
-if "w_learning" not in st.session_state:
-    st.session_state.w_learning = 40
 if "w_inventing" not in st.session_state:
-    st.session_state.w_inventing = 30
+    st.session_state.w_inventing = 40
 if "w_investing" not in st.session_state:
-    st.session_state.w_investing = 30
+    st.session_state.w_investing = 60
 
 # ── Sidebar: Interactive Opportunity Score weights ────────────────────────────
 with st.sidebar:
@@ -252,41 +253,36 @@ with st.sidebar:
     pb1, pb2, pb3 = st.columns(3)
     with pb1:
         if st.button("🚀 Growth", use_container_width=True):
-            st.session_state.w_learning = 60
-            st.session_state.w_inventing = 20
-            st.session_state.w_investing = 20
+            st.session_state.w_inventing = 60
+            st.session_state.w_investing = 40
             st.rerun()
     with pb2:
         if st.button("💎 Value", use_container_width=True):
-            st.session_state.w_learning = 20
-            st.session_state.w_inventing = 30
-            st.session_state.w_investing = 50
+            st.session_state.w_inventing = 20
+            st.session_state.w_investing = 80
             st.rerun()
     with pb3:
-        if st.button("⚖️ Even", use_container_width=True):
-            st.session_state.w_learning = 40
-            st.session_state.w_inventing = 30
-            st.session_state.w_investing = 30
+        if st.button("⚖️ Balanced", use_container_width=True):
+            st.session_state.w_inventing = 40
+            st.session_state.w_investing = 60
             st.rerun()
-    st.caption("Growth: Learning 60 / R&D 20 / Revenue 20")
-    st.caption("Value: Learning 20 / R&D 30 / Revenue 50")
-    st.caption("Balanced: Learning 40 / R&D 30 / Revenue 30")
+    st.caption("Growth: R&D 60 / Cash+Growth 40")
+    st.caption("Value: R&D 20 / Cash+Growth 80")
+    st.caption("Balanced: R&D 40 / Cash+Growth 60")
 
     st.divider()
     st.markdown("Adjust to reflect your investment style:")
 
-    w_learning  = st.slider("📚 Learning (tech adoption)", 0, 100, step=5, key="w_learning")
     w_inventing = st.slider("🔬 Inventing (R&D intensity)", 0, 100, step=5, key="w_inventing")
-    w_investing = st.slider("💰 Investing (revenue growth)", 0, 100, step=5, key="w_investing")
+    w_investing = st.slider("💰 Investing (growth + cash)", 0, 100, step=5, key="w_investing")
 
-    total = w_learning + w_inventing + w_investing
+    total = w_inventing + w_investing
     if total == 0:
         st.error("Weights must sum to > 0")
-        w_learning, w_inventing, w_investing = 40, 30, 30
+        w_inventing, w_investing = 40, 60
         total = 100
     st.caption(f"Total: {total} (auto-normalized to 100%)")
 
-    wl = w_learning / total
     wi = w_inventing / total
     wv = w_investing / total
 
@@ -307,24 +303,15 @@ _rv_piv["growth_pct"] = (
 _top_growth_pct  = int(_rv_piv["growth_pct"].max())
 _top_growth_sector = _rv_piv.loc[_rv_piv["growth_pct"].idxmax(), "sector"]
 
-_claude_2024 = ai_adoption[
-    (ai_adoption["year"] == 2024) &
-    ai_adoption["ai_tool"].str.contains("Claude|Anthropic", case=False, na=False)
-]["usage_pct"].max()
-_claude_2025 = ai_adoption[
-    (ai_adoption["year"] == 2025) &
-    ai_adoption["ai_tool"].str.contains("Claude|Anthropic", case=False, na=False)
-]["usage_pct"].max()
-_claude_2024 = round(_claude_2024) if pd.notna(_claude_2024) else 8
-_claude_2025 = round(_claude_2025) if pd.notna(_claude_2025) else 43
+# OCF hero: total operating cash flow across all sampled public tech in latest year
+_ocf_latest = sec[sec["operating_cash_flow"].notna()].copy()
+if not _ocf_latest.empty:
+    _ocf_yr = int(_ocf_latest["year"].max())
+    _ocf_total_b = _ocf_latest[_ocf_latest["year"] == _ocf_yr]["operating_cash_flow"].sum() / 1e9
+else:
+    _ocf_yr, _ocf_total_b = 2024, 0
 
-_sal_first = salary.iloc[0]  if not salary.empty else None
-_sal_last  = salary.iloc[-1] if not salary.empty else None
-_sal_median = int(_sal_last["median_salary"] / 1000) if _sal_last is not None else 80
-_sal_yr_first = int(_sal_first["year"]) if _sal_first is not None else 2017
-_sal_growth   = int((_sal_last["median_salary"] - _sal_first["median_salary"]) / _sal_first["median_salary"] * 100) if _sal_first is not None else 49
-
-col1, col2, col3 = st.columns(3)
+col1, col2 = st.columns(2)
 with col1:
     st.markdown(f"""
     <div class="stat-card">
@@ -336,17 +323,9 @@ with col1:
 with col2:
     st.markdown(f"""
     <div class="stat-card">
-      <div class="big-stat-label">🤖 AI tool adoption</div>
-      <div class="big-stat">{_claude_2024}% → {_claude_2025}%</div>
-      <div class="big-stat-label">Claude adoption &nbsp;·&nbsp; 2024→2025</div>
-    </div>
-    """, unsafe_allow_html=True)
-with col3:
-    st.markdown(f"""
-    <div class="stat-card">
-      <div class="big-stat-label">💰 Developer salaries</div>
-      <div class="big-stat">${_sal_median}K</div>
-      <div class="big-stat-label">median salary &nbsp;·&nbsp; +{_sal_growth}% since {_sal_yr_first}</div>
+      <div class="big-stat-label">💵 Cash generated by sampled public tech</div>
+      <div class="big-stat">${_ocf_total_b:,.0f}B</div>
+      <div class="big-stat-label">total operating cash flow &nbsp;·&nbsp; 413 firms &nbsp;·&nbsp; {_ocf_yr}</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -449,40 +428,6 @@ with tabs[0]:
         """, unsafe_allow_html=True)
         st.markdown('<div class="takeaway">📌 Boston & SF = startup-dense. Dallas & Atlanta = enterprise-dense.</div>', unsafe_allow_html=True)
 
-    # Hub × Sector heatmap
-    st.subheader("Hub Specialization — Which Hub Dominates Which Sector?")
-    st.markdown("*Note: Each hub has ~400 companies sampled — this shows % composition within each hub, not absolute counts.*")
-
-    hub_sector = (
-        companies.groupby(["hub_label", "sector"]).size()
-        .reset_index(name="count")
-    )
-    hub_total = companies.groupby("hub_label").size().reset_index(name="total")
-    hub_sector = hub_sector.merge(hub_total, on="hub_label")
-    hub_sector["pct"] = (hub_sector["count"] / hub_sector["total"] * 100).round(1)
-
-    pivot = hub_sector.pivot(index="sector", columns="hub_label", values="pct").fillna(0)
-
-    fig3 = px.imshow(
-        pivot, color_continuous_scale="Blues", aspect="auto",
-        labels={"color": "% of Hub"},
-        height=500,
-        text_auto=".1f",
-    )
-    fig3.update_traces(textfont=dict(size=9))
-    fig3.update_layout(xaxis_tickangle=-30)
-    st.plotly_chart(fig3, use_container_width=True)
-
-    st.markdown("""
-    <div class="insight-box">
-      <b>What we see:</b> Enterprise / ERP / HRM is the dominant sector across nearly all hubs.
-      GovTech is overrepresented in Washington DC–adjacent hubs. Fintech clusters in NYC and Chicago.
-      AI-related sectors are most concentrated in San Francisco and Seattle.<br><br>
-      <b>What it means:</b> Geographic specialization persists — SF/Seattle for AI, NYC/Chicago for Fintech,
-      Boston for MedTech. Investors should weight location when targeting specific sectors.
-    </div>
-    """, unsafe_allow_html=True)
-
     # Map: Company density by state
     st.subheader("🗺️ Tech Company Geography — Where Are They?")
     map_col1, map_col2 = st.columns([2, 1])
@@ -532,137 +477,13 @@ with tabs[0]:
 
 
 # ════════════════════════════════════════════════════════════════════════════
-# SECTION 2 — Technology Trends (Learning)
+# SECTION 2 — Technology Trends
 # ════════════════════════════════════════════════════════════════════════════
 with tabs[1]:
-    st.header("Technology Trends — Learning")
+    st.header("Technology Trends")
     st.markdown("*Stack Overflow Developer Survey (2017–2025) · 22,000–50,000 respondents/year*")
     st.info("**Methodology:** SO Survey reflects macro-level technology adoption across developers worldwide. "
-            "We treat this as the 'Learning' signal — what skills and tools are gaining traction in the talent market.")
-
-    col_a, col_b = st.columns(2)
-
-    # Chart 3: AI tool adoption
-    with col_a:
-        st.subheader("AI Tool Adoption (2023–2025)")
-
-        # Top tools that appear in multiple years or are notable
-        top_ai_tools = ["ChatGPT", "GitHub Copilot", "Google Gemini",
-                        "Claude", "Bing AI", "Perplexity AI",
-                        "openAI GPT (chatbot models)", "Anthropic: Claude Sonnet",
-                        "Gemini (Flash general purpose models)", "DeepSeek (R- Reasoning models)"]
-
-        # Normalize names: 2025 has different naming
-        ai_plot = ai_adoption.copy()
-        ai_plot["tool_norm"] = ai_plot["ai_tool"].replace({
-            "openAI GPT (chatbot models)": "ChatGPT",
-            "Anthropic: Claude Sonnet": "Claude",
-            "Gemini (Flash general purpose models)": "Google Gemini",
-            "openAI Reasoning models": "OpenAI Reasoning",
-            "DeepSeek (R- Reasoning models)": "DeepSeek",
-        })
-
-        # Keep top tools by peak usage
-        top_tools = (
-            ai_plot.groupby("tool_norm")["usage_pct"].max()
-            .nlargest(8).index.tolist()
-        )
-        ai_plot_top = ai_plot[ai_plot["tool_norm"].isin(top_tools)]
-        ai_plot_top = ai_plot_top.groupby(["year", "tool_norm"])["usage_pct"].max().reset_index()
-
-        fig4 = px.line(
-            ai_plot_top, x="year", y="usage_pct", color="tool_norm",
-            markers=True,
-            labels={"year": "Year", "usage_pct": "Usage (%)", "tool_norm": "AI Tool"},
-            height=420,
-        )
-        fig4.update_xaxes(tickvals=[2023, 2024, 2025])
-        st.plotly_chart(fig4, use_container_width=True)
-
-        st.markdown("""
-        <div class="insight-box">
-          <b>What we see:</b> ChatGPT dominates at ~85%, but the real story is the diversification —
-          Claude surged from 8% (2024) to 43% (2025). DeepSeek emerged at 24% in 2025 despite
-          being unavailable the prior year. GitHub Copilot steadily grew to 43%.<br><br>
-          <b>Why it happens:</b> The LLM market shifted from "ChatGPT only" to multi-model
-          workflows. Developers are adopting specialized models for different tasks.<br><br>
-          <b>What it means:</b> The AI tooling market is not winner-take-all.
-          Infrastructure enabling multi-model workflows (APIs, orchestration, IDEs) represents
-          a significant investment opportunity.
-        </div>
-        """, unsafe_allow_html=True)
-        st.markdown('<div class="takeaway">📌 AI market diversifying rapidly — Claude +35pp, DeepSeek appeared at 24% in a single year.</div>', unsafe_allow_html=True)
-
-    # Chart 4: Developer type growth
-    with col_b:
-        st.subheader("AI/ML Developer Role Growth (2017–2025)")
-
-        ai_roles = ["Data scientist", "Machine learning specialist",
-                    "Data scientist or machine learning specialist",
-                    "Engineer, data", "Data engineer",
-                    "Developer, AI", "AI/ML engineer",
-                    "Developer, AI apps or physical AI"]
-
-        devtype_ai = devtype[devtype["dev_type"].isin(ai_roles)].copy()
-
-        # Consolidate labels
-        role_map = {
-            "Data scientist": "Data Scientist",
-            "Machine learning specialist": "ML Specialist",
-            "Data scientist or machine learning specialist": "Data Scientist / ML",
-            "Engineer, data": "Data Engineer",
-            "Data engineer": "Data Engineer",
-            "Developer, AI": "AI Developer",
-            "AI/ML engineer": "AI/ML Engineer",
-            "Developer, AI apps or physical AI": "AI App Developer",
-        }
-        devtype_ai["role"] = devtype_ai["dev_type"].map(role_map)
-        devtype_ai = devtype_ai.groupby(["year", "role"])["pct"].max().reset_index()
-
-        fig5 = px.line(
-            devtype_ai, x="year", y="pct", color="role",
-            markers=True,
-            labels={"year": "Year", "pct": "% of Respondents", "role": "Role"},
-            height=420,
-        )
-        st.plotly_chart(fig5, use_container_width=True)
-
-        st.markdown("""
-        <div class="insight-box">
-          <b>What we see:</b> "AI/ML Engineer" appeared as a distinct job title for the first
-          time in 2025. Data Scientist / ML roles show a sharp drop in % after 2022 — not
-          because demand fell, but because the survey methodology changed to more granular categories.<br><br>
-          <b>Why it happens:</b> The field matured enough to distinguish AI application developers
-          from pure ML researchers. This signals institutionalization of AI roles in industry.<br><br>
-          <b>What it means:</b> Companies hiring AI/ML talent are shifting from experimental to
-          production deployment. Sectors with established AI hiring pipelines have structural advantages.
-        </div>
-        """, unsafe_allow_html=True)
-        st.markdown('<div class="takeaway">📌 "AI/ML Engineer" emerged as a distinct career category in 2025 — AI is now a mature discipline.</div>', unsafe_allow_html=True)
-
-    # Bonus: Developer Tools Trend
-    st.subheader("Developer Tools & Framework Adoption Trend (2019–2025)")
-
-    available_tools = sorted(tools["tool"].unique())
-    default_tools = [t for t in ["AWS", "TensorFlow", "PyTorch", "React", "Azure", "Google Cloud"]
-                     if t in available_tools]
-    selected_tools = st.multiselect(
-        "Select tools to compare:",
-        options=available_tools,
-        default=default_tools,
-    )
-
-    if selected_tools:
-        tools_plot = tools[tools["tool"].isin(selected_tools)]
-        fig6 = px.line(
-            tools_plot, x="year", y="usage_pct", color="tool",
-            markers=True,
-            labels={"year": "Year", "usage_pct": "Usage (%)", "tool": "Tool"},
-            height=380,
-        )
-        st.plotly_chart(fig6, use_container_width=True)
-
-    st.divider()
+            "The Desire Gap below is a leading indicator of where the talent pipeline is forming next.")
 
     # Desire Gap chart
     st.subheader("📈 Technology Desire Gap — What Developers Want to Learn Next")
@@ -831,51 +652,100 @@ with tabs[3]:
         "→ Full breakdown and Opportunity Score analysis in **Section 5: Investment Opportunities**."
     )
 
-    # Compute rev_pivot here (needed for Section 5 later)
-    rev_growth = sec[sec["year"].isin([2019, 2024]) & sec["revenue"].notna()].copy()
-    rev_pivot = (
-        rev_growth.groupby(["sector", "year"])["revenue"]
-        .mean().unstack("year").reset_index()
-    )
-    rev_pivot.columns = ["sector", "rev_2019", "rev_2024"]
-    rev_pivot = rev_pivot.dropna()
-    rev_pivot["growth_pct"] = (
-        (rev_pivot["rev_2024"] - rev_pivot["rev_2019"]) / rev_pivot["rev_2019"] * 100
-    ).round(1)
-    rev_pivot = rev_pivot.sort_values("growth_pct", ascending=True)
+    # ── NI vs OCF: why Net Income alone misleads ─────────────────────────────
+    st.subheader("Net Income vs Operating Cash Flow — Why NI Alone Misleads")
+    st.markdown("*Sector averages, 2020–2024. NI reflects accounting profit; OCF reflects actual cash generated.*")
 
-    # Net Income as the main chart
-    st.subheader("Net Income Trend — Top Sectors (2015–2024)")
+    # Exclude INSUF sectors (n<5) — their sector means are unstable
+    valid_sectors = sector_metrics.loc[
+        sector_metrics["insufficient_data"] == 0, "sector"
+    ].tolist()
 
-    top_rev_sectors = rev_pivot.nlargest(6, "growth_pct")["sector"].tolist()
-    ni_trend = (
-        sec[sec["sector"].isin(top_rev_sectors) & sec["net_income"].notna()]
-        .groupby(["year", "sector"])["net_income"].mean()
-        .reset_index()
-    )
-    ni_trend["ni_bn"] = ni_trend["net_income"] / 1e9
+    cashflow_base = sec[
+        (sec["year"] >= 2020) & (sec["year"] <= 2024) &
+        sec["sector"].isin(valid_sectors)
+    ].copy()
+    ni_by_sec = cashflow_base.groupby("sector")["net_income"].mean()
+    ocf_by_sec = cashflow_base.groupby("sector")["operating_cash_flow"].mean()
 
-    fig10 = px.line(
-        ni_trend, x="year", y="ni_bn", color="sector",
-        markers=True,
-        labels={"year": "Year", "ni_bn": "Avg Net Income ($B)", "sector": "Sector"},
+    cashflow_df = pd.DataFrame({
+        "sector": valid_sectors,
+        "ni_avg": [ni_by_sec.get(s, None) for s in valid_sectors],
+        "ocf_avg": [ocf_by_sec.get(s, None) for s in valid_sectors],
+    }).dropna()
+    cashflow_df["ni_b"]  = cashflow_df["ni_avg"]  / 1e9
+    cashflow_df["ocf_b"] = cashflow_df["ocf_avg"] / 1e9
+    cashflow_df = cashflow_df.sort_values("ocf_b", ascending=False)
+
+    fig_niocf = go.Figure()
+    fig_niocf.add_trace(go.Bar(
+        x=cashflow_df["sector"], y=cashflow_df["ni_b"],
+        name="Net Income", marker_color="#c62828",
+        hovertemplate="<b>%{x}</b><br>NI avg: $%{y:.2f}B<extra></extra>",
+    ))
+    fig_niocf.add_trace(go.Bar(
+        x=cashflow_df["sector"], y=cashflow_df["ocf_b"],
+        name="Operating Cash Flow", marker_color="#2e7d32",
+        hovertemplate="<b>%{x}</b><br>OCF avg: $%{y:.2f}B<extra></extra>",
+    ))
+    fig_niocf.update_layout(
+        barmode="group",
         height=460,
+        xaxis_title="",
+        yaxis_title="Avg per-company ($B, 2020–2024)",
+        xaxis_tickangle=-30,
+        legend=dict(orientation="h", y=1.08),
+        margin=dict(l=10, r=10, t=10, b=10),
     )
-    fig10.add_hline(y=0, line_dash="dash", line_color="gray", opacity=0.4)
-    st.plotly_chart(fig10, use_container_width=True)
+    fig_niocf.add_hline(y=0, line_dash="dash", line_color="gray", opacity=0.4)
+    st.plotly_chart(fig_niocf, use_container_width=True)
 
     st.markdown("""
     <div class="insight-box">
-      <b>What we see:</b> High-growth sectors don't always translate to high profitability —
-      AI Foundation Models show strong revenue growth but thin or negative net income,
-      reflecting massive R&D reinvestment. E-learning and Advertising show more consistent profits.<br><br>
-      <b>Why it happens:</b> AI companies are in land-grab mode — spending profits on compute
-      and talent to maintain competitive position.<br><br>
-      <b>What it means:</b> Revenue growth ≠ profitability. Investors should distinguish
-      between "investing for future dominance" (AI) vs "compounding stable cash flows" (Fintech, Advertising).
+      <b>What we see:</b> Several sectors show OCF meaningfully above NI — or OCF positive while NI
+      is near zero or negative. That gap = stock-based compensation, depreciation, and working-capital
+      effects that depress accounting income but not cash.<br><br>
+      <b>Why it matters:</b> NI is manipulable; cash is not. A company "losing money" on the income
+      statement can still be generating the cash it needs to fund R&D, pay debt, and return capital.
+      Looking at NI alone systematically underweights cash-generative tech.
     </div>
     """, unsafe_allow_html=True)
-    st.markdown('<div class="takeaway">📌 AI sectors: high revenue growth but profit reinvested into R&D — a bet on future dominance, not current returns.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="takeaway">📌 NI only = wrong signal. OCF shows the sector is actually self-funding (or not).</div>', unsafe_allow_html=True)
+
+    # ── OCF trend over time ──────────────────────────────────────────────────
+    st.subheader("Operating Cash Flow Trend — Top Sectors (2015–2024)")
+
+    ocf_all = sec[sec["operating_cash_flow"].notna() & sec["sector"].isin(valid_sectors)]
+    top_ocf_sectors = (
+        ocf_all[ocf_all["year"] >= 2020]
+        .groupby("sector")["operating_cash_flow"].mean()
+        .nlargest(6).index.tolist()
+    )
+    ocf_trend = (
+        ocf_all[ocf_all["sector"].isin(top_ocf_sectors)]
+        .groupby(["year", "sector"])["operating_cash_flow"].mean()
+        .reset_index()
+    )
+    ocf_trend["ocf_b"] = ocf_trend["operating_cash_flow"] / 1e9
+
+    fig_ocf = px.line(
+        ocf_trend, x="year", y="ocf_b", color="sector",
+        markers=True,
+        labels={"year": "Year", "ocf_b": "Avg OCF ($B)", "sector": "Sector"},
+        height=460,
+    )
+    fig_ocf.add_hline(y=0, line_dash="dash", line_color="gray", opacity=0.4)
+    st.plotly_chart(fig_ocf, use_container_width=True)
+
+    st.markdown("""
+    <div class="insight-box">
+      <b>What we see:</b> OCF trajectories differ from revenue trajectories in several sectors —
+      a divergence signals the <em>quality</em> of revenue is changing (margin compression,
+      working-capital drag, or improving cash conversion).<br><br>
+      <b>What it means:</b> A sector whose OCF is flat or shrinking while revenue climbs is
+      a warning sign. A sector whose OCF is compounding faster than revenue is a strong buy signal.
+    </div>
+    """, unsafe_allow_html=True)
 
     # BLS Employment growth
     st.subheader("Employment Growth by Tech Sector (BLS, 2015–2024)")
@@ -930,29 +800,7 @@ with tabs[4]:
     </div>
     """, unsafe_allow_html=True)
 
-    # ── Opportunity Score calculation ────────────────────────────────────────
-    # Learning score: maps each sector to AI/tech adoption relevance
-    # Based on SO Survey AI adoption trend context (2023→2025)
-    LEARNING_SCORES = {
-        "AI foundation models":         0.95,
-        "AI assistants & copilots":     0.90,
-        "Developer tooling":            0.80,
-        "Cybersecurity & identity":     0.72,
-        "Search engines":               0.70,
-        "Creative & design tools":      0.65,
-        "Smartphones & OS":             0.62,
-        "Productivity & collaboration": 0.60,
-        "E-learning & skill platforms": 0.58,
-        "Gaming & virtual environments":0.55,
-        "Fintech & payments":           0.55,
-        "Enterprise / ERP / HRM":       0.50,
-        "E-commerce platforms":         0.48,
-        "Marketplaces & gig platforms": 0.45,
-        "Advertising & attention":      0.45,
-        "GovTech / RegTech / MedTech":  0.42,
-        "Subscription content":         0.40,
-    }
-
+    # ── Opportunity Score calculation (2-axis: Inventing + Investing) ────────
     # Inventing score: R&D / Revenue ratio (2020–2024 avg), capped at 10x to match Section 3
     rd_scores = (
         sec[(sec["year"] >= 2020) & sec["revenue"].notna() & sec["rd_expense"].notna()
@@ -963,52 +811,81 @@ with tabs[4]:
     rd_scores = rd_scores[rd_scores["rd_intensity"] <= 10]
     rd_by_sec = rd_scores.groupby("sector")["rd_intensity"].mean()
 
-    # Investing score: Revenue CAGR 2019→2024
-    rev_cagr = rev_pivot.set_index("sector")["growth_pct"] / 100  # as decimal
+    # Investing score: pulled from Phase G sector_opportunity_metrics.
+    # Per-company Investing = 0.4*CAGR_n + 0.3*SFR_n + 0.3*Margin_n (2020-2024 window,
+    # 5-95th percentile normalized). Sector score = median of per-company scores,
+    # already on [0, 1] — no additional min-max normalization applied here.
+    sm = sector_metrics.set_index("sector")
+    investing_score_map = sm["investing_score"]
+    cagr_map = sm["cagr_median"]              # annualized decimal, for scatter/narrative
+    sfr_map = sm["sfr_median"]                # OCF / R&D ratio, sector median
+    margin_map = sm["margin_median"]          # OCF / Revenue ratio, sector median
+    insufficient_map = sm["insufficient_data"]  # 1 if n_scored < 5
+    n_scored_map = sm["n_scored"]             # # of companies with full 2020-24 financials
 
-    # Build score dataframe
-    all_sectors = list(LEARNING_SCORES.keys())
+    # Build score dataframe — universe = all sectors in Phase G metrics
+    all_sectors = sector_metrics["sector"].tolist()
     score_df = pd.DataFrame({"sector": all_sectors})
-    score_df["learning_raw"] = score_df["sector"].map(LEARNING_SCORES)
     score_df["inventing_raw"] = score_df["sector"].map(rd_by_sec)
-    score_df["investing_raw"] = score_df["sector"].map(rev_cagr)
+    score_df["investing_raw"] = score_df["sector"].map(cagr_map)
+    score_df["sfr_raw"] = score_df["sector"].map(sfr_map)
+    score_df["margin_raw"] = score_df["sector"].map(margin_map)
+    score_df["insufficient_data"] = (
+        score_df["sector"].map(insufficient_map).fillna(1).astype(int)
+    )
+    score_df["n_scored"] = score_df["sector"].map(n_scored_map).fillna(0).astype(int)
+    # Phase G sub-scores (each already on [0,1], median of per-company normalized value)
+    score_df["cagr_score"]   = score_df["sector"].map(sm["cagr_score"])
+    score_df["sfr_score"]    = score_df["sector"].map(sm["sfr_score"])
+    score_df["margin_score"] = score_df["sector"].map(sm["margin_score"])
 
-    # Normalize each component 0–1
     def minmax(s):
         return (s - s.min()) / (s.max() - s.min())
 
-    score_df["learning"] = minmax(score_df["learning_raw"])
-    score_df["inventing"] = score_df["inventing_raw"].apply(
-        lambda x: x if pd.notna(x) else None
+    score_df["inventing"] = minmax(
+        score_df["inventing_raw"].fillna(score_df["inventing_raw"].median())
     )
-    score_df["inventing"] = minmax(score_df["inventing"].fillna(score_df["inventing"].median()))
-    score_df["investing"] = minmax(score_df["investing_raw"].fillna(score_df["investing_raw"].median()))
+    score_df["investing"] = score_df["sector"].map(investing_score_map)
+    score_df["investing"] = score_df["investing"].fillna(score_df["investing"].median())
 
-    # Final weighted score — uses sidebar weights
+    # Final weighted score — 2-axis (Inventing + Investing)
     score_df["opportunity_score"] = (
-        wl * score_df["learning"] +
         wi * score_df["inventing"] +
         wv * score_df["investing"]
     ).round(3)
 
     score_df = score_df.sort_values("opportunity_score", ascending=False)
 
+    # Sectors with n_scored < 5 (Phase G flag) have unreliable Investing signal
+    # and are excluded from ranked lists. They still appear in the full chart,
+    # grayed out, so the reader sees the gap rather than silent omission.
+    valid_df = score_df[score_df["insufficient_data"] == 0]
+    insufficient_df = score_df[score_df["insufficient_data"] == 1]
+
     # ── Top 3 cards (dynamic — based on actual Opportunity Score) ────────────
     st.markdown("### Top 3 Investment Opportunities")
 
-    # Sector context: pre-written insight per sector for any that may appear in top 3
+    if not insufficient_df.empty:
+        excluded_names = ", ".join(insufficient_df["sector"].tolist())
+        st.caption(
+            f"⚠️ Excluded from ranking (n<5 public companies with full financials): "
+            f"*{excluded_names}*"
+        )
+
+    # Sector context: pre-written insight per sector for any that may appear in top 3.
+    # Bullets prefer quantitative signals available in the DB (CAGR, SFR, Cash Margin, R&D intensity).
     SECTOR_CONTEXT = {
-        "AI foundation models":         ("High-Growth",      "#2e7d32", "Early-stage infrastructure play",           ["386% revenue growth (2019→2024)", "R&D/Revenue ~200% — survival spend", "Claude adoption +35pp in one year"],       "Winner-take-most dynamics. Companies achieving scale now build structural moats.",              "Regulatory uncertainty · compute cost volatility"),
-        "AI assistants & copilots":     ("High-Growth",      "#2e7d32", "Fastest-growing developer tool category",   ["189% revenue growth (2019→2024)", "ChatGPT adoption at 85% of developers", "Multi-model shift — market not winner-take-all"], "Developer AI tooling market is expanding rapidly. Embedded AI in IDEs, APIs, and workflows.", "Market consolidation risk · model commoditization"),
-        "Developer tooling":            ("Steady Growth",    "#1565c0", "Core infrastructure for every tech sector", ["80% developer adoption of cloud tools", "AWS/Azure/GCP all growing", "Docker/Kubernetes standard in enterprise"],    "Every sector runs on developer tooling. Structural demand regardless of economic cycle.",       "Cloud cost pressure · open-source substitution"),
-        "Cybersecurity & identity":     ("Structural Demand","#e65100", "Non-discretionary spend, regulation-driven",["170% revenue growth (2019→2024)", "Demand driven by GDPR/CCPA/AI governance", "AI creates new threats AND new tools"], "Unlike other sectors, demand is structural — companies MUST spend on security.",              "Crowded vendor landscape · consolidation pressure"),
-        "E-learning & skill platforms": ("High-Growth",      "#2e7d32", "Post-COVID digital education boom",         ["311% revenue growth (2019→2024)", "AI upskilling driving new demand", "Subscription model = recurring revenue"],    "AI skill gap is creating massive structural demand for technical education platforms.",         "Content commoditization · free alternatives"),
-        "Advertising & attention":      ("High-Growth",      "#2e7d32", "AI-powered ad targeting surge",             ["374% revenue growth (2019→2024)", "Programmatic + AI optimization", "Platform consolidation around big players"],  "AI dramatically improves ad ROI — driving reinvestment in digital advertising.",               "Privacy regulation · cookie deprecation"),
-        "Fintech & payments":           ("Stable Compounder","#1565c0", "Mature infrastructure, reliable cash flows",["116% revenue growth — steady trajectory", "Low R&D → network effects > innovation", "BLS: strong Financial Activities employment"], "Shift from disruption to infrastructure. Predictable transaction-fee revenue.",   "Regulatory pressure · interest rate sensitivity"),
-        "Subscription content":         ("Stable Growth",    "#1565c0", "Recurring revenue, low churn model",        ["206% revenue growth (2019→2024)", "Streaming + SaaS hybrid models", "Bundle strategies reducing churn"],          "Subscription model provides revenue predictability — attractive in volatile markets.",          "Content cost inflation · subscriber saturation"),
+        "AI foundation models":         ("High-Growth",      "#2e7d32", "Early-stage infrastructure play",           ["R&D / Revenue ~200% — survival-level reinvestment", "Winner-take-most market structure", "Compute cost is the binding constraint"],     "Companies reaching model-scale economics first will build structural moats.",                  "Regulatory uncertainty · compute cost volatility"),
+        "AI assistants & copilots":     ("High-Growth",      "#2e7d32", "Fastest-growing developer tool category",   ["Embedded AI in IDEs, APIs, and workflows", "Multi-model shift — not winner-take-all", "Distribution (not model quality) is now the moat"], "Developer AI tooling is the primary API-call consumer for foundation model APIs.",              "Market consolidation risk · model commoditization"),
+        "Developer tooling":            ("Steady Growth",    "#1565c0", "Core infrastructure for every tech sector", ["Strong Self-Funding Ratio — R&D funded by OCF", "Structural demand independent of economic cycle", "Enterprise spend is sticky"],               "Every sector runs on developer tooling; when cycles turn, tooling cuts last.",                  "Cloud cost pressure · open-source substitution"),
+        "Cybersecurity & identity":     ("Structural Demand","#e65100", "Non-discretionary spend, regulation-driven",["Cash Margin among highest in sample", "Demand driven by GDPR/CCPA/AI governance", "AI creates new threats AND new tools"],       "Unlike other sectors, demand is structural — companies MUST spend on security.",                "Crowded vendor landscape · consolidation pressure"),
+        "E-learning & skill platforms": ("High-Growth",      "#2e7d32", "Post-COVID digital education boom",         ["Subscription model = recurring revenue", "AI upskilling driving net-new demand", "Positive revenue CAGR, 2020–2024"],                    "AI skill gap is creating structural demand for technical education platforms.",                 "Content commoditization · free alternatives"),
+        "Advertising & attention":      ("High-Growth",      "#2e7d32", "AI-powered ad targeting surge",             ["Strong Cash Margin — ad revenue converts efficiently", "Programmatic + AI optimization", "Platform consolidation around big players"], "AI dramatically improves ad ROI — driving reinvestment in digital advertising.",              "Privacy regulation · cookie deprecation"),
+        "Fintech & payments":           ("Stable Compounder","#1565c0", "Mature infrastructure, reliable cash flows",["Highest SFR — mature cash generation funds all R&D internally", "Low R&D → network effects > innovation", "Predictable transaction-fee revenue"], "Shift from disruption to infrastructure.",                                                       "Regulatory pressure · interest rate sensitivity"),
+        "Subscription content":         ("Stable Growth",    "#1565c0", "Recurring revenue, low churn model",        ["Streaming + SaaS hybrid models", "Bundle strategies reducing churn", "OCF trajectory stable through macro cycles"],                       "Subscription model provides revenue predictability — attractive in volatile markets.",         "Content cost inflation · subscriber saturation"),
     }
 
-    top3 = score_df.head(3)
+    top3 = valid_df.head(3)
     medals = ["🥇", "🥈", "🥉"]
 
     st.markdown(
@@ -1046,8 +923,8 @@ with tabs[4]:
     st.markdown("</div>", unsafe_allow_html=True)
 
     # ── Top 5 Companies in #1 Sector ─────────────────────────────────────────
-    top_sector = score_df.iloc[0]["sector"]
-    top_score  = int(score_df.iloc[0]["opportunity_score"] * 100)
+    top_sector = valid_df.iloc[0]["sector"]
+    top_score  = int(valid_df.iloc[0]["opportunity_score"] * 100)
 
     st.markdown(f"### 🏆 Top Companies in **{top_sector}** (Score: {top_score}/100)")
     st.caption("Ranked by most recent annual revenue (SEC EDGAR). Private companies without SEC filings are excluded.")
@@ -1095,30 +972,40 @@ with tabs[4]:
     # ── Methodology box ──────────────────────────────────────────────────────
     with st.expander("📐 Opportunity Score Methodology"):
         st.markdown(f"""
-        **Formula:** `Opportunity Score = {wl:.0%} × Learning + {wi:.0%} × Inventing + {wv:.0%} × Investing`
+        **Formula:** `Opportunity Score = {wi:.0%} × Inventing + {wv:.0%} × Investing`
         *(Adjust weights in the sidebar ←)*
 
         | Component | Source | Metric | Weight |
         |-----------|--------|--------|--------|
-        | **Learning** | SO Survey 2023–2025 | Tech adoption trend relevance per sector | {wl:.0%} |
         | **Inventing** | SEC EDGAR 2020–2024 | Avg R&D Expense / Revenue ratio | {wi:.0%} |
-        | **Investing** | SEC EDGAR 2019–2024 | Revenue CAGR | {wv:.0%} |
+        | **Investing** | SEC EDGAR 2020–2024 | Composite: 40% CAGR + 30% SFR + 30% Cash Margin | {wv:.0%} |
 
-        All components are min-max normalized to [0, 1] before weighting.
+        **Investing composite (per company, then sector median):**
 
-        **Learning weight ({wl:.0%}):** Future signals matter most. Sectors where developers are actively
-        adopting related tools have structural talent pipeline advantages.
+        | Sub-metric | Weight | Definition |
+        |------------|-------:|------------|
+        | Revenue CAGR | 40% | Annualized revenue growth, 2020→2024 |
+        | Self-Funding Ratio (SFR) | 30% | Operating Cash Flow ÷ R&D Expense (can this sector fund its own R&D?) |
+        | Cash Margin | 30% | Operating Cash Flow ÷ Revenue (how efficiently does revenue convert to cash?) |
 
-        **Learning score mapping rationale:** Scores reflect how directly each sector maps to tool/AI adoption
-        trends tracked in SO Survey. Sectors with a clear SO Survey category score highest
-        (AI foundation models: 0.95, AI assistants: 0.90). Sectors with no equivalent SO Survey tool category
-        score lower — e.g., Subscription content (0.40): streaming/media platforms have no distinct tool
-        tracked in SO Survey; Marketplaces & gig platforms (0.45): platform economics don't surface
-        as developer tools.
+        Each sub-metric is 5th–95th percentile winsorized and min-max normalized across companies,
+        then combined. Sector Investing score = **median** of per-company composite scores (robust to outliers).
 
-        **Data note:** SO Survey captures macro developer trends, not company-level data.
+        Inventing is min-max normalized across sectors. Investing arrives from the pipeline
+        already on [0, 1] — no additional normalization applied.
+
+        **Insufficient data flag:** sectors with fewer than 5 public companies carrying full 2020–2024
+        financials are flagged as insufficient (gray in the ranking chart, excluded from Top 3 / Top 5).
+        Currently 4 sectors: *AI foundation models* (n=3), *AI assistants & copilots* (n=4),
+        *Creative & design tools* (n=1), *Search engines* (n=1). These still have meaningful qualitative
+        signals but lack statistical power for the quantitative layers.
+
+        **Learning layer (planned):** A quantitative Learning score derived from Stack Overflow Survey
+        data is planned for the next development phase. Currently the score uses Inventing and
+        Investing only.
+
+        **Data note:** Sectors without SEC data use median imputation for Inventing.
         BLS labor market data is shown separately (Section 4) for sectors with clear NAICS alignment.
-        Sectors without SEC data use median imputation for Inventing/Investing components.
         """)
 
     # ── Chart 9: Opportunity Score ranking ───────────────────────────────────
@@ -1130,49 +1017,104 @@ with tabs[4]:
         st.subheader("Opportunity Score Ranking")
         st.caption("💡 Click any bar to drill down into companies in that sector")
 
-        fig11 = px.bar(
-            score_df.sort_values("opportunity_score"),
-            x="opportunity_score", y="sector",
-            orientation="h",
-            color="opportunity_score",
-            color_continuous_scale="RdYlGn",
-            labels={"opportunity_score": "Opportunity Score (0–1)", "sector": ""},
-            height=520,
+        # Ordering: INSUF sectors pinned to BOTTOM regardless of score (their score
+        # is statistically unreliable — putting them at top reads as "best" even when
+        # grayed). Valid sectors sit above, ascending by score so the highest valid
+        # sector lands at the visual top of the chart.
+        valid_sorted = (score_df[score_df["insufficient_data"] == 0]
+                        .sort_values("opportunity_score", ascending=True))
+        insuf_sorted = (score_df[score_df["insufficient_data"] == 1]
+                        .sort_values("opportunity_score", ascending=True))
+        bar_df = pd.concat([insuf_sorted, valid_sorted], ignore_index=True)
+        bar_df["y_label"] = bar_df.apply(
+            lambda r: f"{r['sector']} (n={r['n_scored']}, insufficient)"
+            if r["insufficient_data"] == 1 else r["sector"],
+            axis=1,
         )
-        fig11.update_layout(coloraxis_showscale=False)
+
+        valid_scores = bar_df.loc[bar_df["insufficient_data"] == 0, "opportunity_score"]
+        if len(valid_scores) > 0:
+            s_min, s_max = valid_scores.min(), valid_scores.max()
+            span = (s_max - s_min) if s_max > s_min else 1.0
+        else:
+            s_min, span = 0.0, 1.0
+
+        bar_colors = []
+        for _, r in bar_df.iterrows():
+            if r["insufficient_data"] == 1:
+                bar_colors.append("#cccccc")
+            else:
+                t = (r["opportunity_score"] - s_min) / span
+                bar_colors.append(
+                    px.colors.sample_colorscale("RdYlGn", [float(np.clip(t, 0, 1))])[0]
+                )
+
+        fig11 = go.Figure(
+            go.Bar(
+                x=bar_df["opportunity_score"],
+                y=bar_df["y_label"],
+                orientation="h",
+                marker_color=bar_colors,
+                customdata=bar_df["sector"],
+                hovertemplate="<b>%{customdata}</b><br>Score: %{x:.3f}<extra></extra>",
+            )
+        )
+        fig11.update_layout(
+            height=520,
+            xaxis_title="Opportunity Score (0–1)",
+            yaxis_title="",
+            yaxis=dict(categoryorder="array", categoryarray=bar_df["y_label"].tolist()),
+            margin=dict(l=10, r=10, t=10, b=10),
+        )
         sec5_event = st.plotly_chart(
             fig11, use_container_width=True,
             on_select="rerun", selection_mode="points", key="sec5_score_chart"
         )
         if sec5_event and sec5_event.selection and sec5_event.selection.points:
-            clicked = sec5_event.selection.points[0].get("y")
+            pt = sec5_event.selection.points[0]
+            clicked = pt.get("customdata") or pt.get("y")
             if clicked:
                 show_sector_drilldown(clicked, companies, company_revenue)
 
     with col_b:
         st.subheader("Top 5 Sectors")
-        for _, row in score_df.head(5).iterrows():
+        for _, row in valid_df.head(5).iterrows():
             score_pct = int(row["opportunity_score"] * 100)
             bar = "█" * (score_pct // 5) + "░" * (20 - score_pct // 5)
             st.markdown(f"**{row['sector']}**  \n`{bar}` {score_pct}/100")
             st.caption(
-                f"Learning: {row['learning']:.2f} | "
                 f"Inventing: {row['inventing']:.2f} | "
                 f"Investing: {row['investing']:.2f}"
             )
 
-        st.markdown("""
-        <div class="insight-box">
-          <b>What we see:</b> AI Foundation Models top the ranking with a near-perfect score,
-          followed by Search Engines (high R&D intensity) and AI Assistants & Copilots.<br><br>
-          <b>What it means:</b> Sectors at the intersection of high developer adoption
-          AND strong R&D investment are positioned for sustained growth.
-        </div>
-        """, unsafe_allow_html=True)
+        # Dynamic insight text — reflects current valid_df ranking, not stale hardcode.
+        if len(valid_df) >= 3:
+            t1, t2, t3 = valid_df.iloc[0], valid_df.iloc[1], valid_df.iloc[2]
+            component_labels = {
+                "inventing": "R&D intensity (Inventing)",
+                "investing": "growth & cash generation (Investing)",
+            }
+            t1_strength = max(component_labels, key=lambda k: t1[k])
+            st.markdown(f"""
+            <div class="insight-box">
+              <b>What we see:</b> <b>{t1['sector']}</b> leads the ranking
+              (score {int(t1['opportunity_score']*100)}/100),
+              followed by <b>{t2['sector']}</b> ({int(t2['opportunity_score']*100)}/100)
+              and <b>{t3['sector']}</b> ({int(t3['opportunity_score']*100)}/100).
+              {t1['sector']}'s edge comes primarily from <b>{component_labels[t1_strength]}</b>.
+              <br><br>
+              <b>What it means:</b> Sectors scoring high on both layers —
+              R&D investment and sustainable cash generation —
+              are positioned for durable growth, not just momentum.
+              <br><br>
+              <b>Note:</b> {len(insufficient_df)} sector{"s" if len(insufficient_df) != 1 else ""}
+              with &lt;5 public companies are shown in gray and excluded from the top ranking.
+            </div>
+            """, unsafe_allow_html=True)
 
     # ── Chart 10: Growth vs Stability scatter ────────────────────────────────
     st.subheader("Growth vs. Stability Matrix")
-    st.markdown("*X-axis: Revenue CAGR (Investing) | Y-axis: R&D Intensity (Inventing) | Size: Company count*")
+    st.markdown("*X-axis: Revenue CAGR 2020–2024 (Investing) | Y-axis: R&D Intensity (Inventing) | Size: Company count*")
 
     scatter_df = score_df.merge(
         companies.groupby("sector").size().reset_index(name="company_count"),
@@ -1189,7 +1131,7 @@ with tabs[4]:
         text="sector",
         color_continuous_scale="RdYlGn",
         labels={
-            "rev_growth_pct": "Revenue Growth 2019→2024 (%)",
+            "rev_growth_pct": "Revenue CAGR 2020–2024 (%, annualized)",
             "inventing_raw": "R&D / Revenue Ratio",
             "opportunity_score": "Opp. Score",
         },
@@ -1210,89 +1152,88 @@ with tabs[4]:
                          font=dict(color="#1565c0", size=11))
     st.plotly_chart(fig12, use_container_width=True)
 
-    # ── Linear Regression Prediction ─────────────────────────────────────────
-    st.subheader("📈 Revenue Growth Prediction (Linear Regression)")
-    st.markdown("*Predicts sector-level average revenue through 2027 based on 2015–2024 trend*")
-
-    pred_sector = st.selectbox(
-        "Select sector to forecast:",
-        options=sorted(sec["sector"].dropna().unique()),
-        index=list(sorted(sec["sector"].dropna().unique())).index("AI foundation models")
-        if "AI foundation models" in sec["sector"].unique() else 0
+    # ── Chart 11: Investing Layer Decomposition ──────────────────────────────
+    st.subheader("Investing Layer — What's Driving Each Sector?")
+    st.markdown(
+        "*Investing score = 40% Revenue CAGR + 30% Self-Funding Ratio + 30% Cash Margin. "
+        "The mix tells you **why** a sector ranks high — growth-driven vs. cash-generation-driven.*"
     )
 
-    sec_pred = sec[(sec["sector"] == pred_sector) & sec["revenue"].notna()]
-    trend_data = sec_pred.groupby("year")["revenue"].mean().reset_index()
+    inv_df = (
+        valid_df.dropna(subset=["cagr_score", "sfr_score", "margin_score"])
+                .sort_values("investing", ascending=True)
+                .copy()
+    )
+    inv_df["cagr_contrib"]   = inv_df["cagr_score"]   * 0.4
+    inv_df["sfr_contrib"]    = inv_df["sfr_score"]    * 0.3
+    inv_df["margin_contrib"] = inv_df["margin_score"] * 0.3
 
-    if len(trend_data) >= 4:
-        X = trend_data["year"].values.reshape(-1, 1)
-        y = trend_data["revenue"].values
+    fig13 = go.Figure()
+    fig13.add_trace(go.Bar(
+        y=inv_df["sector"], x=inv_df["cagr_contrib"], name="Revenue CAGR (40%)",
+        orientation="h", marker_color="#2e7d32",
+        hovertemplate="<b>%{y}</b><br>CAGR contribution: %{x:.3f}<extra></extra>",
+    ))
+    fig13.add_trace(go.Bar(
+        y=inv_df["sector"], x=inv_df["sfr_contrib"], name="Self-Funding Ratio (30%)",
+        orientation="h", marker_color="#1565c0",
+        hovertemplate="<b>%{y}</b><br>SFR contribution: %{x:.3f}<extra></extra>",
+    ))
+    fig13.add_trace(go.Bar(
+        y=inv_df["sector"], x=inv_df["margin_contrib"], name="Cash Margin (30%)",
+        orientation="h", marker_color="#f57c00",
+        hovertemplate="<b>%{y}</b><br>Margin contribution: %{x:.3f}<extra></extra>",
+    ))
+    fig13.update_layout(
+        barmode="stack",
+        height=460,
+        xaxis_title="Weighted contribution to Investing score",
+        yaxis_title="",
+        legend=dict(orientation="h", y=1.08),
+        margin=dict(l=10, r=10, t=10, b=10),
+    )
+    st.plotly_chart(fig13, use_container_width=True)
 
-        model = LinearRegression()
-        model.fit(X, y)
+    st.markdown("""
+    <div class="insight-box">
+      <b>How to read this:</b> Each sector's bar length equals its Investing score.
+      A sector dominated by green (CAGR) is a growth story; dominated by blue (SFR) means
+      the sector generates enough cash to fund its own R&D; dominated by orange (Cash Margin)
+      means revenue converts efficiently to cash. Balanced bars = healthiest fundamentals.
+    </div>
+    """, unsafe_allow_html=True)
 
-        # Prediction interval (95%) using residual std
-        y_pred_train = model.predict(X)
-        residuals = y - y_pred_train
-        s = np.std(residuals, ddof=2)
-        n = len(X)
-        x_mean = X.mean()
-        Sxx = np.sum((X - x_mean) ** 2)
+    # ── Chart 12: Overall Opportunity Score Decomposition ────────────────────
+    st.subheader("Opportunity Score — Full Decomposition")
+    st.markdown(
+        f"*Weighted contributions across both layers "
+        f"(Inventing {wi:.0%} + Investing {wv:.0%}).*"
+    )
 
-        future_years = np.array([2025, 2026, 2027]).reshape(-1, 1)
-        future_rev = model.predict(future_years)
+    dec_df = valid_df.sort_values("opportunity_score", ascending=True).copy()
+    dec_df["I_contrib"] = dec_df["inventing"] * wi
+    dec_df["V_contrib"] = dec_df["investing"] * wv
 
-        # 95% prediction interval: t * s * sqrt(1 + 1/n + (x-xmean)^2/Sxx)
-        t_val = 2.262  # t(0.025, df=n-2) for n~10
-        pi_half = t_val * s * np.sqrt(
-            1 + 1/n + (future_years.flatten() - x_mean) ** 2 / Sxx
-        )
-
-        fig_pred = go.Figure()
-        # Confidence band (future)
-        fig_pred.add_trace(go.Scatter(
-            x=np.concatenate([future_years.flatten(), future_years.flatten()[::-1]]),
-            y=np.concatenate([(future_rev + pi_half) / 1e9, (future_rev - pi_half)[::-1] / 1e9]),
-            fill="toself", fillcolor="rgba(245,124,0,0.15)",
-            line=dict(color="rgba(255,255,255,0)"),
-            name="95% Prediction Interval",
-        ))
-        # Historical actual
-        fig_pred.add_trace(go.Scatter(
-            x=trend_data["year"], y=trend_data["revenue"] / 1e9,
-            mode="lines+markers", name="Actual",
-            line=dict(color="#1a73e8", width=3),
-            marker=dict(size=8),
-        ))
-        # Prediction line
-        fig_pred.add_trace(go.Scatter(
-            x=future_years.flatten(), y=future_rev / 1e9,
-            mode="lines+markers", name="Predicted",
-            line=dict(color="#f57c00", width=3, dash="dash"),
-            marker=dict(symbol="diamond", size=10),
-        ))
-        fig_pred.update_layout(
-            xaxis_title="Year", yaxis_title="Avg Revenue ($B)",
-            height=380,
-            yaxis_tickprefix="$",
-            legend=dict(orientation="h", y=1.02),
-        )
-        st.plotly_chart(fig_pred, use_container_width=True)
-
-        r2 = model.score(X, y)
-        slope = model.coef_[0]
-        st.markdown(f"""
-        <div class="insight-box">
-          <b>Trend:</b> Average company revenue in this sector is growing by
-          <b>~${slope/1e9:.2f}B per year</b> (linear fit).<br>
-          <b>Model R² = {r2:.3f}</b> — {"strong" if r2 > 0.85 else "moderate" if r2 > 0.6 else "weak"} fit.
-          {"Sustained linear growth — not just a temporary spike." if r2 > 0.75 else
-           "Non-linear dynamics present — treat forecast directionally, not precisely."}<br>
-          <b>Shaded area</b> = 95% prediction interval.
-        </div>
-        """, unsafe_allow_html=True)
-    else:
-        st.warning("Not enough data points for this sector.")
+    fig14 = go.Figure()
+    fig14.add_trace(go.Bar(
+        y=dec_df["sector"], x=dec_df["I_contrib"], name=f"Inventing ({wi:.0%})",
+        orientation="h", marker_color="#00838f",
+        hovertemplate="<b>%{y}</b><br>Inventing contribution: %{x:.3f}<extra></extra>",
+    ))
+    fig14.add_trace(go.Bar(
+        y=dec_df["sector"], x=dec_df["V_contrib"], name=f"Investing ({wv:.0%})",
+        orientation="h", marker_color="#c62828",
+        hovertemplate="<b>%{y}</b><br>Investing contribution: %{x:.3f}<extra></extra>",
+    ))
+    fig14.update_layout(
+        barmode="stack",
+        height=460,
+        xaxis_title="Weighted contribution to Opportunity Score",
+        yaxis_title="",
+        legend=dict(orientation="h", y=1.08),
+        margin=dict(l=10, r=10, t=10, b=10),
+    )
+    st.plotly_chart(fig14, use_container_width=True)
 
     # ── Data Limitations ──────────────────────────────────────────────────────
     st.divider()
@@ -1330,7 +1271,7 @@ with tabs[4]:
 
     st.markdown("""
     <div style="text-align:center; padding:20px; color:#666; font-size:0.85em;">
-      Built by Sunghun Kim · University of Michigan · Senior Project 2026<br>
+      Built by Sunghun Kim · Calvin University · Senior Project 2026<br>
       Data: builtin.com (scraped) · SEC EDGAR · BLS · Stack Overflow Developer Survey<br>
       4,001 companies · 10 U.S. tech hubs · 3-axis analysis framework
     </div>
@@ -1367,9 +1308,9 @@ with tabs[5]:
           <h4 style="margin:0 0 8px 0;">📈 SEC EDGAR</h4>
           <b>Type:</b> REST API (free, no key)<br><br>
           <b>Coverage:</b> Public U.S. companies<br>
-          <b>Matched:</b> 2,937 / 4,001 (73.4%)<br>
+          <b>Matched:</b> 481 / 4,001 (12.0%)<br>
           <b>Years:</b> 2015 – 2024<br><br>
-          <b>Fields:</b> Revenue, R&D Expense, Net Income (annual 10-K)<br><br>
+          <b>Fields:</b> Revenue, R&D Expense, Net Income, Operating Cash Flow (annual 10-K)<br><br>
           <b>API:</b> data.sec.gov/api/xbrl/companyfacts
         </div>
         """, unsafe_allow_html=True)
@@ -1420,10 +1361,13 @@ with tabs[5]:
       &nbsp;&nbsp;→ sector (16 categories) + revenue_model (5 categories)<br>
       &nbsp;&nbsp;Cost: ~$4 for 4,001 companies<br><br>
 
-      <b>Step 4 — Enrich: SEC EDGAR</b> &nbsp;(pipeline/enrich_sec.py)<br>
+      <b>Step 4 — Enrich: SEC EDGAR</b> &nbsp;(pipeline/enrich_sec.py + phase_a–d_*.py)<br>
       &nbsp;&nbsp;Search CIK by company name → fetch XBRL companyfacts JSON<br>
       &nbsp;&nbsp;Extract Revenue / R&D / Net Income (annual 10-K, FY)<br>
-      &nbsp;&nbsp;→ sec_financials (15,952 rows) + sec_cik_map (2,937 rows)<br><br>
+      &nbsp;&nbsp;CIK matching refined via 4-phase cleanup: token overlap, strict rematch via<br>
+      &nbsp;&nbsp;company_tickers.json, SIC/revenue sanity check.<br>
+      &nbsp;&nbsp;Original 2,937 matches reduced to 481 validated.<br>
+      &nbsp;&nbsp;→ sec_financials (4,161 rows) + sec_cik_map (481 rows)<br><br>
 
       <b>Step 5 — Enrich: BLS</b> &nbsp;(pipeline/enrich_bls.py)<br>
       &nbsp;&nbsp;BLS CES series API → 11 NAICS sectors, 2015–2025<br>
@@ -1432,6 +1376,14 @@ with tabs[5]:
       <b>Step 6 — Survey Analysis</b> &nbsp;(pipeline/analyze_so_survey.py)<br>
       &nbsp;&nbsp;Parse SO Survey CSVs (2017–2025) → 4 tables:<br>
       &nbsp;&nbsp;so_tools_trend · so_ai_adoption · so_salary_trend · so_devtype_trend<br><br>
+
+      <b>Step 6.5 — OCF Enrichment</b> &nbsp;(pipeline/phase_f_ocf.py)<br>
+      &nbsp;&nbsp;XBRL: NetCashProvidedByUsedInOperatingActivities + 2 fallbacks<br>
+      &nbsp;&nbsp;413 / 481 companies enriched → operating_cash_flow column<br><br>
+
+      <b>Step 6.6 — Opportunity Metrics</b> &nbsp;(pipeline/phase_g_opportunity.py)<br>
+      &nbsp;&nbsp;Per-company composite (CAGR 40% + SFR 30% + Cash Margin 30%, 2020–2024)<br>
+      &nbsp;&nbsp;→ sector_opportunity_metrics (17 rows, sector-level median + INSUF flag)<br><br>
 
       <b>Step 7 — Dashboard</b> &nbsp;(dashboard.py)<br>
       &nbsp;&nbsp;Streamlit + Plotly — reads from companies.db via SQLite
@@ -1447,17 +1399,18 @@ with tabs[5]:
     schema_data = {
         "Table": [
             "companies_raw", "companies_deduped", "company_classifications",
-            "sec_financials", "sec_cik_map",
+            "sec_financials", "sec_cik_map", "sector_opportunity_metrics",
             "bls_employment",
             "so_tools_trend", "so_ai_adoption", "so_salary_trend", "so_devtype_trend",
         ],
-        "Rows": ["7,601", "4,001", "4,001", "15,952", "2,937", "110", "57", "63", "9", "234"],
+        "Rows": ["7,601", "4,001", "4,001", "4,161", "481", "17", "110", "57", "63", "9", "234"],
         "Key Columns": [
             "name, location, employees, description, hub, builtin_url",
             "id, name, hub, state, company_size, employees_count",
             "company_id → sector (16), revenue_model (5)",
-            "company_id, year, revenue, rd_expense, net_income",
+            "company_id, year, revenue, rd_expense, net_income, operating_cash_flow",
             "company_id, cik, matched_name",
+            "sector, n_scored, cagr/sfr/margin medians & scores, investing_score, insufficient_data",
             "sector (NAICS), year, employees (k), avg_hourly_wage",
             "year, tool, usage_pct",
             "year, ai_tool, usage_pct",
@@ -1466,7 +1419,7 @@ with tabs[5]:
         ],
         "Layer": [
             "Company", "Company", "Company",
-            "Financial", "Financial",
+            "Financial", "Financial", "Financial",
             "Labor Market",
             "Developer Survey", "Developer Survey", "Developer Survey", "Developer Survey",
         ],
