@@ -1,0 +1,69 @@
+company_id,company_name,cik,error
+8,Alloy,1080359,fetch_failed
+43,Kepler,2000208,fetch_failed
+44,Genius Sports,1834489,no_ocf_tag
+86,CAIS,1078404,fetch_failed
+105,Riskified,1851112,no_ocf_tag
+125,monday.com,1845338,no_ocf_tag
+140,Octus,891462,fetch_failed
+160,InterSystems,806011,fetch_failed
+288,Kroll,1020476,fetch_failed
+357,Millennium,1018099,fetch_failed
+414,Avant,943892,fetch_failed
+434,iManage,1093242,fetch_failed
+440,Zoro,1329484,no_ocf_tag
+483,HERE Technologies,1932770,no_ocf_tag
+525,Veridian,1095901,fetch_failed
+582,Lincoln International,59544,fetch_failed
+663,Compass,18568,fetch_failed
+668,Livewire,61442,fetch_failed
+672,Relativity,2072188,fetch_failed
+678,FTD,944537,fetch_failed
+683,NetSmart,1011028,fetch_failed
+702,Colliers,913353,no_ocf_tag
+713,Rewards Network,78536,fetch_failed
+728,VusionGroup,2075141,fetch_failed
+869,Sony,313838,no_ocf_tag
+913,AXS,947427,fetch_failed
+1015,Dow Jones,29924,fetch_failed
+1023,Bedrock Energy,1434702,no_ocf_tag
+1044,Panavision,1022911,fetch_failed
+1075,Home Alliance,813389,fetch_failed
+1174,EDO,31617,fetch_failed
+1213,Motive,1646681,fetch_failed
+1265,UserTesting,1557127,no_ocf_tag
+1268,Insightful,895095,fetch_failed
+1437,Once Upon a Farm,1696556,no_ocf_tag
+1613,DoubleDown Interactive LLC,1799567,no_ocf_tag
+1650,Path,1059404,fetch_failed
+1680,Grab,1855612,no_ocf_tag
+1814,WatchGuard,1062019,fetch_failed
+1834,Nexxen,1849396,no_ocf_tag
+1843,Baidu,1329099,no_ocf_tag
+1895,PEMCO,771729,fetch_failed
+1916,Pivotal Ventures,1086329,fetch_failed
+1917,Karat,1385872,fetch_failed
+1951,Convera,1125536,fetch_failed
+2001,Arcadia,1071941,no_ocf_tag
+2062,"Sun Life Financial, Inc.",1097362,no_ocf_tag
+2108,Lendbuzz,1736734,fetch_failed
+2173,RSA Security,932064,fetch_failed
+2257,Seaport Therapeutics,2042347,no_ocf_tag
+2313,Allot,1365767,no_ocf_tag
+2521,Securitize,2094496,fetch_failed
+2647,Digital Realty,1494877,fetch_failed
+2847,Magna International,1093273,fetch_failed
+2905,Infosys,1067491,no_ocf_tag
+3072,FF Global Group,2102972,fetch_failed
+3075,Curaleaf,1756770,no_ocf_tag
+3139,Mobile Solutions,842919,fetch_failed
+3368,Capital Bank,1071992,no_ocf_tag
+3398,Kornit Digital,1625791,no_ocf_tag
+3503,Neuberger Berman,1068144,fetch_failed
+3549,Avado,849101,fetch_failed
+3585,Catapult,2074220,fetch_failed
+3609,Winton,857907,fetch_failed
+3632,Vertical Aerospace,1867102,no_ocf_tag
+3771,Archipelago Analytics,1107389,fetch_failed
+3850,Lumenis,1004945,no_ocf_tag
+3875,CIMA+,833298,fetch_failed

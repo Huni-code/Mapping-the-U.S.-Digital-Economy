@@ -9,3 +9,5 @@ data/*.db-journal
 SO survey/
 conversation_summary.txt
 .aider*
+.claude/
+data/companies_backup_*.db

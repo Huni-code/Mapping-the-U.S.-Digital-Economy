@@ -1,0 +1,136 @@
+company_id,company_name,cik,check_type,detail
+19,Sage,1597553,revenue_scale,Small but max_rev=$1.11B
+42,Regal,1168696,revenue_scale,Small but max_rev=$3.20B
+252,ACE & Company,896159,revenue_scale,Small but max_rev=$55.75B
+502,Motion,1735707,revenue_scale,Startup but max_rev=$3.00B
+614,Focus Partners Australia,1651052,revenue_scale,Small but max_rev=$2.14B
+631,Beyond,1130713,revenue_scale,Small but max_rev=$1.74B
+1642,Accretive Technology Group,1472595,revenue_scale,Small but max_rev=$1.47B
+2103,Veralto,1967680,revenue_scale,Small but max_rev=$5.19B
+2370,Charles River CFO,1100682,revenue_scale,Startup but max_rev=$4.13B
+2417,Sysco LABS,96021,revenue_scale,Small but max_rev=$78.84B
+2591,Atlas Energy Solutions,1984060,revenue_scale,Small but max_rev=$1.06B
+2777,Builders,1316835,revenue_scale,Startup but max_rev=$22.73B
+2793,Mesa,810332,revenue_scale,Startup but max_rev=$1.17B
+2978,Venture Global LNG,2007855,revenue_scale,Small but max_rev=$7.90B
+3562,Stake Capital Group,351834,revenue_scale,Startup but max_rev=$1.35B
+3919,Gap International,39911,revenue_scale,Small but max_rev=$16.67B
+3637,The Block,1512673,duplicate_cik,cik shared with winner company_id=73 (jaccard=1.00)
+2452,Sana,1770121,duplicate_cik,cik shared with winner company_id=1840 (jaccard=0.50)
+3074,Deluxe Media Inc.,27996,duplicate_cik,cik shared with winner company_id=3749 (jaccard=0.50)
+43,Kepler,2000208,non_tech_sic,sector='AI assistants & copilots' but SIC=6411
+58,ZS,1459266,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=2834
+146,SharkNinja,1957132,non_tech_sic,sector='Creative & design tools' but SIC=3630
+160,InterSystems,806011,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=6153
+207,Arena (arena-ai),894871,non_tech_sic,sector='AI foundation models' but SIC=4841
+293,Marsh McLennan,62709,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=6411
+338,Co-Star,1002590,non_tech_sic,sector='Subscription content' but SIC=5990
+347,Orion Group,1402829,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=1600
+363,Imax Corporation,921582,non_tech_sic,sector='Gaming & virtual environments' but SIC=3861
+378,AMC Networks Inc.,1514991,non_tech_sic,sector='Subscription content' but SIC=4841
+402,Grainger,277135,non_tech_sic,sector='E-commerce platforms' but SIC=5000
+421,CDW,1402057,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=5961
+422,Caterpillar,18230,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3531
+435,Boeing,12927,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3721
+440,Zoro,1329484,non_tech_sic,sector='E-commerce platforms' but SIC=1000
+456,Motorola Solutions,68505,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3663
+483,HERE Technologies,1932770,non_tech_sic,sector='Developer tooling' but SIC=5945
+486,Fortune Brands Innovations,1519751,non_tech_sic,sector='E-commerce platforms' but SIC=2430
+538,Constellation Brands,16918,non_tech_sic,sector='E-commerce platforms' but SIC=2080
+568,Tyson Foods,100493,non_tech_sic,sector='E-commerce platforms' but SIC=2015
+596,Cambium Networks,1738177,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3663
+604,Cushman & Wakefield,1628369,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=6500
+639,Huron,1289848,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=8742
+655,Littelfuse,889331,non_tech_sic,sector='Developer tooling' but SIC=3613
+658,Elastic,1088242,non_tech_sic,sector='Search engines' but SIC=3661
+672,Relativity,2072188,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=2844
+702,Colliers,913353,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=6500
+769,Methode Electronics,65270,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3678
+842,Epirus,1135906,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=2834
+869,Sony,313838,non_tech_sic,sector='Gaming & virtual environments' but SIC=3651
+894,iRobot,1159167,non_tech_sic,sector='E-commerce platforms' but SIC=3630
+926,Interface AI,715787,non_tech_sic,sector='AI assistants & copilots' but SIC=2273
+937,Zevia,1854139,non_tech_sic,sector='E-commerce platforms' but SIC=2086
+945,Mattel,63276,non_tech_sic,sector='Gaming & virtual environments' but SIC=3942
+999,Netflix,1065280,non_tech_sic,sector='Subscription content' but SIC=7841
+1007,Tech Holding,1460801,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=8711
+1015,Dow Jones,29924,non_tech_sic,sector='Subscription content' but SIC=2711
+1023,Bedrock Energy,1434702,non_tech_sic,sector='Developer tooling' but SIC=1381
+1026,Nike,320187,non_tech_sic,sector='E-commerce platforms' but SIC=3021
+1044,Panavision,1022911,non_tech_sic,sector='Creative & design tools' but SIC=3861
+1070,Xos Trucks,1819493,non_tech_sic,sector='Productivity & collaboration' but SIC=3714
+1102,Warp,743758,non_tech_sic,sector='Developer tooling' but SIC=5900
+1110,PVH Corp.,78239,non_tech_sic,sector='E-commerce platforms' but SIC=2320
+1112,a.k.a. Brands,1865107,non_tech_sic,sector='E-commerce platforms' but SIC=5961
+1124,Dine Brands Global,49754,non_tech_sic,sector='E-commerce platforms' but SIC=5812
+1141,The Honest Company,1530979,non_tech_sic,sector='E-commerce platforms' but SIC=5961
+1148,Rexford Industrial,1571283,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=6798
+1197,Kaiser Aluminum,811596,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3350
+1205,Eve,1823652,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3721
+1207,Opendoor,1801169,non_tech_sic,sector='E-commerce platforms' but SIC=6531
+1228,Proto,1443669,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3440
+1253,Ouster,1816581,non_tech_sic,sector='Developer tooling' but SIC=3569
+1269,Axion Ray Inc,753048,non_tech_sic,sector='Developer tooling' but SIC=3086
+1299,Clearway Energy Group,1567683,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=4911
+1308,E.L.F. Beauty,1600033,non_tech_sic,sector='E-commerce platforms' but SIC=2844
+1326,Saga,886136,non_tech_sic,sector='Developer tooling' but SIC=4832
+1437,Once Upon a Farm,1696556,non_tech_sic,sector='E-commerce platforms' but SIC=2000
+1460,Energy Recovery,1421517,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3559
+1500,Quince,1662774,non_tech_sic,sector='E-commerce platforms' but SIC=2836
+1553,"Berkeley Lights, Inc.",1689657,non_tech_sic,sector='Developer tooling' but SIC=3826
+1611,Chewy,1766502,non_tech_sic,sector='E-commerce platforms' but SIC=5961
+1619,BlackSky,1753539,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3663
+1678,Xplore,1177845,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3570
+1809,Blue Nile,1091171,non_tech_sic,sector='E-commerce platforms' but SIC=5944
+1828,Coupang,1834584,non_tech_sic,sector='E-commerce platforms' but SIC=5961
+1857,Rockwell Automation,1024478,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3829
+1902,Avante,1504388,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3651
+1917,Karat,1385872,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3911
+1920,Best Buy,764478,non_tech_sic,sector='E-commerce platforms' but SIC=5731
+1932,Nordstrom,72333,non_tech_sic,sector='E-commerce platforms' but SIC=5651
+1945,QVC Group,1355096,non_tech_sic,sector='E-commerce platforms' but SIC=5961
+1947,DNA,1419995,non_tech_sic,sector='Creative & design tools' but SIC=7311
+1954,Impinj,1114995,non_tech_sic,sector='Developer tooling' but SIC=3679
+2061,Onto Innovation,704532,non_tech_sic,sector='Developer tooling' but SIC=3829
+2142,Entegris,1101302,non_tech_sic,sector='Developer tooling' but SIC=3089
+2261,SES AI,1819142,non_tech_sic,sector='Developer tooling' but SIC=3690
+2265,Symbotic,1837240,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3569
+2284,Maxima Consulting,1596448,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=7200
+2285,"The TJX Companies, Inc.",109198,non_tech_sic,sector='E-commerce platforms' but SIC=5651
+2300,"CIRCOR International, Inc.",1091883,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3490
+2303,Forrester,1023313,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=8700
+2320,Sentinel Group,889353,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=7200
+2363,Constant Contact,1405277,non_tech_sic,sector='Productivity & collaboration' but SIC=7331
+2421,"Riot Platforms, Inc.",1167419,non_tech_sic,sector='Developer tooling' but SIC=6199
+2483,Iris Software Inc.,319240,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3826
+2532,YETI,1670592,non_tech_sic,sector='E-commerce platforms' but SIC=3949
+2551,Richtech Robotics,1963685,non_tech_sic,sector='Productivity & collaboration' but SIC=3569
+2647,Digital Realty,1494877,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=6500
+2684,Gartner,749251,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=8741
+2688,Vital Farms,1579733,non_tech_sic,sector='E-commerce platforms' but SIC=2000
+2749,Dell Technologies,1571996,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3571
+2775,Firefly Aerospace,1860160,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3760
+2796,Way,23675,non_tech_sic,sector='Productivity & collaboration' but SIC=4213
+2805,Samsara,1530163,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=5990
+2821,Comcast,1166691,non_tech_sic,sector='Subscription content' but SIC=4841
+2964,Zumiez,1318008,non_tech_sic,sector='E-commerce platforms' but SIC=5600
+2988,Smith,91142,non_tech_sic,sector='E-commerce platforms' but SIC=3630
+3054,MARA,1507605,non_tech_sic,sector='AI foundation models' but SIC=6199
+3075,Curaleaf,1756770,non_tech_sic,sector='E-commerce platforms' but SIC=2833
+3139,Mobile Solutions,842919,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=1700
+3147,CarMax,1170010,non_tech_sic,sector='E-commerce platforms' but SIC=5500
+3231,StandardAero,2025410,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3724
+3294,Weatherford,1453090,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=1381
+3319,Oshkosh Corporation,775158,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=3711
+3398,Kornit Digital,1625791,non_tech_sic,sector='Productivity & collaboration' but SIC=3555
+3474,Navient,1593538,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=6211
+3568,Velo3D,1825079,non_tech_sic,sector='Developer tooling' but SIC=3559
+3594,Church & Dwight,313927,non_tech_sic,sector='E-commerce platforms' but SIC=2840
+3643,The Scotts Miracle-Gro Company,825542,non_tech_sic,sector='E-commerce platforms' but SIC=2870
+3771,Archipelago Analytics,1107389,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=6200
+3851,Dow,1751788,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=2821
+3865,Cognition,1455365,non_tech_sic,sector='AI assistants & copilots' but SIC=2836
+3875,CIMA+,833298,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=2834
+3922,State Street,93751,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=6022
+3931,Quanta Services,1050915,non_tech_sic,sector='Enterprise / ERP / HRM' but SIC=1731
+3981,Disruptive Technologies,1498380,non_tech_sic,sector='Developer tooling' but SIC=2835

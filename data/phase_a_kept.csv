@@ -1,0 +1,439 @@
+company_id,company_name,cik,matched_name
+2,BlackRock,1364742,BlackRock Inc.
+8,Alloy,1080359,ALLOY  INC
+10,Navan,1639723,"Navan, Inc."
+15,Rubrik,1943896,"Rubrik, Inc."
+19,Sage,1597553,"Sage Therapeutics, Inc."
+20,Forge,1827821,"Forge Global Holdings, Inc."
+21,MetLife,1099219,METLIFE INC
+22,Yext,1614178,"Yext, Inc."
+29,Hinge,1673743,"Hinge Health, Inc."
+33,SoFi,1818874,"SoFi Technologies, Inc."
+42,Regal,1168696,REGAL ENTERTAINMENT GROUP
+45,BlackLine,1666134,"BLACKLINE, INC."
+47,Chime,1795586,"Chime Financial, Inc."
+55,Tempus AI,1717115,"Tempus AI, Inc."
+58,ZS,1459266,"ZS Pharma, Inc."
+63,Pfizer,78003,PFIZER INC
+64,Atlassian,1650372,Atlassian Corp
+70,Zeta Global,1851003,Zeta Global Holdings Corp.
+71,UL Solutions,1901440,UL Solutions Inc.
+76,MarketAxess,1278021,MARKETAXESS HOLDINGS INC
+84,Clearwater Analytics (CWAN),1866368,"Clearwater Analytics Holdings, Inc."
+85,Squarespace,1496963,"Squarespace, Inc."
+86,CAIS,1078404,CAIS INTERNET INC
+87,Mastercard,1141391,MASTERCARD INC
+90,ServiceNow,1373715,"ServiceNow, Inc."
+93,Braze,1676238,"Braze, Inc."
+96,Capital One,927628,CAPITAL ONE FINANCIAL CORP
+97,Snap Inc.,1564408,Snap Inc
+101,Magnite,1595974,"MAGNITE, INC."
+113,Skillsoft,1774675,Skillsoft Corp.
+120,Upstart,1647639,"Upstart Holdings, Inc."
+128,Qualtrics,1747748,Qualtrics International Inc.
+129,Affirm,1820953,"Affirm Holdings, Inc."
+133,Datadog,1561550,"Datadog, Inc."
+140,Octus,891462,OCTUS INC
+145,Take-Two Interactive Software,946581,TAKE TWO INTERACTIVE SOFTWARE INC
+146,SharkNinja,1957132,"SharkNinja, Inc."
+150,Taboola,1840502,Taboola.com Ltd.
+152,Enova,1529864,"Enova International, Inc."
+155,DraftKings,1883685,DraftKings Inc.
+158,MongoDB,1441816,"MongoDB, Inc."
+160,InterSystems,806011,INTERSYSTEMS INC /DE/
+165,CoreWeave,1769628,"CoreWeave, Inc."
+166,Camber,1309082,"CAMBER ENERGY, INC."
+182,Morningstar,1289419,"Morningstar, Inc."
+183,Zscaler,1713683,"Zscaler, Inc."
+187,GoodRx,1809519,"GoodRx Holdings, Inc."
+198,Spiral,1520108,Spiral Toys Inc.
+211,Immunovant,1764013,"Immunovant, Inc."
+228,Fox Corporation,1754301,Fox Corp
+236,Vantage,1419428,Vantage Drilling CO
+241,Charlie Health,1134765,"Charlie's Holdings, Inc."
+251,Angi,1705110,Angi Inc.
+252,ACE & Company,896159,ACE LTD
+265,The Trade Desk,1671933,"Trade Desk, Inc."
+288,Kroll,1020476,KROLL INC
+293,Marsh McLennan,62709,"MARSH & MCLENNAN COMPANIES, INC."
+320,Voya Financial,1535929,"Voya Financial, Inc."
+344,BuzzFeed,1828972,"BuzzFeed, Inc."
+347,Orion Group,1402829,Orion Group Holdings Inc
+350,Tandem,1292653,Neutral Tandem Inc
+357,Millennium,1018099,MILLENNIUM CHEMICALS INC
+363,Imax Corporation,921582,IMAX CORP
+370,Teads,1454938,Teads Holding Co.
+378,AMC Networks Inc.,1514991,AMC Networks Inc.
+393,Moelis & Company,1596967,Moelis & Co
+402,Grainger,277135,"W.W. GRAINGER, INC."
+411,Coupa,1385867,Coupa Software Inc
+414,Avant,943892,AVANT CORP
+421,CDW,1402057,CDW Corp
+422,Caterpillar,18230,CATERPILLAR INC
+428,Flywire,1580560,Flywire Corp
+431,Vivid Seats,1856031,Vivid Seats Inc.
+432,Waystar,1990354,Waystar Holding Corp.
+434,iManage,1093242,IMANAGE INC
+435,Boeing,12927,BOEING CO
+440,Zoro,1329484,Zoro Mining Corp.
+449,Dropbox,1467623,"DROPBOX, INC."
+472,OppFi,1818502,OppFi Inc.
+482,Sprout Social,1517375,"Sprout Social, Inc."
+486,Fortune Brands Innovations,1519751,"Fortune Brands Innovations, Inc."
+494,EDGE,1472091,"Edge Therapeutics, Inc."
+502,Motion,1735707,Garrett Motion Inc.
+525,Veridian,1095901,VERIDIAN CORP
+527,Ryan Specialty,1849253,"RYAN SPECIALTY HOLDINGS, INC."
+538,Constellation Brands,16918,"CONSTELLATION BRANDS, INC."
+543,Accelerated Digital Media,1282224,DOLPHIN DIGITAL MEDIA INC
+548,G2,1263364,G2 VENTURES INC
+551,E2open,1800347,"E2open Parent Holdings, Inc."
+553,Root,1788882,"Root, Inc."
+556,Airbnb,1559720,"Airbnb, Inc."
+560,CVS Health,64803,CVS HEALTH Corp
+564,OneSpan,1044777,OneSpan Inc.
+568,Tyson Foods,100493,"TYSON FOODS, INC."
+576,Humana,49071,HUMANA INC
+581,Travelzoo,1133311,TRAVELZOO INC
+582,Lincoln International,59544,LINCOLN INTERNATIONAL CORP
+593,Titan Security Group,899751,TITAN INTERNATIONAL INC
+596,Cambium Networks,1738177,Cambium Networks Corp
+604,Cushman & Wakefield,1628369,Cushman & Wakefield plc
+614,Focus Partners Australia,1651052,Focus Financial Partners Inc.
+619,Veradigm LLC,1124804,Veradigm Inc.
+622,Instructure,1841804,"INSTRUCTURE HOLDINGS, INC."
+631,Beyond,1130713,"BEYOND, INC."
+635,MERGE,944765,MERGE HEALTHCARE INC
+636,Nielsen,1492633,Nielsen Holdings plc
+639,Huron,1289848,Huron Consulting Group Inc.
+640,"Hologram, Inc.",1841209,MicroCloud Hologram Inc.
+650,Scientific Games,750004,SCIENTIFIC GAMES CORP
+655,Littelfuse,889331,LITTELFUSE INC /DE
+656,Perficient,1085869,PERFICIENT INC
+658,Elastic,1088242,ELASTIC NETWORKS INC
+659,Ares Management Corporation,1176948,Ares Management Corp
+663,Compass,18568,COMPASS BANCSHARES INC
+664,"CF Industries Holdings, Inc.",1324404,"CF Industries Holdings, Inc."
+668,Livewire,61442,LIBERTY LIVEWIRE CORP
+678,FTD,944537,FTD INC
+680,DoubleVerify,1819928,"DoubleVerify Holdings, Inc."
+683,NetSmart,1011028,NETSMART TECHNOLOGIES INC
+688,Allstate,899051,ALLSTATE CORP
+699,Boingo Wireless,1169988,BOINGO WIRELESS INC
+704,Federal Home Loan Bank of Chicago,1331451,Federal Home Loan Bank of Chicago
+713,Rewards Network,78536,REWARDS NETWORK INC
+714,Bazaarvoice,1330421,Bazaarvoice Inc
+735,Upwork,1627475,"UPWORK, INC"
+738,Duck Creek Technologies,1160951,"DUCK CREEK TECHNOLOGIES, INC."
+752,PayPal,1633917,"PayPal Holdings, Inc."
+754,CME Group,1156375,CME GROUP INC.
+758,Cboe Global Markets,1374310,"Cboe Global Markets, Inc."
+762,Interactive Brokers,1381197,"Interactive Brokers Group, Inc."
+769,Methode Electronics,65270,METHODE ELECTRONICS INC
+788,iHeartMedia,1400891,"iHeartMedia, Inc."
+791,Workday,1327811,"Workday, Inc."
+801,Spectrum,109177,"Spectrum Brands Holdings, Inc."
+813,Cloudflare,1477333,"Cloudflare, Inc."
+832,TaskUs,1829864,"TaskUs, Inc."
+835,Journal Technologies Inc,783412,DAILY JOURNAL CORP
+842,Epirus,1135906,"EPIRUS Biopharmaceuticals, Inc."
+859,Southwest Airlines,92380,SOUTHWEST AIRLINES CO
+891,Octave,874501,OCTAVE SPECIALTY GROUP INC
+894,iRobot,1159167,IROBOT CORP
+898,Serve Robotics,1832483,Serve Robotics Inc. /DE/
+906,Everbridge,1437352,"EVERBRIDGE, INC."
+913,AXS,947427,AXS ONE INC
+937,Zevia,1854139,Zevia PBC
+939,Faraday Future,1805521,FARADAY FUTURE INTELLIGENT ELECTRIC INC.
+945,Mattel,63276,MATTEL INC /DE/
+975,SS&C Technologies,1402436,SS&C Technologies Holdings Inc
+999,Netflix,1065280,NETFLIX INC
+1007,Tech Holding,1460801,"Tri-Tech Holding, Inc."
+1015,Dow Jones,29924,DOW JONES & CO INC
+1023,Bedrock Energy,1434702,"Bedrock Energy, Inc."
+1026,Nike,320187,NIKE INC
+1044,Panavision,1022911,PANAVISION INC
+1067,Recharge,1817786,Recharge Acquisition Corp.
+1070,Xos Trucks,1819493,"Xos, Inc."
+1074,Macerich,912242,MACERICH CO
+1075,Home Alliance,813389,AMERICAN HOME ALLIANCE CORP
+1091,Bold,1444275,BOLD ENERGY INC.
+1102,Warp,743758,"WARP 9, INC."
+1110,PVH Corp.,78239,PVH CORP. /DE/
+1112,a.k.a. Brands,1865107,A.K.A. BRANDS HOLDING CORP.
+1124,Dine Brands Global,49754,"Dine Brands Global, Inc."
+1136,Dave Inc.,1841408,Dave Inc./DE
+1141,The Honest Company,1530979,"Honest Company, Inc."
+1143,Oscar Health,1568651,"Oscar Health, Inc."
+1148,Rexford Industrial,1571283,"Rexford Industrial Realty, Inc."
+1172,Cardlytics,1666071,"Cardlytics, Inc."
+1174,EDO,31617,EDO CORP
+1192,Arrowhead Pharmaceuticals,879407,"ARROWHEAD PHARMACEUTICALS, INC."
+1197,Kaiser Aluminum,811596,KAISER ALUMINUM CORP
+1205,Eve,1823652,"Eve Holding, Inc."
+1207,Opendoor,1801169,Opendoor Technologies Inc.
+1208,Toast,1650164,"Toast, Inc."
+1214,Zynga,1439404,ZYNGA INC
+1218,Klaviyo,1835830,"Klaviyo, Inc."
+1221,Udemy,1607939,"Udemy, Inc."
+1228,Proto,1443669,Proto Labs Inc
+1253,Ouster,1816581,"Ouster, Inc."
+1265,UserTesting,1557127,"UserTesting, Inc."
+1268,Insightful,895095,INSIGHTFUL CORP
+1269,Axion Ray Inc,753048,"AXION INTERNATIONAL HOLDINGS, INC."
+1275,Ironclad,1455926,IRONCLAD ENCRYPTION Corp
+1283,Myriad AI,899923,MYRIAD GENETICS INC
+1288,Federal Home Loan Bank of San Francisco,1316944,Federal Home Loan Bank of San Francisco
+1295,Mirum Pharmaceuticals,1759425,"Mirum Pharmaceuticals, Inc."
+1308,E.L.F. Beauty,1600033,"e.l.f. Beauty, Inc."
+1312,First Solar,1274494,"FIRST SOLAR, INC."
+1326,Saga,886136,SAGA COMMUNICATIONS INC
+1330,Twist Bioscience,1581280,Twist Bioscience Corp
+1334,Color,819220,MULTI COLOR Corp
+1347,Backblaze,1462056,"Backblaze, Inc."
+1382,Figure,2064124,"Figure Technology Solutions, Inc."
+1423,Prosper Marketplace,1416265,"PROSPER MARKETPLACE, INC"
+1437,Once Upon a Farm,1696556,"Once Upon a Farm, PBC"
+1456,Ultragenyx,1515673,Ultragenyx Pharmaceutical Inc.
+1460,Energy Recovery,1421517,"Energy Recovery, Inc."
+1484,SoundHound,1840856,"SOUNDHOUND AI, INC."
+1500,Quince,1662774,"Quince Therapeutics, Inc."
+1531,Universal Electronics,101984,UNIVERSAL ELECTRONICS INC
+1536,Stitch Fix,1576942,"Stitch Fix, Inc."
+1544,Dragonfly,1847986,Dragonfly Energy Holdings Corp.
+1553,"Berkeley Lights, Inc.",1689657,"Berkeley Lights, Inc."
+1555,iRhythm Technologies,1388658,"iRhythm Technologies, Inc."
+1559,SunPower Corporation,867773,SUNPOWER CORP
+1602,Remitly,1782170,"Remitly Global, Inc."
+1603,System1,1805833,"System1, Inc."
+1605,CrowdStrike,1535527,"CrowdStrike Holdings, Inc."
+1611,Chewy,1766502,"Chewy, Inc."
+1619,BlackSky,1753539,BlackSky Technology Inc.
+1638,Rover,1826018,"ROVER GROUP, INC."
+1642,Accretive Technology Group,1472595,"Accretive Health, Inc."
+1650,Path,1059404,PATH 1 NETWORK TECHNOLOGIES INC
+1653,Expeditors,746515,EXPEDITORS INTERNATIONAL OF WASHINGTON INC
+1656,Salesforce,1108524,"Salesforce, Inc."
+1663,HomeStreet Bank,1518715,"HomeStreet, Inc."
+1664,Sinclair Broadcast Group,912752,SINCLAIR BROADCAST GROUP INC
+1678,Xplore,1177845,XPLORE TECHNOLOGIES CORP
+1708,Trupanion,1371285,"TRUPANION, INC."
+1724,Lyft,1759509,"Lyft, Inc."
+1731,ImmunityBio,1326110,"ImmunityBio, Inc."
+1741,Porch Group,1784535,"Porch Group, Inc."
+1743,"Immunome, Inc.",1472012,Immunome Inc.
+1808,CoStar Group,1057352,"COSTAR GROUP, INC."
+1809,Blue Nile,1091171,BLUE NILE INC
+1814,WatchGuard,1062019,WATCHGUARD TECHNOLOGIES INC
+1824,Snowflake,1640147,Snowflake Inc.
+1828,Coupang,1834584,"Coupang, Inc."
+1830,Sonos,1314727,Sonos Inc
+1831,Okta,1660134,"Okta, Inc."
+1840,"Sana Biotechnology, Inc.",1770121,"Sana Biotechnology, Inc."
+1842,Prologis,899881,PROLOGIS TRUST
+1854,Pinterest,1506293,"PINTEREST, INC."
+1857,Rockwell Automation,1024478,ROCKWELL  AUTOMATION INC
+1862,DoorDash,1792789,"DoorDash, Inc."
+1866,RealNetworks,1046327,REALNETWORKS INC
+1870,Cloudera,1535379,"Cloudera, Inc."
+1892,Duolingo,1562088,"Duolingo, Inc."
+1893,Robinhood,1783879,"Robinhood Markets, Inc."
+1895,PEMCO,771729,PEMCO AVIATION GROUP INC
+1901,Expedia Group,1324424,"Expedia Group, Inc."
+1902,Avante,1504388,"Avante Systems, Inc."
+1904,Digital Turbine,317788,"Digital Turbine, Inc."
+1906,Capital Group,1085621,INTERNET CAPITAL GROUP INC
+1914,Zillow,1617640,"ZILLOW GROUP, INC."
+1916,Pivotal Ventures,1086329,PIVOTAL CORP
+1917,Karat,1385872,"Karat Platinum, Inc."
+1928,Brightcove,1313275,BRIGHTCOVE INC
+1929,F5,1048695,F5 NETWORKS INC
+1932,Nordstrom,72333,NORDSTROM INC
+1942,Monolithic Power Systems,1280452,MONOLITHIC POWER SYSTEMS INC
+1947,DNA,1419995,DNA BRANDS INC
+1951,Convera,1125536,CONVERA CORP
+1954,Impinj,1114995,IMPINJ INC
+1963,Redfin,1382821,Redfin Corp
+1965,NVIDIA,1045810,NVIDIA CORP
+1973,GoDaddy,1609711,GoDaddy Inc.
+1974,springbig,1801602,"SpringBig Holdings, Inc."
+1979,Stryker,310764,STRYKER CORP
+1984,Meta,1326801,"Meta Platforms, Inc."
+2001,Arcadia,1071941,"ARCADIA RESOURCES, INC"
+2021,Dynatrace,1773383,"Dynatrace, Inc."
+2023,Rapid7,1560327,"Rapid7, Inc."
+2032,Imprivata,1328015,Imprivata Inc
+2047,Definitive Healthcare,1861795,Definitive Healthcare Corp.
+2048,CarGurus,1494259,"CarGurus, Inc."
+2061,Onto Innovation,704532,ONTO INNOVATION INC.
+2086,Semrush,1831840,"SEMrush Holdings, Inc."
+2087,athenahealth,1131096,ATHENAHEALTH INC
+2090,Kymera Therapeutics,1815442,"Kymera Therapeutics, Inc."
+2093,Dianthus Therapeutics,1690585,"Dianthus Therapeutics, Inc. /DE/"
+2099,Keros Therapeutics,1664710,"Keros Therapeutics, Inc."
+2101,Intellia Therapeutics,1652130,"Intellia Therapeutics, Inc."
+2103,Veralto,1967680,Veralto Corp
+2114,Ironwood Pharmaceuticals,1446847,IRONWOOD PHARMACEUTICALS INC
+2116,Vicarious Surgical,1812173,Vicarious Surgical Inc.
+2121,Scholar Rock,1727196,Scholar Rock Holding Corp
+2122,BeiGene,1651308,"BeiGene, Ltd."
+2126,Centessa Pharmaceuticals,1847903,Centessa Pharmaceuticals plc
+2129,Bright Horizons,1437578,BRIGHT HORIZONS FAMILY SOLUTIONS INC.
+2131,Mimecast,1644675,Mimecast Ltd
+2142,Entegris,1101302,ENTEGRIS INC
+2145,Vertex Pharmaceuticals,875320,VERTEX PHARMACEUTICALS INC / MA
+2146,Fractyl Health,1572616,"FRACTYL HEALTH, INC."
+2150,Beam Therapeutics,1745999,Beam Therapeutics Inc.
+2157,LPL Financial,1397911,LPL Financial Holdings Inc.
+2159,Relay Therapeutics,1812364,"Relay Therapeutics, Inc."
+2170,Aura,826253,AURA SYSTEMS INC
+2173,RSA Security,932064,RSA SECURITY INC/DE/
+2185,ZOE,1594879,"Zoe's Kitchen, Inc."
+2189,Bicycle Therapeutics,1761612,BICYCLE THERAPEUTICS plc
+2201,"Nuvalent, Inc.",1861560,"Nuvalent, Inc."
+2243,Acadian Asset Management,1748824,Acadian Asset Management Inc.
+2247,Akoya,1711933,"Akoya Biosciences, Inc."
+2261,SES AI,1819142,SES AI Corp
+2265,Symbotic,1837240,Symbotic Inc.
+2276,Cerence Inc.,1768267,Cerence Inc.
+2277,"KalVista Pharmaceuticals, Inc.",1348911,"KalVista Pharmaceuticals, Inc."
+2284,Maxima Consulting,1596448,MAXIMA GROUP INC.
+2285,"The TJX Companies, Inc.",109198,TJX COMPANIES INC /DE/
+2300,"CIRCOR International, Inc.",1091883,CIRCOR INTERNATIONAL INC
+2301,Xenon Pharmaceuticals Inc.,1582313,Xenon Pharmaceuticals Inc.
+2303,Forrester,1023313,FORRESTER RESEARCH INC
+2326,Prime Medicine,1894562,"Prime Medicine, Inc."
+2352,Foghorn Therapeutics,1822462,Foghorn Therapeutics Inc.
+2354,ZoomInfo,1794515,ZoomInfo Technologies Inc.
+2358,Guidewire Software,1528396,"Guidewire Software, Inc."
+2363,Constant Contact,1405277,"Constant Contact, Inc."
+2366,"Praxis Precision Medicines, Inc.",1689548,"Praxis Precision Medicines, Inc."
+2370,Charles River CFO,1100682,"CHARLES RIVER LABORATORIES INTERNATIONAL, INC."
+2371,Blueprint Medicines,1597264,Blueprint Medicines Corp
+2374,Revvity,31791,"REVVITY, INC."
+2391,Analogic,6284,ANALOGIC CORP
+2394,Victory Capital,1570827,"Victory Capital Holdings, Inc."
+2401,General Motors,40730,GENERAL MOTORS CORP
+2402,SailPoint,2030781,"SailPoint, Inc."
+2415,SciPlay,1760717,SciPlay Corp
+2417,Sysco LABS,96021,SYSCO CORP
+2421,"Riot Platforms, Inc.",1167419,"Riot Platforms, Inc."
+2446,Heartflow,1464521,"Heartflow, Inc."
+2452,Sana,1770121,"Sana Biotechnology, Inc."
+2454,Ambiq Micro,1500412,"Ambiq Micro, Inc."
+2457,Natera,1604821,"Natera, Inc."
+2465,MNTN,1891027,"MNTN, Inc."
+2469,Leidos,1336920,"Leidos Holdings, Inc."
+2482,DISCO,1625641,"CS Disco, Inc."
+2483,Iris Software Inc.,319240,IRIS INTERNATIONAL INC
+2499,Ethos,1788451,Ethos Technologies Inc.
+2522,Accenture,1467373,Accenture plc
+2532,YETI,1670592,"YETI Holdings, Inc."
+2536,Veracyte,1384101,"VERACYTE, INC."
+2547,agilon health,1831097,"agilon health, inc."
+2551,Richtech Robotics,1963685,RICHTECH ROBOTICS INC.
+2557,"Visa Inc,",1403161,Visa Inc.
+2558,Volcon ePowersports,1829794,"Volcon, Inc."
+2588,Core Scientific,1839341,"Core Scientific, Inc./tx"
+2591,Atlas Energy Solutions,1984060,Atlas Energy Solutions Inc.
+2598,Procore Technologies,1611052,"PROCORE TECHNOLOGIES, INC."
+2606,Sprinklr,1569345,"Sprinklr, Inc."
+2617,Embark,1827980,"Embark Technology, Inc."
+2623,SolarWinds,1739942,SolarWinds Corp
+2628,Hippo Insurance,1828105,Hippo Holdings Inc.
+2647,Digital Realty,1494877,"Digital Realty Trust, L.P."
+2659,CDK Global,1609702,"CDK Global, Inc."
+2660,eBay,1065088,EBAY INC
+2667,TrueCar,1327318,"TrueCar, Inc."
+2684,Gartner,749251,GARTNER INC
+2688,Vital Farms,1579733,"Vital Farms, Inc."
+2712,Asure Software,884144,ASURE SOFTWARE INC
+2729,Care.com,1412270,Care.com Inc
+2759,Zendesk,1463172,"Zendesk, Inc."
+2771,Microchip Technology Inc.,827054,MICROCHIP TECHNOLOGY INC
+2774,Confluent,1699838,"Confluent, Inc."
+2775,Firefly Aerospace,1860160,Firefly Aerospace Inc.
+2777,Builders,1316835,"Builders FirstSource, Inc."
+2783,Upland Software,1505155,"Upland Software, Inc."
+2793,Mesa,810332,MESA AIR GROUP INC
+2796,Way,23675,Con-way Inc.
+2801,GitLab,1653482,Gitlab Inc.
+2805,Samsara,1530163,"Samsara Luggage, Inc."
+2809,Micron Technology,723125,MICRON TECHNOLOGY INC
+2816,Cencora,1140859,"Cencora, Inc."
+2821,Comcast,1166691,COMCAST CORP
+2836,Doximity,1516513,"Doximity, Inc."
+2843,Globe Life,320335,GLOBE LIFE INC.
+2847,Magna International,1093273,MAGNA ENTERTAINMENT CORP
+2851,PagerDuty,1568100,"PagerDuty, Inc."
+2864,Pluralsight,1725579,"Pluralsight, Inc."
+2871,DigitalOcean,1582961,"DigitalOcean Holdings, Inc."
+2886,Ibotta,1538379,"Ibotta, Inc."
+2899,FirstBank,778972,FIRSTBANK CORP
+2913,Bandwidth Inc.,1514416,Bandwidth Inc.
+2943,Net Health,916085,HEALTH NET INC
+2944,Capital City Bank Group,726601,CAPITAL CITY BANK GROUP INC
+2954,IQVIA,1478242,IQVIA HOLDINGS INC.
+2963,WESCO International,929008,WESCO INTERNATIONAL INC
+2964,Zumiez,1318008,Zumiez Inc
+2978,Venture Global LNG,2007855,"Venture Global, Inc."
+2997,Red Hat,1087423,RED HAT INC
+2998,Acadia Pharmaceuticals Inc.,1070494,ACADIA PHARMACEUTICALS INC
+3054,MARA,1507605,"MARA Holdings, Inc."
+3055,Rapid Micro Biosystems,1380106,"RAPID MICRO BIOSYSTEMS, INC."
+3074,Deluxe Media Inc.,27996,DELUXE CORP
+3110,LivaNova,1639691,LivaNova PLC
+3139,Mobile Solutions,842919,Xstream Mobile Solutions Corp
+3147,CarMax,1170010,CARMAX INC
+3174,HubSpot,1404655,HUBSPOT INC
+3192,Revolution Medicines,1628171,"Revolution Medicines, Inc."
+3197,Lamar Advertising Company,1090425,LAMAR ADVERTISING CO/NEW
+3200,FMC Corporation,37785,FMC CORP
+3226,Gener8,1443799,"Gener8 Maritime, Inc."
+3231,StandardAero,2025410,"StandardAero, Inc."
+3249,Recursion,1601830,"RECURSION PHARMACEUTICALS, INC."
+3258,Ozone,314227,"Ozone Man, Inc."
+3275,Alignment Healthcare,1832466,"Alignment Healthcare, Inc."
+3294,Weatherford,1453090,Weatherford International Ltd./Switzerland
+3299,First American Title,36047,FIRST AMERICAN CORP
+3308,Unisys,746838,UNISYS CORP
+3316,Zoetis Inc.,1555280,Zoetis Inc.
+3349,Aspen Technology,929940,ASPEN TECHNOLOGY INC /DE/
+3368,Capital Bank,1071992,CAPITAL BANK CORP
+3473,"TTM Technologies, Inc.",1116942,TTM TECHNOLOGIES INC
+3496,Q ANALYSTS LLC,6292,ANALYSTS INTERNATIONAL CORP
+3497,Septerna,1984086,"Septerna, Inc."
+3503,Neuberger Berman,1068144,NEUBERGER BERMAN INC
+3549,Avado,849101,AVADO BRANDS INC
+3551,Mesa Laboratories,724004,MESA LABORATORIES INC /CO
+3562,Stake Capital Group,351834,STAKE TECHNOLOGY LTD
+3568,Velo3D,1825079,"Velo3D, Inc."
+3570,Array,1100412,ARRAY BIOPHARMA INC
+3576,Fuse,319016,"Fuse Medical, Inc."
+3594,Church & Dwight,313927,CHURCH & DWIGHT CO INC /DE/
+3599,Gray Media,43196,"GRAY MEDIA, INC"
+3609,Winton,857907,WINTON FINANCIAL CORP
+3620,Federal Home Loan Bank Of Pittsburgh,1330399,Federal Home Loan Bank of Pittsburgh
+3623,Clubhouse,1389518,"Clubhouse Media Group, Inc."
+3643,The Scotts Miracle-Gro Company,825542,SCOTTS MIRACLE-GRO CO
+3651,Match Group,891103,"Match Group, Inc."
+3664,Equifax Inc.,33185,EQUIFAX INC
+3680,Firefly,803578,"FIREFLY NEUROSCIENCE, INC."
+3681,Zymeworks,1403752,Zymeworks Inc.
+3689,Kimball Electronics,1606757,"Kimball Electronics, Inc."
+3735,G Adventures,1419122,"Silverton Adventures, Inc."
+3749,Deluxe,27996,DELUXE CORP
+3771,Archipelago Analytics,1107389,ARCHIPELAGO HOLDINGS INC
+3807,Roivant Sciences,1635088,Roivant Sciences Ltd.
+3833,Limitless Management Group,1803977,Limitless X Holdings Inc.
+3850,Lumenis,1004945,LUMENIS LTD
+3861,Raymond James,720005,RAYMOND JAMES FINANCIAL INC
+3863,Telos Media,320121,TELOS CORP
+3865,Cognition,1455365,COGNITION THERAPEUTICS INC
+3875,CIMA+,833298,CIMA LABS INC
+3919,Gap International,39911,GAP INC
+3922,State Street,93751,STATE STREET CORP
+3931,Quanta Services,1050915,QUANTA SERVICES INC
+3937,Eversource Energy,72741,EVERSOURCE ENERGY
+3940,Inari Medical,1531048,"Inari Medical, Inc."
+3981,Disruptive Technologies,1498380,"ONLINE DISRUPTIVE TECHNOLOGIES, INC."

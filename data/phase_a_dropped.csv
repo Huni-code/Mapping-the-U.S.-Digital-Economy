@@ -1,0 +1,2500 @@
+company_id,company_name,cik,matched_name,reason
+1,PEAK6,1383312,"BROADRIDGE FINANCIAL SOLUTIONS, INC.",zero_overlap
+3,Optimum,744126,FIRST CHESTER COUNTY CORP,zero_overlap
+4,HiBob,1857044,"Indaptus Therapeutics, Inc.",zero_overlap
+5,Tapestry - Coach and Kate Spade,1116132,"TAPESTRY, INC.",low_jaccard
+6,Altana,57055,KV PHARMACEUTICAL CO /DE/,zero_overlap
+11,Templafy,1901606,Golub Capital Direct Lending Unlevered Corp,zero_overlap
+13,Augury,1269026,AMEDICA Corp,zero_overlap
+16,Trail of Bits,1609989,"Blue Buffalo Pet Products, Inc.",zero_overlap
+17,TransUnion,1552033,"TransUnion Holding Company, Inc.",low_jaccard
+23,Fora,1476204,Phillips Edison - ARC Shopping Center REIT Inc.,zero_overlap
+24,New York Life Insurance Company,1522690,"GWG Holdings, Inc.",zero_overlap
+25,PwC,1077552,GENTEK INC,zero_overlap
+26,"Fluent, Inc.",1460329,"IDI, Inc.",zero_overlap
+27,Liftoff,100517,"United Airlines Holdings, Inc.",zero_overlap
+28,Whatnot,1276591,HANSEN MEDICAL INC,zero_overlap
+31,Vercel,880584,SEAMLESS Corp,zero_overlap
+32,Luxury Presence,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+35,Trustpilot,1265521,Trustfeed Corp.,zero_overlap
+36,Flume Health,1332815,"RESIDENTIAL CAPITAL, LLC",zero_overlap
+37,Oso,1253557,Premier Beverage Group Corp,zero_overlap
+38,Opto Investments,1051627,AXT INC,zero_overlap
+39,firsthand Health Inc,1495584,"Firsthand Technology Value Fund, Inc.",low_jaccard
+40,RTB House,764765,NORTH PITTSBURGH SYSTEMS INC,zero_overlap
+41,Pontera,1289419,"Morningstar, Inc.",zero_overlap
+43,Kepler,1704715,"Alpha Metallurgical Resources, Inc.",zero_overlap
+44,Genius Sports,1858327,"dMY Technology Group, Inc. VI",zero_overlap
+46,Teachable,1766352,"Carrier EQ, LLC",zero_overlap
+49,Radar,1910139,Mobileye Global Inc.,zero_overlap
+50,Superhuman,1103837,CROWN MEDIA HOLDINGS INC,zero_overlap
+51,Circle,1008597,PLANET HOLLYWOOD INTERNATIONAL INC,zero_overlap
+52,Belvedere Trading,1050816,BELAIR CAPITAL FUND LLC,zero_overlap
+53,Notion,80661,PROGRESSIVE CORP/OH/,zero_overlap
+54,Hex,916545,TURBOCHEF TECHNOLOGIES INC,zero_overlap
+56,Bilt,109261,ZENITH NATIONAL INSURANCE CORP,zero_overlap
+57,PatientPoint,1715933,TCW Direct Lending VII LLC,zero_overlap
+59,Alchemy,1084876,NETTAXI INC,zero_overlap
+60,Vannevar,889423,SATCON TECHNOLOGY CORP,zero_overlap
+62,Coinbase,2013744,Bitwise Ethereum ETF,zero_overlap
+65,Blacksmith,1295947,"Prestige Brands Holdings, Inc.",zero_overlap
+66,Nourish,51253,INTERNATIONAL FLAVORS & FRAGRANCES INC,zero_overlap
+69,M13,1345626,"Citigroup Mortgage Loan Trust Inc., Series 2005-HE4",zero_overlap
+72,Gusto,1830232,Altimeter Growth Corp. 2,zero_overlap
+73,Block,1100441,REGENERATION TECHNOLOGIES INC,zero_overlap
+75,Philo,1060390,TWEETER HOME ENTERTAINMENT GROUP INC,zero_overlap
+77,Kalshi,780571,"ITRON, INC.",zero_overlap
+78,Rain,1872292,Rainmaker Worldwide Inc.,zero_overlap
+79,The Farmer's Dog,863015,ISLE OF CAPRI CASINOS INC,zero_overlap
+80,Grow Therapy,787784,AMERICAN RETIREMENT CORP,zero_overlap
+81,Formation Bio,722104,BIO TECHNOLOGY GENERAL CORP,low_jaccard
+82,Movable Ink,1435064,CEMTREX INC,zero_overlap
+83,Taskrabbit,47217,HP INC,zero_overlap
+88,January,1707817,Wells Fargo Commercial Mortgage Trust 2017-C38,zero_overlap
+89,Copia Automation,1805385,"Evolv Technologies Holdings, Inc.",zero_overlap
+91,Northwestern Mutual,1079577,STANCORP FINANCIAL GROUP INC,zero_overlap
+92,Grocery TV,870228,SYNERGY BRANDS INC,zero_overlap
+94,Axio,1310291,"SMARTPAY EXPRESS, INC.",zero_overlap
+95,Capco,1094019,NEWTEK BUSINESS SERVICES INC,zero_overlap
+98,FloQast,1816937,BOXABL Inc.,zero_overlap
+99,FreeWheel,1166691,COMCAST CORP,zero_overlap
+100,Agora RE,1437491,"Ecoark Holdings, Inc.",zero_overlap
+102,Current,874761,AES CORPORATION,zero_overlap
+103,Garner Health,1879726,Sidus Space Inc.,zero_overlap
+104,Hebbia,1289419,"Morningstar, Inc.",zero_overlap
+105,Riskified,1840317,Plum Acquisition Corp. I,zero_overlap
+106,Ethic,1168165,EXELON GENERATION CO LLC,zero_overlap
+108,BrainPOP,105319,"WW INTERNATIONAL, INC.",zero_overlap
+109,Xero,1606442,Morgan Stanley Bank of America Merrill Lynch Trust 2014-C16,zero_overlap
+110,Click Therapeutics,1280784,"Hercules Capital, Inc.",zero_overlap
+111,Citadel Securities,1353615,CURRENCYSHARES SWISS FRANC TRUST,zero_overlap
+112,Zocdoc,1509470,GSV Capital Corp.,zero_overlap
+114,Granted,1070235,BLACKBERRY Ltd,zero_overlap
+115,Sailor Health,785557,DLH Holdings Corp.,zero_overlap
+116,Applecart,883980,FIRST DATA CORP,zero_overlap
+119,Trumid,1831236,Bridgetown 2 Holdings Ltd,zero_overlap
+121,Rokt,1836967,ALKURI GLOBAL ACQUISITION CORP.,zero_overlap
+122,Citadel,716634,READING INTERNATIONAL INC,zero_overlap
+123,Adyen,1065088,EBAY INC,zero_overlap
+124,Postman,1297401,"DreamWorks Animation SKG, Inc.",zero_overlap
+125,monday.com,1828972,"BuzzFeed, Inc.",zero_overlap
+126,MassMutual,883232,C M LIFE INSURANCE CO,zero_overlap
+127,Wolverine Trading,110471,WOLVERINE WORLD WIDE INC /DE/,low_jaccard
+130,Wells Fargo,1349730,Banc of America Funding 2006-1 Trust,zero_overlap
+131,Monte Carlo,789570,MGM MIRAGE,zero_overlap
+132,Hometap,1717310,"Venture Lending & Leasing IX, Inc.",zero_overlap
+134,Brigit,933036,"UPBOUND GROUP, INC.",zero_overlap
+135,Posh,1611282,"PishPosh, Inc.",zero_overlap
+137,GameChanger,1089063,"DICK'S SPORTING GOODS, INC.",zero_overlap
+138,Collectors,1465130,"Mountain Renewables, Inc.",zero_overlap
+139,People Inc.,1800227,IAC Inc.,zero_overlap
+141,Apex Fintech Solutions,1820302,"Bakkt Holdings, Inc.",zero_overlap
+142,360Learning,1794669,"Shift4 Payments, Inc.",zero_overlap
+143,AKASA,1509991,Kosmos Energy Ltd.,zero_overlap
+144,Empathy,16918,"CONSTELLATION BRANDS, INC.",zero_overlap
+147,Cash App,1522540,"Marqeta, Inc.",zero_overlap
+148,Upside,97210,"TERADYNE, INC",zero_overlap
+149,Addition Wealth,1292580,"SI Financial Group, Inc.",zero_overlap
+151,Standard Template Labs,1133416,GALECTIN THERAPEUTICS INC,zero_overlap
+153,LeafLink,1522767,MARIMED INC.,zero_overlap
+154,Mirakl,1576427,Criteo S.A.,zero_overlap
+157,Topline Pro,913241,"STEVEN MADDEN, LTD.",zero_overlap
+159,Flatiron Health,831547,SPECTRUM PHARMACEUTICALS INC,zero_overlap
+162,Smartly,1932244,Lever Global Corp,zero_overlap
+163,Fairly Even,105016,WATSCO INC,zero_overlap
+164,Attain,885988,INTEGRAMED AMERICA INC,zero_overlap
+167,Smartling,1435064,CEMTREX INC,zero_overlap
+168,Marble Health,1093434,"NexCen Brands, Inc.",zero_overlap
+169,Spark Advisors,1606268,"Via Renewables, Inc.",zero_overlap
+170,Justworks,927066,DAVITA INC.,zero_overlap
+171,Celonis,1373715,"ServiceNow, Inc.",zero_overlap
+173,Assembled,1637736,ELECTRAMECCANICA VEHICLES CORP.,zero_overlap
+174,Huntress,1600890,"Melrose Bancorp, Inc.",zero_overlap
+175,Metropolis Technologies,1919369,VISTA CREDIT STRATEGIC LENDING CORP.,zero_overlap
+177,Clear Street,2086545,Art Technology Acquisition Corp.,zero_overlap
+178,Crunchyroll,732717,AT&T INC.,zero_overlap
+179,Superblocks,1826011,"Banzai International, Inc.",zero_overlap
+180,Square,1512673,"Block, Inc.",zero_overlap
+181,Canoe,742685,CHALONE WINE GROUP LTD,zero_overlap
+184,Tastewise,1915328,Israel Acquisitions Corp,zero_overlap
+185,"Findigs, Inc.",1850938,"WTI Fund X, Inc.",zero_overlap
+188,Wise,1297014,Wise Metals Group LLC,mega_cap_hijack:meta
+189,Share Local Media,65011,MEREDITH CORP,zero_overlap
+190,Flatfile,1828318,Rodgers Silicon Valley Acquisition Corp,zero_overlap
+192,Hudson River Trading,1490927,Franklin BSP Lending Corp,zero_overlap
+193,Afterpay,1512673,"Block, Inc.",zero_overlap
+194,Chapter,23341,CONGOLEUM CORP,zero_overlap
+195,TIDAL,1020017,INX Inc,zero_overlap
+197,Particle Health,948320,"LifeMD, Inc.",zero_overlap
+199,Endpoint,1468666,SecureWorks Corp,zero_overlap
+200,CIM Group,908311,CIM Commercial Trust Corp,low_jaccard
+202,Project Expedition,798528,ODYSSEY MARINE EXPLORATION INC,zero_overlap
+203,GoodWork,896985,Destination Maternity Corp,zero_overlap
+204,Nexamp,1020859,UNITED NATURAL FOODS INC,zero_overlap
+205,FIA Tech,1456189,Leatt Corp,zero_overlap
+206,Pursuit,884219,"Pursuit Attractions & Hospitality, Inc.",low_jaccard
+208,ISS (Institutional Shareholder Services),1295172,RiskMetrics Group Inc,zero_overlap
+209,Company 3,1211351,"New York & Company, Inc.",low_jaccard
+212,Placements.io,894871,"theMaven, Inc.",zero_overlap
+213,GroundTruth,1157817,"SITO MOBILE, LTD.",zero_overlap
+214,GWI,1012620,GENESEE & WYOMING INC,zero_overlap
+215,Bitly,1811972,Barings Capital Investment Corp,zero_overlap
+216,Coleman Research,1056239,L 3 COMMUNICATIONS HOLDINGS INC,zero_overlap
+217,Default,40729,Ally Financial Inc.,zero_overlap
+218,Nuvo,1492426,Horizon Pharma plc,zero_overlap
+219,Moab,1421461,"Intrepid Potash, Inc.",zero_overlap
+220,Maesa,1593936,"Michaels Companies, Inc.",zero_overlap
+221,DoiT,1389034,Kallo Inc.,zero_overlap
+222,Stack Overflow,1393883,"DHI GROUP, INC.",zero_overlap
+225,Veritran,1534154,Ipsidy Inc.,zero_overlap
+226,Zip,920522,"ESSEX PROPERTY TRUST, INC.",zero_overlap
+227,Board of Innovation,1084554,LIGHTBRIDGE Corp,zero_overlap
+229,Magic Spoon,2034037,Siddhi Acquisition Corp,zero_overlap
+230,Chilton Trust,1864943,FGI Industries Ltd.,zero_overlap
+231,Distinguished Programs,776867,WHITE MOUNTAINS INSURANCE GROUP LTD,zero_overlap
+232,Flagler Health,799231,ALMOST FAMILY INC,zero_overlap
+233,Scientech Research,26324,CURTISS WRIGHT CORP,zero_overlap
+234,Ensemble,1108727,"iPCS, INC",zero_overlap
+237,Convene Hospitality Group,1358656,Millennium India Acquisition CO Inc.,zero_overlap
+238,Goldbelly,2082149,Daedalus Special Acquisition Corp.,zero_overlap
+239,Candid,1739410,Rallybio Corp,zero_overlap
+243,Ada Health,946644,HEMISPHERX BIOPHARMA INC,zero_overlap
+244,OXIO,1122787,ROXIO INC,zero_overlap
+248,Chicory,1173489,PARTHUSCEVA INC,zero_overlap
+249,Innisfree M&A Incorporated,771298,FRUIT OF THE LOOM INC /DE/,zero_overlap
+250,Sequen AI,1710350,"Bit Digital, Inc",zero_overlap
+253,Betterment,1092367,SYCAMORE NETWORKS INC,zero_overlap
+254,PSP Investments,1275158,NOODLES & Co,zero_overlap
+255,Zip Co,1662991,Sezzle Inc.,zero_overlap
+256,Brennan Center for Justice,19612,TCF FINANCIAL CORP,zero_overlap
+257,"Mission Capital Advisors, LLC",1578732,"Marcus & Millichap, Inc.",zero_overlap
+258,Milliman,895421,MORGAN STANLEY,zero_overlap
+259,Collibra,1873441,Blockchain Coinvestors Acquisition Corp. I,zero_overlap
+261,ABI Research,1272842,AIRGAIN INC,zero_overlap
+262,Pinecone,1004724,"REGIONAL HEALTH PROPERTIES, INC",zero_overlap
+263,Huge,1445941,China Chemical Corp.,zero_overlap
+264,Interplay Venture Capital,1057232,INTERPLAY ENTERTAINMENT CORP,low_jaccard
+268,Uphold Inc.,1487906,"CACHET FINANCIAL SOLUTIONS, INC.",zero_overlap
+269,Burson,1110783,MONSANTO CO /NEW/,zero_overlap
+271,Miratech,1490349,Medley Capital Corp,zero_overlap
+272,Situation,1029299,"DELTEK, INC",zero_overlap
+273,Reserv,1467434,"Petron Energy II, Inc.",zero_overlap
+275,CRAFTSMAN+,1399352,"COOL TECHNOLOGIES, INC.",zero_overlap
+276,Prose,46765,"Helmerich & Payne, Inc.",zero_overlap
+277,Energy Impact Partners,1691077,"EVmo, Inc.",zero_overlap
+279,Guggenheim Partners,1422105,Noranda Aluminum Holding CORP,zero_overlap
+282,Obligo,1830315,BANK 2020-BNK29,zero_overlap
+284,Esusu,1617640,"ZILLOW GROUP, INC.",zero_overlap
+285,CLSA,1502377,"Contango ORE, Inc.",zero_overlap
+286,Caraway Home,1365038,LEAF GROUP LTD.,zero_overlap
+290,B Capital,775473,GREATER BAY BANCORP,zero_overlap
+291,Pillsbury Winthrop Shaw Pittman,4611,AMERICAN BILTRITE INC,zero_overlap
+294,rag & bone,912463,GUESS INC,zero_overlap
+295,emnify,1350653,"Alphatec Holdings, Inc.",zero_overlap
+296,MSIG USA,75288,OXFORD INDUSTRIES INC,zero_overlap
+298,Ramp,789933,NACCO INDUSTRIES INC,zero_overlap
+301,Bombas,216228,ITT Corp,zero_overlap
+302,Coaction Global,1818844,"Virios Therapeutics, Inc.",zero_overlap
+303,Epoch Capital,910057,EPOCH BIOSCIENCES INC,low_jaccard
+304,Brightfield Strategies,1769804,"Augmedix, Inc.",zero_overlap
+305,Novellia,1076522,ICTV Brands Inc.,zero_overlap
+306,Reflex Robotics,1607962,ReWalk Robotics Ltd.,low_jaccard
+308,Backbase,1546679,"MOBETIZE, CORP.",zero_overlap
+309,Reindeer AI,1543418,Trilogy Metals Inc.,zero_overlap
+310,AREA 17,1421865,"Innocent, Inc.",zero_overlap
+311,Rebag,1848821,Global Technology Acquisition Corp. I,zero_overlap
+312,The Agile Monkeys,1935979,Biohaven Ltd.,zero_overlap
+314,Acai Travel,904020,ATLANTIC COAST AIRLINES HOLDINGS INC,zero_overlap
+316,ESW,1082278,ENVIRONMENTAL SOLUTIONS WORLDWIDE INC,zero_overlap
+317,Blank Street,1222333,SPDR GOLD TRUST,zero_overlap
+319,HelloFresh,1846163,Tio Tech A,zero_overlap
+321,ClearView Healthcare Partners,1479419,"Kala Pharmaceuticals, Inc.",zero_overlap
+323,Paces,812150,BNP RESIDENTIAL PROPERTIES INC,zero_overlap
+324,Serhant,742112,INVACARE CORP,zero_overlap
+325,Grafana Labs,1582961,"DigitalOcean Holdings, Inc.",zero_overlap
+326,Altus Group,1585101,"HINES GLOBAL INCOME TRUST, INC.",zero_overlap
+328,Operative,785161,HEALTHSOUTH CORP,zero_overlap
+329,DLG (Digital Luxury Group),1715933,TCW Direct Lending VII LLC,zero_overlap
+330,Enhanced Games,1265848,US VR Global.com Inc.,zero_overlap
+332,Hang,1030860,LAM SW INC,zero_overlap
+333,Wiz,1162896,"Wizard World, Inc.",zero_overlap
+334,Darktrace,1162112,"RigNet, Inc.",zero_overlap
+335,Dalet,896841,AVID TECHNOLOGY INC,zero_overlap
+337,MKTG,14280,MARKETING SERVICES GROUP INC,zero_overlap
+338,Co-Star,888793,FIDELITY NATIONAL INFORMATION SOLUTIONS INC,zero_overlap
+340,Soda,811419,Natural Resources USA Corp,zero_overlap
+341,Valo Health,1538927,"Forma Therapeutics Holdings, Inc.",zero_overlap
+342,CAMP,1011395,Geospatial Corp,zero_overlap
+343,Antenna,1463101,"Enphase Energy, Inc.",zero_overlap
+348,Near Space Labs,1856725,"Rani Therapeutics Holdings, Inc.",zero_overlap
+349,Rillet,51434,INTERNATIONAL PAPER CO /NEW/,zero_overlap
+351,RWS Global,1442236,Quest Resource Holding Corp,zero_overlap
+353,Pylon,1499717,"Staffing 360 Solutions, Inc.",zero_overlap
+355,Search Atlas,1441816,"MongoDB, Inc.",zero_overlap
+356,DriveWealth,1807846,MONEYLION INC.,zero_overlap
+358,Benepass,708821,PAR TECHNOLOGY CORP,zero_overlap
+359,WeightWatchers,105319,WEIGHT WATCHERS INTERNATIONAL INC,zero_overlap
+360,Vistar Media,1283699,"T-Mobile US, Inc.",zero_overlap
+361,Deel,803578,"FIREFLY NEUROSCIENCE, INC.",zero_overlap
+362,Pexip,840715,CLEARONE INC,zero_overlap
+364,Augment Risk,56873,KROGER CO,zero_overlap
+366,Adaptive Security,858877,CISCO SYSTEMS INC,zero_overlap
+367,IPG DXTRA,51644,"INTERPUBLIC GROUP OF COMPANIES, INC.",zero_overlap
+369,Mitiga Security Inc.,1342514,Atlas America Series 26-2005 L.P.,zero_overlap
+371,Spanfeller Media Group,1593195,"tronc, Inc.",zero_overlap
+372,Carda Health,849706,ADVANCED ENVIRONMENTAL RECYCLING TECHNOLOGIES INC,zero_overlap
+373,Dream Three,1518336,"Virtual Learning Company, Inc.",zero_overlap
+374,Hopper,200155,COLORADO INTERSTATE GAS CO,zero_overlap
+375,CXG,1335793,CNX Gas Corp,zero_overlap
+376,Apple Bank For Savings,1851322,North Haven Private Income Fund LLC,zero_overlap
+377,Covera Health,1839998,Digital Transformation Opportunities Corp.,zero_overlap
+379,STADIUM,1708176,Hall of Fame Resort & Entertainment Co,zero_overlap
+380,Gen II Fund Services,1918712,ARES STRATEGIC INCOME FUND,low_jaccard
+382,Galvanize Climate Solutions,1818212,Cohn Robbins Holdings Corp.,zero_overlap
+383,Russell Investments,1433642,Hamilton Lane INC,zero_overlap
+384,Marquee Brands,1560258,"electroCore, Inc.",zero_overlap
+385,Human Rights Watch,1084554,LIGHTBRIDGE Corp,zero_overlap
+386,Ovative Group,1029744,SONIC FOUNDRY INC,zero_overlap
+387,Flowcode,1842384,Belong Acquisition Corp.,zero_overlap
+389,People Data Labs,1709941,"BioAge Labs, Inc.",low_jaccard
+390,WSP USA,917225,SOLITARIO ZINC CORP.,zero_overlap
+391,Automatiq,1056696,MANHATTAN ASSOCIATES INC,zero_overlap
+392,Protege,1368622,AeroVironment Inc,zero_overlap
+396,German American Chambers of Commerce,884905,PRAXAIR INC,zero_overlap
+397,Channel Factory,1786835,Star Mountain Lower Middle-Market Capital Corp,zero_overlap
+399,Elixirr,1809104,"Alight, Inc. / Delaware",zero_overlap
+400,Wolters Kluwer,1429592,Guardian 8 Holdings,zero_overlap
+401,DFIN,1669811,"Donnelley Financial Solutions, Inc.",zero_overlap
+403,Arity,899051,ALLSTATE CORP,zero_overlap
+404,Locusview,780571,"ITRON, INC.",zero_overlap
+405,ALIS,1104506,INSMED Inc,zero_overlap
+406,VelocityEHS,1085621,Actua Corp,zero_overlap
+407,OpenX Technologies,733269,ACXIOM CORP,zero_overlap
+408,LogicGate,1778784,"Provident Bancorp, Inc. /MD/",zero_overlap
+409,Supernova Technology,1855485,"Calidi Biotherapeutics, Inc.",zero_overlap
+410,Kalderos,1580345,TriplePoint Venture Growth BDC Corp.,zero_overlap
+412,Hireology,1431766,FSP 303 East Wacker Drive Corp.,zero_overlap
+413,Geneva Trading,1128709,GENEVA STEEL HOLDINGS CORP,low_jaccard
+415,Arrive Logistics,1834628,"Lead Edge Growth Opportunities, Ltd",zero_overlap
+416,Simplex Trading,1136655,ARBINET THEXCHANGE INC,zero_overlap
+418,Applied Systems,6951,APPLIED MATERIALS INC /DE,low_jaccard
+419,Toro TMS,1581934,"American Capital Senior Floating, Ltd.",zero_overlap
+420,ABN AMRO Clearing USA LLC,1330568,iShares Silver Trust,zero_overlap
+423,"Vail Systems, Inc.",1612630,JOINT Corp,zero_overlap
+424,Beyond Finance,315958,CREDITRISKMONITOR COM INC,zero_overlap
+425,Strata Decision Technology,882835,ROPER TECHNOLOGIES INC,zero_overlap
+426,Inspira Financial,1617765,Salona Global Medical Device Corp,zero_overlap
+429,Cleo,1325878,Federal Home Loan Bank of Topeka,zero_overlap
+430,Nextpoint,1078075,NETSCOUT SYSTEMS INC,zero_overlap
+433,Bounteous,104169,WAL MART STORES INC,zero_overlap
+436,Federal Reserve Bank of Chicago,1051379,MIDWEST BANC HOLDINGS INC,zero_overlap
+437,Moov,1391127,"Limelight Networks, Inc.",zero_overlap
+438,Artera,722051,NCT GROUP INC,zero_overlap
+439,Perk,725876,Function,zero_overlap
+442,McCain Foods,1122380,"Thomas Equipment, Inc.",zero_overlap
+443,Enverus,101594,US ENERGY CORP,zero_overlap
+445,Bitnomial,1156375,CME GROUP INC.,zero_overlap
+446,Lessen LLC,1687229,Invitation Homes Inc.,zero_overlap
+447,FourKites,1157817,"SITO MOBILE, LTD.",zero_overlap
+448,"BigTime Software, Inc.",1976336,Antares Private Credit Fund,zero_overlap
+450,Adage Technologies,1613780,DBV Technologies S.A.,zero_overlap
+452,Chamberlain Group,1812554,Blue Owl Credit Income Corp.,zero_overlap
+453,McMaster-Carr,277135,GRAINGER W W INC,zero_overlap
+454,Basis,913778,BOSTON CAPITAL TAX CREDIT FUND IV LP,zero_overlap
+455,Fusion Risk Management,1834543,BlackRock Direct Lending Corp.,zero_overlap
+456,Motorola Solutions,918965,"SCANSOURCE, INC.",zero_overlap
+457,Wipfli,1880343,"AMAZE HOLDINGS, INC.",zero_overlap
+458,Halo Investing,814286,"Halo Companies, Inc.",low_jaccard
+461,Embroker,1857518,Jaguar Global Growth Corp I,zero_overlap
+462,tms,1088825,TIVO INC,zero_overlap
+463,IMC Trading,1818844,"Dogwood Therapeutics, Inc.",zero_overlap
+464,OCC,1000230,OPTICAL CABLE CORP,zero_overlap
+465,Purchasing Platform,1295810,"Sunstone Hotel Investors, Inc.",zero_overlap
+466,Alliant Credit Union,1428336,HEALTHEQUITY INC,zero_overlap
+467,"The HEICO Companies, LLC",857847,WORLDPORT COMMUNICATIONS INC,zero_overlap
+468,"SRAM, LLC",1377936,SARATOGA INVESTMENT CORP.,zero_overlap
+469,Ahold Delhaize USA,1139685,"20/20 Biolabs, Inc.",zero_overlap
+470,Vibes,72418,NORSTAN INC,zero_overlap
+471,YCharts,1289419,"Morningstar, Inc.",zero_overlap
+473,SteelSeries,1088162,MAD CATZ INTERACTIVE INC,zero_overlap
+475,Energy CX,1094831,"BGC Group, Inc.",zero_overlap
+479,Mastery Logistics Systems,793074,WERNER ENTERPRISES INC,zero_overlap
+481,CSC,23082,COMPUTER SCIENCES CORP,zero_overlap
+483,HERE Technologies,1474439,"Telenav, Inc.",zero_overlap
+484,Webflow,1848948,10X Capital Venture Acquisition Corp. III,zero_overlap
+485,Quantum Rise,709283,QUANTUM CORP /DE/,low_jaccard
+487,Bringg,1929589,MariaDB plc,zero_overlap
+488,NinjaTrader,17313,CAPITAL SOUTHWEST CORP,zero_overlap
+490,Allwyn North America,1532961,"NV5 Global, Inc.",zero_overlap
+491,Bloom Credit,1664703,Bloom Energy Corp,low_jaccard
+492,Center for Research in Security Prices (CRSP),98338,TSR INC,zero_overlap
+495,Pangea Money Transfer,1077319,PANGEA PETROLEUM CORP,low_jaccard
+497,"Keeper Security, Inc.",800457,DONEGAL GROUP INC,zero_overlap
+500,High Definition Vehicle Insurance (HDVI),1096637,SaviCorp,zero_overlap
+501,OSM Worldwide,101778,MARATHON OIL CORP,zero_overlap
+503,Atlas,808362,BAKER HUGHES INC,zero_overlap
+504,Winland Foods,57515,MARZETTI CO,zero_overlap
+506,Teton Ridge,812011,VAIL RESORTS INC,zero_overlap
+507,Front,1555074,Altisource Asset Management Corp,zero_overlap
+508,Digital Theatre,946454,BALLANTYNE OF OMAHA INC,zero_overlap
+509,Chomps,1691936,"STRYVE FOODS, INC.",zero_overlap
+511,Ensono,1115222,DUN & BRADSTREET CORP/NW,zero_overlap
+512,Utica National Insurance Group,1163345,PARTNERS TRUST FINANCIAL GROUP INC,zero_overlap
+513,Challenger Motor Freight Inc,1056696,MANHATTAN ASSOCIATES INC,zero_overlap
+516,Ariel Investments,1434524,ClearSign Technologies Corp,zero_overlap
+517,Libra Solutions,38723,1st FRANKLIN FINANCIAL CORP,zero_overlap
+518,SES Satellites,1041454,UPC POLSKA INC,zero_overlap
+520,Baird,1466815,"CAMBIUM LEARNING GROUP, INC.",zero_overlap
+521,Aligned Data Centers,1751743,Morgan Stanley Capital I Trust 2018-L1,zero_overlap
+522,IKS Health,1769804,"Augmedix, Inc.",zero_overlap
+523,C.A. Fortune,885307,JEWETT CAMERON TRADING CO LTD,zero_overlap
+526,PGA TOUR Superstore,879101,KIMCO REALTY CORP,zero_overlap
+529,Jorie AI,1567094,CNH Industrial N.V.,zero_overlap
+532,TopBloc,890564,ASGN Inc,zero_overlap
+533,Beghou Consulting,1913724,TPG Twin Brook Capital Income Fund,zero_overlap
+534,Decision Resources,1764046,CLARIVATE PLC,zero_overlap
+535,DV Trading,1682149,Datavault AI Inc.,zero_overlap
+536,Ascend Technologies,933454,VOXWARE INC,zero_overlap
+537,Amount,1003509,AMERICAN EXPRESS CREDIT ACCOUNT MASTER TRUST,zero_overlap
+539,SC&H,1651588,Citigroup Commercial Mortgage Trust 2015-GC33,zero_overlap
+542,City Year,1050957,"BAYOU CITY EXPLORATION, INC.",low_jaccard
+545,Beacon Funding,915909,HIRSCH INTERNATIONAL CORP,zero_overlap
+546,BMM Logistics Inc.,836102,TRANE INC.,zero_overlap
+547,CapTech,1096343,MARKEL CORP,zero_overlap
+550,ThinkMarkets,1591890,Fundamental Global Inc.,zero_overlap
+552,Hopscotch Primary Care,1603756,"Axonics, Inc.",zero_overlap
+554,Cognitiv,1279363,"WELLCARE HEALTH PLANS, INC.",zero_overlap
+557,Pegasus Logistics Group,1963685,RICHTECH ROBOTICS INC.,zero_overlap
+558,Arturo,1011738,OPEN PLAN SYSTEMS INC,zero_overlap
+559,Focused,1297937,"PARKS AMERICA, INC",zero_overlap
+563,Shipbob,1557424,"Venture Lending & Leasing VII, Inc.",zero_overlap
+566,Riveron,1314772,"Summer Infant, Inc.",zero_overlap
+567,BlueCloud,1742927,"REVIVA PHARMACEUTICALS HOLDINGS, INC.",zero_overlap
+571,INX International Ink Co.,1104038,"VerifyMe, Inc.",zero_overlap
+572,JLL Technologies,1037976,JONES LANG LASALLE INC,zero_overlap
+573,Formic,1413891,Mantra Venture Group Ltd.,zero_overlap
+574,Intersection,1422105,Noranda Aluminum Holding CORP,zero_overlap
+575,TechNexus Venture Collaborative,730263,THOR INDUSTRIES INC,zero_overlap
+577,Gould & Ratner,105608,AG&E HOLDINGS INC.,zero_overlap
+578,Hagerty Consulting,13156,"Galaxy Gaming, Inc.",zero_overlap
+579,Unite Us,1648087,AMERICAN REBEL HOLDINGS INC,zero_overlap
+580,NOCD,1824013,Health Assurance Acquisition Corp.,zero_overlap
+583,Credera,1856961,Blue Ocean Acquisition Corp,zero_overlap
+585,Concurrency,39677,"AV Homes, Inc.",zero_overlap
+586,Relation Insurance Services,1363829,Enstar Group LTD,zero_overlap
+587,Belay Diagnostics,1095981,"PLUS THERAPEUTICS, INC.",zero_overlap
+588,ARMStrong Insurance Services,7431,ARMSTRONG WORLD INDUSTRIES INC,low_jaccard
+589,Advanced Technology Services,1411690,"Bionano Genomics, Inc.",zero_overlap
+591,Keypath Education,1414932,Oaktree Specialty Lending Corp,zero_overlap
+592,Edgehog Trading,1817760,"SmartKem, Inc.",zero_overlap
+594,Capgemini,1062613,FAIRPOINT COMMUNICATIONS INC,zero_overlap
+595,Codal,356213,PINNACLE ENTERTAINMENT INC.,zero_overlap
+598,CodeHS,1590383,Swift Start Corp.,zero_overlap
+599,Citrus Health Group,860730,"HCA Healthcare, Inc.",zero_overlap
+600,Four Corners,764622,PINNACLE WEST CAPITAL CORP,zero_overlap
+602,Culligan,43300,GREAT ATLANTIC & PACIFIC TEA CO INC,zero_overlap
+603,Plante Moran,1552328,UBS-Barclays Commercial Mortgage Trust 2012-C2,zero_overlap
+605,Black Diamond Solutions,1647513,Noble Midstream Partners LP,zero_overlap
+607,Red Chalk Group,1359555,Pendrell Corp,zero_overlap
+608,Campspot,912593,SUN COMMUNITIES INC,zero_overlap
+609,Leap Services Inc.,1642862,"Venture Lending & Leasing VIII, Inc.",zero_overlap
+610,Marmon Holdings,1001838,SOUTHERN PERU COPPER CORP/,zero_overlap
+611,CADDi,930542,INTERLOGIX INC,zero_overlap
+612,Paradox,1421461,"Intrepid Potash, Inc.",zero_overlap
+613,Point C,1281761,REGIONS FINANCIAL CORP,zero_overlap
+615,Cars Commerce,1683606,Cars.com Inc.,low_jaccard
+616,Old Mission,1753886,Stonemor Inc.,zero_overlap
+620,Pariveda Solutions,1505611,"DecisionPoint Systems, Inc.",zero_overlap
+623,Dickson,876883,MDC PARTNERS INC,zero_overlap
+627,Hiscox,1576018,Third Point Reinsurance Ltd.,zero_overlap
+628,Synapse Health,1591517,Time Inc.,zero_overlap
+629,Prove,875320,VERTEX PHARMACEUTICALS INC / MA,zero_overlap
+630,RAPP,41719,GLATFELTER P H CO,zero_overlap
+632,C-4 Analytics,1633336,"Crescent Capital BDC, Inc.",zero_overlap
+633,Golub & Company,1476765,"Golub Capital BDC, Inc.",low_jaccard
+637,Study Group,704328,SOMANETICS CORP,zero_overlap
+641,BMO,2061936,BMO 2025-5C11 Mortgage Trust,low_jaccard
+643,Northwestern University,1698530,"EXICURE, INC.",zero_overlap
+644,Authentic,801351,WARNACO GROUP INC /DE/,zero_overlap
+645,Nomad Credit,65770,MICROVISION INC,zero_overlap
+646,Daniels Health,1306109,National Health Partners Inc,low_jaccard
+647,Medical Home Network,895665,"Clearday, Inc.",zero_overlap
+648,Marcel Digital,1577882,Vortex Blockchain Technologies Inc.,zero_overlap
+649,Machinio,1235468,LIQUIDITY SERVICES INC,zero_overlap
+651,Unifin Inc,943452,WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP,zero_overlap
+652,Witherite Law Group,714712,JUNIATA VALLEY FINANCIAL CORP,zero_overlap
+653,Fingerprint,735780,IDENTIX INC,zero_overlap
+654,King & Spalding,1076682,"POLARITYTE, INC.",zero_overlap
+657,"Farmer's Business Network, Inc. (FBN)",350868,"ITERIS, INC.",zero_overlap
+660,The Brattle Group,1449792,"PIONEER POWER SOLUTIONS, INC.",zero_overlap
+661,Numerator,842162,LEAR CORP,zero_overlap
+665,Convergint Federal Solutions,1383414,PENNANTPARK INVESTMENT CORP,zero_overlap
+666,Optibus,1842644,SILVERspac Inc.,zero_overlap
+667,Axis Communications,1397183,"Iveda Solutions, Inc.",zero_overlap
+669,Aviva Investors,1109448,ALLIANCEBERNSTEIN L.P.,zero_overlap
+670,Chicago Cannabis Company,1843162,"Chicago Atlantic BDC, Inc.",low_jaccard
+671,Hilco Global,1622175,BARINGTON/HILCO ACQUISITION CORP.,low_jaccard
+675,Faria Education Group,1790169,ZeroStack Corp.,zero_overlap
+676,MVP One,1492426,Horizon Pharma plc,zero_overlap
+677,Streamline Healthcare Solutions,1280784,"Hercules Capital, Inc.",zero_overlap
+681,MUFG,1359841,Hanesbrands Inc.,zero_overlap
+682,Virtus,883237,"VIRTUS INVESTMENT PARTNERS, INC.",low_jaccard
+684,Husch Blackwell,1559356,"Immune Therapeutics, Inc.",zero_overlap
+686,Acceleration Partners,17313,CAPITAL SOUTHWEST CORP,zero_overlap
+689,ASX,1381507,"LIMEADE, INC",zero_overlap
+691,"Neiman Brothers Company, Inc.",1063761,SIMON PROPERTY GROUP INC /DE/,zero_overlap
+692,84.51°,56873,KROGER CO,zero_overlap
+693,InterWorks,897723,SANMINA-SCI CORP,zero_overlap
+696,Global Relay,1812364,"Relay Therapeutics, Inc.",low_jaccard
+698,Faye,736473,F&M BANCORP,zero_overlap
+700,Jun Group,1776661,Advantage Solutions Inc.,zero_overlap
+702,Colliers,1452936,"KBS Strategic Opportunity REIT, Inc.",zero_overlap
+705,Tradewater,1297996,"DIGITAL REALTY TRUST, INC.",zero_overlap
+706,Stout,1617227,"J. Alexander's Holdings, Inc.",zero_overlap
+707,Empirical Security,1301704,"Empirical ventures, Inc.",low_jaccard
+708,Health Care Service Corporation,49071,HUMANA INC,zero_overlap
+709,Zefr,1616533,"Penguin Solutions, Inc.",zero_overlap
+710,Reactivate,1415935,Axius Inc.,zero_overlap
+711,SCB Group,1297846,"FCStone Group, Inc.",zero_overlap
+715,Maven Securities,1094831,"BGC Partners, Inc.",zero_overlap
+716,M1,1481832,PREFERRED APARTMENT COMMUNITIES INC,zero_overlap
+717,Amp Americas,916863,"INTEGRYS ENERGY GROUP, INC.",zero_overlap
+719,TEAM LEWIS,1745032,"Lodging Fund REIT III, Inc.",zero_overlap
+720,Honeycomb Insurance,717605,HEXCEL CORP /DE/,zero_overlap
+722,Atomic Object,23426,CONNECTICUT LIGHT & POWER CO,zero_overlap
+723,Billtrust,1774155,BTRS Holdings Inc.,zero_overlap
+724,Minitab,33619,ESTERLINE TECHNOLOGIES CORP,zero_overlap
+725,PHMG,1472174,PHYHEALTH Corp,zero_overlap
+727,Waltz Health,1551306,"Progyny, Inc.",zero_overlap
+728,VusionGroup,1563411,CONSTELLIUM SE,zero_overlap
+729,OAG,18647,CENTRAL HUDSON GAS & ELECTRIC CORP,zero_overlap
+731,3Cloud,1058290,COGNIZANT TECHNOLOGY SOLUTIONS CORP,zero_overlap
+733,"ProVal Technologies, Inc",798736,MANATRON INC,zero_overlap
+734,Pivot Energy,836157,LINDSAY MANUFACTURING CO,zero_overlap
+736,Rectangle,1392522,"Freescale Semiconductor, Ltd.",zero_overlap
+739,Golin,51644,INTERPUBLIC GROUP OF COMPANIES INC,zero_overlap
+740,Composites One,1540047,"Nexeo Solutions Holdings, LLC",zero_overlap
+741,Fidelity Life Association,75681,PAXAR CORP,zero_overlap
+742,Sony Honda Mobility of America,1116317,XM SATELLITE RADIO INC,zero_overlap
+743,SPINS,1353499,Max Sound Corp,zero_overlap
+744,Avalere Health,1619954,"Inovalon Holdings, Inc.",zero_overlap
+745,Adams Street Partners,1819810,Redwire Corp,zero_overlap
+746,Renovo Financial,1374881,Kingfish Holding Corp,zero_overlap
+747,Performance AI,1840502,Taboola.com Ltd.,zero_overlap
+748,Rang,1525773,Intelsat S.A.,zero_overlap
+750,GIANTS Software GmbH,712515,ELECTRONIC ARTS INC.,zero_overlap
+751,C2C,1031028,GLOBECOMM SYSTEMS INC,zero_overlap
+753,TTX Company,934612,BURLINGTON NORTHERN SANTA FE CORP,zero_overlap
+755,Onbe,1860424,Onex Direct Lending BDC Fund,zero_overlap
+756,Fragomen,1090872,AGILENT TECHNOLOGIES INC,zero_overlap
+759,WIN Home Inspection,911147,CENTURY CASINOS INC /CO/,zero_overlap
+761,Basis Global,105132,WD 40 CO,zero_overlap
+763,SALT XC,1118148,AMERICAN PHYSICIANS CAPITAL INC,zero_overlap
+764,"Regal Securities, Inc.",1322387,"INTELLIGENTIAS, INC.",zero_overlap
+765,Project Farma,1599117,"Mentor Capital, Inc.",zero_overlap
+766,Marquette Associates,764065,CLEVELAND CLIFFS INC,zero_overlap
+767,MAK-SYSTEM,1009463,GLOBAL MED TECHNOLOGIES INC,zero_overlap
+768,Berlin Packaging,1812554,Blue Owl Credit Income Corp.,zero_overlap
+770,HOPPR,920760,LENNAR CORP /NEW/,zero_overlap
+775,Dyson,1372533,"EMTA Holdings, Inc.",zero_overlap
+777,Xirgo Technologies,1477294,Sensata Technologies Holding plc,zero_overlap
+778,Saga Education,1331451,Federal Home Loan Bank of Chicago,zero_overlap
+779,Tavern Research,1526796,"Ignite Restaurant Group, Inc.",zero_overlap
+780,The Scion Group,1031203,GROUP 1 AUTOMOTIVE INC,zero_overlap
+781,CMG (Capital Markets Gateway),1125532,MFC DEVELOPMENT CORP,zero_overlap
+782,Portage Point Partners,1925531,"New Mountain Guardian IV BDC, L.L.C.",zero_overlap
+784,Point B,1281761,REGIONS FINANCIAL CORP,zero_overlap
+785,Burwood Group,716634,READING INTERNATIONAL INC,zero_overlap
+787,InVita Healthcare Technologies,1467373,Accenture plc,zero_overlap
+789,Mintel,1438943,Stevia First Corp.,zero_overlap
+790,Puttshack,1063761,SIMON PROPERTY GROUP INC /DE/,zero_overlap
+792,"PLS Financial Services, Inc.",1216752,PIONEER FINANCIAL SERVICES INC,low_jaccard
+793,Antares Capital LP,1655050,"Bain Capital Specialty Finance, Inc.",low_jaccard
+794,"Wiss, Janney, Elstner Associates, Inc.",71691,NEW YORK TIMES CO,zero_overlap
+795,TIAA,946155,TIAA REAL ESTATE ACCOUNT,low_jaccard
+796,Stryke,1718500,"Axil Brands, Inc.",zero_overlap
+797,"Jet Support Services, Inc.",1303849,"Avantair, Inc",zero_overlap
+799,Industrious,1720580,"Adicet Bio, Inc.",zero_overlap
+800,Notified,875622,BIOSPECIFICS TECHNOLOGIES CORP,zero_overlap
+802,Thrive Market,1642862,"Venture Lending & Leasing VIII, Inc.",zero_overlap
+803,Doodle Labs,748268,"Red Cat Holdings, Inc.",zero_overlap
+807,King's Hawaiian,1101020,OVERHILL FARMS INC,zero_overlap
+809,Babylist,1816708,"Owlet, Inc.",zero_overlap
+810,ChowNow,1849580,Waverley Capital Acquisition Corp. 1,zero_overlap
+811,"BAE Systems, Inc.",1172243,MTC TECHNOLOGIES INC,zero_overlap
+812,GumGum,1337619,"ENVESTNET, INC.",zero_overlap
+814,Golden Hippo,1837532,Apollo Debt Solutions BDC,zero_overlap
+815,Centerfield,721994,LAKELAND FINANCIAL CORP,zero_overlap
+816,"Munchkin, Inc.",1096752,ENERGIZER HOLDINGS INC,zero_overlap
+817,Million Dollar Baby Co.,1293593,"Synutra International, Inc.",zero_overlap
+818,Axle Health,948320,"LifeMD, Inc.",zero_overlap
+819,NBCUniversal,1166691,COMCAST CORP,zero_overlap
+820,Crexi,1057352,"COSTAR GROUP, INC.",zero_overlap
+821,HRL Laboratories,12927,BOEING CO,zero_overlap
+822,Scratch Financial,1680228,Kaskad Corp.,zero_overlap
+823,Atticus,1326160,Duke Energy CORP,zero_overlap
+825,Identity Digital,1805833,"System1, Inc.",zero_overlap
+826,Red 6,1136294,GLOBAL POWER EQUIPMENT GROUP INC.,zero_overlap
+827,Golden Pet Brands,1530950,"Post Holdings, Inc.",zero_overlap
+828,Nexus Studios,1591890,FG Nexus Inc.,low_jaccard
+829,Abacus Wealth Partners,1004434,"AFFILIATED MANAGERS GROUP, INC.",zero_overlap
+830,Quest Global Technologies,1688126,Crypto Co,zero_overlap
+837,Goodwin,708819,MCDERMOTT INTERNATIONAL INC,zero_overlap
+838,Innovative Metrics,1739942,SolarWinds Corp,zero_overlap
+839,Parkade,36369,FIRST HARTFORD CORP,zero_overlap
+840,emids,1011432,"CYNERGISTEK, INC",zero_overlap
+841,BH Properties,792935,ETHEMA HEALTH Corp,zero_overlap
+843,tvScientific,1506293,"PINTEREST, INC.",zero_overlap
+845,Genex,5513,Unum Group,zero_overlap
+847,Petra Brands,1342126,Morgans Hotel Group Co.,zero_overlap
+850,Ranker,737207,"Marina Biotech, Inc.",zero_overlap
+851,Swoogo,1655050,"Bain Capital Specialty Finance, Inc.",zero_overlap
+853,APM Music,1378950,"U.S. Auto Parts Network, Inc.",zero_overlap
+854,Space Kinetic Corp.,1487439,Kinetic Resources Corp.,low_jaccard
+855,Tala,929887,APOLLO GROUP INC,zero_overlap
+856,Trusted Media Brands,1568385,"Bright Mountain Media, Inc.",low_jaccard
+858,Tubi,1754301,Fox Corp,zero_overlap
+860,Exploding Kittens,1704711,"Funko, Inc.",zero_overlap
+861,Tires Easy,42582,GOODYEAR TIRE & RUBBER CO /OH/,zero_overlap
+862,SHEIN Technology LLC,1762322,"SHIFT TECHNOLOGIES, INC.",zero_overlap
+865,Rebel Space Technologies,728385,"China Youth Media, Inc.",zero_overlap
+867,IESE Solutions,1563699,Covisint Corp,zero_overlap
+868,Third Way Health,1083446,"Astrana Health, Inc.",low_jaccard
+869,Sony,1053676,SIELOX INC,zero_overlap
+870,Raymond West,1067419,MISSION WEST PROPERTIES INC,low_jaccard
+871,Pickford AI,917251,AGREE REALTY CORP,zero_overlap
+874,Altruist,1646576,Rito Group Corp.,zero_overlap
+875,Create Music Group,1319161,Warner Music Group Corp.,low_jaccard
+876,Princess Polly,1865107,A.K.A. BRANDS HOLDING CORP.,zero_overlap
+877,Murphy Research,743367,BAR HARBOR BANKSHARES,zero_overlap
+878,Avantus,1501729,FS Energy & Power Fund,zero_overlap
+879,Obagi,1375247,"Obagi Medical Products, Inc.",low_jaccard
+880,Skydance Media,2041610,Paramount Skydance Corp,low_jaccard
+881,UNITED COLLECTIVE,100517,UAL CORP /DE/,zero_overlap
+882,Forager AI,1200375,"CODEXIS, INC.",zero_overlap
+884,Vendo,1548237,"Fixed Income Trust for Prudential Financial, Inc. Notes, Series 2012-1",zero_overlap
+885,"Lakeshore Learning Materials, LLC",1825248,Franklin BSP Capital Corp,zero_overlap
+886,Zwift,1078207,"NAUTILUS, INC.",zero_overlap
+888,Mediahub Worldwide,51644,"INTERPUBLIC GROUP OF COMPANIES, INC.",zero_overlap
+889,Nylon Technology,1673985,AdvanSix Inc.,zero_overlap
+890,Spotter,1053650,OMEGA PROTEIN CORP,zero_overlap
+892,Sensei,1276591,HANSEN MEDICAL INC,zero_overlap
+893,RPA,110471,WOLVERINE WORLD WIDE INC /DE/,zero_overlap
+895,PlayStation,946581,TAKE TWO INTERACTIVE SOFTWARE INC,zero_overlap
+896,First Resonance,1027702,"EPIX Pharmaceuticals, Inc.",zero_overlap
+899,Cloud9 Esports,1817071,Horizon Acquisition Corp,zero_overlap
+900,Deepdub,1141284,ACTELIS NETWORKS INC,zero_overlap
+902,PSD Citywide,820901,ARETE INDUSTRIES INC,zero_overlap
+903,Pear Suite,1835567,"Pear Therapeutics, Inc.",low_jaccard
+904,Tap With Us,1119190,"TAP REAL ESTATE TECHNOLOGIES, INC.",low_jaccard
+905,Excel Sports Management,1420924,"Adapti, Inc.",zero_overlap
+907,Trax Technologies,923473,PALM HARBOR HOMES INC /FL/,zero_overlap
+908,Harman,800459,HARMAN INTERNATIONAL INDUSTRIES INC /DE/,low_jaccard
+909,Subject,880117,SANFILIPPO JOHN B & SON INC,zero_overlap
+911,Riot Games,1025996,KILROY REALTY CORP,zero_overlap
+912,Counterpart,1880661,TPG Inc.,zero_overlap
+914,Stone Kite,1286043,KITE REALTY GROUP TRUST,low_jaccard
+917,Huda Beauty,1271057,"CHINA-BIOTICS, INC",zero_overlap
+919,Freeform,820736,ORBITAL SCIENCES CORP /DE/,zero_overlap
+920,Sans,831001,CITIGROUP INC,zero_overlap
+921,Leach International Corporation,33619,ESTERLINE TECHNOLOGIES CORP,zero_overlap
+923,AKQA,1259429,TICC Capital Corp.,zero_overlap
+924,Allen Lund Company,1166003,"XPO Logistics, Inc.",zero_overlap
+925,Plots,1093273,MAGNA ENTERTAINMENT CORP,zero_overlap
+926,Interface AI,1084103,NETWOLVES CORP,zero_overlap
+927,United Field Services,908255,BORGWARNER INC,zero_overlap
+928,MDpanel,2033362,"Audax Private Credit Fund, LLC",zero_overlap
+929,The Wonderful Company,1374328,"FITLIFE BRANDS, INC.",zero_overlap
+930,AGBO,1912582,Feutune Light Acquisition Corp,zero_overlap
+933,Nadel,875296,LAPOLLA INDUSTRIES INC,zero_overlap
+934,Mitutoyo America Corporation,917491,FARO TECHNOLOGIES INC,zero_overlap
+935,Apres Nail,812011,VAIL RESORTS INC,zero_overlap
+936,Barry Katz Entertainment,1378846,"interclick, inc.",zero_overlap
+940,Emburse,2028686,SL Investment Fund II LLC,zero_overlap
+941,8020 Consulting,1327318,"TrueCar, Inc.",zero_overlap
+943,GreenSlate,1587987,Newtek Business Services Corp.,zero_overlap
+944,Custom Goods,1110803,ILLUMINA INC,zero_overlap
+946,Exos,1406666,"CALIX, INC",zero_overlap
+947,Liquid I.V.,1650696,"Laird Superfood, Inc.",zero_overlap
+948,InMarket,1474439,"Telenav, Inc.",zero_overlap
+950,Kyra,1364885,"Spirit AeroSystems Holdings, Inc.",zero_overlap
+951,Private Health Management,1499875,AMERICAN REALTY CAPITAL HEALTHCARE TRUST INC,zero_overlap
+952,First Media,1393526,"Kun Run Biotechnology, Inc.",zero_overlap
+954,Enervee,1412043,"OPOWER, INC.",zero_overlap
+956,SpaceX,1361983,ORBCOMM Inc.,zero_overlap
+957,Snappt,1280784,"Hercules Capital, Inc.",zero_overlap
+959,AuditBoard,2028686,SL Investment Fund II LLC,zero_overlap
+960,Qube Cinema,1308547,"Dolby Laboratories, Inc.",zero_overlap
+961,Fama Technologies,1852407,Fintech Ecosystem Development Corp.,zero_overlap
+962,Sensor Tower,1462013,Green Star Alternative Energy Inc.,zero_overlap
+963,Elementary,847597,TENGTU INTERNATIONAL CORP,zero_overlap
+964,Impact Theory,1783398,UWM Holdings Corp,zero_overlap
+965,SecureSpace,4457,AMERCO /NV/,zero_overlap
+966,Relo Metrics,1181232,SIRVA INC,zero_overlap
+969,Sony Pictures Imageworks,1435613,"Adelman Enterprises, Inc.",zero_overlap
+970,The Evoke Agency,1046832,EVOKE COMMUNICATIONS INC,low_jaccard
+971,"Systems Technology, Inc. (STI)",805792,BALDWIN TECHNOLOGY CO INC,zero_overlap
+973,Durin,1082038,DURECT CORP,zero_overlap
+974,CASE Agency,356213,PINNACLE ENTERTAINMENT INC,zero_overlap
+976,Schneider Innovations,885725,BOSTON SCIENTIFIC CORP,zero_overlap
+979,Matters,1168696,REGAL ENTERTAINMENT GROUP,zero_overlap
+981,Red Bull,1419995,DNA BRANDS INC,zero_overlap
+982,Miro,1307969,"024 Pharma, Inc.",zero_overlap
+983,bread & Butter,1507385,"VEREIT, Inc.",zero_overlap
+984,DIRECTV,1323639,180 Connect Inc.,zero_overlap
+985,B Consulting,1043186,"Stabilis Solutions, Inc.",zero_overlap
+986,Bee Techy,1587987,"NewtekOne, Inc.",zero_overlap
+987,Dreamscape Learn,1265848,US VR Global.com Inc.,zero_overlap
+988,B. Riley Securities,1065059,CENTRUS ENERGY CORP,zero_overlap
+989,United Pacific,885538,GREAT LAKES DREDGE & DOCK CORP,zero_overlap
+991,Information Technology Partners,788920,PRO DEX INC,zero_overlap
+992,Cotton On Group,1056696,MANHATTAN ASSOCIATES INC,zero_overlap
+993,Metal Toad,1083410,CIGMA METALS CORP,zero_overlap
+994,Insomniac Games,1491419,"LiveXLive Media, Inc.",zero_overlap
+995,Divergent,866535,SVI SOLUTIONS INC,zero_overlap
+996,Epic Games,1886894,"Snail, Inc.",zero_overlap
+997,Galaxia Technologies,1609880,MITU Resources Inc.,zero_overlap
+1000,Trace3,35527,FIFTH THIRD BANCORP,zero_overlap
+1001,Miso Robotics,934549,ACACIA RESEARCH CORP,zero_overlap
+1002,Revolution Prep,1432196,"Excel Global, Inc.",zero_overlap
+1003,Tendril,874761,AES CORP,zero_overlap
+1004,Bamboo,1440476,Asia Green Agriculture Corp,zero_overlap
+1005,Saylor,1050446,Strategy Inc,zero_overlap
+1006,Mapped,1111665,TELECOMMUNICATION SYSTEMS INC /FA/,zero_overlap
+1008,Collier Simon,61398,TELLURIAN INC. /DE/,zero_overlap
+1009,Clocktower Group,827230,MICROFINANCIAL INC,zero_overlap
+1010,The Agency RE,1550695,Performant Financial Corp,zero_overlap
+1011,Boulevard,921112,LIBERTY PROPERTY TRUST,zero_overlap
+1012,Sensei Ag,1840780,Local Bounti Corporation/DE,zero_overlap
+1014,Akido Labs,1010470,PROVIDENT FINANCIAL HOLDINGS INC,zero_overlap
+1017,Universal Music Group,1122787,ROXIO INC,zero_overlap
+1018,Absurd Ventures,1027915,HEALTH GRADES INC,zero_overlap
+1019,Tower 28 Beauty,1048055,PHYSICAL SPA & FITNESS INC,zero_overlap
+1020,Jam City,1821742,"DPCM Capital, Inc.",zero_overlap
+1021,Sidecar Health,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+1022,Next Health,1498021,"ExamWorks Group, Inc.",zero_overlap
+1024,DocMagic,1122388,ELLIE MAE INC,zero_overlap
+1025,Hankey Group,1419554,Bone Biologics Corp,zero_overlap
+1027,HONK Technologies,1557424,"Venture Lending & Leasing VII, Inc.",zero_overlap
+1028,Hedgehog,1108205,CURIS INC,zero_overlap
+1031,Vistex,783324,VISTA GOLD CORP,zero_overlap
+1033,That's No Moon Entertainment,35527,FIFTH THIRD BANCORP,zero_overlap
+1035,AAXIS,1289848,Huron Consulting Group Inc.,zero_overlap
+1036,GOAT Group,1065088,EBAY INC,zero_overlap
+1037,GungHo Online Entertainment America,1753373,INKY INC.,zero_overlap
+1039,Petra Funds Group,1854149,Agriculture & Natural Solutions Acquisition Corp,zero_overlap
+1040,Crossroads Health,946644,HEMISPHERX BIOPHARMA INC,zero_overlap
+1041,Concept Arts,712515,ELECTRONIC ARTS INC.,low_jaccard
+1042,Fuel Industries,790708,IMPCO TECHNOLOGIES INC,zero_overlap
+1045,Belong,1003740,ASHTON TECHNOLOGY GROUP INC,zero_overlap
+1048,Revenue.io,1805833,"System1, Inc.",zero_overlap
+1051,Network Optix,944739,TRANSWITCH CORP /DE,zero_overlap
+1052,Future,1007800,SIPEX CORP,zero_overlap
+1054,Wescom Financial,1298462,"CHARLIE MAC TRUST 2004-1, MORTGAGE PASS-THROUGH CERTIFICATES, SERIES 2004-1",zero_overlap
+1055,Tokio Marine North America Services,859139,DELPHI FINANCIAL GROUP INC/DE,zero_overlap
+1056,Movers+Shakers,876883,Stagwell Inc,zero_overlap
+1057,Flix,1385280,"Cinemark Holdings, Inc.",zero_overlap
+1058,Pixi Inc.,1451520,"Idle Media, Inc.",zero_overlap
+1059,Hadrian,890924,DATA RACE INC,zero_overlap
+1061,Fuel Cycle,1084554,LIGHTBRIDGE Corp,zero_overlap
+1063,LG Ad Solutions,1411085,MIKOJO Inc,zero_overlap
+1064,Stem Disintermedia,1834336,Finserv Acquisition Corp. II,zero_overlap
+1068,Gameloft,1294649,WALKER INNOVATION INC.,zero_overlap
+1072,AltaMed Health Services,879101,KIMCO REALTY CORP,zero_overlap
+1073,WORTHI,108516,WORTHINGTON INDUSTRIES INC,zero_overlap
+1076,TOMS,1077688,HOOKER FURNITURE CORP,zero_overlap
+1077,W4,1345091,"ARGENT SECURITIES INC., ASSET-BACKED PASS-THROUGH CERTIFICATES, SERIES 2005-W4",low_jaccard
+1078,Observable Space,1274211,SALAMON GROUP INC,zero_overlap
+1080,Wellcom Worldwide,833444,TYCO INTERNATIONAL LTD,zero_overlap
+1081,Connected Cannabis Co.,1290677,"Turning Point Brands, Inc.",zero_overlap
+1083,World Surf League,1387713,"NEULION, INC.",zero_overlap
+1084,Sofi Stadium and Hollywood Park,1818874,"SoFi Technologies, Inc.",low_jaccard
+1085,Tax Relief Advocates,1001258,ASTA FUNDING INC,zero_overlap
+1087,Foresight Mental Health,899923,MYRIAD GENETICS INC,zero_overlap
+1088,California FAIR Plan Association,899051,ALLSTATE CORP,zero_overlap
+1092,Inversion Space,109757,COMMERCE GROUP CORP /WI/,zero_overlap
+1093,LoopMe,1828972,"BuzzFeed, Inc.",zero_overlap
+1094,Liquid Death,9389,BALL Corp,zero_overlap
+1096,WET Design,863456,WET SEAL INC,low_jaccard
+1097,Terray Therapeutics,1701478,"Azitra, Inc.",zero_overlap
+1099,Hermeus,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+1103,Veo,1230355,"BAXANO SURGICAL, INC.",zero_overlap
+1104,The Bouqs Company,1365038,LEAF GROUP LTD.,zero_overlap
+1105,Nexon,785931,GOOD GUYS INC,zero_overlap
+1106,AdQuick,1579877,OUTFRONT Media Inc.,zero_overlap
+1107,Lightship,922341,SEABULK INTERNATIONAL INC,zero_overlap
+1108,Genies,886903,KRONOS INC,zero_overlap
+1109,AEG,1883984,"Alternus Clean Energy, Inc.",zero_overlap
+1111,Raya,1402062,"Lake Victoria Mining Company, Inc.",zero_overlap
+1113,Left Field Labs,876883,Stagwell Inc,zero_overlap
+1115,Rubicon Carbon,1158463,JETBLUE AIRWAYS CORP,zero_overlap
+1117,Complex NTWRK,1902794,MGO Global Inc.,zero_overlap
+1118,Mission Cloud,1402057,CDW Corp,zero_overlap
+1119,Ingrooves Music Group,1452164,"Beta Music Group, Inc.",low_jaccard
+1120,Darkroom,890465,NPS PHARMACEUTICALS INC,zero_overlap
+1123,Fabletics,1280784,"Hercules Capital, Inc.",zero_overlap
+1125,Critical Loop,1504678,"Loop Industries, Inc.",low_jaccard
+1127,"VIOLET ST HOLDINGS, LLC",1411494,"Apollo Asset Management, Inc.",zero_overlap
+1129,myKaarma,1634452,AB Private Credit Investors Corp,zero_overlap
+1130,Neilson Financial Services,1098146,PATRIOT NATIONAL BANCORP INC,zero_overlap
+1132,Altasciences,1479419,"Kala Pharmaceuticals, Inc.",zero_overlap
+1133,Huge Ape Media,1645842,Zymergen Inc.,zero_overlap
+1134,Tillster,70866,NCR CORP,zero_overlap
+1137,Odys Aviation,1577445,Odysight.ai Inc.,zero_overlap
+1138,Atom Tickets,1168696,REGAL ENTERTAINMENT GROUP,zero_overlap
+1139,New Story,919956,ADVOCAT INC,zero_overlap
+1140,Collider,351012,INTERMAGNETICS GENERAL CORP,zero_overlap
+1142,On Board Experiential,1636519,Madison Square Garden Co,zero_overlap
+1144,"Computrition, Inc.",1517391,Portus Holdings Inc.,zero_overlap
+1145,Subzero Labs,1141263,Li-on Motors Corp.,zero_overlap
+1149,Luminate,1407450,"Convio, Inc.",zero_overlap
+1150,ATTN,945212,RESIDENTIAL FUNDING MORTGAGE SECURITIES II INC,zero_overlap
+1151,Arbor Energy,710782,ARBOR ENTECH CORP,low_jaccard
+1152,Sahara AI,1330622,"KBS Real Estate Investment Trust, Inc.",zero_overlap
+1155,Caruso,1502756,Zayo Group LLC,zero_overlap
+1156,Radiant Nuclear,716314,GRAHAM CORP,zero_overlap
+1158,NAVER VIETNAM,1831236,Bridgetown 2 Holdings Ltd,zero_overlap
+1159,Orange Comet,1295947,"Prestige Brands Holdings, Inc.",zero_overlap
+1161,EarthCam,899629,ACADIA REALTY TRUST,zero_overlap
+1164,DT Professional Services,1842022,"DT Midstream, Inc.",low_jaccard
+1165,Urban Insight,356801,NATIONAL CONSUMER COOPERATIVE BANK /DC/,zero_overlap
+1166,Lodestar Space,889936,PRIVATEBANCORP INC,zero_overlap
+1168,Cargomatic,1691430,FREIGHT SOLUTION INC,zero_overlap
+1169,AE Studio,802301,SILICON GRAPHICS INC,zero_overlap
+1171,EasyHealth,1853928,Anthemis Digital Acquisitions I Corp,zero_overlap
+1173,Farmers Insurance,1792905,CSAIL 2019-C18 Commercial Mortgage Trust,zero_overlap
+1176,Rodeo FX,1053691,"Stratus Media Group, Inc",zero_overlap
+1177,Moloco,1447380,MOBIVITY HOLDINGS CORP.,zero_overlap
+1178,Telesign,1830063,North Atlantic Acquisition Corp,zero_overlap
+1180,Tapcart,1566610,"Verb Technology Company, Inc.",zero_overlap
+1182,Lightspark,310158,"Merck & Co., Inc.",zero_overlap
+1184,PR Volt,103872,"VOLT INFORMATION SCIENCES, INC.",low_jaccard
+1185,Starpath,858470,CABOT OIL & GAS CORP,zero_overlap
+1186,Happiest Baby,1786108,Trinity Capital Inc.,zero_overlap
+1187,AMIRI,1090061,OMNOVA SOLUTIONS INC,zero_overlap
+1188,"Bogaard Group International, Inc.",1358633,SENTIENT BRANDS HOLDINGS INC.,zero_overlap
+1189,Picture Shop,764478,BEST BUY CO INC,zero_overlap
+1191,Choco,1072725,GOLD RESERVE INC,zero_overlap
+1193,Think True,928340,CONSOLIDATED WATER CO LTD,zero_overlap
+1194,Sid Lee,46267,HAWTHORNE FINANCIAL CORP,zero_overlap
+1195,The Flex Company,1852771,Macondray Capital Acquisition Corp. I,zero_overlap
+1200,Two Chairs,1203900,CHINA EDUCATION ALLIANCE INC.,zero_overlap
+1201,Achieve,874866,CORVEL CORP,zero_overlap
+1202,Mochi Health,1057060,MARINEMAX INC,zero_overlap
+1204,Sprinter Health,1751707,United Express Inc.,zero_overlap
+1206,Freed,1533311,OLIE INC,zero_overlap
+1209,LogicMonitor,1552198,"WhiteHorse Finance, Inc.",zero_overlap
+1210,Outset AI,1534154,authID Inc.,zero_overlap
+1211,Cisco ThousandEyes,858877,"CISCO SYSTEMS, INC.",low_jaccard
+1212,FareHarbor,1075531,Booking Holdings Inc.,zero_overlap
+1213,Motive,1031107,PEREGRINE SYSTEMS INC,zero_overlap
+1215,Benchling,1834628,"Lead Edge Growth Opportunities, Ltd",zero_overlap
+1216,Gynger,1668010,"Digital Brands Group, Inc.",zero_overlap
+1217,Sendbird,1826011,7GC & Co. Holdings Inc.,zero_overlap
+1219,VSCO,1856437,Victoria's Secret & Co.,zero_overlap
+1220,Headway,914435,HEADWAY CORPORATE RESOURCES INC,low_jaccard
+1222,Domino Data Lab,1813658,"Tempo Automation Holdings, Inc.",zero_overlap
+1224,GC AI,1355096,Liberty Interactive Corp,zero_overlap
+1225,Airwallex,1845815,Payoneer Global Inc.,zero_overlap
+1226,Mixbook,1125920,SHUTTERFLY INC,zero_overlap
+1227,Noyo,949852,THANKSGIVING COFFEE CO INC,zero_overlap
+1229,"Mendaera, Inc.",1819394,"Matterport, Inc./DE",zero_overlap
+1230,imgix,1826000,"Latch, Inc.",zero_overlap
+1231,Apiphany,1436229,BITCOIN SHOP INC.,zero_overlap
+1233,Nooks AI,774415,"KING RESOURCES, INC.",zero_overlap
+1235,Redcar,1817760,"SmartKem, Inc.",zero_overlap
+1237,Minted,772263,NITCHES INC,zero_overlap
+1238,Vapi,1111335,VISTEON CORP,zero_overlap
+1240,Prisma,1404912,KKR & Co. L.P.,zero_overlap
+1245,Boxbot,1691077,"EVmo, Inc.",zero_overlap
+1247,Wisp,1586554,Target Group Inc.,zero_overlap
+1248,Cherry Technologies,2064124,"Figure Technology Solutions, Inc.",zero_overlap
+1256,Y Combinator,1830232,Altimeter Growth Corp. 2,zero_overlap
+1257,Nero,1212113,DEX MEDIA EAST LLC,zero_overlap
+1259,Curology,1580345,TriplePoint Venture Growth BDC Corp.,zero_overlap
+1260,Everlane,1051251,J CREW GROUP INC,zero_overlap
+1262,Conversica,892482,Qumu Corp,zero_overlap
+1263,Chartmetric,1554818,AUDDIA INC.,zero_overlap
+1266,Virta Health,1745078,"Vynleads, Inc.",zero_overlap
+1267,Berlin Brands Group,1564822,PINNACLE FOODS INC.,zero_overlap
+1270,Avela,915913,ALBEMARLE CORP,zero_overlap
+1272,Cumulus Vision,1058623,CUMULUS MEDIA INC,low_jaccard
+1273,Luma Health,1756497,Change Healthcare Inc.,zero_overlap
+1274,Roger Healthcare,1819576,Liquidia Corp,zero_overlap
+1278,Access Softek,935036,"ACI WORLDWIDE, INC.",zero_overlap
+1279,Doss,1322866,Kodiak Oil & Gas Corp,zero_overlap
+1281,Zumper,1057352,"COSTAR GROUP, INC.",zero_overlap
+1282,PostHog,1866692,"Amplitude, Inc.",zero_overlap
+1286,Ambi Robotics,78814,PITNEY BOWES INC /DE/,zero_overlap
+1287,Adjust,1751008,AppLovin Corp,zero_overlap
+1289,Lumafield,1805385,"Evolv Technologies Holdings, Inc.",zero_overlap
+1290,Get Grid,1380528,GC China Turbine Corp.,zero_overlap
+1291,"Brain Technologies, Inc.",1500198,NEUROONE MEDICAL TECHNOLOGIES Corp,zero_overlap
+1292,Tech Soft 3D,1456189,Leatt Corp,zero_overlap
+1293,Lunar,1768224,Arcturus Therapeutics Holdings Inc.,zero_overlap
+1296,Deep Origin,1044650,CALAIS RESOURCES INC,zero_overlap
+1297,Business Wire,355699,HABER INC,zero_overlap
+1298,Column,737210,LNB BANCORP INC,zero_overlap
+1299,Clearway Energy Group,1561894,"HA Sustainable Infrastructure Capital, Inc.",zero_overlap
+1300,Orum,54473,KANSAS CITY LIFE INSURANCE CO,zero_overlap
+1303,Wheelhouse,1050446,MICROSTRATEGY INC,zero_overlap
+1304,Bunkerhill Health,867028,"2050 MOTORS, INC.",zero_overlap
+1305,Activate,1630176,HEALTHY EXTRACTS INC.,zero_overlap
+1307,Extend,1790625,"AgileThought, Inc.",zero_overlap
+1309,Julius AI,1769624,Triller Group Inc.,zero_overlap
+1310,Emi Labs,1855467,"MOBIX LABS, INC",low_jaccard
+1313,Ready Set,1138951,LEAPFROG ENTERPRISES INC,zero_overlap
+1314,Instabase,1831874,Tribe Capital Growth Corp I,zero_overlap
+1315,House Rx,785557,TEAMSTAFF INC,zero_overlap
+1316,CaptivateIQ,1646188,Ondas Holdings Inc.,zero_overlap
+1317,Rox,1404912,KKR & Co. Inc.,zero_overlap
+1318,Kiavi,1882850,"Apollo Realty Income Solutions, Inc.",zero_overlap
+1319,Atomic AI,1501989,"CytomX Therapeutics, Inc.",zero_overlap
+1320,Honor,1321507,"SUPER DEAL.COM, INC.",zero_overlap
+1321,Delta Dental Insurance Company,1105055,DYNEGY HOLDINGS INC,zero_overlap
+1322,Akash Network,12927,BOEING CO,zero_overlap
+1327,Phantom AI,837010,AETNA LIFE INSURANCE & ANNUITY CO /CT,zero_overlap
+1332,Platzi,1853397,XPAC Acquisition Corp.,zero_overlap
+1333,Recurly,1703497,"YogaWorks, Inc.",zero_overlap
+1335,Monarch Money,1364856,"Monarch Financial Holdings, Inc.",low_jaccard
+1336,Huckberry,899629,ACADIA REALTY TRUST,zero_overlap
+1337,Simbe Robotics,877422,SpartanNash Co,zero_overlap
+1338,Listen Labs,1168061,EON LABS INC,low_jaccard
+1339,Zeta,1422142,ZETA ACQUISITION CORP II,low_jaccard
+1341,Bellwether Coffee,34903,FEDERAL REALTY INVESTMENT TRUST,zero_overlap
+1342,CalypsoAI,1048695,"F5, INC.",zero_overlap
+1346,Metronome,1308161,"TWENTY-FIRST CENTURY FOX, INC.",zero_overlap
+1348,Modern Health,1163732,VIRIDAX CORP,zero_overlap
+1352,AppDirect,1280784,"Hercules Capital, Inc.",zero_overlap
+1353,Epicrispr Biotechnologies,1652130,"Intellia Therapeutics, Inc.",zero_overlap
+1354,CropX Technologies,1753945,"Opti-Harvest, Inc.",zero_overlap
+1355,Recidiviz,1858503,Green Visor Financial Technology Acquisition Corp I,zero_overlap
+1356,Radiant Security,1171155,"RADIANT LOGISTICS, INC",low_jaccard
+1359,Guidebook Inc.,1426011,GUIDE HOLDINGS INC,zero_overlap
+1361,Glass Health,53347,JEFFERSON PILOT CORP,zero_overlap
+1362,David AI,819793,ALBANY INTERNATIONAL CORP /DE/,zero_overlap
+1363,Wildtype,1228627,"Opus Genetics, Inc.",zero_overlap
+1364,Tricon Residential,1360604,"HEALTHCARE TRUST OF AMERICA, INC.",zero_overlap
+1365,Waabi,1543151,"Uber Technologies, Inc",zero_overlap
+1369,Cobalt AI,1223550,BEKEM METALS INC,zero_overlap
+1371,Series Entertainment,1591517,Time Inc.,zero_overlap
+1372,Pierce Washington,1584549,"Village Farms International, Inc.",zero_overlap
+1373,Jones IT,704561,UNITED BANCORPORATION OF ALABAMA INC,zero_overlap
+1374,Gopuff,1629606,"Driven Deliveries, Inc.",zero_overlap
+1377,IXL Learning,1157408,"Stride, Inc.",zero_overlap
+1379,Abby Connect,2030781,"SailPoint, Inc.",zero_overlap
+1380,Sauce Labs,1982701,AB Private Lending Fund,zero_overlap
+1381,Conversion,1616543,"Senseonics Holdings, Inc.",zero_overlap
+1383,Tilt (formerly Empower),1289419,"Morningstar, Inc.",zero_overlap
+1385,90 Seconds,1377630,"National CineMedia, Inc.",zero_overlap
+1386,Parafin,1786108,Trinity Capital Inc.,zero_overlap
+1387,Kaiser Permanente,1414475,Western Gas Partners LP,zero_overlap
+1391,Zania,1058299,LIONBRIDGE TECHNOLOGIES INC /DE/,zero_overlap
+1393,Limelight Steel,1137204,MODAVOX INC,zero_overlap
+1394,Retail Zipline,1913724,AG Twin Brook Capital Income Fund,zero_overlap
+1395,Ascend Advanced Therapies,1087432,INTERMUNE INC,zero_overlap
+1396,Inflect,354699,"Advance Nanotech, Inc.",zero_overlap
+1398,Opaque System,1144326,APPLETON PAPERS INC/WI,zero_overlap
+1399,Axiom Bio,1030839,Synovics Pharmaceuticals,zero_overlap
+1403,Imbue,16918,"CONSTELLATION BRANDS, INC.",zero_overlap
+1405,"Phil, Inc",1003022,ZORAN CORP \DE\,zero_overlap
+1407,Valon,886346,KADANT INC,zero_overlap
+1408,Plain,351834,STAKE TECHNOLOGY LTD,zero_overlap
+1409,HackerEarth,1393883,"DHI GROUP, INC.",zero_overlap
+1411,ept AI,1223550,BEKEM METALS INC,zero_overlap
+1412,Costanoa Ventures,743758,"AiAdvertising, Inc.",zero_overlap
+1414,Quizlet,1859285,HireRight Holdings Corp,zero_overlap
+1415,PLUM Commercial Real Estate Lending,106535,WEYERHAEUSER CO,zero_overlap
+1417,BPM LLP,1645469,Monopar Therapeutics,zero_overlap
+1420,Jackpot,353944,INTERNATIONAL GAME TECHNOLOGY,zero_overlap
+1421,Pathstream,1844211,B. Riley Principal 250 Merger Corp.,zero_overlap
+1422,Megaport,1000683,BLONDER TONGUE LABORATORIES INC,zero_overlap
+1427,Sardine,745083,UNION BANKSHARES CO/ME,zero_overlap
+1429,Boku,1510976,"Blue Sun Media, Inc.",zero_overlap
+1432,Brilliant,808047,QKL Stores Inc.,zero_overlap
+1434,Unlearn.AI,1831363,"Terns Pharmaceuticals, Inc.",zero_overlap
+1439,ClassPass,1848097,SPK Acquisition Corp.,zero_overlap
+1440,Elation Health,1280784,"Hercules Capital, Inc.",zero_overlap
+1442,AnswerLab,1779020,"Danimer Scientific, Inc.",zero_overlap
+1443,Brimstone Energy,1376610,Allied Nevada Gold Corp,zero_overlap
+1444,Broccoli AI,1222497,MAINE & MARITIMES CORP,zero_overlap
+1446,Terawatt Infrastructure,1852940,GoGreen Investments Corp,zero_overlap
+1448,Framework Computer,23111,COMPUTER TASK GROUP INC,low_jaccard
+1449,Cornerstone Research,849146,Lifevantage Corp,zero_overlap
+1451,0x,743238,SPARTAN MOTORS INC,zero_overlap
+1452,Revenue Vessel,1059167,CONRAD INDUSTRIES INC,zero_overlap
+1453,Bloomlife Inc,1557424,"Venture Lending & Leasing VII, Inc.",zero_overlap
+1454,WestCoast Children's Clinic,1376074,"LEAF Equipment Leasing Income Fund III, L.P.",zero_overlap
+1457,Trunk,1041954,ITC DELTACOM INC,zero_overlap
+1458,Persona Identities,787253,NATURAL ALTERNATIVES INTERNATIONAL INC,zero_overlap
+1461,Sama,1819615,Clever Leaves Holdings Inc.,zero_overlap
+1462,Ubisoft,1002607,ATARI INC,zero_overlap
+1464,Shibumi,1354866,Byrna Technologies Inc.,zero_overlap
+1467,Arine,798528,ODYSSEY MARINE EXPLORATION INC,zero_overlap
+1471,Alembic,1077552,GENTEK INC,zero_overlap
+1472,Bugcrowd,1827248,Epiphany Technology Acquisition Corp.,zero_overlap
+1473,Railway,54480,KANSAS CITY SOUTHERN,zero_overlap
+1475,Oryx,1141185,KERR MCGEE CORP /DE,zero_overlap
+1478,Unto Labs,1443669,Proto Labs Inc,low_jaccard
+1480,Blue Matter,1355001,REALOGY CORP,zero_overlap
+1482,Reacher,1895262,Noble Corp plc,zero_overlap
+1485,Portex,64892,MENTOR CORP /MN/,zero_overlap
+1487,Anthropic,1018724,AMAZON COM INC,zero_overlap
+1489,Cobalt Robotics,1498148,Artificial Intelligence Technology Solutions Inc.,zero_overlap
+1490,Rasa,1651561,"Tabula Rasa HealthCare, Inc.",low_jaccard
+1491,GenEdit,1650664,"Editas Medicine, Inc.",zero_overlap
+1494,Commons,1482430,"KBS Real Estate Investment Trust III, Inc.",zero_overlap
+1495,IMEG,1524741,"U.S. SILICA HOLDINGS, INC.",zero_overlap
+1498,Forma,880765,DECRANE AIRCRAFT HOLDINGS INC,zero_overlap
+1501,Farther,310158,Merck & Co. Inc.,zero_overlap
+1503,Eight Sleep,1206264,"TEMPUR SEALY INTERNATIONAL, INC.",zero_overlap
+1504,Mithril,1832038,"Adagio Therapeutics, Inc.",zero_overlap
+1506,Augment CXM,1535079,"McorpCX, Inc.",zero_overlap
+1507,GoCardless,1423774,ZUORA INC,zero_overlap
+1510,Duetto,829224,STARBUCKS CORP,zero_overlap
+1512,Variance,1518715,"HomeStreet, Inc.",zero_overlap
+1518,Digital Eclipse Entertainment Partners,886328,E DIGITAL CORP,low_jaccard
+1519,Inscribe AI,945436,MEMC ELECTRONIC MATERIALS INC,zero_overlap
+1520,Swift Navigation,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+1522,xAI,1318605,"Tesla, Inc.",zero_overlap
+1525,ZBiotics,2085659,Silicon Valley Acquisition Corp.,zero_overlap
+1526,Cambio AI,1327811,"Workday, Inc.",zero_overlap
+1527,Formal,1375850,Hubei Minkang Pharmaceutical Ltd.,zero_overlap
+1529,Alantra,1903392,ClimateRock,zero_overlap
+1530,Loka,1200375,CODEXIS INC,zero_overlap
+1532,New Energy Nexus,1576873,AMERICAN BATTERY TECHNOLOGY Co,zero_overlap
+1534,LightSource,711665,PHOTOMEDEX INC,zero_overlap
+1535,Ansa Biotechnologies,1581280,Twist Bioscience Corp,zero_overlap
+1537,Hummingbird,1002638,OPEN TEXT CORP,zero_overlap
+1539,Edison Scientific,71241,NEW BRUNSWICK SCIENTIFIC CO INC,low_jaccard
+1540,Brightside,1692819,Vistra Energy Corp.,zero_overlap
+1541,Foxglove,1397951,"Mount Knowledge Holdings, Inc.",zero_overlap
+1542,ReadMe,1131806,COMMERCE ONE INC / DE/,zero_overlap
+1543,Koko,1491419,"LOTON, CORP",zero_overlap
+1546,Conviva,49071,HUMANA INC,zero_overlap
+1547,Scribd,1411057,"Cannabis Bioscience International Holdings, Inc.",zero_overlap
+1548,31st Union,925600,GORAN CAPITAL INC,zero_overlap
+1549,TrustArc,1107280,OCULUS INC.,zero_overlap
+1552,5AM Ventures,1600132,"Bellerophon Therapeutics, Inc.",zero_overlap
+1554,Stronghold,1050915,"QUANTA SERVICES, INC.",zero_overlap
+1556,Pendo.io,1090872,"AGILENT TECHNOLOGIES, INC.",zero_overlap
+1560,Rill Data,1069308,"Opexa Therapeutics, Inc.",zero_overlap
+1561,Amplifier Health,914025,PLANTRONICS INC /CA/,zero_overlap
+1562,Tenjin,1002235,CPG PARTNERS LP,zero_overlap
+1563,Bitwave,1376067,"Venture Lending & Leasing V, Inc.",zero_overlap
+1567,CloudX,1376321,"ChinaNet Online Holdings, Inc.",zero_overlap
+1569,Process Street,1409269,Venus Concept Inc.,zero_overlap
+1570,Yardzen,1823034,Hudson Executive Investment Corp. III,zero_overlap
+1572,Crossing Minds,720154,BIOANALYTICAL SYSTEMS INC,zero_overlap
+1574,Helix,1364100,"Cal Dive International, Inc.",zero_overlap
+1575,Nephila Advisors LLC,1096343,MARKEL GROUP INC.,zero_overlap
+1576,Vultron,99102,TRANS INDUSTRIES INC,zero_overlap
+1577,Multiply Labs,1624512,Boxlight Corp,zero_overlap
+1578,BetterUp,1757715,"Aterian, Inc.",zero_overlap
+1581,Rondo Energy,1850038,Hunt Companies Acquisition Corp. I,zero_overlap
+1582,Ketch,1026595,NEW VISUAL CORP,zero_overlap
+1583,Max AI,319016,"Fuse Medical, Inc.",zero_overlap
+1584,Campfire,1019650,UNIONBANCORP INC,zero_overlap
+1587,Tia,1001838,SOUTHERN COPPER CORP/,zero_overlap
+1588,Shippo,1082923,STAMPS.COM INC,zero_overlap
+1589,Strala,1334303,ICX TECHNOLOGIES INC,zero_overlap
+1590,Vida Health,1736865,"Golden Developing Solutions, Inc.",zero_overlap
+1591,Hightouch,1094360,RETEK INC,zero_overlap
+1593,Dialectic,1464790,"B. Riley Financial, Inc.",zero_overlap
+1595,CloudShare,1376067,"Venture Lending & Leasing V, Inc.",zero_overlap
+1596,Narvar,1580345,TriplePoint Venture Growth BDC Corp.,zero_overlap
+1597,Cresta,1175445,"Hawk Systems, Inc.",zero_overlap
+1599,Foundation Health,916085,HEALTH NET INC,low_jaccard
+1600,Creator Deck,1743759,"Corsair Gaming, Inc.",zero_overlap
+1601,Lowe’s,105096,WAXMAN INDUSTRIES INC,zero_overlap
+1604,Liberty Mutual Insurance,100790,UNION CARBIDE CORP /NEW/,zero_overlap
+1606,2K,946581,TAKE TWO INTERACTIVE SOFTWARE INC,zero_overlap
+1607,MORSE Corp,96943,TELEFLEX INC,zero_overlap
+1608,Snap! Mobile,1355839,"Snap Interactive, Inc",low_jaccard
+1609,Carbon Robotics,1769759,MONOGRAM ORTHOPAEDICS INC,zero_overlap
+1610,Possible Finance,1388319,"U.S. Stem Cell, Inc.",zero_overlap
+1612,Ericsson,869561,RURAL CELLULAR CORP,zero_overlap
+1613,DoubleDown Interactive LLC,353944,INTERNATIONAL GAME TECHNOLOGY,zero_overlap
+1614,Blueprint,1704292,Zai Lab Ltd,zero_overlap
+1616,"Northwest Administrators, Inc",1267238,"ASSURANT, INC.",zero_overlap
+1617,Filson,1766478,"Angel Oak Mortgage REIT, Inc.",zero_overlap
+1620,Keywords Studios,103872,"VOLT INFORMATION SCIENCES, INC.",zero_overlap
+1621,Accolade,1540047,"Nexeo Solutions Holdings, LLC",zero_overlap
+1622,True Brands,1275283,REYNOLDS AMERICAN INC,zero_overlap
+1624,A Place for Mom,1464963,"THL Credit, Inc.",zero_overlap
+1625,NexTec Group,355766,Hallwood Group Inc,zero_overlap
+1626,Tin Can,912603,SCHNITZER STEEL INDUSTRIES INC,zero_overlap
+1627,Ware Malcomb,1097264,ALLOS THERAPEUTICS INC,zero_overlap
+1628,Truveta,872589,"REGENERON PHARMACEUTICALS, INC.",zero_overlap
+1629,Ai2,1099391,RESIDENTIAL ASSET MORTGAGE PRODUCTS INC,zero_overlap
+1630,Eigen Labs,1981535,"Sharplink, Inc.",zero_overlap
+1631,Acumatica,1236275,"SilverSun Technologies, Inc.",zero_overlap
+1634,Outreach,1330399,Federal Home Loan Bank of Pittsburgh,zero_overlap
+1636,Tenpoint Therapeutics,1815776,"LENZ Therapeutics, Inc.",low_jaccard
+1637,Blue Origin,1953988,Helio Corp /FL/,zero_overlap
+1639,Brighton Jones,1601485,Angion Biomedica Corp.,zero_overlap
+1640,AZX,1315255,"GTT Communications, Inc.",zero_overlap
+1641,Outpace Bio,1463361,"Unity Biotechnology, Inc.",zero_overlap
+1643,Pioneer Square Labs,1825497,Crucible Acquisition Corp,zero_overlap
+1646,Corcym,1639691,LivaNova PLC,zero_overlap
+1647,Idea Entity,38074,FOREST LABORATORIES INC,zero_overlap
+1648,Teague,1214605,"BONANZA OIL & GAS, INC.",zero_overlap
+1649,Ankrom Moisan,878436,TUT SYSTEMS INC,zero_overlap
+1654,A-Alpha Bio,1815442,"Kymera Therapeutics, Inc.",zero_overlap
+1655,BRINC Drones,1069183,"AXON ENTERPRISE, INC.",zero_overlap
+1657,Fenwick & West,1824502,Archer Aviation Inc.,zero_overlap
+1658,"Mercedes-Benz Research & Development North America, Inc.",1853513,"Mister Car Wash, Inc.",zero_overlap
+1661,Seattle Art Museum,933136,"WASHINGTON MUTUAL, INC",zero_overlap
+1662,Sound Transit,934612,BURLINGTON NORTHERN SANTA FE CORP,zero_overlap
+1665,CG Tech Services,860546,CORPORATE OFFICE PROPERTIES TRUST,zero_overlap
+1669,AGC Biologics,1492426,Horizon Therapeutics Public Ltd Co,zero_overlap
+1671,Forum One,899849,ELEPHANT & CASTLE GROUP INC,zero_overlap
+1672,Volt Athletics,854171,"GLOBAL AIRCRAFT SOLUTIONS, INC.",zero_overlap
+1673,IUNU,1681682,ENDRA Life Sciences Inc.,zero_overlap
+1676,Formations,319655,SAN JUAN BASIN ROYALTY TRUST,zero_overlap
+1677,Omnidian,867773,SUNPOWER CORP,zero_overlap
+1680,Grab,907649,FX ENERGY INC,zero_overlap
+1681,Spice AI,1127475,"Digital Brand Media & Marketing Group, Inc.",zero_overlap
+1683,Nytec,1467373,Accenture plc,zero_overlap
+1685,Magnify,1399521,LIHUA INTERNATIONAL INC.,zero_overlap
+1687,Artic Consulting,1543418,Trilogy Metals Inc.,zero_overlap
+1689,Toradex,1616533,"SMART Global Holdings, Inc.",zero_overlap
+1690,DigniFi,1838666,Build Acquisition Corp.,zero_overlap
+1692,NAES,106455,WESTMORELAND COAL CO,zero_overlap
+1693,Statsig,1866692,"Amplitude, Inc.",zero_overlap
+1694,APCO,311471,APCO OIL & GAS INTERNATIONAL INC,low_jaccard
+1695,MoxiWorks,1398987,Anywhere Real Estate Inc.,zero_overlap
+1699,Upstream USA,1792580,Ovintiv Inc.,zero_overlap
+1700,Valore Partners,1886799,Bright Green Corp,zero_overlap
+1701,Umoja Biopharma,1821586,Helix Acquisition Corp,zero_overlap
+1702,Payscale,1413507,SYNERGY RESOURCES CORP,zero_overlap
+1706,Friday Harbor,716783,LAFARGE NORTH AMERICA INC,zero_overlap
+1707,Foss Maritime Company,1130194,CROWLEY MARITIME CORP,low_jaccard
+1710,Luxor Technology,1829311,"BITMINE IMMERSION TECHNOLOGIES, INC.",zero_overlap
+1711,Auger,1078404,CAIS INTERNET INC,zero_overlap
+1714,impact.com,1854480,Focus Impact Acquisition Corp.,low_jaccard
+1715,Amperity,1046327,REALNETWORKS INC,zero_overlap
+1717,Arrived,791519,STAPLES INC,zero_overlap
+1718,Heard,788816,OGLETHORPE POWER CORP,zero_overlap
+1719,Coalfire,1022505,"SideChannel, Inc.",zero_overlap
+1720,Indigo Slate,1662972,"Blackstone Real Estate Income Trust, Inc.",zero_overlap
+1721,Firebolt,793952,HARLEY DAVIDSON INC,zero_overlap
+1728,Adaptive Biotechnologies Corp.,1874944,"Vacasa, Inc.",zero_overlap
+1729,"Navia Benefit Solutions, Inc.",1379785,"Barings BDC, Inc.",zero_overlap
+1730,Gemini,1816736,"Gemini Therapeutics, Inc. /DE",low_jaccard
+1733,Axon,1069183,TASER INTERNATIONAL INC,zero_overlap
+1735,Vix Technology,88205,SPX CORP,zero_overlap
+1736,Redapt,1551182,Eaton Corp plc,zero_overlap
+1737,PitchBook,1289419,"Morningstar, Inc.",zero_overlap
+1738,FlowPlay,1557424,"Venture Lending & Leasing VII, Inc.",zero_overlap
+1739,Sila Solutions Group,1093434,AETHER SYSTEMS INC,zero_overlap
+1742,WhiteHat Engineering,1352010,"EPAM Systems, Inc.",zero_overlap
+1744,Kalles Group,1301299,Siberian Energy Group Inc.,zero_overlap
+1745,Productiv,311505,PRINTRONIX INC,zero_overlap
+1748,Teleport,1537054,Gogo Inc.,zero_overlap
+1749,Plain Concepts,929994,ASSISTED LIVING CONCEPTS INC,low_jaccard
+1750,Pushpay,1869453,Blue Owl Technology Income Corp.,zero_overlap
+1751,Kotter,1078547,TRUE TEMPER SPORTS INC,zero_overlap
+1752,New Engen,1742313,Monroe Capital Income Plus Corp,zero_overlap
+1753,BECU,1782754,AZEK Co Inc.,zero_overlap
+1754,CommerceIQ,1757715,"Mohawk Group Holdings, Inc.",zero_overlap
+1755,Seeq,703360,LSI LOGIC CORP,zero_overlap
+1756,OfferUp,1830232,Altimeter Growth Corp. 2,zero_overlap
+1758,Twitch,1018724,AMAZON COM INC,zero_overlap
+1759,"IOActive, Inc.",1380277,"INFRAX SYSTEMS, INC.",zero_overlap
+1760,ExtraHop,1508655,"Sixth Street Specialty Lending, Inc.",zero_overlap
+1761,Northeastern University,1072379,NORTHWEST BIOTHERAPEUTICS INC,zero_overlap
+1763,Parse Biosciences,1487428,Horizon Technology Finance Corp,zero_overlap
+1764,Cat Daddy,946581,TAKE TWO INTERACTIVE SOFTWARE INC,zero_overlap
+1766,Appen,31978,EL PASO ELECTRIC CO /TX/,zero_overlap
+1768,iSpot.tv,1280784,"Hercules Capital, Inc.",zero_overlap
+1769,Finn Partners,1329606,Probe Manufacturing Inc,zero_overlap
+1771,Yotta Labs,1465470,NaturalShrimp Inc,zero_overlap
+1772,Echodyne,1861123,"Eikon Therapeutics, Inc.",zero_overlap
+1773,BDA,855876,SKY FINANCIAL GROUP INC,zero_overlap
+1774,RWS Group,878526,NATUS MEDICAL INC,zero_overlap
+1775,Imprint,896878,INTUIT INC,zero_overlap
+1776,"Coffman Engineers, Inc.",878004,CHUGACH ELECTRIC ASSOCIATION INC,zero_overlap
+1777,Retool,908315,GROW BIZ INTERNATIONAL INC,zero_overlap
+1779,Concord Technologies,1001115,OYO GEOSPACE CORP,zero_overlap
+1780,Sono Bello,1434737,"SPIRITS TIME INTERNATIONAL, INC.",zero_overlap
+1781,KPFF Consulting Engineers,1179929,MOLINA HEALTHCARE INC,zero_overlap
+1784,Ryan Companies,1040261,PEGASUS SOLUTIONS INC,zero_overlap
+1785,Freestone Capital Management,1466292,Cordia Bancorp Inc,zero_overlap
+1787,Rhythms,929987,GUIDANT CORP,zero_overlap
+1788,Carta,1484769,fuboTV Inc. /FL,zero_overlap
+1789,Blink UX,1378125,Toga Ltd,zero_overlap
+1790,"CARIAD, Inc.",812708,WELLMAN INC,zero_overlap
+1791,Pulse Labs,313616,DANAHER CORP /DE/,zero_overlap
+1792,Summation,1030471,UTSTARCOM INC,zero_overlap
+1793,Databricks,12239,Dominari Holdings Inc.,zero_overlap
+1794,Studio Wildcard,1886894,"Snail, Inc.",zero_overlap
+1795,Unify Consulting,1996192,Lakeside Holding Ltd,zero_overlap
+1797,Crosslake Technologies,1839434,EJF Acquisition Corp.,zero_overlap
+1798,Common Room,1084755,ARIBA INC,zero_overlap
+1799,PortX,1960847,Toppoint Holdings Inc.,zero_overlap
+1801,Textio,56679,KORN FERRY,zero_overlap
+1802,T-Mobile,1051470,CROWN CASTLE INTERNATIONAL CORP,zero_overlap
+1804,MacroHealth,926617,Aspira Women's Health Inc.,zero_overlap
+1805,Tanium,353944,INTERNATIONAL GAME TECHNOLOGY,zero_overlap
+1806,Zenoti,716643,REGIS CORP,zero_overlap
+1810,Flexport,1594805,SHOPIFY INC.,zero_overlap
+1811,First Orion,96536,TAYLOR DEVICES INC,zero_overlap
+1813,Ryan,355622,RYANS FAMILY STEAKHOUSES INC,zero_overlap
+1816,SanMar,103730,VISHAY INTERTECHNOLOGY INC,zero_overlap
+1818,Sia Partners,945436,MEMC ELECTRONIC MATERIALS INC,zero_overlap
+1819,Adora AI,1758488,ONESPAWORLD HOLDINGS Ltd,zero_overlap
+1820,SingleStore,1280784,"Hercules Capital, Inc.",zero_overlap
+1821,Praia Health,1632081,"HOMETOWN INTERNATIONAL, INC.",zero_overlap
+1822,System Six,859598,SEACOR HOLDINGS INC /NEW/,zero_overlap
+1823,Read AI,69970,NATIONAL CITY CORP,zero_overlap
+1825,Coinme,1273931,MONEYGRAM INTERNATIONAL INC,zero_overlap
+1826,SystImmune,14272,BRISTOL MYERS SQUIBB CO,zero_overlap
+1829,Tomo Mortgage,1099958,SANTANDER BANCORP,zero_overlap
+1832,Xpanse,1688568,DXC Technology Co,zero_overlap
+1834,Nexxen,1819928,"DoubleVerify Holdings, Inc.",zero_overlap
+1836,Carbon Direct,1843724,"LanzaTech Global, Inc.",zero_overlap
+1837,Runway,1653384,Runway Growth Finance Corp.,low_jaccard
+1839,Woven by Toyota,1848437,Cartica Acquisition Corp,zero_overlap
+1841,HealthPoint,57055,KV PHARMACEUTICAL CO /DE/,zero_overlap
+1843,Baidu,1745317,"Velodyne Lidar, Inc.",zero_overlap
+1846,Workato,1477720,"Asana, Inc.",zero_overlap
+1847,Zensar Technologies,1823707,Global Synergy Acquisition Corp.,zero_overlap
+1849,Infobip,1824677,One Equity Partners Open Water I Corp.,zero_overlap
+1850,Ankura,100790,UNION CARBIDE CORP /NEW/,zero_overlap
+1851,Providence Digital Innovation Group,1819928,"DoubleVerify Holdings, Inc.",zero_overlap
+1853,Casey Family Programs,42542,GOODRICH CORP,zero_overlap
+1855,Envoy,919013,WAVE SYSTEMS CORP,zero_overlap
+1856,Flexe,920691,TRIPOS INC,zero_overlap
+1858,QA Wolf,1502012,"QR Energy, LP",zero_overlap
+1859,Tinuiti,1737924,Nuveen Churchill Direct Lending Corp.,zero_overlap
+1860,TechSmart,1371011,"Switch & Data Facilities Company, Inc.",zero_overlap
+1861,Effectual,1107563,Sinoenergy CORP,zero_overlap
+1863,Panther Life Sciences,1355242,"Shrink Nanotechnologies, Inc.",zero_overlap
+1865,Rocket Software,1005387,GENSYM CORP,zero_overlap
+1867,MD Clarity,1358403,"BELLICUM PHARMACEUTICALS, INC",zero_overlap
+1868,Newfront,707606,SYSTEMS & COMPUTER TECHNOLOGY CORP,zero_overlap
+1869,boam,1494582,BOSTON OMAHA Corp,zero_overlap
+1871,Dura Digital,32604,EMERSON ELECTRIC CO,zero_overlap
+1872,BlackStone eIT,1277151,APPLE REIT SIX INC,zero_overlap
+1873,Samsung Electronics,1405495,"InterDigital, Inc.",zero_overlap
+1874,"AG Consulting Partners, Inc.",1467373,Accenture plc,zero_overlap
+1875,SeekOut,1070235,BLACKBERRY Ltd,zero_overlap
+1876,Temporal Technologies,1743725,"GRID DYNAMICS HOLDINGS, INC.",zero_overlap
+1877,Jobscan,1196501,HMS HOLDINGS CORP,zero_overlap
+1878,Optimum Energy,1376986,Tennessee Valley Authority,zero_overlap
+1879,"Pacific Capital Resource Group, Inc.",225648,COVANTA HOLDING CORP,zero_overlap
+1880,American Express Global Business Travel,1540947,"EQT Midstream Partners, LP",zero_overlap
+1881,Orchard Robotics,865415,ADEPT TECHNOLOGY INC,zero_overlap
+1883,Public Consulting Group,1196501,HMS HOLDINGS CORP,zero_overlap
+1884,Elantis Solutions Inc.,354190,GALLAGHER ARTHUR J & CO,zero_overlap
+1885,SurveyMonkey,1739936,SVMK Inc.,zero_overlap
+1894,MAQ Software,1360214,"HARROW HEALTH, INC.",zero_overlap
+1896,Syncro,1139185,BCOM3 GROUP INC,zero_overlap
+1897,Stripe,949859,CFC INTERNATIONAL INC,zero_overlap
+1899,Pendulum,1781755,"BRP Group, Inc.",zero_overlap
+1903,The Pokémon Company International,812076,TOPPS CO INC,zero_overlap
+1905,Submittable,1174891,"CalEthos, Inc.",zero_overlap
+1907,.efficiently,1133555,HUSKER AG  LLC,zero_overlap
+1909,Aurelian,27093,U.S. GOLD CORP.,zero_overlap
+1910,Loti,1158419,SPEEDEMISSIONS INC,zero_overlap
+1913,WONGDOODY,892222,REDHOOK ALE BREWERY INC,zero_overlap
+1915,Glowforge,1845550,Plum Acquisition Corp. III,zero_overlap
+1918,Gravity Payments,1377167,"Financial Gravity Companies, Inc.",low_jaccard
+1919,Brooks Running,1846804,"Big Sky Growth Partners, Inc.",zero_overlap
+1920,Best Buy,1121785,SLS INTERNATIONAL INC,zero_overlap
+1922,Loot Labs,1828016,Playtika Holding Corp.,zero_overlap
+1923,Promethean,1109879,COMPUTER SOFTWARE INNOVATIONS INC,zero_overlap
+1924,City Storage Systems,1575311,Brookfield DTLA Fund Office Trust Investor Inc.,zero_overlap
+1925,MCG Health,42542,GOODRICH CORP,zero_overlap
+1926,Ansira,17313,CAPITAL SOUTHWEST CORP,zero_overlap
+1927,Strong Tower Consulting,1034054,SBA COMMUNICATIONS CORP,zero_overlap
+1930,Steve Madden,913241,MADDEN STEVEN LTD,low_jaccard
+1933,PDQ,1001279,INTERNET AMERICA INC,zero_overlap
+1935,SSA Marine,3453,"Matson, Inc.",zero_overlap
+1936,Fresh Consulting,1135431,FRESH BRANDS INC,low_jaccard
+1937,Walker Sands,1913724,TPG Twin Brook Capital Income Fund,zero_overlap
+1938,Thrive Causemetics,1095315,PFSWEB INC,zero_overlap
+1940,Stone Press,1047202,GETTY IMAGES INC,zero_overlap
+1943,Nectar Social,753224,China Nutrifruit Group LTD,zero_overlap
+1945,QVC Group,1355096,Liberty Interactive Corp,zero_overlap
+1946,OneEnergy,1563922,Greenbacker Renewable Energy Co LLC,zero_overlap
+1948,Spring Health,19411,MAGELLAN HEALTH SERVICES INC,low_jaccard
+1949,Yubico,1044777,OneSpan Inc.,zero_overlap
+1950,ZT Systems,897723,SANMINA CORP,zero_overlap
+1952,NEOWIZ,712515,ELECTRONIC ARTS INC.,zero_overlap
+1953,Fractal,1529628,"Smart Sand, Inc.",zero_overlap
+1955,Premera Blue Cross,890846,UROPLASTY INC,zero_overlap
+1956,Clarify AI,1812360,FOXO TECHNOLOGIES INC.,zero_overlap
+1957,Stanley 1913,320303,METAL ARTS CO INC,zero_overlap
+1958,doxo,1337223,"Innovive Pharmaceuticals, Inc.",zero_overlap
+1959,Zoox,1035748,CALLIDUS SOFTWARE INC,zero_overlap
+1960,South Geeks,95572,"CLEAN WIND ENERGY TOWER, INC.",zero_overlap
+1962,Syndio,1634447,"ISUN, INC.",zero_overlap
+1964,Stoke Space,1280784,"Hercules Capital, Inc.",zero_overlap
+1966,WeWork,1638287,"NeuroBo Pharmaceuticals, Inc.",zero_overlap
+1967,Pocket Prep,356841,FRANKLIN ELECTRONIC PUBLISHERS INC,zero_overlap
+1968,Wargaming,1366561,SMARTSHEET INC,zero_overlap
+1969,XBOW,1069258,"KRATOS DEFENSE & SECURITY SOLUTIONS, INC.",zero_overlap
+1970,"Swift HR Solutions, Inc.",871763,MANPOWER INC /WI/,zero_overlap
+1971,First Street Foundation,885568,OLD DOMINION ELECTRIC COOPERATIVE,zero_overlap
+1976,Boundless Immigration,1816708,"Owlet, Inc.",zero_overlap
+1978,Levanta,1552979,Gankit Corp,zero_overlap
+1980,Mobile Integration Workgroup,1003607,ALTIGEN COMMUNICATIONS INC,zero_overlap
+1982,Cobot,97210,"TERADYNE, INC",zero_overlap
+1983,PicMonkey,1549346,"Shutterstock, Inc.",zero_overlap
+1986,Precor,1639825,"PELOTON INTERACTIVE, INC.",zero_overlap
+1987,Sound Credit Union,898018,MOUNTAIN BANK HOLDING CO,zero_overlap
+1991,Chair 10 Marketing,1057083,PC TEL INC,zero_overlap
+1992,MM Hayes,54473,KANSAS CITY LIFE INSURANCE CO,zero_overlap
+1993,Lenora Systems,1047202,GETTY IMAGES INC,zero_overlap
+1994,Opus Agency,884219,VIAD CORP,zero_overlap
+1996,iStreamplanet,1105705,TIME WARNER INC.,zero_overlap
+1997,Aloft,929545,"CONDOR HOSPITALITY TRUST, INC.",zero_overlap
+1998,Tethers Unlimited,890923,ZOLTEK COMPANIES INC,zero_overlap
+1999,Eddie Bauer,276641,SPIEGEL INC,zero_overlap
+2002,Tulip,802481,PILGRIMS PRIDE CORP,zero_overlap
+2003,"Vestmark, Inc.",1050446,MICROSTRATEGY INC,zero_overlap
+2005,Gradient AI,1582961,"DigitalOcean Holdings, Inc.",zero_overlap
+2006,Agero,908937,SIRIUS XM HOLDINGS INC.,zero_overlap
+2008,Sittercity,1437578,BRIGHT HORIZONS FAMILY SOLUTIONS INC.,zero_overlap
+2009,WHOOP,1083522,JONES SODA CO,zero_overlap
+2010,Workhuman,1462223,"Recruiter.com Group, Inc.",zero_overlap
+2011,Wasabi Technologies,1907982,D-Wave Quantum Inc.,zero_overlap
+2012,Cohere Health,1566469,"NantHealth, Inc.",zero_overlap
+2013,Federal Reserve Bank of Boston,80424,PROCTER & GAMBLE CO,zero_overlap
+2015,Forward Financing,805305,QUIKSILVER INC,zero_overlap
+2016,Bose,943032,PHOENIX GOLD INTERNATIONAL INC,zero_overlap
+2017,Britebound,1637147,"zSpace, Inc.",zero_overlap
+2019,Catalant Technologies,875315,TCSI CORP,zero_overlap
+2020,Acquia,1462223,"Truli Media Group, Inc.",zero_overlap
+2022,SOPHiA GENETICS,1403752,Zymeworks Inc.,zero_overlap
+2025,Tufin,1889668,Blue Owl Technology Finance Corp. II,zero_overlap
+2026,Jellyfish,1217021,"CHINA GROWTH DEVELOPMENT, INC.",zero_overlap
+2028,Kensho Technologies,64040,S&P Global Inc.,zero_overlap
+2029,STR,1095073,"EVEREST GROUP, LTD.",zero_overlap
+2030,Snyk,1800667,JFrog Ltd,zero_overlap
+2031,Advisor360,946155,TIAA REAL ESTATE ACCOUNT,zero_overlap
+2033,Piaggio Fast Forward,1009922,ENERGY EXPLORATION TECHNOLOGIES /,zero_overlap
+2034,Air Space Intelligence,1056239,L 3 COMMUNICATIONS HOLDINGS INC,zero_overlap
+2036,Hi Marley,1322505,"ALBIREO PHARMA, INC.",zero_overlap
+2037,Compa,1327811,"Workday, Inc.",zero_overlap
+2038,Nasuni,2028686,SL Investment Fund II LLC,zero_overlap
+2039,Nexthink,1838987,"Complete Solaria, Inc.",zero_overlap
+2040,Openly,887150,HAMPSHIRE GROUP LTD,zero_overlap
+2041,AcuityMD,1861795,Definitive Healthcare Corp.,zero_overlap
+2042,"Charted, Inc.",18255,CATO CORP,zero_overlap
+2043,Simply Business,86312,"TRAVELERS COMPANIES, INC.",zero_overlap
+2044,Bevi,1232582,ASHFORD HOSPITALITY TRUST INC,zero_overlap
+2045,Leader Bank,947661,DIEDRICH COFFEE INC,zero_overlap
+2046,SmartBear,1054721,BSQUARE CORP /WA,zero_overlap
+2049,Immersive,1088022,IPIX CORP,zero_overlap
+2050,Arm,711065,APPLIED MICRO CIRCUITS CORP,zero_overlap
+2052,mabl,1477246,S&W Seed Co,zero_overlap
+2053,Robin,1405260,MULTI-CORP INTERNATIONAL INC.,zero_overlap
+2054,Laudio,1081078,API Nanotronics Corp.,zero_overlap
+2055,Mentor Collective,1172058,UAG MENTOR ACQUISITION LLC,low_jaccard
+2057,Code Metal,1304280,Novelis Inc.,zero_overlap
+2060,Lightmatter,1835632,"Marvell Technology, Inc.",zero_overlap
+2062,"Sun Life Financial, Inc.",1099219,METLIFE INC,zero_overlap
+2064,APTIV,822411,"ImmunoCellular Therapeutics, Ltd.",zero_overlap
+2065,Unit4,824068,ATS MEDICAL INC,zero_overlap
+2067,LifeMine Therapeutics,1631574,Wave Life Sciences Ltd.,zero_overlap
+2068,SimpliSafe,1703056,ADT Inc.,zero_overlap
+2069,Dynamo Software,1142701,UNITED ONLINE INC,zero_overlap
+2070,Secure Code Warrior,1086600,ALLIANCE RESOURCE PARTNERS LP,zero_overlap
+2071,"Galatea Associates, LLC",86312,"TRAVELERS COMPANIES, INC.",zero_overlap
+2072,Guardsquare,1929589,MariaDB plc,zero_overlap
+2075,Digital.ai,1278752,MidCap Financial Investment Corp,zero_overlap
+2076,Crayon,1771995,American Picture House Corp,zero_overlap
+2078,White Label Agency,1416265,"PROSPER MARKETPLACE, INC",zero_overlap
+2081,Treeline Biosciences,1662579,"C4 Therapeutics, Inc.",zero_overlap
+2082,Pison,1125376,"ENSIGN GROUP, INC",zero_overlap
+2084,Toyota Research Institute,1482512,"Hudson Pacific Properties, Inc.",zero_overlap
+2085,Lazarus AI,793306,BLUE DOLPHIN ENERGY CO,zero_overlap
+2089,Flock Safety,1069183,"AXON ENTERPRISE, INC.",zero_overlap
+2092,Scandit,944075,"SOCKET MOBILE, INC.",zero_overlap
+2094,Worldwide TechServices,1365555,"Amtrust Financial Services, Inc.",zero_overlap
+2096,RFA,1021226,HOMECOM COMMUNICATIONS INC,zero_overlap
+2097,eGenesis,1404281,"Eledon Pharmaceuticals, Inc.",zero_overlap
+2100,JVS Boston,1356090,INTREXON CORP,zero_overlap
+2102,First Help Financial,1577310,Sequoia Mortgage Trust 2013-8,zero_overlap
+2104,Ratio Therapeutics,1869105,Helix Acquisition Corp. II,zero_overlap
+2105,Allego,1407463,Pioneer Southwest Energy Partners L.P.,zero_overlap
+2106,actnano,1603652,Urgent.ly Inc.,zero_overlap
+2109,Owl Labs,840715,CLEARONE INC,zero_overlap
+2112,Veracode,356028,"CA, INC.",zero_overlap
+2117,Philips,937556,MASIMO CORP,zero_overlap
+2118,Shine Associates,1308161,"TWENTY-FIRST CENTURY FOX, INC.",zero_overlap
+2119,Paddle,750901,FISCHER IMAGING CORP,zero_overlap
+2120,Northern Light,1022079,QUEST DIAGNOSTICS INC,zero_overlap
+2123,Harvard Business School,1088570,C BRIDGE INTERNET SOLUTIONS INC,zero_overlap
+2125,Lumeris,804753,CERNER CORP /MO/,zero_overlap
+2127,Point32Health,33992,"KINGSTONE COMPANIES, INC.",zero_overlap
+2128,HqO,215219,PROQUEST CO,zero_overlap
+2133,RxSense,1418076,SLR Investment Corp.,zero_overlap
+2134,Mention Me,884614,UGI CORP /PA/,zero_overlap
+2135,Bitsight Technologies,1280784,"Hercules Capital, Inc.",zero_overlap
+2137,inSegment,1506439,"SMTP, Inc.",zero_overlap
+2138,Proof (formerly Notarize),1114040,VALICERT INC,zero_overlap
+2139,billups,12927,BOEING CO,zero_overlap
+2140,Oxfam America,865754,SAUER DANFOSS INC,zero_overlap
+2141,Berkshire Bank,1088144,ROME BANCORP INC,zero_overlap
+2144,Salem Five Bank,1542299,"Georgetown Bancorp, Inc.",zero_overlap
+2147,ERG,930835,EDISON MISSION ENERGY,zero_overlap
+2151,Devoted Health,896262,AMEDISYS INC,zero_overlap
+2154,Merlin Labs,1850938,"WTI Fund X, Inc.",zero_overlap
+2155,Tuvoli,1823652,Zanite Acquisition Corp.,zero_overlap
+2161,Elevatebio,1754068,"Allovir, Inc.",zero_overlap
+2162,Vendr,1421517,"Energy Recovery, Inc.",zero_overlap
+2163,Endicott College,1143848,LSB CORP,zero_overlap
+2164,NEXT Insurance,1157972,DJ ORTHOPEDICS INC,zero_overlap
+2165,Logically,1051920,NORTHLAND CABLE TELEVISION INC,zero_overlap
+2166,HP Hood LLC,48465,HORMEL FOODS CORP /DE/,zero_overlap
+2168,Coverys Inc.,1160951,"DUCK CREEK TECHNOLOGIES, INC.",zero_overlap
+2169,2020 Onsite,1749704,"AGILITI, INC. \DE",zero_overlap
+2171,Workshop Venture Partners,1145124,INVESTOOLS INC,zero_overlap
+2172,Rhino Federated Computing,1351636,"SOUNDTHINKING, INC.",zero_overlap
+2174,GreenLight Fund,1159154,REPUBLIC AIRWAYS HOLDINGS INC,zero_overlap
+2176,Cell Signaling Technology,884731,ARIAD PHARMACEUTICALS INC,zero_overlap
+2178,Ballentine Partners,1208790,"China Energy Recovery, Inc.",zero_overlap
+2179,RAI Institute,1821323,"Sigilon Therapeutics, Inc.",zero_overlap
+2180,CIC (Cambridge Innovation Center),1629205,Innovation1 Biotech Inc.,zero_overlap
+2181,Strategic Risk Solutions,1752039,"POSITIVE PHYSICIANS HOLDINGS,INC.",zero_overlap
+2183,Weiss Asset Management,1323639,"Ad.Venture Partners, Inc.",zero_overlap
+2184,Zealand Pharma,1377121,"Protagonist Therapeutics, Inc",zero_overlap
+2186,Berklee College of Music,805297,KRUPP INSURED PLUS II LTD PARTNERSHIP,zero_overlap
+2187,Genomics,77551,APPLERA CORP,zero_overlap
+2188,Activ Surgical,2006986,"Adagio Medical Holdings, Inc.",zero_overlap
+2190,Karen Clark & Company,2007587,"American Integrity Insurance Group, Inc.",zero_overlap
+2191,Firefly Health,1822359,DocGo Inc.,zero_overlap
+2197,Prudentia Sciences,1349436,SANDRIDGE ENERGY INC,zero_overlap
+2198,Addgene,1274792,MERRIMACK PHARMACEUTICALS INC,zero_overlap
+2199,FINTRX,2059033,FIGX Capital Acquisition Corp.,zero_overlap
+2202,Vectra AI,1634452,AB Private Credit Investors Corp,zero_overlap
+2203,Nedap,885475,Eco-Shift Power Corp.,zero_overlap
+2204,Creatio,1085392,PUGET ENERGY INC /WA,zero_overlap
+2207,Seurat Technologies,814547,FAIR ISAAC CORP,zero_overlap
+2208,Lone Rock Point,1879016,Ivanhoe Electric Inc.,zero_overlap
+2210,Databox,1020569,IRON MOUNTAIN INC/PA,zero_overlap
+2211,Accrete AI,1074828,"KNOW LABS, INC.",zero_overlap
+2212,New Balance,1165320,GB SCIENCES INC,zero_overlap
+2213,Fusion Worldwide,357020,LTX CORP,zero_overlap
+2214,Opensignal,1084048,"ZIFF DAVIS, INC.",zero_overlap
+2216,Later,1127703,PROASSURANCE CORP,zero_overlap
+2217,Bill & Melinda Gates Medical Research Institute,1532346,"Atreca, Inc.",zero_overlap
+2218,Tutor Intelligence,77543,TUTOR PERINI CORP,low_jaccard
+2219,Boost Robotics,1459188,"FUEL DOCTOR HOLDINGS, INC.",zero_overlap
+2220,Arcaea,1830214,"Ginkgo Bioworks Holdings, Inc.",zero_overlap
+2221,RCG Global Services,1466538,"COWEN GROUP, INC.",zero_overlap
+2222,Tomorrow.io,1838238,Pine Technology Acquisition Corp.,zero_overlap
+2223,Mend,1535379,"Cloudera, Inc.",zero_overlap
+2225,Adapt,1367644,Emergent BioSolutions Inc.,zero_overlap
+2227,"Applause App Quality, Inc.",1834543,BlackRock Direct Lending Corp.,zero_overlap
+2229,OX Security,807882,JACK IN THE BOX INC /NEW/,zero_overlap
+2230,Verve Motion,1045769,HYPERCOM CORP,zero_overlap
+2231,Silk,1110482,WINGS & THINGS INC,zero_overlap
+2234,Mass General Brigham,1503274,Quanterix Corp,zero_overlap
+2235,Anaqua,1287750,ARES CAPITAL CORP,zero_overlap
+2236,HYCU,1064122,SCOTTISH RE GROUP LTD,zero_overlap
+2238,Morph Management,25793,CROSS A T CO,zero_overlap
+2239,Bain Capital,1364099,"Innophos Holdings, Inc.",zero_overlap
+2240,Lantheus,1500157,"Lantheus Medical Imaging, Inc.",low_jaccard
+2241,Plymouth Rock Assurance,80661,PROGRESSIVE CORP/OH/,zero_overlap
+2242,Suitsupply,1856031,Vivid Seats Inc.,zero_overlap
+2245,Tessera Therapeutics,1652130,"Intellia Therapeutics, Inc.",low_jaccard
+2248,Citizens,1367859,Citizens Community Bancorp Inc.,low_jaccard
+2249,Aquant,1906324,QuidelOrtho Corp,zero_overlap
+2250,Squarepoint Capital,1183765,"Molecular Templates, Inc.",zero_overlap
+2251,Alignable,1494259,"CarGurus, Inc.",zero_overlap
+2252,Cramer,1080056,"THESTREET, INC.",zero_overlap
+2253,Istari Digital,1069353,CONEXANT SYSTEMS INC,zero_overlap
+2254,Sandbox Group,1512931,MONROE CAPITAL Corp,zero_overlap
+2255,Privafy,1413447,NXP Semiconductors N.V.,zero_overlap
+2257,Seaport Therapeutics,1535955,Lipocine Inc.,zero_overlap
+2258,Arbella Insurance Group,855931,POTASH CORP OF SASKATCHEWAN INC,zero_overlap
+2259,Bamboo Health,2037804,New Mountain Private Credit Fund,zero_overlap
+2260,Engineers Gate,3545,ALICO INC,zero_overlap
+2262,Atrium Campus,1728339,BENCHMARK 2018-B2 Mortgage Trust,zero_overlap
+2263,Asimov,912544,HOLLYWOOD MEDIA CORP,zero_overlap
+2266,IDTechEx,1347022,VeriChip CORP,zero_overlap
+2267,Netcracker Technology,1549872,"Comverse, Inc.",zero_overlap
+2268,Salsify,1437352,"EVERBRIDGE, INC.",zero_overlap
+2269,Liquid AI,1826681,Palladyne AI Corp.,zero_overlap
+2271,Hstar Technologies,1068848,PULITZER INC,zero_overlap
+2272,OPIS s.r.l.,1598014,IHS Markit Ltd.,zero_overlap
+2273,SCS Financial,1651052,Focus Financial Partners Inc.,low_jaccard
+2274,Compound Growth Marketing,1355250,Cellceutix CORP,zero_overlap
+2275,Elucid,1464521,"Heartflow, Inc.",zero_overlap
+2279,Pulmovant,1635088,Roivant Sciences Ltd.,zero_overlap
+2280,General Catalyst,1848410,Catalyst Partners Acquisition Corp.,low_jaccard
+2281,Lovepop,1845601,Iron Spark I Inc.,zero_overlap
+2283,SENDA Biosciences,1850838,"Omega Therapeutics, Inc.",zero_overlap
+2287,Putnam Associates LLC,62709,"MARSH & MCLENNAN COMPANIES, INC.",zero_overlap
+2289,ButcherBox,1594805,SHOPIFY INC.,zero_overlap
+2290,Thought Industries,1267097,TRW AUTOMOTIVE HOLDINGS CORP,zero_overlap
+2293,Critical Software,1084827,NETIQ CORP,zero_overlap
+2294,iCapital,1030916,PREMIER HOLDING CORP.,zero_overlap
+2296,TA Realty,350868,"ITERIS, INC.",zero_overlap
+2297,"PPM Works, Inc",49996,INCO LTD,zero_overlap
+2299,"Morgan & Morgan, P.A.",59440,VECTOR GROUP LTD,zero_overlap
+2302,Social Finance,1818874,"SoFi Technologies, Inc.",zero_overlap
+2304,Sakon,1297720,James River Coal CO,zero_overlap
+2305,Expedient,1157758,"ATC Ventures Group, Inc.",zero_overlap
+2306,Charles River Analytics,1376074,"LEAF Equipment Leasing Income Fund III, L.P.",zero_overlap
+2307,WS Development,704328,SOMANETICS CORP,zero_overlap
+2308,B-Stock,916797,EFTC CORP/,zero_overlap
+2309,MDC Associates,64647,"SensiVida Medical Technologies, Inc.",zero_overlap
+2310,Access | Information Management,49071,HUMANA INC,zero_overlap
+2311,AGF Investments,1165002,WESTWOOD HOLDINGS GROUP INC,zero_overlap
+2313,Allot,1718512,Gates Industrial Corp plc,zero_overlap
+2314,ProcessUnity,1868878,GOLUB CAPITAL DIRECT LENDING CORP,zero_overlap
+2315,"Build Commonwealth, Inc.",1082198,TELESOURCE INTERNATIONAL INC,zero_overlap
+2319,Global Atlantic Financial Group,1404912,KKR & Co. Inc.,zero_overlap
+2320,Sentinel Group,1444598,Emdeon Inc.,zero_overlap
+2321,Tempo Software,853273,BORLAND SOFTWARE CORP,low_jaccard
+2325,MOCA Services,724941,MERISEL INC /DE/,zero_overlap
+2327,Fastr,901219,HUMAN GENOME SCIENCES INC,zero_overlap
+2328,MOO,1492151,"World Moto, Inc.",zero_overlap
+2330,Peoplefluent,1401680,Cornerstone OnDemand Inc,zero_overlap
+2331,Northern Bank,1114927,FIRST NORTHERN COMMUNITY BANCORP,low_jaccard
+2333,Strand Therapeutics,1671818,"Oncorus, Inc.",zero_overlap
+2334,Creation Technologies,806888,RESPONSE BIOMEDICAL CORP,zero_overlap
+2335,Draper,1059142,AMERICA FIRST TAX EXEMPT INVESTORS LP,zero_overlap
+2337,Blue Cross Blue Shield of Massachusetts,827052,EDISON INTERNATIONAL,zero_overlap
+2338,Rhapsody,1046327,REALNETWORKS INC,zero_overlap
+2339,829 Studios,1398797,Point.360,zero_overlap
+2340,Alter Solutions Group,1049502,MKS INSTRUMENTS INC,zero_overlap
+2341,BOARD International,25793,CROSS A T CO,zero_overlap
+2343,Home Market Foods,755001,UNITIL CORP,zero_overlap
+2344,Steady Vision,859368,MEDICIS PHARMACEUTICAL CORP,zero_overlap
+2345,Energy and Environmental Economics,1370450,"Willdan Group, Inc.",zero_overlap
+2346,Atavistik Bio,1718108,"Surface Oncology, Inc.",zero_overlap
+2347,NOBULL,1644903,"cbdMD, Inc.",zero_overlap
+2349,NewGlobe,1717310,"Venture Lending & Leasing IX, Inc.",zero_overlap
+2350,Drug Hunter,1760542,HOOKIPA Pharma Inc.,zero_overlap
+2351,Tive,1519061,Trinseo S.A.,zero_overlap
+2353,Velir,1683695,"International Money Express, Inc.",zero_overlap
+2355,CELLINK,879585,ATLANTIC TELE NETWORK INC /DE,zero_overlap
+2357,Applied Research Solutions,798399,APPLIED INNOVATION INC,low_jaccard
+2359,GW&K Investment Management,1004434,"AFFILIATED MANAGERS GROUP, INC.",zero_overlap
+2360,Cobalt,899723,OM GROUP INC,zero_overlap
+2362,CHARLESGATE,1666291,"Claros Mortgage Trust, Inc.",zero_overlap
+2364,Care Access,889949,HUNGARIAN TELEPHONE & CABLE CORP,zero_overlap
+2365,Orum Therapeutics,1662579,"C4 Therapeutics, Inc.",low_jaccard
+2367,Validity Inc.,1395848,ADESTO TECHNOLOGIES Corp,zero_overlap
+2368,Liberate Innovations,900029,SOURCE MEDIA INC,zero_overlap
+2369,CallMiner,1097338,WITNESS SYSTEMS INC,zero_overlap
+2372,Supporting Strategies,1409970,LendingClub Corp,zero_overlap
+2373,Ready Education,1717310,"Venture Lending & Leasing IX, Inc.",zero_overlap
+2375,Aeris Partners,1159167,IROBOT CORP,zero_overlap
+2376,Alumni Ventures,1831964,Noble Rock Acquisition Corp,zero_overlap
+2378,"Hydrow, Inc.",1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+2379,Northeast Family Services,1354772,NORTHEAST COMMUNITY BANCORP INC,low_jaccard
+2380,Marigold Health,921638,SSR MINING INC.,zero_overlap
+2381,Flagship Pioneering,1850838,"Omega Therapeutics, Inc.",zero_overlap
+2384,The Engine,1670076,"Frontier Group Holdings, Inc.",zero_overlap
+2385,OutSystems,1925309,Sixth Street Lending Partners,zero_overlap
+2386,Canonical,1886894,"Snail, Inc.",zero_overlap
+2388,Outcomes4Me,1583648,"PIERIS PHARMACEUTICALS, INC.",zero_overlap
+2389,Recorded Future,70145,NATIONAL FUEL GAS CO,zero_overlap
+2390,Tines,944695,"HANOVER INSURANCE GROUP, INC.",zero_overlap
+2392,Black Duck,883241,SYNOPSYS INC,zero_overlap
+2393,ISEE,1532926,"BRK, Inc.",zero_overlap
+2395,Wall Street Prep,17313,CAPITAL SOUTHWEST CORP,zero_overlap
+2396,Velsera,1726445,"Seer, Inc.",zero_overlap
+2397,Zelis,1812554,Blue Owl Credit Income Corp.,zero_overlap
+2400,Green Ocean Property Management,1358099,Ocean Electric Inc.,low_jaccard
+2404,Apptronik,1854458,Nabors Energy Transition Corp.,zero_overlap
+2405,inKind,1467154,"Novan, Inc.",zero_overlap
+2406,CertifID,1066923,Future FinTech Group Inc.,zero_overlap
+2408,ReUp Education,1844211,B. Riley Principal 250 Merger Corp.,zero_overlap
+2409,Optimal (formerly Effective Spend),1015923,OPTIMAL GROUP INC,low_jaccard
+2410,Graphcore,1173489,CEVA INC,zero_overlap
+2411,MVF,1091326,VG Life Sciences Inc.,zero_overlap
+2412,Apollo.io,1963685,RICHTECH ROBOTICS INC.,zero_overlap
+2414,Cox Enterprises,1018522,COX RADIO INC,low_jaccard
+2416,NinjaOne,1834488,"N-able, Inc.",zero_overlap
+2418,Striveworks,1425287,Workhorse Group Inc.,zero_overlap
+2419,Realtor.com,1085770,MOVE INC,zero_overlap
+2420,Corporate Tools LLC,93556,"STANLEY BLACK & DECKER, INC.",zero_overlap
+2423,Worksmith,1828723,"CBRE Acquisition Holdings, Inc.",zero_overlap
+2424,M-Files,1837532,Apollo Debt Solutions BDC,zero_overlap
+2425,Dealerware,1333513,"DealerTrack Holdings, Inc.",zero_overlap
+2426,ePayPolicy,1280784,"Hercules Capital, Inc.",zero_overlap
+2427,Zello,885720,KENNEDY WILSON INC,zero_overlap
+2429,RigUp,1370755,BlackRock TCP Capital Corp.,zero_overlap
+2430,Sonar,804073,LOWRANCE ELECTRONICS INC,zero_overlap
+2431,Commerce,715096,COMMERCE BANCORP INC /NJ/,low_jaccard
+2432,Unchained,1868878,GOLUB CAPITAL DIRECT LENDING CORP,zero_overlap
+2433,Invoice Home,1465264,"HD SUPPLY, INC.",zero_overlap
+2434,Iodine Software,1990354,Waystar Holding Corp.,zero_overlap
+2435,AlertMedia,2044820,"VistaOne, L.P.",zero_overlap
+2436,Shiftkey,1895316,Brightwood Capital Corp I,zero_overlap
+2437,TECO-Westinghouse,317477,COMPOSITE TECHNOLOGY CORP,zero_overlap
+2439,Ghost Security,1418135,Keurig Dr Pepper Inc.,zero_overlap
+2441,Furnished Finder,1062273,"IdeaEdge, Inc",zero_overlap
+2442,Four Hands,895456,"ROCKY BRANDS, INC.",zero_overlap
+2443,Literati,1850938,"WTI Fund X, Inc.",zero_overlap
+2444,Rocket Science Group,896878,INTUIT INC.,zero_overlap
+2447,Slingshot Aerospace,1786108,Trinity Capital Inc.,zero_overlap
+2448,Aledade,1828182,"Signify Health, Inc.",zero_overlap
+2449,Realm Alliance,878616,HUMAN PHEROMONE SCIENCES INC,zero_overlap
+2450,Blancco Technology Group,1752474,KLDiscovery Inc.,zero_overlap
+2451,Simply Home,1394069,Yankee Holding Corp.,zero_overlap
+2455,Preferred Technologies,73952,OHIO CASUALTY CORP,zero_overlap
+2456,FloSports,1762322,"SHIFT TECHNOLOGIES, INC.",zero_overlap
+2458,Bell Partners Inc,1442626,"Bluerock Residential Growth REIT, Inc.",zero_overlap
+2459,Diligent Robotics,1832483,Serve Robotics Inc. /DE/,low_jaccard
+2460,Mia Labs,926617,"VERMILLION, INC.",zero_overlap
+2461,Trend Micro,1366340,"FINJAN HOLDINGS, INC.",zero_overlap
+2462,Contoro Robotics,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+2464,MedScout,1861795,Definitive Healthcare Corp.,zero_overlap
+2467,SHI International Corp.,1384905,RingCentral Inc,zero_overlap
+2468,LawnStarter,1841948,Lerer Hippeau Acquisition Corp.,zero_overlap
+2471,SK hynix,917273,RAMBUS INC,zero_overlap
+2472,Cogna,1641489,vTv Therapeutics Inc.,zero_overlap
+2473,Dispel,1432133,KALTURA INC,zero_overlap
+2475,AWL,888165,INTERACTIVE DATA CORP/MA/,zero_overlap
+2476,Form Bio,842023,BIO-TECHNE Corp,low_jaccard
+2477,Adobe,867374,ELECTRONICS FOR IMAGING INC,zero_overlap
+2479,Nutrabolt,1418135,Keurig Dr Pepper Inc.,zero_overlap
+2480,Optii Solutions,1820566,Thayer Ventures Acquisition Corp,zero_overlap
+2481,Cyberhaven,1783879,"Robinhood Markets, Inc.",zero_overlap
+2484,ConverseNow,1822145,Presto Automation Inc.,zero_overlap
+2485,ABBYY,1001288,LEXMARK INTERNATIONAL INC /KY/,zero_overlap
+2486,Freese and Nichols,720154,"Inotiv, Inc.",zero_overlap
+2488,BIS Safety Software,886235,ASPECT MEDICAL SYSTEMS INC,zero_overlap
+2489,Praetorian,1083750,CHANDLER USA INC,zero_overlap
+2490,In All Media Inc,1579684,"USA TODAY Co., Inc.",zero_overlap
+2491,ActiveProspect,1442145,"Verisk Analytics, Inc.",zero_overlap
+2495,Setpoint,1124105,TARGACEPT INC,zero_overlap
+2496,Tribe Gaming,1071255,LAKES ENTERTAINMENT INC,zero_overlap
+2497,Teza Technologies,1592386,"Virtu Financial, Inc.",zero_overlap
+2498,Ontic,876883,Stagwell Inc,zero_overlap
+2500,Deeter Analytics,350868,"ITERIS, INC.",zero_overlap
+2502,Spreetail,50725,GRIFFON CORP,zero_overlap
+2503,Lightship Security,922341,SEABULK INTERNATIONAL INC,zero_overlap
+2505,Modern Intelligence,26537,"ARGON ST, Inc.",zero_overlap
+2507,Ooni Pizza Ovens,1857853,"Traeger, Inc.",zero_overlap
+2509,The Zebra,918965,SCANSOURCE INC,zero_overlap
+2510,EOS IT Solutions,1740849,Benchmark 2018-B4 Mortgage Trust,zero_overlap
+2511,Critical Manufacturing,96536,TAYLOR DEVICES INC,zero_overlap
+2513,WP Engine,1582961,"DigitalOcean Holdings, Inc.",zero_overlap
+2515,Percepto,1642862,"Venture Lending & Leasing VIII, Inc.",zero_overlap
+2517,OVERWATCH,1468666,SecureWorks Corp,zero_overlap
+2519,CompuGroup Medical US,1478242,IQVIA HOLDINGS INC.,zero_overlap
+2520,Valkyrie Intelligence,1069258,"KRATOS DEFENSE & SECURITY SOLUTIONS, INC.",zero_overlap
+2521,Securitize,1821534,"Exodus Movement, Inc.",zero_overlap
+2523,BB Imaging,1018332,VIISAGE TECHNOLOGY INC,zero_overlap
+2526,Skimmer,1132484,NETEZZA CORP,zero_overlap
+2528,Invicti Security,1992243,T1 Energy Inc.,zero_overlap
+2529,UFCU,944130,"MINISTRY PARTNERS INVESTMENT COMPANY, LLC",zero_overlap
+2531,Xurrent Inc,1065189,LEXON TECHNOLOGIES INC,zero_overlap
+2533,SkyGrid,1063197,"CurAegis Technologies, Inc.",zero_overlap
+2534,The Knot Worldwide,1803901,"Talkspace, Inc.",zero_overlap
+2539,Noonlight,1459200,"Alarm.com Holdings, Inc.",zero_overlap
+2540,Idea Peddler,1579684,New Media Investment Group Inc.,zero_overlap
+2541,Jungle Scout,1757715,"Mohawk Group Holdings, Inc.",zero_overlap
+2542,Winona,863436,BENCHMARK ELECTRONICS INC,zero_overlap
+2543,Aristocrat,105608,WELLS GARDNER ELECTRONICS CORP,zero_overlap
+2546,Yendo,1059404,PATH 1 NETWORK TECHNOLOGIES INC,zero_overlap
+2548,Dialpad,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+2549,Succession Resource Group,1796209,APi Group Corp,zero_overlap
+2550,SiFive,1681622,Varex Imaging Corp,zero_overlap
+2552,Dimensional Fund Advisors,854460,"WEB.COM, INC.",zero_overlap
+2553,Prosper CFO,1416265,"PROSPER MARKETPLACE, INC",low_jaccard
+2559,Shift Paradigm,1119897,PCT LTD,zero_overlap
+2560,Just Global,104169,WAL MART STORES INC,zero_overlap
+2561,Steadily Insurance,716823,MILACRON INC,zero_overlap
+2562,itD,1069996,FedNat Holding Co,zero_overlap
+2566,Synack Red Team,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+2567,Storable,1812554,Blue Owl Credit Income Corp.,zero_overlap
+2568,Liquibase,1506546,Aspect Software Group Holdings Ltd.,zero_overlap
+2569,Right Side Up,1178336,HOKU SCIENTIFIC INC,zero_overlap
+2570,SafeLease,86144,SAFEWAY INC,zero_overlap
+2571,Red Oak,1051111,SOUTHWEST ROYALTIES HOLDINGS INC,zero_overlap
+2572,Easy Street Capital,714756,AMCORE FINANCIAL INC,zero_overlap
+2573,Workweek,878004,CHUGACH ELECTRIC ASSOCIATION INC,zero_overlap
+2574,MyFitnessPal,1336917,"Under Armour, Inc.",zero_overlap
+2576,HYROS,1826011,7GC & Co. Holdings Inc.,zero_overlap
+2577,Cerebri AI,1881462,Spree Acquisition Corp. 1 Ltd,zero_overlap
+2578,Curative,1326428,"LINN ENERGY, INC.",zero_overlap
+2579,KlientBoost,1830503,Business Warrior Corp,zero_overlap
+2580,Septem Systems,1411303,"Cape Bancorp, Inc.",zero_overlap
+2581,The League,764630,UNITED STATES BASKETBALL LEAGUE INC,low_jaccard
+2582,Fetch Package,78814,PITNEY BOWES INC /DE/,zero_overlap
+2583,Homebound,1095133,ISA INTERNATIONALE INC,zero_overlap
+2584,Proximity Learning,356841,FRANKLIN ELECTRONIC PUBLISHERS INC,zero_overlap
+2589,Papaya Global,1579214,"Emerald Holding, Inc.",zero_overlap
+2592,Vestwell,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+2593,Umbra Space,1029443,SPIGADORO INC,zero_overlap
+2594,Silicon Labs,1038074,SILICON LABORATORIES INC,low_jaccard
+2595,Adapter,1171662,TRIPLE-S MANAGEMENT CORP,zero_overlap
+2596,"TerraFirma, Inc",71829,NEWPARK RESOURCES INC,zero_overlap
+2599,GSD&M,29989,OMNICOM GROUP INC,zero_overlap
+2601,Mitratech,776867,WHITE MOUNTAINS INSURANCE GROUP LTD,zero_overlap
+2602,Vector Health,1427925,ACELRX PHARMACEUTICALS INC,zero_overlap
+2603,All Options,1031296,FIRSTENERGY CORP,zero_overlap
+2604,Juul Labs,764180,"ALTRIA GROUP, INC.",zero_overlap
+2607,MicroVentures,1661779,"STARTENGINE CROWDFUNDING, INC.",zero_overlap
+2610,Aylo,1141103,CROSS COUNTRY HEALTHCARE INC,zero_overlap
+2612,Koddi,1729750,"Kubient, Inc.",zero_overlap
+2615,Bitwise Alchemy,885074,AUTHENTIDATE HOLDING CORP,zero_overlap
+2616,Episode Six,1283843,WPT ENTERPRISES INC,zero_overlap
+2618,Redis,1622231,Emerald Data Inc,zero_overlap
+2619,Yotpo,312257,INNOVATIVE FOOD HOLDINGS INC,zero_overlap
+2621,The Healthy Back Institute,1194842,UNIVERSAL HEALTHCARE MANAGEMENT SYSTEMS INC,zero_overlap
+2622,8vc,1854270,"Senti Biosciences, Inc.",zero_overlap
+2624,Trustonic,1948455,Ispire Technology Inc.,zero_overlap
+2625,Avride,1543151,"Uber Technologies, Inc",zero_overlap
+2629,Gecko Robotics,1826681,Sarcos Technology & Robotics Corp,low_jaccard
+2630,SQUIRE,1822993,Jackson Financial Inc.,zero_overlap
+2631,CatFace,731939,TEMPLE INLAND INC,zero_overlap
+2632,GOLF+,837465,CALLAWAY GOLF CO /CA,low_jaccard
+2633,Restore Hyper Wellness,1664127,"ALTITUDE INTERNATIONAL HOLDINGS, INC.",zero_overlap
+2634,Flex,1463101,"Enphase Energy, Inc.",zero_overlap
+2638,Samba TV,1487428,Horizon Technology Finance Corp,zero_overlap
+2639,Halcyon,1596961,"RumbleON, Inc.",zero_overlap
+2641,Orchard,1307748,"Inland American Real Estate Trust, Inc.",zero_overlap
+2642,Pensa Systems,2043759,LAGO Evergreen Credit,zero_overlap
+2643,Too Good To Go,1730732,3FORCES INC.,zero_overlap
+2645,Telnyx,1278752,APOLLO INVESTMENT CORP,zero_overlap
+2648,"Lee Tilford Agency, Inc.",703329,FIRST FARMERS & MERCHANTS CORP,zero_overlap
+2650,4M Analytics,1646188,Ondas Inc.,zero_overlap
+2651,Integra FEC,1120105,INTELLON CORP,zero_overlap
+2652,Visio Lending,1639068,Hubilu Venture Corp,zero_overlap
+2655,"Modernize Home Services, a QuinStreet vertical",1117297,"QUINSTREET, INC",low_jaccard
+2661,Siege Media,1807689,"FAST CASUAL CONCEPTS, INC.",zero_overlap
+2662,Airtable,1853070,"Volato Group, Inc.",zero_overlap
+2663,Advision Development,854152,ACTV INC /DE/,zero_overlap
+2664,MicroTransponder,1416172,NEXEON MEDSYSTEMS INC,zero_overlap
+2665,Juniper Square,1889668,Blue Owl Technology Finance Corp. II,zero_overlap
+2666,Tokyo Electron US,873044,RADISYS CORP,zero_overlap
+2668,Framework Security,1444144,"ACCELERA INNOVATIONS, INC.",zero_overlap
+2669,Sustainment,1601548,"V2X, Inc.",zero_overlap
+2672,SEON,1516559,"SW China Imports, Inc.",zero_overlap
+2674,WellSky,1865975,AfterNext HealthTech Acquisition Corp.,zero_overlap
+2675,Data Sentinel Inc.,1871638,BurTech Acquisition Corp.,zero_overlap
+2676,PIMCO,732717,AT&T INC.,zero_overlap
+2677,Easy Pay Direct,1384905,RingCentral Inc,zero_overlap
+2681,Quali,921738,PENN NATIONAL GAMING INC,zero_overlap
+2682,Torc Robotics,1394056,"ONE STOP SYSTEMS, INC.",zero_overlap
+2683,Nominal,15288,"BULLION MONARCH MINING, INC.",zero_overlap
+2686,Aypa Power,2052568,Legence Corp.,zero_overlap
+2687,College Contact,744452,APPLIED DNA SCIENCES INC,zero_overlap
+2689,Quantiq,1467373,Accenture plc,zero_overlap
+2692,Process Pro Consulting,1168478,HEWITT ASSOCIATES INC,zero_overlap
+2693,SambaNova Systems,1938569,Palomino Laboratories Inc.,zero_overlap
+2695,Onnit,1828914,Athlon Acquisition Corp.,zero_overlap
+2696,Avita Property Management,1762303,"Avita Therapeutics, Inc.",low_jaccard
+2699,Continued,913778,BF Garden Tax Credit Fund IV L.P.,zero_overlap
+2700,BP3 Global,1825437,LIGHTJUMP ACQUISITION CORP,zero_overlap
+2701,Kabam,1444706,KEATING CAPITAL INC,zero_overlap
+2704,Tecovas,1782754,AZEK Co Inc.,zero_overlap
+2706,"Straight Edge Technology, Inc.",354913,INTERDIGITAL COMMUNICATIONS CORP,zero_overlap
+2707,VICTORY,352747,UNIGENE LABORATORIES INC,zero_overlap
+2710,NODA AI,1779020,"Danimer Scientific, Inc.",zero_overlap
+2711,Verifiable,1771995,American Picture House Corp,zero_overlap
+2713,Advarra,1959604,Jefferies Credit Partners BDC Inc.,zero_overlap
+2715,Coco,1482981,"Vita Coco Company, Inc.",low_jaccard
+2716,Clinch,1301611,"LIFEPOINT HOSPITALS, INC.",zero_overlap
+2718,Black Ore,1801368,MP Materials Corp. / DE,zero_overlap
+2719,dbt Labs,1643269,"Sumo Logic, Inc.",zero_overlap
+2720,Interplay Learning,1637147,"zSpace, Inc.",zero_overlap
+2723,PMG,1063561,PROSPECT MEDICAL HOLDINGS INC,zero_overlap
+2724,Eliza,1196501,HMS HOLDINGS CORP,zero_overlap
+2725,Skyways,1482430,"KBS Real Estate Investment Trust III, Inc.",zero_overlap
+2726,Safeguard Global,86115,SAFEGUARD SCIENTIFICS INC ET AL,low_jaccard
+2727,First Connect Insurance,1828105,Hippo Holdings Inc.,zero_overlap
+2728,Texas Mutual Insurance Company,42542,GOODRICH CORP,zero_overlap
+2730,Capital Factory,26820,PHOENIX FOOTWEAR GROUP INC,zero_overlap
+2731,Tecla,731766,UNITEDHEALTH GROUP INC,zero_overlap
+2732,Park Place Finance,858339,CAESARS ENTERTAINMENT Corp,zero_overlap
+2734,Wheel,1166380,QUANTUM FUEL SYSTEMS TECHNOLOGIES WORLDWIDE INC,zero_overlap
+2736,Actian,1042821,PERVASIVE SOFTWARE INC,zero_overlap
+2738,Two Six Technologies,1752474,KLDiscovery Inc.,zero_overlap
+2739,Anaconda,1893899,Alaska Silver Corp.,zero_overlap
+2740,BWE,1486957,"BWX Technologies, Inc.",zero_overlap
+2741,"CLEAResult Consulting, Inc.",1930679,KKR FS Income Trust,zero_overlap
+2742,Reagan Outdoor Advertising,813828,VIACOM INC,zero_overlap
+2744,ZenBusiness,1609711,GoDaddy Inc.,zero_overlap
+2746,Jump Trading Group,1094831,"BGC Group, Inc.",zero_overlap
+2747,Omniscient Digital,1807689,"FAST CASUAL CONCEPTS, INC.",zero_overlap
+2749,Dell Technologies,1124610,"VMWARE, INC.",zero_overlap
+2750,R/GA,51644,INTERPUBLIC GROUP OF COMPANIES INC,zero_overlap
+2751,"Inspire Semiconductor, Inc.",203527,VARIAN MEDICAL SYSTEMS INC,zero_overlap
+2752,Cart.com,1051825,CHAMPIONSHIP AUTO RACING TEAMS INC,zero_overlap
+2753,Thoughtful AI,1159167,IROBOT CORP,zero_overlap
+2755,Fox Robotics,59527,LINCOLN ELECTRIC HOLDINGS INC,zero_overlap
+2756,Velocity Electronics,898293,JABIL INC,zero_overlap
+2757,Origis Energy,1274494,"FIRST SOLAR, INC.",zero_overlap
+2758,GCS Technologies,1690680,"NEWMARK GROUP, INC.",zero_overlap
+2760,Atlas Sand,1984060,Atlas Energy Solutions Inc.,low_jaccard
+2761,ClearDATA,1777319,"CISO Global, Inc.",zero_overlap
+2762,Optiver,1065078,"NETWORK-1 TECHNOLOGIES, INC.",zero_overlap
+2765,Serent Capital,1842386,Vector Acquisition Corp II,zero_overlap
+2766,Pocket Worlds,1482541,Surna Inc.,zero_overlap
+2767,Propeller Industries,914397,GREAT LAKES AVIATION LTD,zero_overlap
+2768,Made In,1817825,Steele Creek Capital Corp,zero_overlap
+2770,RudderStack,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+2772,Esper,1657853,"HERTZ GLOBAL HOLDINGS, INC",zero_overlap
+2773,Schoox,1377936,SARATOGA INVESTMENT CORP.,zero_overlap
+2776,Take Command,1628228,"OPTILEAF, INC.",zero_overlap
+2779,Conducive Consulting,1070259,LINCOLN BANCORP /IN/,zero_overlap
+2780,Thredd,1788230,"Heritage Distilling Holding Company, Inc.",zero_overlap
+2781,Mood Media,17313,CAPITAL SOUTHWEST CORP,zero_overlap
+2784,Keller Postman,1023024,ANI PHARMACEUTICALS INC,zero_overlap
+2785,Sequoia Connect,6292,ANALYSTS INTERNATIONAL CORP,zero_overlap
+2787,Aquaria,1028985,"Spectrum Brands, Inc.",zero_overlap
+2788,Atlas Technica,1820201,Redbox Entertainment Inc.,zero_overlap
+2789,Everly Health,876378,"ASENSUS SURGICAL, INC.",zero_overlap
+2790,Eliassen Group,1544206,"Carlyle Secured Lending, Inc.",zero_overlap
+2791,Forcepoint,1047122,RAYTHEON CO/,zero_overlap
+2792,Lightspeed Systems,1899996,Fidelity Private Credit Co LLC,zero_overlap
+2794,Peddle,894405,ARKANSAS BEST CORP /DE/,zero_overlap
+2795,Redgate Software,1739942,SolarWinds Corp,zero_overlap
+2797,Senseye,1702924,"WRAP TECHNOLOGIES, INC.",zero_overlap
+2800,Box,949493,RESIDENTIAL ACCREDIT LOANS INC,zero_overlap
+2802,"Quantum Metric, Inc.",1532961,"NV5 Global, Inc.",zero_overlap
+2803,Outpost Space,1041712,CYBERIAN OUTPOST INC,low_jaccard
+2804,Granica,806085,LEHMAN BROTHERS HOLDINGS INC,zero_overlap
+2806,Sandbox VR,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+2808,Kustomer,1463172,"Zendesk, Inc.",zero_overlap
+2810,Amplify Platform,1333493,"eHealth, Inc.",zero_overlap
+2812,TigerConnect,1512931,MONROE CAPITAL Corp,zero_overlap
+2813,Apryse,1860424,Onex Direct Lending BDC Fund,zero_overlap
+2814,Built In,832775,BRAUVIN HIGH YIELD FUND L P II,zero_overlap
+2815,IDeaS,1402536,"AI DOCUMENT SERVICES, INC.",zero_overlap
+2817,Halter,1039780,FRIEDE GOLDMAN HALTER INC,low_jaccard
+2819,Relativity Space,1837105,"Gores Technology Partners, Inc.",zero_overlap
+2820,First Entertainment Credit Union,1074828,"USBC, Inc.",zero_overlap
+2823,GRAIL,1110803,"ILLUMINA, INC.",zero_overlap
+2825,Unanet,1742313,Monroe Capital Income Plus Corp,zero_overlap
+2827,Vendavo,1470099,"MOBILEIRON, INC.",zero_overlap
+2828,Pie Insurance,1744894,"Sirius International Insurance Group, Ltd.",low_jaccard
+2829,"Duda, Inc.",65270,METHODE ELECTRONICS INC,zero_overlap
+2830,Biofire,1487371,"GenMark Diagnostics, Inc.",zero_overlap
+2831,JumpCloud,1747777,Blue Owl Technology Finance Corp.,zero_overlap
+2834,Ursa Major,728447,"EVO Transportation & Energy Services, Inc.",zero_overlap
+2835,Arch Systems Inc.,1255895,ARCH WESTERN RESOURCES LLC,low_jaccard
+2838,ARB Interactive,1157408,K12 INC,zero_overlap
+2839,BuildOps,1638826,"ServiceTitan, Inc.",zero_overlap
+2840,Rula,1533998,DarioHealth Corp.,zero_overlap
+2841,"Adswerve, Inc.",1895316,Brightwood Capital Corp I,zero_overlap
+2844,Gloo,1755953,Akerna Corp.,zero_overlap
+2845,Jasper,937136,HYPERDYNAMICS CORP,zero_overlap
+2846,Resident,1469822,"KBS Legacy Partners Apartment REIT, Inc.",zero_overlap
+2848,KUBRA,731802,ATMOS ENERGY CORP,zero_overlap
+2850,MassMutual India,38777,FRANKLIN RESOURCES INC,zero_overlap
+2852,Cedar,761648,CEDAR SHOPPING CENTERS INC,low_jaccard
+2854,HCSS,914435,HEADWAY CORPORATE RESOURCES INC,zero_overlap
+2856,Turion Space,2488,ADVANCED MICRO DEVICES INC,zero_overlap
+2857,Lob,1101215,ALLIANCE DATA SYSTEMS CORP,zero_overlap
+2858,Nisos,1028461,COVANSYS CORP,zero_overlap
+2860,eClinical Solutions,1034592,OMNICOMM SYSTEMS INC,zero_overlap
+2861,Flourish,1099958,SANTANDER BANCORP,zero_overlap
+2862,Vantor,1844452,"Intuitive Machines, Inc.",zero_overlap
+2863,Runwise,906107,EQUITY RESIDENTIAL,zero_overlap
+2865,Vertafore,882835,ROPER TECHNOLOGIES INC,zero_overlap
+2866,KPA,926866,INNKEEPERS USA TRUST/FL,zero_overlap
+2867,Idler,1327603,"Vestin Realty Mortgage II, Inc",zero_overlap
+2868,Cie,1635863,"Caesars Growth Properties Holdings, LLC",zero_overlap
+2869,Parsec Automation,1095858,IVAX DIAGNOSTICS INC,zero_overlap
+2870,Cargill,1285785,MOSAIC CO,zero_overlap
+2872,Hiya Inc.,1792509,TriplePoint Private Venture Credit Inc.,zero_overlap
+2873,True Anomaly,1396054,ROSTOCK VENTURES CORP,zero_overlap
+2874,Edmunds,85812,RUSSELL CORP,zero_overlap
+2875,Scotch,897448,AMARIN CORP PLC\UK,zero_overlap
+2876,Rockstar Games,946581,TAKE TWO INTERACTIVE SOFTWARE INC,zero_overlap
+2877,Accuris,100625,SIERRA MONITOR CORP /CA/,zero_overlap
+2879,Optum,731766,UNITEDHEALTH GROUP INC,zero_overlap
+2880,Boomi,1571996,Dell Technologies Inc.,zero_overlap
+2881,Engrain,1016169,"ANTARES PHARMA, INC.",zero_overlap
+2882,Dandy,1446885,Alternative Energy Development Corp,zero_overlap
+2884,EchoStar,1062157,WINK COMMUNICATIONS INC,zero_overlap
+2885,Bestow,19446,CANTEL MEDICAL CORP,zero_overlap
+2887,Pager Health,894417,WADE COOK FINANCIAL CORP,zero_overlap
+2888,Milestone Systems,1397183,"Iveda Solutions, Inc.",zero_overlap
+2889,Teya,1041514,LESAKA TECHNOLOGIES INC,zero_overlap
+2890,bet365,906780,EMPIRE RESORTS INC,zero_overlap
+2891,Sierra Space,1879726,Sidus Space Inc.,low_jaccard
+2893,EZ Texting,1224133,MARCHEX INC,zero_overlap
+2894,Updata Partners,1563699,Covisint Corp,zero_overlap
+2895,Hiro Systems,1866368,"Clearwater Analytics Holdings, Inc.",zero_overlap
+2897,Convention Data Services,884219,VIAD CORP,zero_overlap
+2898,Terakeet,1825452,"Onfolio Holdings, Inc",zero_overlap
+2903,Delio,1040719,WALTER INVESTMENT MANAGEMENT CORP,zero_overlap
+2904,Edit Crew,813828,CBS CORP,zero_overlap
+2905,Infosys,1179929,MOLINA HEALTHCARE INC,zero_overlap
+2906,Managed Health Care Associates,882835,ROPER INDUSTRIES INC,zero_overlap
+2907,August Digital,1127475,"Digital Brand Media & Marketing Group, Inc.",low_jaccard
+2908,Sand Cherry,1393883,"DHI GROUP, INC.",zero_overlap
+2910,Delta Electronics Americas,855931,POTASH CORP OF SASKATCHEWAN INC,zero_overlap
+2912,Meow Wolf,2009684,Seaport Entertainment Group Inc.,zero_overlap
+2917,Select Source International,1000045,NICHOLAS FINANCIAL INC,zero_overlap
+2918,Jordan Digital Marketing,1538329,Ubiquity Broadcasting Corp,zero_overlap
+2919,HALA,1064863,AMERIGROUP CORP,zero_overlap
+2920,"Innovative Systems, Inc.",1108891,LIGHTSCAPE TECHNOLOGIES INC.,zero_overlap
+2924,Alpen Labs,1430523,"VERUS INTERNATIONAL, INC.",zero_overlap
+2926,Kaeppel Consulting,2026353,"Aether Holdings, Inc.",zero_overlap
+2927,FNZ Group,1496099,New Mountain Finance Corp,zero_overlap
+2928,Northbridge Financial,1168338,CRUM & FORSTER HOLDINGS CORP,zero_overlap
+2929,Synectics for Management Decisions,1005010,ARTHROCARE CORP,zero_overlap
+2931,Flexcar,723612,"AVIS BUDGET GROUP, INC.",zero_overlap
+2932,Yondr,1971381,Apollo Infrastructure Co LLC,zero_overlap
+2933,Concord Servicing,778946,BLUEGREEN CORP,zero_overlap
+2935,Brado,1129260,"VOCERA COMMUNICATIONS, INC.",zero_overlap
+2936,Imperative Care,1625101,"PULSE BIOSCIENCES, INC.",zero_overlap
+2937,Third Federal,1381668,TFS Financial CORP,zero_overlap
+2940,DriveSavers Data Recovery,1419951,Data Storage Corp,low_jaccard
+2941,OnePay,1534154,ID Global Solutions Corp,zero_overlap
+2942,Clarion Housing Group,1302343,"Education Realty Trust, Inc.",zero_overlap
+2948,Primer,1320854,"FreightCar America, Inc.",zero_overlap
+2949,Verne,935497,MDSI MOBILE DATA SOLUTIONS INC /CAN/,zero_overlap
+2950,Spreedly,935036,"ACI WORLDWIDE, INC.",zero_overlap
+2951,One Direct Health Network,885074,AUTHENTIDATE HOLDING CORP,zero_overlap
+2955,Morse Micro,1339256,"Hot Mamas Foods, Inc.",zero_overlap
+2956,CR2,1390478,"SELLAS Life Sciences Group, Inc.",zero_overlap
+2957,SC Johnson,1042187,CTI INDUSTRIES CORP,zero_overlap
+2958,Lightning Labs,2068454,"CSLM Digital Asset Acquisition Corp III, Ltd",zero_overlap
+2959,RBC,830052,"RBC LIFE SCIENCES, INC.",low_jaccard
+2960,Molecular You,1111312,APPLIED MOLECULAR EVOLUTION INC,low_jaccard
+2961,Netcraft,1065088,EBAY INC,zero_overlap
+2962,DLP Capital,1522690,"GWG Holdings, Inc.",zero_overlap
+2965,Dodge & Cox,354869,FIRSTMERIT CORP /OH/,zero_overlap
+2966,Smith Institute,1491830,Centurytouch Ltd,zero_overlap
+2967,InCharge Energy,1083743,"Flux Power Holdings, Inc.",zero_overlap
+2968,Five to Nine,1156375,CME GROUP INC.,zero_overlap
+2970,Tate & Lyle,1365916,"AMYRIS, INC.",zero_overlap
+2971,FREENOW,1759509,"Lyft, Inc.",zero_overlap
+2972,Lydian,1567958,Sequoia Mortgage Trust 2013-3,zero_overlap
+2973,Sphinx Defense,1093207,CROSSROADS SYSTEMS INC,zero_overlap
+2975,Hudson Global Scholars,704415,"TIVITY HEALTH, INC.",zero_overlap
+2981,Air Liquide,59527,LINCOLN ELECTRIC HOLDINGS INC,zero_overlap
+2982,Leadership Connect,1023313,"FORRESTER RESEARCH, INC.",zero_overlap
+2983,Corgi Insurance,1028637,ZINDART LTD,zero_overlap
+2984,Laufer Group International,1440024,"Roadrunner Transportation Systems, Inc.",zero_overlap
+2985,"HealthPlanOne, LLC.",1017813,CAREGUIDE INC,zero_overlap
+2986,"By Appointment Only, Inc. (BAO)",1527599,"SYNLOGIC, INC.",zero_overlap
+2987,Magentic,1099132,MANHATTAN SCIENTIFICS INC,zero_overlap
+2988,Smith,80737,ARCHSTONE,zero_overlap
+2989,Sutherland,1527590,Ready Capital Corp,zero_overlap
+2990,Standard Bots,1580345,TriplePoint Venture Growth BDC Corp.,zero_overlap
+2991,"Y&L Consulting, Inc.",1673358,"Yum China Holdings, Inc.",zero_overlap
+2993,Interweave,746782,COGNOS INC,zero_overlap
+2995,Lorenz Bus Service,1097575,"AcuNetx, Inc.",zero_overlap
+2999,O'Shaughnessy Asset Management,777001,BEAR STEARNS COMPANIES INC,zero_overlap
+3001,Cordial,1336691,MOTRICITY INC,zero_overlap
+3004,Pepperstone,812150,BNP RESIDENTIAL PROPERTIES INC,zero_overlap
+3005,Findem,943690,CRC CRYSTAL RESEARCH CORP,zero_overlap
+3006,Cytracom,1899996,Fidelity Private Credit Co LLC,zero_overlap
+3009,Phasecraft,1838359,"Rigetti Computing, Inc.",zero_overlap
+3010,Alliance Ground International,1837532,Apollo Debt Solutions BDC,zero_overlap
+3011,AppFollow,1617553,"ZIPRECRUITER, INC.",zero_overlap
+3012,UMB Banks,918709,ACT TELECONFERENCING INC,zero_overlap
+3013,American National Bank of Texas,42542,GOODRICH CORP,zero_overlap
+3014,CYE,1045829,VANGUARD HEALTH SYSTEMS INC,zero_overlap
+3015,MEDNET Labs,1574774,"BioTelemetry, Inc.",zero_overlap
+3017,Legna Software,1745032,"Lodging Fund REIT III, Inc.",zero_overlap
+3018,Speakeasy,834162,MTR GAMING GROUP INC,zero_overlap
+3019,SoHo Dragon,1484931,"ePhoto Image, Inc.",zero_overlap
+3020,Gemini: Advanced Marketing Solutions,1126741,GSI TECHNOLOGY INC,zero_overlap
+3026,Hyperbolic,1021010,EDGE PETROLEUM CORP,zero_overlap
+3027,Vizrt,20232,CHYRON CORP,zero_overlap
+3028,KIND,1392902,"Endurance Exploration Group, Inc.",zero_overlap
+3032,Cleaver-Brooks,899460,MANNKIND CORP,zero_overlap
+3033,Stora Enso,1321646,"Kraton Performance Polymers, Inc.",zero_overlap
+3034,Proper Sky,1381341,SEA 2 SKY CORP,low_jaccard
+3035,Innovatus Technology Consulting,1411690,"Bionano Genomics, Inc",zero_overlap
+3036,Quontic Bank,922487,ROYAL BANCSHARES OF PENNSYLVANIA INC,zero_overlap
+3037,Census,826682,MERIDIAN HEALTHCARE GROWTH & INCOME FUND LTD PARTNERSHIP,zero_overlap
+3043,Charge Robotics,1832483,Serve Robotics Inc. /DE/,low_jaccard
+3044,Walnut,892997,WNC CALIFORNIA HOUSING TAX CREDITS III LP,zero_overlap
+3046,Rutter,706539,CHIRON CORP,zero_overlap
+3047,CycleBar - Sandbox,1802156,"Xponential Fitness, Inc.",zero_overlap
+3051,S&W,1092796,"SMITH & WESSON BRANDS, INC.",zero_overlap
+3052,Kentik,1868878,GOLUB CAPITAL DIRECT LENDING CORP,zero_overlap
+3057,Ipsos,919794,VIEWPOINT CORP/NY/,zero_overlap
+3058,Leesa,878927,OLD DOMINION FREIGHT LINE INC/VA,zero_overlap
+3059,Primary Goal,888504,LAYNE CHRISTENSEN CO,zero_overlap
+3060,Junonia Partners,1908984,ENDI Corp.,zero_overlap
+3061,John Snow Labs,1044650,CALAIS RESOURCES INC,zero_overlap
+3063,Symbiotic,1122686,COMMUNICATIONS RESEARCH INC,zero_overlap
+3064,Rialto Capital Management,1563166,J.P. Morgan Chase Commercial Mortgage Securities Trust 2012-LC9,zero_overlap
+3068,"Stealth Components, Inc.",820097,MICRONETICS  INC,zero_overlap
+3069,Rhombus Power,1836875,Nuvve Holding Corp.,zero_overlap
+3070,ERM,944950,CLICKACTION INC,zero_overlap
+3071,Powertech Labs Inc.,1413891,Mantra Venture Group Ltd.,zero_overlap
+3072,FF Global Group,1805521,FARADAY FUTURE INTELLIGENT ELECTRIC INC.,zero_overlap
+3073,Assured Allies,1077915,"TACTICAL AIR DEFENSE SERVICES, INC.",zero_overlap
+3075,Curaleaf,1854964,"NewLake Capital Partners, Inc.",zero_overlap
+3076,VOLT AI,1398805,Beam Global,zero_overlap
+3077,RSM US LLP,1706403,DBJPM 2017-C6 Mortgage Trust,zero_overlap
+3078,Shaping Cloud,1800347,"E2open Parent Holdings, Inc.",zero_overlap
+3080,HomeEquity Bank,1132935,HOME EQUITY MORT LOAN ASSET BK TRUST SERIES SPMD 2000-C,zero_overlap
+3086,Hone,55242,KENNAMETAL INC,zero_overlap
+3087,LGT Capital Partners,1844650,SOAR Technology Acquisition Corp.,zero_overlap
+3088,DigiKey,1108967,"CUI Global, Inc.",zero_overlap
+3090,Droplet,1582961,"DigitalOcean Holdings, Inc.",zero_overlap
+3091,Corti,8868,AVON PRODUCTS INC,zero_overlap
+3092,PAR Systems,817473,AMERICAN CAPITAL STRATEGIES LTD,zero_overlap
+3093,Bisnow Media,1512499,"LINDBLAD EXPEDITIONS HOLDINGS, INC.",zero_overlap
+3094,Branch,704051,LEGG MASON INC,zero_overlap
+3096,Forvis Mazars in Luxembourg,1883984,"Alternus Clean Energy, Inc.",zero_overlap
+3097,Sage Solutions Group,310764,STRYKER CORP,zero_overlap
+3099,Barrows,786622,KRUPP INSURED PLUS LTD PARTNERSHIP,zero_overlap
+3100,Panduit,855931,POTASH CORP OF SASKATCHEWAN INC,zero_overlap
+3101,Transportation Insight,1633336,"Crescent Capital BDC, Inc.",zero_overlap
+3103,Neuron Mobility,1366541,"Q Therapeutics, Inc.",zero_overlap
+3104,Intrinsic LLC,894081,"Air Transport Services Group, Inc.",zero_overlap
+3107,Agile Robots,1159167,IROBOT CORP,zero_overlap
+3109,NewPage Solutions Inc,1421182,Verso Corp,zero_overlap
+3111,Mesirow,1065983,TRI STATE OUTDOOR MEDIA GROUP INC,zero_overlap
+3112,Brevan Howard,1261379,Equinox Frontier Funds,zero_overlap
+3113,Protex AI,21665,COLGATE PALMOLIVE CO,zero_overlap
+3115,Softwear Automation,842162,LEAR CORP,zero_overlap
+3116,Reserve Bank of Australia,1286245,AUSTRALIAN SECURIT MANAGEMENT PTY ARMS II GLOBAL FUND 2,zero_overlap
+3117,HMSA,1180145,Cardiovascular Systems Inc,zero_overlap
+3118,Hugging Face,1800667,JFrog Ltd,zero_overlap
+3119,AVIDA,1711929,"Starwood Real Estate Income Trust, Inc.",zero_overlap
+3121,Tagg Me,940942,"Hub Group, Inc.",zero_overlap
+3123,Annexon Biosciences,879407,"ARROWHEAD PHARMACEUTICALS, INC.",zero_overlap
+3124,FUGA,1653099,"VIGILANT DIVERSIFIED HOLDINGS, INC./NV",zero_overlap
+3127,Bastian Solutions,27904,DELTA AIR LINES INC /DE/,zero_overlap
+3128,Future Standard,1975736,KKR FS Income Trust Select,zero_overlap
+3129,"Cresilon, Inc.",1684144,Zomedica Corp.,zero_overlap
+3130,MCCi,1157443,"nCoat, Inc.",zero_overlap
+3134,Brodie Sports Group,808326,EMCORE CORP,zero_overlap
+3135,Uncapped,731802,ATMOS ENERGY CORP,zero_overlap
+3136,Happy Hour Games,1947210,"High Roller Technologies, Inc.",zero_overlap
+3138,AVEVA,813747,SPESCOM SOFTWARE INC,zero_overlap
+3140,Brillio,1737924,Nuveen Churchill Direct Lending Corp.,zero_overlap
+3141,Linxup,1175454,FLEETCOR TECHNOLOGIES INC,zero_overlap
+3142,Cloudbeds,1606180,"AAC Holdings, Inc.",zero_overlap
+3143,Street Group,1022079,QUEST DIAGNOSTICS INC,zero_overlap
+3144,BlackBull Markets,1951667,CHEETAH NET SUPPLY CHAIN SERVICE INC.,zero_overlap
+3145,Phocas Software,93314,VOLITIONRX LTD,zero_overlap
+3146,adaption,1086909,"BROADSOFT, INC.",zero_overlap
+3148,Datamatics,745274,CADMUS COMMUNICATIONS CORP/NEW,zero_overlap
+3149,Water.org,1872292,Rainmaker Worldwide Inc.,zero_overlap
+3151,The Brand Agency,1336644,UNIVERSAL TRAVEL GROUP,zero_overlap
+3152,Innovative Environments,886093,Arizona Gold & Onyx Mining Co,zero_overlap
+3155,IANS,310142,SENSIENT TECHNOLOGIES CORP,zero_overlap
+3157,"D3 Engineering, LLC",1059562,LMI AEROSPACE INC,zero_overlap
+3158,Delta Consulting Company,1166847,DELTA OIL & GAS INC,low_jaccard
+3159,Fullsteam,1851322,North Haven Private Income Fund LLC,zero_overlap
+3162,Prophet Security,917823,PROPHET 21 INC,low_jaccard
+3165,Obsidian Entertainment,946581,TAKE TWO INTERACTIVE SOFTWARE INC,zero_overlap
+3167,Southeastern Freight Lines,854398,XATA CORP /MN/,zero_overlap
+3168,Chief Outsiders,1096376,NUTRI SYSTEM INC /DE/,zero_overlap
+3169,Blackline Safety,1855457,"KORE Group Holdings, Inc.",zero_overlap
+3171,Roche,1064990,STRESSGEN BIOTECHNOLOGIES CORP,zero_overlap
+3172,FreeUp,1012887,BOSTON COMMUNICATIONS GROUP INC,zero_overlap
+3173,TraceLink,1104506,INSMED Inc,zero_overlap
+3175,"Volant Partners, Inc",225463,HUFFY CORP,zero_overlap
+3178,Labcorp,920148,LABORATORY CORP OF AMERICA HOLDINGS,zero_overlap
+3180,Fractal River,1529628,"Smart Sand, Inc.",zero_overlap
+3181,Gap (gapinc.com).,39911,GAP INC,low_jaccard
+3182,Oxbridge Health,1584831,OXBRIDGE RE HOLDINGS Ltd,low_jaccard
+3185,Socket,932290,CENTERSPAN COMMUNICATIONS CORP,zero_overlap
+3187,Highbeam,355811,GENTEX CORP,zero_overlap
+3188,Luminary Labs,1666267,"Arrestage International, Inc.",zero_overlap
+3191,Cresa Phoenix,1110507,ESCHELON TELECOM INC,zero_overlap
+3193,Ma Labs,40533,GENERAL DYNAMICS CORP,zero_overlap
+3194,EarthDaily Analytics,1864891,Endurance Acquisition Corp.,zero_overlap
+3196,Montefiore Health System,1642380,Oncocyte Corp,zero_overlap
+3198,Agile Enterprise Solutions Inc,1088653,AGILE SOFTWARE CORP,low_jaccard
+3201,WindBorne Systems,42582,GOODYEAR TIRE & RUBBER CO /OH/,zero_overlap
+3203,Flying Bark Productions,764794,Rudy Nutrition,zero_overlap
+3205,Kids2,1314772,"Summer Infant, Inc.",zero_overlap
+3206,Blizzard Entertainment,718877,"Activision Blizzard, Inc.",low_jaccard
+3210,Cointelegraph,1084370,"Blockchain Industries, Inc.",zero_overlap
+3211,Digital Media Management,1064648,LOUDEYE TECHNOLOGIES INC,zero_overlap
+3212,YASH Technologies,1437491,Magnolia Solar Corp,zero_overlap
+3213,Kendago,1915328,Israel Acquisitions Corp,zero_overlap
+3214,Blue J,1004980,PG&E Corp,zero_overlap
+3215,Maryland Institute College of Art,1091973,"SUNCOM WIRELESS HOLDINGS, INC.",zero_overlap
+3216,I&M Bank,50172,INDIANA MICHIGAN POWER CO,zero_overlap
+3217,Yuxi Global,2043699,NewHold Investment Corp. III,zero_overlap
+3219,Fuse Integration,1032346,IONA TECHNOLOGIES PLC,zero_overlap
+3220,Dutchie,1755953,"Gryphon Digital Mining, Inc.",zero_overlap
+3221,Black Rifle Coffee Company,1891101,BRC Inc.,zero_overlap
+3222,Ideogram,1579878,"Figma, Inc.",zero_overlap
+3224,Trinity Solar,1607716,"Vivint Solar, Inc.",low_jaccard
+3230,Bridgeway Benefit Technologies,1816613,Markforged Holding Corp,zero_overlap
+3232,Lesaffre,7084,ARCHER DANIELS MIDLAND CO,zero_overlap
+3233,Corsair,1518964,"PanAm Terra, Inc.",zero_overlap
+3234,aytm,1644406,"Hostess Brands, Inc.",zero_overlap
+3235,Armstrong Transport Group,1737924,Nuveen Churchill Direct Lending Corp.,zero_overlap
+3236,Clozd,1587987,Newtek Business Services Corp.,zero_overlap
+3237,RANOVUS Inc.,1835632,"Marvell Technology, Inc.",zero_overlap
+3239,AltaGas,104819,WASHINGTON GAS LIGHT CO,zero_overlap
+3241,WPS Health Solutions,746598,BRADY CORP,zero_overlap
+3242,SOTI,278165,"Quest Solution, Inc.",zero_overlap
+3243,Linx Security,1012956,ADVANCEPCS,zero_overlap
+3245,Walleye Capital,1820175,OCA Acquisition Corp.,zero_overlap
+3246,Quartermaster Inc.,1321560,"Patriot Capital Funding, Inc.",zero_overlap
+3248,Anomali,1745317,"Velodyne Lidar, Inc.",zero_overlap
+3250,ONE Sotheby's International Realty,1398987,REALOGY HOLDINGS CORP.,zero_overlap
+3253,One Degree Advisors,1289419,"Morningstar, Inc.",zero_overlap
+3254,Togetherwork,1715268,"Golub Capital BDC 3, Inc.",zero_overlap
+3255,Thought Machine,1410384,"Q2 Holdings, Inc.",zero_overlap
+3257,Human Agency,1334933,URANIUM ENERGY CORP,zero_overlap
+3260,Knowesis Inc.,1052054,EVOLVING SYSTEMS INC,zero_overlap
+3261,ReCode Therapeutics,1273636,APPLIED GENETIC TECHNOLOGIES CORP,zero_overlap
+3262,Brilliant Agency,1022899,"Atrinsic, Inc.",zero_overlap
+3263,Vive Crop Protection,1441693,MARRONE BIO INNOVATIONS INC,zero_overlap
+3265,Datavail,1633336,"Crescent Capital BDC, Inc.",zero_overlap
+3267,ERCOT,1541354,"Twin Cities Power Holdings, LLC",zero_overlap
+3269,Samsung Food,1167905,"Amincor, Inc.",zero_overlap
+3270,Speechify,1111345,SPEECHWORKS INTERNATIONAL INC,zero_overlap
+3271,Hallow,931911,WESTAFF INC,zero_overlap
+3272,100ms,1104188,SOHU COM INC,zero_overlap
+3274,Max Borges Agency,814926,"CAPSTONE COMPANIES, INC.",zero_overlap
+3278,Blackbird Labs,1370637,ETSY INC,zero_overlap
+3279,Remix Therapeutics,1718108,"Surface Oncology, Inc.",zero_overlap
+3281,Serval,880446,VITESSE SEMICONDUCTOR CORP,zero_overlap
+3282,"Dante Consulting, Inc.",1411057,"Cannabis Bioscience International Holdings, Inc.",zero_overlap
+3283,Infini Capital,1719489,"Kaleyra, Inc.",zero_overlap
+3285,Ridwell,1059324,PETROHAWK ENERGY CORP,zero_overlap
+3288,Opus 2,882796,BIOCRYST PHARMACEUTICALS INC,zero_overlap
+3289,Fiskars Group,909724,TANDY LEATHER FACTORY INC,zero_overlap
+3290,THG,944695,"HANOVER INSURANCE GROUP, INC.",zero_overlap
+3291,AiFi Inc.,1626556,"AMERICAN EDUCATION CENTER, INC.",zero_overlap
+3293,Artemis Consulting LLC,1062128,"Artemis Therapeutics, Inc.",low_jaccard
+3297,Emigrant Bank,1022344,SIMON PROPERTY GROUP L P /DE/,zero_overlap
+3298,Castle,1102112,FIRST COMMUNITY BANCORP /CA/,zero_overlap
+3301,Help Scout,312257,INNOVATIVE FOOD HOLDINGS INC,zero_overlap
+3302,Believer,356801,NATIONAL CONSUMER COOPERATIVE BANK /DC/,zero_overlap
+3303,Jito,38264,"Forward Industries, Inc.",zero_overlap
+3304,Float,1395942,"KAR Auction Services, Inc.",zero_overlap
+3305,Degreed,929887,APOLLO GROUP INC,zero_overlap
+3306,Talkdesk,1834628,"Lead Edge Growth Opportunities, Ltd",zero_overlap
+3307,Enviva,1592057,"Enviva Partners, LP",low_jaccard
+3309,Max Retail,743870,RANCON REALTY FUND IV,zero_overlap
+3312,Electrified Thermal Solutions,842162,LEAR CORP,zero_overlap
+3313,EverDriven Technologies,1819253,biote Corp.,zero_overlap
+3314,ServiceCore,945989,ASTEA INTERNATIONAL INC,zero_overlap
+3320,IMTT,1289790,Macquarie Infrastructure CO LLC,zero_overlap
+3321,Groundswell,1625376,PACMAN MEDIA INC.,zero_overlap
+3322,Max Mara Fashion Group,1063761,SIMON PROPERTY GROUP INC /DE/,zero_overlap
+3323,Brenntag,1078723,"FUEL PERFORMANCE SOLUTIONS, INC.",zero_overlap
+3325,Summit Securities Group,713425,AMERICAN SOFTWARE INC,zero_overlap
+3326,airSlate,1848410,Catalyst Partners Acquisition Corp.,zero_overlap
+3327,Second Dinner,1449792,"PIONEER POWER SOLUTIONS, INC.",zero_overlap
+3328,Vista Outdoor Inc.,866121,"ORBITAL ATK, INC.",zero_overlap
+3329,Specter Aerospace,741696,APPLIED SIGNAL TECHNOLOGY INC,zero_overlap
+3330,MidFirst Bank,1389151,Citigroup Mortgage Loan Trust 2007-OPX1,zero_overlap
+3331,Hivemind Capital,1826397,AVAX ONE TECHNOLOGY LTD.,zero_overlap
+3332,ION Group,1087934,UCN INC,zero_overlap
+3334,Chorus Innovations,356028,"CA, INC.",zero_overlap
+3337,Global Partners,1102643,USI HOLDINGS CORP,zero_overlap
+3338,Purple Strategies,1643953,"Purple Innovation, Inc.",low_jaccard
+3339,Gates Corporation,1718512,Gates Industrial Corp plc,low_jaccard
+3342,Second Melody,1349437,TOWERSTREAM CORP,zero_overlap
+3343,Pierre Fabre Group,1428156,Celera CORP,zero_overlap
+3344,ScienceLogic,2030954,"TEN Holdings, Inc.",zero_overlap
+3346,Multiplier,1061983,CYTOKINETICS INC,zero_overlap
+3350,B&P Advertising Media Public Relations,1376321,"ChinaNet Online Holdings, Inc.",zero_overlap
+3351,"WishingUWell, Inc",1491525,"Greenhouse Solutions, Inc.",zero_overlap
+3353,"Reingold, Inc",94887,STRIDE RITE CORP,zero_overlap
+3354,The Refinery Creative,1271075,MONEY4GOLD HOLDINGS INC,zero_overlap
+3355,Character.AI,1652044,Alphabet Inc.,zero_overlap
+3356,matchpoint solutions,1584509,Aramark,zero_overlap
+3357,Kion Group AG,1567094,CNH Industrial N.V.,zero_overlap
+3358,Triptease,1372183,"Monaker Group, Inc.",zero_overlap
+3359,Lendesk,1805284,"Rocket Companies, Inc.",zero_overlap
+3360,DEX Labs,788920,PRO DEX INC,low_jaccard
+3361,Wayflyer,1880968,"Sound Point Acquisition Corp I, Ltd",zero_overlap
+3362,HireVue,1925309,Sixth Street Lending Partners,zero_overlap
+3363,Nacre Capital,1051628,ANNUITY & LIFE RE HOLDINGS LTD,zero_overlap
+3364,Fleet Farm,1685854,CFCRE 2016-C6 Mortgage Trust,zero_overlap
+3365,Lendmark Financial Services,92230,BB&T CORP,zero_overlap
+3367,Rounds,1230058,KAANAPALI LAND LLC,zero_overlap
+3370,Govcio LLC,1838126,HPS Corporate Lending Fund,zero_overlap
+3371,Intermountain Healthcare,1472595,R1 RCM INC.,zero_overlap
+3372,Everstream Analytics,749038,CONCURRENT COMPUTER CORP/DE,zero_overlap
+3376,Dotmatics,1490978,"Schrodinger, Inc.",zero_overlap
+3377,Tekion,1413891,Mantra Venture Group Ltd.,zero_overlap
+3378,"Zillion Technologies, Inc.",1003214,SILICON IMAGE INC,zero_overlap
+3379,FARFETCH,1834584,"Coupang, Inc.",zero_overlap
+3380,Stampli,1081745,"INTELLINETICS, INC.",zero_overlap
+3381,FINRA,1001871,INVESTORS CAPITAL HOLDINGS LTD,zero_overlap
+3382,Unlimited Industries,1551182,Eaton Corp plc,zero_overlap
+3384,Cambly,1506522,"Press Ventures, Inc.",zero_overlap
+3385,Biocytogen,1676725,"IDEAYA Biosciences, Inc.",zero_overlap
+3387,Future Telecom,1361538,Primoris Services Corp,zero_overlap
+3389,Duncan Solutions,1593538,NAVIENT CORP,zero_overlap
+3390,Jiko,1850938,"WTI Fund X, Inc.",zero_overlap
+3391,Tangram Flex,86115,SAFEGUARD SCIENTIFICS INC,zero_overlap
+3394,Eurostar,105319,WEIGHT WATCHERS INTERNATIONAL INC,zero_overlap
+3395,Persefoni,1878897,Douglas Elliman Inc.,zero_overlap
+3396,thyssenkrupp,1512228,NIOCORP DEVELOPMENTS LTD,zero_overlap
+3398,Kornit Digital,915909,HIRSCH INTERNATIONAL CORP,zero_overlap
+3399,Pacific Life,1637008,JPMBB Commercial Mortgage Securities Trust 2015-C28,zero_overlap
+3400,Singapore Post,1049502,MKS INSTRUMENTS INC,zero_overlap
+3401,Respondology,867840,"PRECISION OPTICS CORPORATION, INC.",zero_overlap
+3402,Analytic Solutions Group,816761,TERADATA CORP /DE/,zero_overlap
+3403,Alternate Solutions Health Network,741815,HOOPER HOLMES INC,zero_overlap
+3404,NanoVation Therapeutics,1020477,BEVSYSTEMS INTERNATIONAL INC,zero_overlap
+3406,PointClickCare,1169445,"TruBridge, Inc.",zero_overlap
+3407,Personified,78966,MAXCO INC,zero_overlap
+3408,Acrisure,1544206,"TCG BDC, INC.",zero_overlap
+3410,WeVideo,876167,PROGRESS SOFTWARE CORP /MA,zero_overlap
+3412,Nortal,45876,HARSCO CORP,zero_overlap
+3413,BHG Financial,1115055,PINNACLE FINANCIAL PARTNERS INC,low_jaccard
+3415,Chicago White Sox,890096,UNIROYAL TECHNOLOGY CORP,zero_overlap
+3418,BCAA,88948,SENECA FOODS CORP /NY/,zero_overlap
+3419,Daymark Health,216039,GRUBB & ELLIS CO,zero_overlap
+3420,Compound Labs,835887,PROGENICS PHARMACEUTICALS INC,zero_overlap
+3422,Uniti AI,945436,MEMC ELECTRONIC MATERIALS INC,zero_overlap
+3423,OLR,1326141,Lazard Group LLC,zero_overlap
+3424,Shiro Technologies LLC,1400482,ACUCELA INC.,zero_overlap
+3429,Zeus Fire and Security,1923891,Nano Nuclear Energy Inc.,zero_overlap
+3430,Tucker Company Worldwide,320575,PIONEER ENERGY SERVICES CORP,zero_overlap
+3432,Elite Solutions,901696,MTI TECHNOLOGY CORP,zero_overlap
+3434,Innovative Client Connections,35527,FIFTH THIRD BANCORP,zero_overlap
+3435,Sweat Pants Agency,1399520,"ONE Group Hospitality, Inc.",zero_overlap
+3436,Child Mind Institute,872912,"DELCATH SYSTEMS, INC.",zero_overlap
+3439,ApotheCom,1639691,LivaNova PLC,zero_overlap
+3440,The LEGO Group,1394638,CREATIVE LEARNING Corp,zero_overlap
+3442,Data Ideology,277948,CSX CORP,zero_overlap
+3446,GamePoint,857323,GTECH HOLDINGS CORP,zero_overlap
+3447,Turo,1294345,BLACKHAWK CAPITAL GROUP BDC INC,zero_overlap
+3448,Harmonic Security,2031283,Stone Point Credit Income Fund,zero_overlap
+3449,Adaptyv,2010788,EXOZYMES INC.,zero_overlap
+3450,Webstacks,1078271,EXTREME NETWORKS INC,zero_overlap
+3452,Berry Street,1759509,"Lyft, Inc.",zero_overlap
+3453,Vacation Innovations,1512931,MONROE CAPITAL Corp,zero_overlap
+3459,Camino Partners,1086670,PRIMECORE MORTGAGE TRUST INC,zero_overlap
+3462,Global Strategy Group,1580149,BIOVIE INC.,zero_overlap
+3463,Vouch SA,59558,LINCOLN NATIONAL CORP,zero_overlap
+3465,Renew Capital,27673,DEERE JOHN CAPITAL CORP,low_jaccard
+3468,OnBuy,1058307,NextPlat Corp,zero_overlap
+3469,Alida,1166847,DELTA OIL & GAS INC,zero_overlap
+3472,telli,1102266,"CenterState Banks, Inc.",zero_overlap
+3474,Navient,1641623,Navient Student Loan Trust 2015-3,low_jaccard
+3475,Context Labs BV,1467373,Accenture plc,zero_overlap
+3476,Consolidated Analytics,1124804,"ALLSCRIPTS HEALTHCARE SOLUTIONS, INC.",zero_overlap
+3477,Samsung NEXT,1981792,Howard Hughes Holdings Inc.,zero_overlap
+3479,Sana Commerce,1745999,Beam Therapeutics Inc.,zero_overlap
+3481,Toggle AI,1411579,"AMC ENTERTAINMENT HOLDINGS, INC.",zero_overlap
+3482,Cents,1011290,99 CENTS ONLY STORE,low_jaccard
+3483,Grace Federal Solutions LLC,1071739,CENTENE CORP,zero_overlap
+3484,Matrix Precise,917520,INTEGRA LIFESCIENCES HOLDINGS CORP,zero_overlap
+3486,Soar With Us,916076,MARTIN MARIETTA MATERIALS INC,zero_overlap
+3487,Venn,1233275,"CAPTERRA FINANCIAL GROUP, INC.",zero_overlap
+3489,WSFS Bank,828944,WSFS FINANCIAL CORP,low_jaccard
+3493,Coras,790070,EMC CORP,zero_overlap
+3494,Kyriba,1508655,"Sixth Street Specialty Lending, Inc.",zero_overlap
+3498,The D. E. Shaw Group,1490978,"Schrodinger, Inc.",zero_overlap
+3500,Que Technologies,1816906,"Gaming Technologies, Inc.",zero_overlap
+3501,Ariel Alternatives,24741,CORNING INC /NY,zero_overlap
+3502,BCFS Health and Human Services,1218683,"Wize Pharma, Inc.",zero_overlap
+3504,Unlock Technologies,1477294,Sensata Technologies Holding plc,zero_overlap
+3505,Base Operations,1601548,"Vectrus, Inc.",zero_overlap
+3509,Skylo Technologies,2086587,York Space Systems Inc.,zero_overlap
+3510,Tom James,1028358,GENITOPE CORP,zero_overlap
+3511,AlgaeCal,1094788,"Integrative Health Technologies, Inc.",zero_overlap
+3512,Venture Lane,1122976,POLYONE CORP,zero_overlap
+3513,Constructive Bio,921299,"KYNTRA BIO, INC.",low_jaccard
+3515,"Alphawave IP, Inc.",804328,QUALCOMM INC/DE,zero_overlap
+3516,Red Arch Solutions,1223112,ADA-ES INC,zero_overlap
+3517,The Maritime Financial Group,1487447,"United Maritime Group, LLC",low_jaccard
+3518,Mantra Health,1717310,"Venture Lending & Leasing IX, Inc.",zero_overlap
+3519,Strata Information Group (SIG),319200,REGENT TECHNOLOGIES INC,zero_overlap
+3522,Nintex,1452936,"KBS Strategic Opportunity REIT, Inc.",zero_overlap
+3523,Stok,1623526,"Stoke Therapeutics, Inc.",zero_overlap
+3524,OpenMarkets,1865120,Broad Capital Acquisition Corp,zero_overlap
+3526,Replica,1609319,Modern Round Entertainment Corp,zero_overlap
+3527,Systems Definition Inc,848865,ALLIED WASTE INDUSTRIES INC,zero_overlap
+3528,Loopio,1834543,BlackRock Direct Lending Corp.,zero_overlap
+3531,Dakota,798359,INVESTORS REAL ESTATE TRUST,zero_overlap
+3533,McMillan Shakespeare,1376074,"LEAF Equipment Leasing Income Fund III, L.P.",zero_overlap
+3534,Taylor Farms,882184,HORTON D R INC /DE/,zero_overlap
+3535,Neurons Lab,1366541,"Q Therapeutics, Inc.",zero_overlap
+3537,Rabobank,823277,CHS INC,zero_overlap
+3541,FirstMind,879169,INCYTE CORP,zero_overlap
+3542,Atento,1013267,CLEARCOMM L P,zero_overlap
+3543,Healthtech 1,1911066,Nuveen Churchill Private Capital Income Fund,zero_overlap
+3544,Bespoke Labs,1409197,"Bespoke Extracts, Inc.",low_jaccard
+3546,Intellijoint Surgical Inc.,1628808,Profound Medical Corp.,zero_overlap
+3554,"Parity, Inc.",1819994,"Rocket Lab USA, Inc.",zero_overlap
+3555,Big Bang,884217,MENS WEARHOUSE INC,zero_overlap
+3556,A2 Hosting,1335112,Seratosa Inc.,zero_overlap
+3557,Samaya AI,1930021,"Pono Capital Three, Inc.",zero_overlap
+3558,Public Nectar,1309055,Juma Technology Corp.,zero_overlap
+3559,Primacy,1355001,REALOGY CORP,zero_overlap
+3560,Fellow - AI Meeting Assistant,904020,FLYI INC,zero_overlap
+3561,NBT Bank,790359,NBT BANCORP INC,low_jaccard
+3564,FlexGen,18230,CATERPILLAR INC,zero_overlap
+3566,Slickdeals,1633336,"Crescent Capital BDC, Inc.",zero_overlap
+3572,GR8 Tech,1525874,Sky Wolf Wind Turbine Corp,zero_overlap
+3575,IDEXX,874716,IDEXX LABORATORIES INC /DE,low_jaccard
+3578,Point of Reference,6885,STAGE STORES INC,zero_overlap
+3580,RedSail Technologies,1651561,"Tabula Rasa HealthCare, Inc.",zero_overlap
+3583,Gerra,1760439,HARVEST HEALTH & RECREATION INC.,zero_overlap
+3584,Viamedia,1504619,PennantPark Floating Rate Capital Ltd.,zero_overlap
+3585,Catapult,1621227,Adaptimmune Therapeutics PLC,zero_overlap
+3586,Adevinta,1065088,EBAY INC,zero_overlap
+3587,IKEA,1210294,CRAILAR TECHNOLOGIES INC,zero_overlap
+3589,Rightmove,1270400,VIRGIN MEDIA INC.,zero_overlap
+3591,Unchained Labs,1868878,GOLUB CAPITAL DIRECT LENDING CORP,zero_overlap
+3592,Beyond Cloud Consulting,1108524,SALESFORCE COM INC,zero_overlap
+3597,Essor,1274737,EXAGEN INC.,zero_overlap
+3598,Team Select,827187,SELECT COMFORT CORP,low_jaccard
+3600,US Conec,24741,CORNING INC /NY,zero_overlap
+3602,Firaxis Games,946581,TAKE TWO INTERACTIVE SOFTWARE INC,zero_overlap
+3604,Xperteks,1376074,"LEAF Equipment Leasing Income Fund III, L.P.",zero_overlap
+3606,Taylor Corporation,1840877,"Envoy Medical, Inc.",zero_overlap
+3610,iMentor,47518,"Hill-Rom Holdings, Inc.",zero_overlap
+3611,"Wheels, Inc.",1369444,MIZATI LUXURY ALLOY WHEELS INC,low_jaccard
+3612,Cohen & Steers,914713,MILLS CORP,zero_overlap
+3613,Parabola,1002607,INFOGRAMES INC,zero_overlap
+3615,"Wachter, Inc.",315545,"PROVECTUS BIOPHARMACEUTICALS, INC.",zero_overlap
+3616,Crownpeak,1512931,MONROE CAPITAL Corp,zero_overlap
+3617,Group 1001,1364479,HERTZ GLOBAL HOLDINGS INC,zero_overlap
+3618,Onyx Capital Group,790025,CAPITAL MEDIA GROUP LTD,low_jaccard
+3621,Solva,924805,Freedom Holding Corp.,zero_overlap
+3622,Rho,1030896,BLUEFLY INC,zero_overlap
+3624,MANGO,1938046,"MANGOCEUTICALS, INC.",zero_overlap
+3625,Edenred,1175454,FLEETCOR TECHNOLOGIES INC,zero_overlap
+3626,Everway,1572694,"Goldman Sachs BDC, Inc.",zero_overlap
+3628,DESRI,1828723,"Altus Power, Inc.",zero_overlap
+3629,Coface,1418819,Iridium Communications Inc.,zero_overlap
+3631,HB NEXT,1358190,Orient Paper Inc.,zero_overlap
+3632,Vertical Aerospace,1824502,Archer Aviation Inc.,zero_overlap
+3633,Unit,895007,WILLIAMS COAL SEAM GAS ROYALTY TRUST,zero_overlap
+3634,Early Stage Strategic Consulting,53320,STRATEGIC INTERNET INVESTMENTS INC,low_jaccard
+3635,Aidin,1689923,"Alteryx, Inc.",zero_overlap
+3636,Treasure Data,1662684,"KULR Technology Group, Inc.",zero_overlap
+3637,The Block,58592,4 KIDS ENTERTAINMENT INC,zero_overlap
+3638,AND Global,314808,Ensco International plc,zero_overlap
+3640,OKX,1729997,Grayscale Digital Large Cap Fund LLC,zero_overlap
+3647,Xcalibur Smart Mapping,878526,NATUS MEDICAL INC,zero_overlap
+3649,BigID,1107280,OCULUS INC.,zero_overlap
+3650,RZR,1801661,Skillz Inc.,zero_overlap
+3652,SBS Comms,945771,VIATEL INC,zero_overlap
+3653,Clinical Ink,1534120,"Avalo Therapeutics, Inc.",zero_overlap
+3655,Digi Security Systems,854775,DIGI INTERNATIONAL INC,low_jaccard
+3658,Flare Therapeutics,1466538,COWEN INC.,zero_overlap
+3659,Gain Theory,1492633,Nielsen Holdings plc,zero_overlap
+3660,Popl,1628063,Seritage Growth Properties,zero_overlap
+3661,Questel,1811972,Barings Capital Investment Corp,zero_overlap
+3663,Samsung Research America,1322705,Spansion Inc.,zero_overlap
+3665,EcoVadis,822663,INTER PARFUMS INC,zero_overlap
+3668,"Alarm Systems, Inc.",27850,MARITIME TRANSPORT & TECHNOLOGY INC,zero_overlap
+3670,Meridian Energy,1518403,"Alta Mesa Holdings, LP",zero_overlap
+3671,RapidSOS,23197,COMTECH TELECOMMUNICATIONS CORP /DE/,zero_overlap
+3673,Ridgeline International,1223112,ADA-ES INC,zero_overlap
+3674,Probook,47217,HEWLETT PACKARD CO,zero_overlap
+3677,Daubert Chemical Company,1376074,"LEAF Equipment Leasing Income Fund III, L.P.",zero_overlap
+3679,Human Interest,880555,AMERICAN MEDIA INC,zero_overlap
+3682,Parakeet Health,921638,SSR MINING INC.,zero_overlap
+3683,Holland & Knight LLP,1034054,SBA COMMUNICATIONS CORP,zero_overlap
+3684,Seated,1026744,AESP INC,zero_overlap
+3686,The Durst Organization,836102,AMERICAN STANDARD COMPANIES INC,zero_overlap
+3690,Keen Footwear,1050797,COLUMBIA SPORTSWEAR CO,zero_overlap
+3691,Advent Services,1025953,"NOVATION COMPANIES, INC.",zero_overlap
+3692,Crisis Text Line,1585002,"McGraw-Hill Global Education Intermediate Holdings, LLC",zero_overlap
+3693,F6 Ventures,18349,SYNOVUS FINANCIAL CORP,zero_overlap
+3694,HNTB,855931,POTASH CORP OF SASKATCHEWAN INC,zero_overlap
+3695,Re:Build Manufacturing,1846576,"FIGS, Inc.",zero_overlap
+3696,ProShares,1415311,ProShares Trust II,low_jaccard
+3697,Ascent Solutions,1196501,HMS HOLDINGS CORP,zero_overlap
+3698,Checkbook,837010,ING LIFE INSURANCE & ANNUITY CO,zero_overlap
+3699,Mento,1383701,Conatus Pharmaceuticals Inc.,zero_overlap
+3700,SHADOW,1489979,"Fresh Market, Inc.",zero_overlap
+3701,CSI,1323115,Cardiac Science CORP,zero_overlap
+3704,Ingram Barge Company,56047,KIRBY CORP,zero_overlap
+3705,iDeals,355777,LOJACK CORP,zero_overlap
+3706,Salt Security,1691421,"Lemonade, Inc.",zero_overlap
+3707,"National Power, LLC",1899996,Fidelity Private Credit Co LLC,zero_overlap
+3708,Merge Software,1285550,"MRI INTERVENTIONS, INC.",zero_overlap
+3709,Catena Labs,1034397,VERSATA INC,zero_overlap
+3715,gener8tor,1854275,Innovative International Acquisition Corp.,zero_overlap
+3716,Atolls,2065337,"Carlyle Private Equity Partners Fund, L.P.",zero_overlap
+3717,Craft AI,1734722,"UiPath, Inc.",zero_overlap
+3718,Proxima Fusion,1711933,"Akoya Biosciences, Inc.",zero_overlap
+3719,Kipsu,1745032,"Lodging Fund REIT III, Inc.",zero_overlap
+3720,MediaLab,1075088,RAZORFISH INC,zero_overlap
+3721,Code3,1304492,"pdvWireless, Inc.",zero_overlap
+3722,Folio,1409970,LendingClub Corp,zero_overlap
+3724,Bot Auto,1050446,MICROSTRATEGY Inc,zero_overlap
+3725,Radically,1002390,INSIGNIA SOLUTIONS PLC,zero_overlap
+3726,Comun,831001,CITIGROUP INC,zero_overlap
+3727,Padilla,37996,FORD MOTOR CO,zero_overlap
+3728,DataGuard,1356949,Houston Wire & Cable CO,zero_overlap
+3732,Oze,1081938,"CANNAPHARMARX, INC.",zero_overlap
+3733,Managed Services Company,880858,SEMX CORP,zero_overlap
+3734,AI Digital,903651,INNODATA INC,zero_overlap
+3736,Alzheimer's Association,934448,DIGITAL GENERATION SYSTEMS INC,zero_overlap
+3738,Reser's Fine Foods,1056696,MANHATTAN ASSOCIATES INC,zero_overlap
+3739,SM Technologies,1093557,DEXCOM INC,zero_overlap
+3743,Chemaxon,1827090,"Certara, Inc.",zero_overlap
+3744,dentalcorp,1496099,New Mountain Finance Corp,zero_overlap
+3745,Bank for International Settlements – BIS,1453090,Weatherford International Ltd./Switzerland,zero_overlap
+3746,Shinola,1805284,"Rocket Companies, Inc.",zero_overlap
+3747,Saxbys,1475273,"SOUPMAN, INC.",zero_overlap
+3748,GT,78003,PFIZER INC,zero_overlap
+3750,Data Wow,1701051,"WideOpenWest, Inc.",zero_overlap
+3751,Chimera Enterprises International,1409493,CHIMERA INVESTMENT CORP,low_jaccard
+3752,Onepoint,1071806,AQUANTIVE INC,zero_overlap
+3753,Level Agency,890908,DYNACQ HEALTHCARE INC,zero_overlap
+3755,Google Operations Center,1594100,COMM 2014-CCRE14 Mortgage Trust,zero_overlap
+3756,Roland Berger,1282977,GREENHILL & CO INC,zero_overlap
+3757,Parallel Domain,1292026,Odimo INC,zero_overlap
+3759,Rimkus Consulting Group,1955010,OHA Senior Private Lending Fund,zero_overlap
+3760,du,822663,INTER PARFUMS INC,zero_overlap
+3762,LabX Media Group,1043946,VERTICALNET INC,zero_overlap
+3766,Resurgent Capital Services,108385,WORLD ACCEPTANCE CORP,zero_overlap
+3767,Universal Quantum,2086263,Soren Acquisition Corp.,zero_overlap
+3768,Constantinople,1463172,"Zendesk, Inc.",zero_overlap
+3769,Upwind Security,1561894,"Hannon Armstrong Sustainable Infrastructure Capital, Inc.",zero_overlap
+3770,QuoteWerks,1012316,"Firepond, Inc.",zero_overlap
+3772,Business Technology Integrators,1856430,Snap One Holdings Corp.,zero_overlap
+3776,Blue Orbit,836809,"STUDIO ONE MEDIA, INC.",zero_overlap
+3778,Recursive (AI),1141788,HEALTH DISCOVERY CORP,zero_overlap
+3779,Jahnel Group,1000228,HENRY SCHEIN INC,zero_overlap
+3780,Colossal Biosciences,2085659,Silicon Valley Acquisition Corp.,zero_overlap
+3781,Vantaca,1858257,"AvidXchange Holdings, Inc.",zero_overlap
+3782,Isomorphic Labs,1672688,Absci Corp,zero_overlap
+3788,Checkmarx,1747777,Blue Owl Technology Finance Corp.,zero_overlap
+3790,Thinking IT Corp.,2000410,Eureka Acquisition Corp,zero_overlap
+3791,Quant Systems Inc,1097792,"Ominto, Inc.",zero_overlap
+3793,Flo Health Inc.,1580345,TriplePoint Venture Growth BDC Corp.,zero_overlap
+3794,Sentinel Devices,1405277,"Constant Contact, Inc.",zero_overlap
+3795,Recom,906933,SHURGARD STORAGE CENTERS INC,zero_overlap
+3796,Forefront RF,355948,RICHARDSON ELECTRONICS LTD/DE,zero_overlap
+3797,RJ Young,1559356,"Immune Therapeutics, Inc.",zero_overlap
+3798,B2C2,1075607,TC PIPELINES LP,zero_overlap
+3799,Vicinity Centres,716634,READING INTERNATIONAL INC,zero_overlap
+3800,Derivative Path,3673,"ALLEGHENY ENERGY, INC",zero_overlap
+3801,Tatum,812301,"Patient Safety Technologies, Inc",zero_overlap
+3803,Discovery Garden,866829,HELIX ENERGY SOLUTIONS GROUP INC,zero_overlap
+3804,ODEL,1048268,INTEGRATED ELECTRICAL SERVICES INC,zero_overlap
+3805,Toma,1465872,VANTAGE DRILLING INTERNATIONAL,zero_overlap
+3806,Spencer Health Solutions,1156784,"CoroWare, Inc,",zero_overlap
+3810,Novartis,1281696,BMP Sunstone CORP,zero_overlap
+3811,Interstellar Lab,822663,INTER PARFUMS INC,zero_overlap
+3812,American Institutes for Research,1057689,CAPITAL LEASE FUNDING INC,zero_overlap
+3814,Superbet,1768012,"Golden Nugget Online Gaming, Inc.",zero_overlap
+3816,System Two Security,798081,LAKELAND INDUSTRIES INC,zero_overlap
+3819,poolside,895041,GRILL CONCEPTS INC,zero_overlap
+3820,Astranis Space Technologies,2027033,Eagle Point Trinity Senior Secured Lending Co,zero_overlap
+3822,LANDR,836809,"AFTERMASTER, INC.",zero_overlap
+3824,Bracco,1261159,CNL LIFESTYLE PROPERTIES INC,zero_overlap
+3825,Stack Influence,1791325,Freedom Internet Group Inc.,zero_overlap
+3827,Fairstone Bank,1464963,"THL Credit, Inc.",zero_overlap
+3828,nitra,1700849,VADO CORP.,zero_overlap
+3830,Prime Intellect,1013706,NEW CENTURY EQUITY HOLDINGS CORP,zero_overlap
+3832,zooplus,1752836,"COVETRUS, INC.",zero_overlap
+3834,AUTODOC,1386301,"Research Solutions, Inc.",zero_overlap
+3835,"Biocare Medical, LLC",1162194,FLUIDIGM CORP,zero_overlap
+3839,EML Group,771497,ABM INDUSTRIES INC /DE/,zero_overlap
+3843,Greybrook Realty Partners,1735948,Greenbrook TMS Inc.,zero_overlap
+3844,Crescendo Health,899923,MYRIAD GENETICS INC,zero_overlap
+3845,Interlaced,1063662,SAGE INC/CA,zero_overlap
+3846,Stash,832988,SIGNET JEWELERS LTD,zero_overlap
+3848,Cleveland Clinic,1001907,ASTROTECH Corp,zero_overlap
+3849,NYCM Insurance,790359,NBT BANCORP INC,zero_overlap
+3851,Dow,29915,DOW CHEMICAL CO /DE/,low_jaccard
+3852,Interview Kickstart,1672885,Doers Education Asean Ltd,zero_overlap
+3853,BKF Engineers,828146,INTERLINK ELECTRONICS INC,zero_overlap
+3854,Ripple,1862935,Currenc Group Inc.,zero_overlap
+3857,Liqid,1603652,Urgent.ly Inc.,zero_overlap
+3858,OEC Group,1342219,"Namliong SkyCosmos, Inc.",zero_overlap
+3859,Q-CTRL,1838359,"Rigetti Computing, Inc.",zero_overlap
+3862,Wolf Oil Corporation,867665,ABRAXAS PETROLEUM CORP,zero_overlap
+3866,Epoch Games,789851,VITALSTREAM HOLDINGS INC,zero_overlap
+3867,Aura Management,826253,AURA SYSTEMS INC,low_jaccard
+3870,Orbital,820736,ORBITAL SCIENCES CORP /DE/,low_jaccard
+3871,Accordion,4828,AMERICAN CRYSTAL SUGAR CO /MN/,zero_overlap
+3872,"AB Marketing, LLC",51644,INTERPUBLIC GROUP OF COMPANIES INC,zero_overlap
+3873,Aleph,1691421,"Lemonade, Inc.",zero_overlap
+3874,kaleo,850429,TREDEGAR CORP,zero_overlap
+3876,The Strategy Group Company,911421,PARTNERRE LTD,zero_overlap
+3878,Wescott Financial Advisory Group,1175167,AMERICA FIRST APARTMENT INVESTORS INC,zero_overlap
+3880,Strider,1600422,"Superior Drilling Products, Inc.",zero_overlap
+3882,GSK,1403752,Zymeworks Inc.,zero_overlap
+3883,XP Power,1661458,"Highlands REIT, Inc.",zero_overlap
+3884,Genesis Orthopedics & Sports Medicine,895665,"Clearday, Inc.",zero_overlap
+3885,Ground News,1040971,SL GREEN REALTY CORP,zero_overlap
+3886,TodayTix Group,1490281,"Groupon, Inc.",zero_overlap
+3887,Zenput,1715268,"Golub Capital BDC 3, Inc.",zero_overlap
+3888,Innowave Marketing Group,1087779,NETRO CORP,zero_overlap
+3889,Elementis Global,915389,EASTMAN CHEMICAL CO,zero_overlap
+3890,Flink,1078717,SSP SOLUTIONS INC,zero_overlap
+3891,BB Agency,920527,PSS WORLD MEDICAL INC,zero_overlap
+3892,Legalist,1811999,"FARMHOUSE, INC. /NV",zero_overlap
+3893,LACI,1025573,NATROL INC,zero_overlap
+3896,Good Job Games,1318568,Everi Holdings Inc.,zero_overlap
+3898,PwC Greece,315858,BFC FINANCIAL CORP,zero_overlap
+3899,SitusAMC,1652031,Bank of America Merrill Lynch Commercial Mortgage Trust 2015-UBS7,zero_overlap
+3901,Social Driver,1662907,"IASO BioMed, Inc.",zero_overlap
+3902,Antigen Security,1107332,DENDREON CORP,zero_overlap
+3904,Mollie,1082923,STAMPS COM INC,zero_overlap
+3906,Dallas College,2061473,Perimeter Acquisition Corp. I,zero_overlap
+3907,Sanimax,916540,DARLING INTERNATIONAL INC,zero_overlap
+3909,Function Health,1438943,"Vitality Biopharma, Inc.",zero_overlap
+3910,Outshine,1015328,WINTRUST FINANCIAL CORP,zero_overlap
+3915,Grifin,1543395,Idaho North Resources Corp.,zero_overlap
+3917,Workman,1704715,"Alpha Metallurgical Resources, Inc.",zero_overlap
+3918,SwissBorg,2060717,VanEck Avalanche ETF,zero_overlap
+3921,Exadel,945384,CICERO INC,zero_overlap
+3924,Tekton Labs,1065034,MAGMA DESIGN AUTOMATION INC,zero_overlap
+3925,WalkMe,1606268,"Spark Energy, Inc.",zero_overlap
+3926,Learning Commons,1496048,"General Growth Properties, Inc.",zero_overlap
+3927,BioConnect,740664,R F INDUSTRIES LTD,zero_overlap
+3928,Elicit,1209709,CERES TACTICAL SYSTEMATIC L.P.,zero_overlap
+3929,AMEND Consulting,1490978,"Schrodinger, Inc.",zero_overlap
+3930,Alchemer,1280784,"Hercules Capital, Inc.",zero_overlap
+3932,Klue,1613103,Medtronic plc,zero_overlap
+3933,Selector,758004,NOVELL INC,zero_overlap
+3935,Crowe,350847,RIGGS NATIONAL CORP,zero_overlap
+3936,TrueCommerce,1092699,SPS COMMERCE INC,zero_overlap
+3938,"Acuity International, LLC",1320414,SELECT MEDICAL HOLDINGS CORP,zero_overlap
+3939,Security Journey,1011432,"CYNERGISTEK, INC",zero_overlap
+3941,Milltown Partners,73088,NORTHWESTERN CORP,zero_overlap
+3942,IPsoft,1205727,"CBEYOND, INC.",zero_overlap
+3943,Sorare,1895618,NFT Gaming Co Inc.,zero_overlap
+3945,Latent,1552189,"Exactus, Inc.",zero_overlap
+3947,Reliance Matrix,859139,DELPHI FINANCIAL GROUP INC/DE,zero_overlap
+3948,Converge,1043946,VERTICALNET INC,zero_overlap
+3949,Stafford Gray,1048268,INTEGRATED ELECTRICAL SERVICES INC,zero_overlap
+3950,SWAN Mauritius,898293,JABIL CIRCUIT INC,zero_overlap
+3951,Harvest Midstream Company,1389050,"Archrock, Inc.",zero_overlap
+3952,KCP Network,1711269,"Evergy, Inc.",zero_overlap
+3953,Apex Capital Corp,1164246,G REIT Liquidating Trust,zero_overlap
+3955,Alpine Investors,796764,"PREMIER EXHIBITIONS, INC.",zero_overlap
+3956,"QuVa Pharma, Inc.",1655887,Blue Owl Capital Corp II,zero_overlap
+3957,International Monetary Fund,1091756,IBASIS INC,zero_overlap
+3958,"Innovation Baseball, Inc.",1514242,Performance Sports Group Ltd.,zero_overlap
+3959,Barnett Waddingham,798081,LAKELAND INDUSTRIES INC,zero_overlap
+3960,Alodokter,1847846,EUDA Health Holdings Ltd,zero_overlap
+3961,Adimab,1651407,"Checkpoint Therapeutics, Inc.",zero_overlap
+3962,Direct Supply,1893657,Rubber Leaf Inc,zero_overlap
+3965,Myers-Holum,1080099,INFORMATICA CORP,zero_overlap
+3966,Zimperium,1709587,Aedan Financial Corp,zero_overlap
+3967,ECS,1109705,STYLECLICK INC,zero_overlap
+3969,Spectrum Financial Group,1137435,USA CAPITAL FIRST TRUST DEED FUND LLC,zero_overlap
+3971,Crypto Finance Group,1723788,Bitwise 10 Crypto Index Fund,low_jaccard
+3972,Development Seed,767884,"Ceres, Inc.",zero_overlap
+3973,Medserv,1074772,LIFEPOINT HOSPITALS INC,zero_overlap
+3976,PIB Group,1278752,APOLLO INVESTMENT CORP,zero_overlap
+3977,Soum,1701859,TGS International Ltd.,zero_overlap
+3979,emerchantpay,935036,"ACI WORLDWIDE, INC.",zero_overlap
+3982,FSP,1031316,FRANKLIN STREET PROPERTIES CORP /MA/,zero_overlap
+3983,Mindvalley,1107796,MOTIVATING THE MASSES INC,zero_overlap
+3987,Howard Financial,2081358,Crane Harbor Acquisition Corp. II,zero_overlap
+3988,Onex,1674335,"JELD-WEN Holding, Inc.",zero_overlap
+3989,Rehlko,76334,Parker-Hannifin Corp,zero_overlap
+3991,Yield Guild Games,1437283,"Moggle, Inc.",zero_overlap
+3992,Virtual Assist,1596532,"Arista Networks, Inc.",zero_overlap
+3993,N2O,703361,INTEGRATED DEVICE TECHNOLOGY INC,zero_overlap
+3995,Primient,1046257,Ingredion Inc,zero_overlap
+3996,Australian Payments Plus,2039458,Canary HBAR ETF,zero_overlap
+3998,Druid Software,1103025,TRX INC/GA,zero_overlap
+4000,BDO CANADA,1025362,GOLDEN QUEEN MINING CO LTD,zero_overlap
+4001,Zapier,1005731,IDT CORP,zero_overlap

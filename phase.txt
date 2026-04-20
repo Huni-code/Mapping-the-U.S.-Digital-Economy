@@ -1,0 +1,142 @@
+# CIK Matching Cleanup Pipeline — Implementation Spec
+
+## Context
+`enrich_sec.py`가 SEC full-text search API로 CIK 매칭 → 비상장사가 투자자/인수자 filing에 잘못 매칭됨.
+예: Anthropic → Amazon, xAI → Tesla, Character.AI → Alphabet.
+2,937개 CIK 매칭 중 상당수가 오염. sec_financials 15,952 레코드도 연쇄 오염.
+
+## DB Schema (SQLite: data/companies.db)
+- `companies_deduped`: id, name, hub, state, company_size, employees_count
+- `sec_cik_map`: company_id (FK→companies_deduped.id), cik, matched_name
+- `sec_financials`: company_id, year, revenue, rd_expense, net_income
+- `company_classifications`: company_id, sector, revenue_model
+
+## File Structure
+```
+pipeline/
+  phase_a_clean.py
+  phase_b_rematch.py
+  phase_c_sanity.py
+  phase_d_report.py
+data/
+  companies.db
+  phase_a_dropped.csv      (Phase A output)
+  phase_a_kept.csv          (Phase A output)
+  company_tickers.json      (Phase B: downloaded from SEC)
+  phase_b_new_matches.csv   (Phase B output)
+  phase_c_flagged.csv       (Phase C output)
+```
+
+---
+
+## Phase 0: DB 백업
+
+**반드시 Phase A 전에 실행.**
+```
+cp data/companies.db data/companies_backup_$(date +%Y%m%d).db
+```
+
+---
+
+## Phase A: 기존 오염 제거
+
+**Input:** sec_cik_map 전체 (JOIN companies_deduped)
+**Output:** phase_a_dropped.csv, phase_a_kept.csv + DB에서 삭제 실행
+
+### Drop 조건 (OR)
+1. **Zero token overlap:** normalize(company_name)과 normalize(matched_name) 교집합 0개
+2. **Mega-cap hijack:** matched_name에 {amazon, alphabet, google, tesla, microsoft, meta, apple, nvidia, berkshire, jpmorgan, walmart} 포함 AND company_name에는 미포함
+3. **Jaccard < 0.5** (단독. 조건 1에서 못 잡은 경계선 매칭 드롭용)
+
+### Token normalization
+- 소문자화
+- 특수문자 → 공백
+- Stop words 제거: inc, corp, corporation, llc, ltd, limited, co, ai, the, and, of, technologies, technology, solutions, services, group, holdings, international
+- 길이 1 이하 토큰 제거
+
+### Cascade delete
+- Drop된 company_id에 대해 sec_financials, sec_cik_map 모두 DELETE
+- 삭제 전 dropped 목록 CSV로 저장 (수동 검토용)
+- 실행 후 stdout에 before/after 카운트 출력
+
+---
+
+## Phase B: 재매칭 (precision 우선)
+
+**Input:** Phase A에서 drop된 company_id 리스트 + companies_deduped 전체 중 CIK 없는 것
+**Source:** https://www.sec.gov/files/company_tickers.json (한 번 다운로드 → 로컬 캐시)
+
+### company_tickers.json 구조
+```json
+{"0": {"cik_str": 789019, "ticker": "MSFT", "title": "MICROSOFT CORP"}, ...}
+```
+- `title` = SEC 등록 정식명 (대문자)
+- ~10,000 entries
+- 비상장사는 포함 안 됨 → 가짜매칭 원천 차단
+
+### 매칭 전략 (strict, 순서대로)
+1. **Exact match:** normalize(company_name) == normalize(ticker_title)
+2. **Token set match:** normalize 후 토큰 집합 완전 일치 (순서 무관)
+3. **둘 다 실패 → drop.** Fuzzy matching 시도 금지.
+
+### 출력
+- 새 매칭 결과 → sec_cik_map에 INSERT
+- phase_b_new_matches.csv (company_id, company_name, cik, matched_title, match_method)
+- 매칭 안 된 company_id는 CIK 없이 남겨둠 (강제 매칭 금지)
+
+---
+
+## Phase C: Sanity Check
+
+**Input:** Phase A 생존 + Phase B 신규 매칭 전체
+
+### 3가지 체크
+
+| Check | 조건 | 액션 |
+|-------|------|------|
+| Revenue scale | company_size가 Startup/Small인데 sec_financials max revenue > $1B | DROP |
+| SIC code | CIK의 SIC 코드가 tech와 무관 (tech SIC: 7370-7379, 7380-7389, 5045, 3674, 3672, 5112, 4813). **적용 섹터 제한:** AI foundation models, AI assistants & copilots, Developer tooling, Productivity & collaboration, Search engines, Creative & design tools, Gaming & virtual environments, Subscription content, Enterprise/ERP/HRM, E-commerce platforms에만 적용. Fintech, MedTech, GovTech, Cybersecurity 등은 SIC 체크 스킵 (비tech SIC가 정상) | FLAG (CSV에 기록, drop은 수동 판단) |
+| Duplicate CIK | 같은 CIK가 여러 company_id에 매핑 | 가장 높은 Jaccard만 keep, 동점 시 company_id ASC. 나머지 drop |
+
+### SIC 코드 조회
+- `https://data.sec.gov/submissions/CIK{cik_10digit}.json` → `sic` 필드
+- Rate limit: 10 req/sec, User-Agent 헤더 필수 (SEC 정책)
+
+### 출력
+- phase_c_flagged.csv (company_id, company_name, cik, check_type, detail)
+- Drop 실행 + 카운트 출력
+
+---
+
+## Phase D: 영향도 리포트
+
+**Input:** 정제 완료된 DB
+
+### 출력 (stdout)
+```
+=== CIK Cleanup Impact Report ===
+Before: 2,937 CIK mappings / 15,952 financial records
+After:  X,XXX CIK mappings / XX,XXX financial records
+Drop rate: XX.X%
+
+Sector survival:
+  AI Foundation Models:     18 → X (XX.X%)
+  AI Assistants & Copilots: 33 → X (XX.X%)
+  Enterprise/ERP/HRM:       XX → X (XX.X%)
+  ...all 16 sectors...
+
+Sectors with < 5 surviving companies flagged for weak statistical power.
+```
+
+### 이후 작업
+- 생존 CIK에 대해 OCF 필드 추가 enrichment (XBRL tag: NetCashProvidedByOperatingActivities, fallback 2개)
+- sec_financials에 operating_cash_flow 컬럼 ALTER TABLE ADD
+- Opportunity Score Investing 레이어 재계산
+- dashboard.py @st.cache_data clear
+
+---
+
+## Notes for Claude Code
+- SEC API User-Agent: "SeniorProject sunghun.kim@calvin.edu"
+- Phase A 실행 후 반드시 dropped CSV 검토하고 Phase B 진행
+- 코드 코멘트 불필요. 기존 코딩 스타일 유지.

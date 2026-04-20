@@ -1,0 +1,62 @@
+company_id,company_name,cik,matched_title,match_method
+17,TransUnion,1552033,TransUnion,exact
+26,"Fluent, Inc.",1460329,"Fluent, Inc.",exact
+43,Kepler,2000208,Kepler Group Ltd,exact
+44,Genius Sports,1834489,Genius Sports Ltd,exact
+73,Block,1512673,"Block, Inc.",exact
+105,Riskified,1851112,RISKIFIED LTD.,exact
+125,monday.com,1845338,monday.com Ltd.,exact
+207,Arena (arena-ai),894871,"Arena Group Holdings, Inc.",tokenset
+338,Co-Star,1002590,"STAR GROUP, L.P.",exact
+456,Motorola Solutions,68505,"Motorola Solutions, Inc.",exact
+483,HERE Technologies,1932770,Here Group Ltd,exact
+644,Authentic,1338929,"Authentic Holdings, Inc.",exact
+672,Relativity,2072188,Relativity Holdings Inc.,exact
+702,Colliers,913353,Colliers International Group Inc.,exact
+728,VusionGroup,2075141,VusionGroup,exact
+869,Sony,313838,Sony Group Corp,exact
+926,Interface AI,715787,INTERFACE INC,exact
+1213,Motive,1646681,"Motive Technologies, Inc.",exact
+1299,Clearway Energy Group,1567683,"Clearway Energy, Inc.",exact
+1613,DoubleDown Interactive LLC,1799567,"DoubleDown Interactive Co., Ltd.",exact
+1680,Grab,1855612,Grab Holdings Ltd,exact
+1728,Adaptive Biotechnologies Corp.,1478320,Adaptive Biotechnologies Corp,exact
+1834,Nexxen,1849396,Nexxen International Ltd.,exact
+1843,Baidu,1329099,"Baidu, Inc.",exact
+1920,Best Buy,764478,BEST BUY CO INC,exact
+1945,QVC Group,1355096,"QVC Group, Inc.",exact
+2062,"Sun Life Financial, Inc.",1097362,SUN LIFE FINANCIAL INC,exact
+2108,Lendbuzz,1736734,Lendbuzz Inc.,exact
+2240,Lantheus,1521036,"Lantheus Holdings, Inc.",exact
+2248,Citizens,24090,"CITIZENS, INC.",exact
+2257,Seaport Therapeutics,2042347,"Seaport Therapeutics, Inc.",exact
+2313,Allot,1365767,Allot Ltd.,exact
+2320,Sentinel Group,889353,Sentinel Holdings Ltd.,exact
+2477,Adobe,796343,ADOBE INC.,exact
+2509,The Zebra,877212,ZEBRA TECHNOLOGIES CORP,exact
+2521,Securitize,2094496,"Securitize Holdings, Inc.",exact
+2634,Flex,866374,FLEX LTD.,exact
+2749,Dell Technologies,1571996,Dell Technologies Inc.,exact
+2800,Box,1372612,BOX INC,exact
+2823,GRAIL,1699031,"GRAIL, Inc.",exact
+2844,Gloo,2069785,"Gloo Holdings, Inc.",exact
+2884,EchoStar,1415404,EchoStar CORP,exact
+2905,Infosys,1067491,Infosys Ltd,exact
+2988,Smith,91142,SMITH A O CORP,exact
+3072,FF Global Group,2102972,FF Global Holdings Ltd,exact
+3075,Curaleaf,1756770,"Curaleaf Holdings, Inc.",exact
+3178,Labcorp,920148,LABCORP HOLDINGS INC.,exact
+3216,I&M Bank,36270,M&T BANK CORP,exact
+3319,Oshkosh Corporation,775158,OSHKOSH CORP,exact
+3398,Kornit Digital,1625791,Kornit Digital Ltd.,exact
+3422,Uniti AI,2020795,Uniti Group Inc.,exact
+3474,Navient,1593538,NAVIENT CORP,exact
+3585,Catapult,2074220,Catapult Group International Ltd,exact
+3603,A.Team,318833,TEAM INC,exact
+3612,Cohen & Steers,1284812,"COHEN & STEERS, INC.",exact
+3632,Vertical Aerospace,1867102,Vertical Aerospace Ltd.,exact
+3633,Unit,798949,UNIT CORP,exact
+3637,The Block,1512673,"Block, Inc.",exact
+3638,AND Global,64040,S&P Global Inc.,exact
+3691,Advent Services,1744494,"ADVENT TECHNOLOGIES HOLDINGS, INC.",exact
+3851,Dow,1751788,DOW INC.,exact
