@@ -4,7 +4,7 @@ company_id,company_name,cik,error
 44,Genius Sports,1834489,no_ocf_tag
 86,CAIS,1078404,no_ocf_tag
 105,Riskified,1851112,no_ocf_tag
-125,monday.com,1845338,no_ocf_tag
+125,monday.com,0001845338,no_ocf_tag
 140,Octus,891462,no_ocf_tag
 160,InterSystems,806011,no_ocf_tag
 288,Kroll,1020476,no_ocf_tag
@@ -52,6 +52,7 @@ company_id,company_name,cik,error
 2313,Allot,1365767,no_ocf_tag
 2521,Securitize,2094496,no_ocf_tag
 2647,Digital Realty,1494877,no_ocf_tag
+2774,Confluent,0001628384,fetch_failed
 2847,Magna International,1093273,no_ocf_tag
 2905,Infosys,1067491,no_ocf_tag
 3072,FF Global Group,2102972,no_ocf_tag
@@ -70,3 +71,7 @@ company_id,company_name,cik,error
 4029,SAP,0001000184,no_ocf_tag
 4036,Spotify,0001639920,no_ocf_tag
 4043,Wix,0001576789,no_ocf_tag
+4049,CyberArk,0001598110,no_ocf_tag
+4050,Check Point Software,0001015922,no_ocf_tag
+4063,NICE,0001003935,no_ocf_tag
+4072,NetEase,0001110646,no_ocf_tag

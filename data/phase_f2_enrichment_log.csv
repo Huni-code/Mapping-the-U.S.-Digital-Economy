@@ -18,7 +18,7 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 58,ZS,1459266,0,0,0,ok
 62,Coinbase,1679788,0,0,0,ok
 63,Pfizer,78003,0,0,0,ok
-64,Atlassian,1650372,0,0,0,ok
+64,Atlassian,0001650372,0,0,0,ok
 70,Zeta Global,1851003,0,0,0,ok
 71,UL Solutions,1901440,0,0,0,ok
 73,Block,1512673,0,0,0,ok
@@ -28,17 +28,17 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 86,CAIS,1078404,0,0,0,no_tags
 87,Mastercard,1141391,0,0,0,ok
 90,ServiceNow,1373715,0,0,0,ok
-93,Braze,1676238,0,0,0,ok
+93,Braze,0001676238,0,0,0,ok
 96,Capital One,927628,0,0,0,ok
 97,Snap Inc.,1564408,0,0,0,ok
 101,Magnite,1595974,0,0,0,ok
 105,Riskified,1851112,0,0,0,no_tags
 113,Skillsoft,1774675,0,0,0,ok
 120,Upstart,0001647639,0,0,0,ok
-125,monday.com,1845338,0,0,0,no_tags
+125,monday.com,0001845338,0,0,0,no_tags
 128,Qualtrics,1747748,0,0,0,ok
 129,Affirm,1820953,0,0,0,ok
-133,Datadog,1561550,0,0,0,ok
+133,Datadog,0001561550,0,0,0,ok
 140,Octus,891462,0,0,0,no_tags
 145,Take-Two Interactive Software,946581,0,0,0,ok
 146,SharkNinja,1957132,0,0,0,ok
@@ -50,7 +50,7 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 165,CoreWeave,1769628,0,0,0,ok
 166,Camber,1309082,0,0,0,ok
 182,Morningstar,1289419,0,0,0,ok
-183,Zscaler,1713683,0,0,0,ok
+183,Zscaler,0001713683,0,0,0,ok
 187,GoodRx,1809519,0,0,0,ok
 198,Spiral,1520108,0,0,0,ok
 207,Arena (arena-ai),894871,0,0,0,ok
@@ -59,7 +59,7 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 236,Vantage,1419428,0,0,0,ok
 241,Charlie Health,1134765,0,0,0,ok
 251,Angi,1705110,0,0,0,ok
-265,The Trade Desk,1671933,0,0,0,ok
+265,The Trade Desk,0001671933,0,0,0,ok
 288,Kroll,1020476,0,0,0,no_tags
 293,Marsh McLennan,62709,0,0,0,ok
 320,Voya Financial,1535929,0,0,0,ok
@@ -124,7 +124,7 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 668,Livewire,61442,0,0,0,no_tags
 672,Relativity,2072188,0,0,0,no_tags
 678,FTD,944537,0,0,0,no_tags
-680,DoubleVerify,1819928,0,0,0,ok
+680,DoubleVerify,0001819928,0,0,0,ok
 683,NetSmart,1011028,0,0,0,no_tags
 688,Allstate,899051,0,0,0,ok
 699,Boingo Wireless,1169988,0,0,0,ok
@@ -143,7 +143,7 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 788,iHeartMedia,1400891,0,0,0,ok
 791,Workday,1327811,0,0,0,ok
 801,Spectrum,109177,0,0,0,ok
-813,Cloudflare,1477333,0,0,0,ok
+813,Cloudflare,0001477333,0,0,0,ok
 832,TaskUs,1829864,0,0,0,ok
 835,Journal Technologies Inc,783412,0,0,0,ok
 842,Epirus,1135906,0,0,0,ok
@@ -220,8 +220,8 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 1559,SunPower Corporation,867773,0,0,0,ok
 1602,Remitly,1782170,0,0,0,ok
 1603,System1,1805833,0,0,0,ok
-1605,CrowdStrike,1535527,0,0,0,ok
-1611,Chewy,1766502,0,0,0,ok
+1605,CrowdStrike,0001535527,0,0,0,ok
+1611,Chewy,0001766502,0,0,0,ok
 1613,DoubleDown Interactive LLC,1799567,0,0,0,no_tags
 1619,BlackSky,1753539,0,0,0,ok
 1638,Rover,1826018,0,0,0,ok
@@ -244,12 +244,12 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 1824,Snowflake,1640147,0,0,0,ok
 1828,Coupang,1834584,0,0,0,ok
 1830,Sonos,1314727,0,0,0,ok
-1831,Okta,1660134,0,0,0,ok
+1831,Okta,0001660134,0,0,0,ok
 1834,Nexxen,1849396,0,0,0,no_tags
 1840,"Sana Biotechnology, Inc.",1770121,0,0,0,ok
 1842,Prologis,899881,0,0,0,no_tags
 1843,Baidu,1329099,0,0,0,no_tags
-1854,Pinterest,1506293,0,0,0,ok
+1854,Pinterest,0001506293,0,0,0,ok
 1857,Rockwell Automation,1024478,0,0,0,ok
 1862,DoorDash,1792789,0,0,0,ok
 1866,RealNetworks,1046327,0,0,0,ok
@@ -281,7 +281,7 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 1984,Meta,1326801,0,0,0,ok
 2001,Arcadia,1071941,0,0,0,no_tags
 2021,Dynatrace,1773383,0,0,0,ok
-2023,Rapid7,1560327,0,0,0,ok
+2023,Rapid7,0001560327,0,0,0,ok
 2032,Imprivata,1328015,0,0,0,ok
 2047,Definitive Healthcare,1861795,0,0,0,ok
 2048,CarGurus,1494259,0,0,0,ok
@@ -369,7 +369,7 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 2634,Flex,866374,0,0,0,ok
 2647,Digital Realty,1494877,0,0,0,no_tags
 2659,CDK Global,1609702,0,0,0,ok
-2660,eBay,1065088,0,0,0,ok
+2660,eBay,0001065088,0,0,0,ok
 2667,TrueCar,1327318,0,0,0,ok
 2684,Gartner,749251,0,0,0,ok
 2688,Vital Farms,1579733,0,0,0,ok
@@ -378,11 +378,11 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 2749,Dell Technologies,1571996,0,0,0,ok
 2759,Zendesk,1463172,0,0,0,ok
 2771,Microchip Technology Inc.,827054,0,0,0,ok
-2774,Confluent,1699838,0,0,0,ok
+2774,Confluent,0001628384,0,0,0,fetch_failed
 2775,Firefly Aerospace,1860160,0,0,0,ok
 2783,Upland Software,1505155,0,0,0,ok
 2796,Way,23675,0,0,0,ok
-2800,Box,1372612,0,0,0,ok
+2800,Box,0001372612,0,0,0,ok
 2801,GitLab,1653482,0,0,0,ok
 2805,Samsara,1530163,0,0,0,ok
 2809,Micron Technology,723125,0,0,0,ok
@@ -520,7 +520,38 @@ company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 4039,Chegg,0001364954,0,0,0,ok
 4040,Zoom Video Communications,0001585521,0,0,0,ok
 4041,Asana,0001477720,0,0,0,ok
-4042,Unity Software,0001810806,6,6,0,ok
+4042,Unity Software,0001810806,0,0,0,ok
 4043,Wix,0001576789,0,0,0,no_tags
-4044,Walt Disney,0001744489,1,0,6,ok
-4045,Paramount Global,0000813828,9,0,0,ok
+4044,Walt Disney,0001744489,0,0,0,ok
+4045,Paramount Global,0000813828,0,0,0,ok
+4046,Palo Alto Networks,0001327567,6,13,0,ok
+4047,Fortinet,0001262039,7,14,0,ok
+4048,SentinelOne,0001583708,5,5,0,ok
+4049,CyberArk,0001598110,0,0,0,no_tags
+4050,Check Point Software,0001015922,0,0,0,no_tags
+4051,Fastly,0001517413,0,7,0,ok
+4052,JFrog,0001800667,6,6,0,ok
+4053,Twilio,0001447669,1,9,1,ok
+4054,Alteryx,0001689923,1,7,0,ok
+4055,Appian,0001441683,2,9,0,ok
+4056,Teradata,0000816761,8,16,0,ok
+4057,Intuit,0000896878,8,16,0,ok
+4058,Automatic Data Processing,0000008670,16,2,0,ok
+4059,Paychex,0000723531,13,0,3,ok
+4060,Paycom,0001590955,1,8,4,ok
+4061,Open Text,0001002638,10,17,0,ok
+4062,Manhattan Associates,0001056696,1,11,4,ok
+4063,NICE,0001003935,0,0,0,no_tags
+4064,Smartsheet,0001366561,6,6,0,ok
+4065,Dayforce,0001725057,1,7,0,ok
+4066,Etsy,0001370637,3,11,0,ok
+4067,Wayfair,0001616707,1,0,3,ok
+4068,MercadoLibre,0001099590,4,8,0,ok
+4069,Reddit,0001713445,2,2,0,ok
+4070,Roku,0001428439,8,8,1,ok
+4071,Sirius XM,0000908937,0,10,5,ok
+4072,NetEase,0001110646,0,0,0,no_tags
+4073,Apple,0000320193,1,14,3,ok
+4074,Super Micro Computer,0001375365,1,13,0,ok
+4075,Logitech,0001032975,7,11,4,ok
+4076,DocuSign,0001261333,8,8,0,ok
