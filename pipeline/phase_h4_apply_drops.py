@@ -1,7 +1,13 @@
 """
-Phase H4: Apply 21 user-approved drops from name-similarity audit.
-- 19 name-collision drops (exclude via sec_cik_map.excluded)
-- 2 additional SIC exclusions (Marsh McLennan, Raymond James)
+Phase H4: Apply user-approved drops from name-similarity audit.
+- 19 name-collision drops from original Phase H3 audit
+- 2 SIC exclusions (Marsh McLennan, Raymond James)
+- 2 late additions from post-F2 revenue_scale audit (see comment below)
+
+Late additions (post-F2 Phase C review): these slipped past Phase H's SIC
+filter because their wrong-match SEC entity sits inside the "tech" SIC range
+(7370-7379) despite being semantically different businesses. Detected via
+Startup/Small builtin companies with >$100M matched-public revenue.
 """
 import sqlite3
 
@@ -36,6 +42,9 @@ APPROVED_DROPS = [
     # Additional SIC exclusions (non-tech financial services)
     ('Marsh McLennan', 'SIC 6411 Insurance Agents/Brokers — not tech'),
     ('Raymond James', 'SIC 6211 Security Brokers — not tech'),
+    # Late additions (post-F2 revenue_scale audit)
+    ('Q ANALYSTS LLC', 'Name collision: QA testing services vs Analysts International (IT staffing, $143M)'),
+    ('Telos Media', 'Name collision: digital entertainment studio vs Telos Corp (cybersecurity/gov, $145M)'),
 ]
 
 
