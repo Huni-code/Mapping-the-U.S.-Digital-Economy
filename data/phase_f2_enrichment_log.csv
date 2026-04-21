@@ -1,482 +1,492 @@
 company_id,name,cik,rev_updated,rd_updated,rows_inserted,status
 2,BlackRock,1364742,0,0,0,ok
-8,Alloy,1080359,0,0,0,fetch_failed
-10,Navan,1639723,1,1,0,ok
-15,Rubrik,1943896,2,2,0,ok
-17,TransUnion,1552033,8,0,0,ok
+8,Alloy,1080359,0,0,0,no_tags
+10,Navan,1639723,0,0,0,ok
+15,Rubrik,1943896,0,0,0,ok
+17,TransUnion,1552033,0,0,0,ok
 20,Forge,1827821,0,0,0,ok
-21,MetLife,1099219,10,0,0,ok
-22,Yext,1614178,0,2,0,ok
-26,"Fluent, Inc.",1460329,8,8,0,ok
-29,Hinge,1673743,1,1,0,ok
-33,SoFi,1818874,1,1,0,ok
-43,Kepler,2000208,0,0,0,fetch_failed
+21,MetLife,1099219,0,0,0,ok
+22,Yext,1614178,0,0,0,ok
+26,"Fluent, Inc.",1460329,0,0,0,ok
+29,Hinge,1673743,0,0,0,ok
+33,SoFi,1818874,0,0,0,ok
+43,Kepler,2000208,0,0,0,no_tags
 44,Genius Sports,1834489,0,0,0,no_tags
-45,BlackLine,1666134,0,1,0,ok
-47,Chime,1795586,1,1,0,ok
-55,Tempus AI,1717115,1,1,0,ok
-58,ZS,1459266,0,1,0,ok
-62,Coinbase,1679788,5,5,0,ok
-63,Pfizer,78003,2,17,0,ok
-64,Atlassian,1650372,1,1,0,ok
-70,Zeta Global,1851003,1,1,0,ok
-71,UL Solutions,1901440,1,0,0,ok
-73,Block,1512673,8,10,0,ok
-76,MarketAxess,1278021,4,0,1,ok
-84,Clearwater Analytics (CWAN),1866368,1,1,0,ok
+45,BlackLine,1666134,0,0,0,ok
+47,Chime,1795586,0,0,0,ok
+55,Tempus AI,0001717115,0,0,0,ok
+58,ZS,1459266,0,0,0,ok
+62,Coinbase,1679788,0,0,0,ok
+63,Pfizer,78003,0,0,0,ok
+64,Atlassian,1650372,0,0,0,ok
+70,Zeta Global,1851003,0,0,0,ok
+71,UL Solutions,1901440,0,0,0,ok
+73,Block,1512673,0,0,0,ok
+76,MarketAxess,1278021,0,0,0,ok
+84,Clearwater Analytics (CWAN),1866368,0,0,0,ok
 85,Squarespace,1496963,0,0,0,ok
-86,CAIS,1078404,0,0,0,fetch_failed
-87,Mastercard,1141391,10,0,0,ok
-90,ServiceNow,1373715,3,4,0,ok
-93,Braze,1676238,2,2,0,ok
-96,Capital One,927628,6,0,0,ok
-97,Snap Inc.,1564408,0,1,0,ok
-101,Magnite,1595974,4,2,0,ok
+86,CAIS,1078404,0,0,0,no_tags
+87,Mastercard,1141391,0,0,0,ok
+90,ServiceNow,1373715,0,0,0,ok
+93,Braze,1676238,0,0,0,ok
+96,Capital One,927628,0,0,0,ok
+97,Snap Inc.,1564408,0,0,0,ok
+101,Magnite,1595974,0,0,0,ok
 105,Riskified,1851112,0,0,0,no_tags
-113,Skillsoft,1774675,0,2,0,ok
-120,Upstart,1647639,3,1,0,ok
+113,Skillsoft,1774675,0,0,0,ok
+120,Upstart,0001647639,0,0,0,ok
 125,monday.com,1845338,0,0,0,no_tags
 128,Qualtrics,1747748,0,0,0,ok
-129,Affirm,1820953,1,0,0,ok
-133,Datadog,1561550,1,1,0,ok
-140,Octus,891462,0,0,0,fetch_failed
-145,Take-Two Interactive Software,946581,1,1,0,ok
-146,SharkNinja,1957132,1,1,0,ok
-150,Taboola,1840502,1,1,0,ok
-152,Enova,1529864,1,0,1,ok
-155,DraftKings,1883685,1,0,0,ok
-158,MongoDB,1441816,2,2,0,ok
-160,InterSystems,806011,0,0,0,fetch_failed
-165,CoreWeave,1769628,1,1,0,ok
-166,Camber,1309082,3,0,0,ok
-182,Morningstar,1289419,2,3,0,ok
-183,Zscaler,1713683,1,1,0,ok
-187,GoodRx,1809519,1,1,0,ok
-198,Spiral,1520108,1,1,0,ok
-207,Arena (arena-ai),894871,2,2,1,ok
+129,Affirm,1820953,0,0,0,ok
+133,Datadog,1561550,0,0,0,ok
+140,Octus,891462,0,0,0,no_tags
+145,Take-Two Interactive Software,946581,0,0,0,ok
+146,SharkNinja,1957132,0,0,0,ok
+150,Taboola,1840502,0,0,0,ok
+152,Enova,1529864,0,0,0,ok
+155,DraftKings,1883685,0,0,0,ok
+158,MongoDB,1441816,0,0,0,ok
+160,InterSystems,806011,0,0,0,no_tags
+165,CoreWeave,1769628,0,0,0,ok
+166,Camber,1309082,0,0,0,ok
+182,Morningstar,1289419,0,0,0,ok
+183,Zscaler,1713683,0,0,0,ok
+187,GoodRx,1809519,0,0,0,ok
+198,Spiral,1520108,0,0,0,ok
+207,Arena (arena-ai),894871,0,0,0,ok
 211,Immunovant,1764013,0,0,0,ok
-228,Fox Corporation,1754301,1,0,0,ok
-236,Vantage,1419428,3,0,1,ok
-241,Charlie Health,1134765,0,1,0,ok
-251,Angi,1705110,0,0,1,ok
-265,The Trade Desk,1671933,1,1,0,ok
-288,Kroll,1020476,0,0,0,fetch_failed
-293,Marsh McLennan,62709,1,0,0,ok
-320,Voya Financial,1535929,4,0,2,ok
-338,Co-Star,1002590,8,0,0,ok
-344,BuzzFeed,1828972,1,1,0,ok
-347,Orion Group,1402829,1,0,0,ok
-350,Tandem,1292653,5,0,0,ok
-357,Millennium,1018099,0,0,0,fetch_failed
-363,Imax Corporation,921582,7,5,0,ok
-370,Teads,1454938,1,1,0,ok
-378,AMC Networks Inc.,1514991,1,0,0,ok
+228,Fox Corporation,1754301,0,0,0,ok
+236,Vantage,1419428,0,0,0,ok
+241,Charlie Health,1134765,0,0,0,ok
+251,Angi,1705110,0,0,0,ok
+265,The Trade Desk,1671933,0,0,0,ok
+288,Kroll,1020476,0,0,0,no_tags
+293,Marsh McLennan,62709,0,0,0,ok
+320,Voya Financial,1535929,0,0,0,ok
+338,Co-Star,1002590,0,0,0,ok
+344,BuzzFeed,1828972,0,0,0,ok
+347,Orion Group,1402829,0,0,0,ok
+350,Tandem,1292653,0,0,0,ok
+357,Millennium,1018099,0,0,0,no_tags
+363,Imax Corporation,921582,0,0,0,ok
+370,Teads,1454938,0,0,0,ok
+378,AMC Networks Inc.,1514991,0,0,0,ok
 393,Moelis & Company,1596967,0,0,0,no_tags
-402,Grainger,277135,1,0,0,ok
+402,Grainger,277135,0,0,0,ok
 411,Coupa,1385867,0,0,0,ok
-414,Avant,943892,0,0,0,fetch_failed
-421,CDW,1402057,2,0,0,ok
-422,Caterpillar,18230,3,3,4,ok
-428,Flywire,1580560,1,1,0,ok
-431,Vivid Seats,1856031,1,0,0,ok
-432,Waystar,1990354,1,1,0,ok
-434,iManage,1093242,0,0,0,fetch_failed
-435,Boeing,12927,14,7,0,ok
+414,Avant,943892,0,0,0,no_tags
+421,CDW,1402057,0,0,0,ok
+422,Caterpillar,18230,0,0,0,ok
+428,Flywire,1580560,0,0,0,ok
+431,Vivid Seats,1856031,0,0,0,ok
+432,Waystar,1990354,0,0,0,ok
+434,iManage,1093242,0,0,0,no_tags
+435,Boeing,12927,0,0,0,ok
 440,Zoro,1329484,0,0,0,no_tags
-449,Dropbox,1467623,1,1,0,ok
-456,Motorola Solutions,68505,9,17,0,ok
+449,Dropbox,1467623,0,0,0,ok
+456,Motorola Solutions,68505,0,0,0,ok
 472,OppFi,1818502,0,0,0,no_tags
-482,Sprout Social,1517375,1,1,0,ok
+482,Sprout Social,1517375,0,0,0,ok
 483,HERE Technologies,1932770,0,0,0,no_tags
-486,Fortune Brands Innovations,1519751,1,3,0,ok
-494,EDGE,1472091,0,1,0,ok
-525,Veridian,1095901,0,0,0,fetch_failed
-527,Ryan Specialty,1849253,2,0,0,ok
-538,Constellation Brands,16918,1,0,0,ok
-543,Accelerated Digital Media,1282224,5,0,0,ok
+486,Fortune Brands Innovations,1519751,0,0,0,ok
+494,EDGE,1472091,0,0,0,ok
+525,Veridian,1095901,0,0,0,no_tags
+527,Ryan Specialty,1849253,0,0,0,ok
+538,Constellation Brands,16918,0,0,0,ok
+543,Accelerated Digital Media,1282224,0,0,0,ok
 548,G2,1263364,0,0,0,ok
-551,E2open,1800347,1,1,0,ok
-553,Root,1788882,1,0,0,ok
-556,Airbnb,1559720,1,1,0,ok
-560,CVS Health,64803,14,0,0,ok
-564,OneSpan,1044777,1,1,4,ok
-568,Tyson Foods,100493,5,6,0,ok
-576,Humana,49071,7,0,0,ok
-581,Travelzoo,1133311,1,1,0,ok
-582,Lincoln International,59544,0,0,0,fetch_failed
-593,Titan Security Group,899751,1,5,0,ok
+551,E2open,1800347,0,0,0,ok
+553,Root,1788882,0,0,0,ok
+556,Airbnb,1559720,0,0,0,ok
+560,CVS Health,64803,0,0,0,ok
+564,OneSpan,1044777,0,0,0,ok
+568,Tyson Foods,100493,0,0,0,ok
+576,Humana,49071,0,0,0,ok
+581,Travelzoo,1133311,0,0,0,ok
+582,Lincoln International,59544,0,0,0,no_tags
+593,Titan Security Group,899751,0,0,0,ok
 596,Cambium Networks,1738177,0,0,0,ok
-604,Cushman & Wakefield,1628369,1,0,0,ok
-619,Veradigm LLC,1124804,4,3,1,ok
+604,Cushman & Wakefield,1628369,0,0,0,ok
+619,Veradigm LLC,1124804,0,0,0,ok
 622,Instructure,1841804,0,0,0,ok
-635,MERGE,944765,3,3,1,ok
-636,Nielsen,1492633,5,0,0,ok
-639,Huron,1289848,5,0,1,ok
+635,MERGE,944765,0,0,0,ok
+636,Nielsen,1492633,0,0,0,ok
+639,Huron,1289848,0,0,0,ok
 640,"Hologram, Inc.",1841209,0,0,0,ok
-644,Authentic,1338929,9,3,2,ok
-650,Scientific Games,750004,4,3,2,ok
-655,Littelfuse,889331,1,7,0,ok
-656,Perficient,1085869,5,0,0,ok
-658,Elastic,1707753,7,7,0,ok
-659,Ares Management Corporation,1176948,3,0,1,ok
-663,Compass,18568,0,0,0,fetch_failed
-664,"CF Industries Holdings, Inc.",1324404,1,0,0,ok
-668,Livewire,61442,0,0,0,fetch_failed
-672,Relativity,2072188,0,0,0,fetch_failed
-678,FTD,944537,0,0,0,fetch_failed
-680,DoubleVerify,1819928,1,1,0,ok
-683,NetSmart,1011028,0,0,0,fetch_failed
-688,Allstate,899051,7,0,0,ok
-699,Boingo Wireless,1169988,0,0,4,ok
+644,Authentic,1338929,0,0,0,ok
+650,Scientific Games,750004,0,0,0,ok
+655,Littelfuse,889331,0,0,0,ok
+656,Perficient,1085869,0,0,0,ok
+658,Elastic,1707753,0,0,0,ok
+659,Ares Management Corporation,1176948,0,0,0,ok
+663,Compass,18568,0,0,0,no_tags
+664,"CF Industries Holdings, Inc.",1324404,0,0,0,ok
+668,Livewire,61442,0,0,0,no_tags
+672,Relativity,2072188,0,0,0,no_tags
+678,FTD,944537,0,0,0,no_tags
+680,DoubleVerify,1819928,0,0,0,ok
+683,NetSmart,1011028,0,0,0,no_tags
+688,Allstate,899051,0,0,0,ok
+699,Boingo Wireless,1169988,0,0,0,ok
 702,Colliers,913353,0,0,0,no_tags
 704,Federal Home Loan Bank of Chicago,1331451,0,0,0,no_tags
-713,Rewards Network,78536,0,0,0,fetch_failed
-714,Bazaarvoice,1330421,1,2,0,ok
-728,VusionGroup,2075141,0,0,0,fetch_failed
-735,Upwork,1627475,1,1,0,ok
+713,Rewards Network,78536,0,0,0,no_tags
+714,Bazaarvoice,1330421,0,0,0,ok
+728,VusionGroup,2075141,0,0,0,no_tags
+735,Upwork,1627475,0,0,0,ok
 738,Duck Creek Technologies,1160951,0,0,0,ok
-752,PayPal,1633917,6,0,0,ok
-754,CME Group,1156375,7,0,0,ok
-758,Cboe Global Markets,1374310,2,0,2,ok
-762,Interactive Brokers,1381197,8,0,0,ok
-769,Methode Electronics,65270,3,3,0,ok
-788,iHeartMedia,1400891,5,0,0,ok
-791,Workday,1327811,4,4,0,ok
-801,Spectrum,109177,6,4,0,ok
-813,Cloudflare,1477333,1,1,0,ok
-832,TaskUs,1829864,1,0,0,ok
-835,Journal Technologies Inc,783412,2,0,2,ok
-842,Epirus,1135906,3,3,1,ok
-859,Southwest Airlines,92380,7,0,0,ok
+752,PayPal,1633917,0,0,0,ok
+754,CME Group,1156375,0,0,0,ok
+758,Cboe Global Markets,1374310,0,0,0,ok
+762,Interactive Brokers,1381197,0,0,0,ok
+769,Methode Electronics,65270,0,0,0,ok
+788,iHeartMedia,1400891,0,0,0,ok
+791,Workday,1327811,0,0,0,ok
+801,Spectrum,109177,0,0,0,ok
+813,Cloudflare,1477333,0,0,0,ok
+832,TaskUs,1829864,0,0,0,ok
+835,Journal Technologies Inc,783412,0,0,0,ok
+842,Epirus,1135906,0,0,0,ok
+859,Southwest Airlines,92380,0,0,0,ok
 869,Sony,313838,0,0,0,no_tags
-891,Octave,874501,5,0,1,ok
-894,iRobot,1159167,0,6,0,ok
-898,Serve Robotics,1832483,0,1,0,ok
+891,Octave,874501,0,0,0,ok
+894,iRobot,1159167,0,0,0,ok
+898,Serve Robotics,1832483,0,0,0,ok
 906,Everbridge,1437352,0,0,0,ok
-913,AXS,947427,0,0,0,fetch_failed
-926,Interface AI,715787,7,12,2,ok
-937,Zevia,1854139,1,0,0,ok
-939,Faraday Future,1805521,1,1,0,ok
-945,Mattel,63276,1,6,0,ok
-975,SS&C Technologies,1402436,0,4,1,ok
-999,Netflix,1065280,7,7,0,ok
-1007,Tech Holding,1460801,2,2,1,ok
-1015,Dow Jones,29924,0,0,0,fetch_failed
+913,AXS,947427,0,0,0,no_tags
+926,Interface AI,715787,0,0,0,ok
+937,Zevia,1854139,0,0,0,ok
+939,Faraday Future,1805521,0,0,0,ok
+945,Mattel,63276,0,0,0,ok
+975,SS&C Technologies,1402436,0,0,0,ok
+999,Netflix,1065280,0,0,0,ok
+1007,Tech Holding,1460801,0,0,0,ok
+1015,Dow Jones,29924,0,0,0,no_tags
 1023,Bedrock Energy,1434702,0,0,0,no_tags
-1026,Nike,320187,1,0,0,ok
-1044,Panavision,1022911,0,0,0,fetch_failed
+1026,Nike,320187,0,0,0,ok
+1044,Panavision,1022911,0,0,0,no_tags
 1067,Recharge,1817786,0,0,0,no_tags
-1070,Xos Trucks,1819493,1,1,0,ok
-1074,Macerich,912242,6,0,0,ok
-1075,Home Alliance,813389,0,0,0,fetch_failed
-1091,Bold,1444275,1,0,0,ok
-1102,Warp,743758,3,3,0,ok
-1110,PVH Corp.,78239,1,0,0,ok
-1112,a.k.a. Brands,1865107,1,0,0,ok
-1124,Dine Brands Global,49754,5,0,0,ok
-1136,Dave Inc.,1841408,1,0,0,ok
-1141,The Honest Company,1530979,1,1,0,ok
-1143,Oscar Health,1568651,1,0,0,ok
-1148,Rexford Industrial,1571283,5,0,0,ok
-1172,Cardlytics,1666071,1,1,0,ok
-1174,EDO,31617,0,0,0,fetch_failed
-1192,Arrowhead Pharmaceuticals,879407,2,1,4,ok
-1197,Kaiser Aluminum,811596,0,5,0,ok
-1205,Eve,1823652,0,1,0,ok
-1207,Opendoor,1801169,1,1,0,ok
-1208,Toast,1650164,1,1,0,ok
-1213,Motive,1646681,0,0,0,fetch_failed
-1214,Zynga,1439404,3,2,1,ok
-1218,Klaviyo,1835830,1,1,0,ok
-1221,Udemy,1607939,0,1,0,ok
-1228,Proto,1443669,1,2,2,ok
-1253,Ouster,1816581,1,1,0,ok
+1070,Xos Trucks,1819493,0,0,0,ok
+1074,Macerich,912242,0,0,0,ok
+1075,Home Alliance,813389,0,0,0,no_tags
+1091,Bold,1444275,0,0,0,ok
+1102,Warp,743758,0,0,0,ok
+1110,PVH Corp.,78239,0,0,0,ok
+1112,a.k.a. Brands,1865107,0,0,0,ok
+1124,Dine Brands Global,49754,0,0,0,ok
+1136,Dave Inc.,1841408,0,0,0,ok
+1141,The Honest Company,1530979,0,0,0,ok
+1143,Oscar Health,1568651,0,0,0,ok
+1148,Rexford Industrial,1571283,0,0,0,ok
+1172,Cardlytics,1666071,0,0,0,ok
+1174,EDO,31617,0,0,0,no_tags
+1192,Arrowhead Pharmaceuticals,879407,0,0,0,ok
+1197,Kaiser Aluminum,811596,0,0,0,ok
+1205,Eve,1823652,0,0,0,ok
+1207,Opendoor,1801169,0,0,0,ok
+1208,Toast,1650164,0,0,0,ok
+1213,Motive,1646681,0,0,0,no_tags
+1214,Zynga,1439404,0,0,0,ok
+1218,Klaviyo,1835830,0,0,0,ok
+1221,Udemy,1607939,0,0,0,ok
+1228,Proto,1443669,0,0,0,ok
+1253,Ouster,1816581,0,0,0,ok
 1265,UserTesting,1557127,0,0,0,no_tags
-1268,Insightful,895095,0,0,0,fetch_failed
-1269,Axion Ray Inc,753048,3,2,1,ok
-1275,Ironclad,1455926,3,0,0,ok
-1283,Myriad AI,899923,3,4,1,ok
+1268,Insightful,895095,0,0,0,no_tags
+1269,Axion Ray Inc,753048,0,0,0,ok
+1275,Ironclad,1455926,0,0,0,ok
+1283,Myriad AI,899923,0,0,0,ok
 1288,Federal Home Loan Bank of San Francisco,1316944,0,0,0,no_tags
-1295,Mirum Pharmaceuticals,1759425,0,7,0,ok
-1299,Clearway Energy Group,1567683,13,0,0,ok
-1308,E.L.F. Beauty,1600033,1,0,0,ok
-1312,First Solar,1274494,1,7,0,ok
-1326,Saga,886136,1,0,0,ok
-1330,Twist Bioscience,1581280,0,1,0,ok
-1334,Color,819220,0,2,0,ok
-1347,Backblaze,1462056,1,1,0,ok
-1382,Figure,2064124,1,1,0,ok
-1423,Prosper Marketplace,1416265,7,0,0,ok
+1295,Mirum Pharmaceuticals,1759425,0,0,0,ok
+1299,Clearway Energy Group,1567683,0,0,0,ok
+1308,E.L.F. Beauty,1600033,0,0,0,ok
+1312,First Solar,1274494,0,0,0,ok
+1326,Saga,886136,0,0,0,ok
+1330,Twist Bioscience,1581280,0,0,0,ok
+1334,Color,819220,0,0,0,ok
+1347,Backblaze,1462056,0,0,0,ok
+1382,Figure,2064124,0,0,0,ok
+1423,Prosper Marketplace,1416265,0,0,0,ok
 1437,Once Upon a Farm,1696556,0,0,0,no_tags
-1456,Ultragenyx,1515673,1,1,1,ok
-1460,Energy Recovery,1421517,1,4,1,ok
-1484,SoundHound,1840856,0,1,0,ok
-1500,Quince,1662774,0,1,0,ok
-1531,Universal Electronics,101984,1,5,0,ok
+1456,Ultragenyx,1515673,0,0,0,ok
+1460,Energy Recovery,1421517,0,0,0,ok
+1484,SoundHound,1840856,0,0,0,ok
+1500,Quince,1662774,0,0,0,ok
+1531,Universal Electronics,101984,0,0,0,ok
 1536,Stitch Fix,1576942,0,0,0,ok
-1544,Dragonfly,1847986,1,1,0,ok
+1544,Dragonfly,1847986,0,0,0,ok
 1553,"Berkeley Lights, Inc.",1689657,0,0,0,ok
-1555,iRhythm Technologies,1388658,1,0,0,ok
-1559,SunPower Corporation,867773,0,7,0,ok
-1602,Remitly,1782170,1,1,0,ok
-1603,System1,1805833,1,0,0,ok
-1605,CrowdStrike,1535527,0,1,0,ok
-1611,Chewy,1766502,1,0,0,ok
+1555,iRhythm Technologies,1388658,0,0,0,ok
+1559,SunPower Corporation,867773,0,0,0,ok
+1602,Remitly,1782170,0,0,0,ok
+1603,System1,1805833,0,0,0,ok
+1605,CrowdStrike,1535527,0,0,0,ok
+1611,Chewy,1766502,0,0,0,ok
 1613,DoubleDown Interactive LLC,1799567,0,0,0,no_tags
-1619,BlackSky,1753539,0,1,0,ok
+1619,BlackSky,1753539,0,0,0,ok
 1638,Rover,1826018,0,0,0,ok
-1650,Path,1059404,0,0,0,fetch_failed
-1653,Expeditors,746515,7,0,0,ok
-1656,Salesforce,1108524,7,6,0,ok
-1663,HomeStreet Bank,1518715,1,0,0,ok
-1664,Sinclair Broadcast Group,912752,4,0,0,ok
-1678,Xplore,1177845,0,3,0,ok
+1650,Path,1059404,0,0,0,no_tags
+1653,Expeditors,746515,0,0,0,ok
+1656,Salesforce,1108524,0,0,0,ok
+1663,HomeStreet Bank,1518715,0,0,0,ok
+1664,Sinclair Broadcast Group,912752,0,0,0,ok
+1678,Xplore,1177845,0,0,0,ok
 1680,Grab,1855612,0,0,0,no_tags
-1708,Trupanion,1371285,2,1,0,ok
-1724,Lyft,1759509,1,1,0,ok
-1728,Adaptive Biotechnologies Corp.,1478320,7,7,0,ok
-1731,ImmunityBio,1326110,8,0,0,ok
-1741,Porch Group,1784535,1,0,0,ok
-1743,"Immunome, Inc.",1472012,1,1,0,ok
-1808,CoStar Group,1057352,5,0,0,ok
-1809,Blue Nile,1091171,5,0,0,ok
-1814,WatchGuard,1062019,0,0,0,fetch_failed
-1824,Snowflake,1640147,2,2,0,ok
-1828,Coupang,1834584,1,0,0,ok
-1830,Sonos,1314727,1,1,0,ok
-1831,Okta,1660134,2,2,0,ok
+1708,Trupanion,1371285,0,0,0,ok
+1724,Lyft,1759509,0,0,0,ok
+1728,Adaptive Biotechnologies Corp.,1478320,0,0,0,ok
+1731,ImmunityBio,1326110,0,0,0,ok
+1741,Porch Group,1784535,0,0,0,ok
+1743,"Immunome, Inc.",1472012,0,0,0,ok
+1808,CoStar Group,1057352,0,0,0,ok
+1809,Blue Nile,1091171,0,0,0,ok
+1814,WatchGuard,1062019,0,0,0,no_tags
+1824,Snowflake,1640147,0,0,0,ok
+1828,Coupang,1834584,0,0,0,ok
+1830,Sonos,1314727,0,0,0,ok
+1831,Okta,1660134,0,0,0,ok
 1834,Nexxen,1849396,0,0,0,no_tags
-1840,"Sana Biotechnology, Inc.",1770121,0,1,0,ok
+1840,"Sana Biotechnology, Inc.",1770121,0,0,0,ok
 1842,Prologis,899881,0,0,0,no_tags
 1843,Baidu,1329099,0,0,0,no_tags
-1854,Pinterest,1506293,1,1,0,ok
-1857,Rockwell Automation,1024478,0,1,5,ok
-1862,DoorDash,1792789,1,1,0,ok
-1866,RealNetworks,1046327,5,4,0,ok
+1854,Pinterest,1506293,0,0,0,ok
+1857,Rockwell Automation,1024478,0,0,0,ok
+1862,DoorDash,1792789,0,0,0,ok
+1866,RealNetworks,1046327,0,0,0,ok
 1870,Cloudera,1535379,0,0,0,ok
-1892,Duolingo,1562088,1,1,0,ok
-1893,Robinhood,1783879,1,1,0,ok
-1895,PEMCO,771729,0,0,0,fetch_failed
-1901,Expedia Group,1324424,1,0,0,ok
-1902,Avante,1504388,3,0,0,ok
-1904,Digital Turbine,317788,7,5,0,ok
-1906,Capital Group,1085621,3,3,1,ok
-1914,Zillow,1617640,1,1,0,ok
-1916,Pivotal Ventures,1086329,0,0,0,fetch_failed
-1917,Karat,1385872,0,0,0,fetch_failed
-1920,Best Buy,764478,8,0,0,ok
-1928,Brightcove,1313275,3,3,0,ok
-1929,F5,1048695,1,6,0,ok
-1932,Nordstrom,72333,4,0,2,ok
-1942,Monolithic Power Systems,1280452,3,1,2,ok
-1945,QVC Group,1355096,1,0,0,ok
+1892,Duolingo,1562088,0,0,0,ok
+1893,Robinhood,1783879,0,0,0,ok
+1895,PEMCO,771729,0,0,0,no_tags
+1901,Expedia Group,1324424,0,0,0,ok
+1902,Avante,1504388,0,0,0,ok
+1904,Digital Turbine,317788,0,0,0,ok
+1906,Capital Group,1085621,0,0,0,ok
+1914,Zillow,1617640,0,0,0,ok
+1916,Pivotal Ventures,1086329,0,0,0,no_tags
+1917,Karat,1385872,0,0,0,no_tags
+1920,Best Buy,764478,0,0,0,ok
+1928,Brightcove,1313275,0,0,0,ok
+1929,F5,1048695,0,0,0,ok
+1932,Nordstrom,72333,0,0,0,ok
+1942,Monolithic Power Systems,1280452,0,0,0,ok
+1945,QVC Group,1355096,0,0,0,ok
 1947,DNA,1419995,0,0,0,no_tags
-1951,Convera,1125536,0,0,0,fetch_failed
-1954,Impinj,1114995,0,1,0,ok
+1951,Convera,1125536,0,0,0,no_tags
+1954,Impinj,1114995,0,0,0,ok
 1963,Redfin,1382821,0,0,0,ok
-1965,NVIDIA,1045810,10,6,0,ok
-1973,GoDaddy,1609711,1,0,0,ok
-1974,springbig,1801602,2,1,0,ok
-1979,Stryker,310764,1,7,0,ok
-1984,Meta,1326801,4,4,0,ok
+1965,NVIDIA,1045810,0,0,0,ok
+1973,GoDaddy,1609711,0,0,0,ok
+1974,springbig,1801602,0,0,0,ok
+1979,Stryker,310764,0,0,0,ok
+1984,Meta,1326801,0,0,0,ok
 2001,Arcadia,1071941,0,0,0,no_tags
-2021,Dynatrace,1773383,1,1,0,ok
-2023,Rapid7,1560327,1,1,0,ok
-2032,Imprivata,1328015,1,1,0,ok
-2047,Definitive Healthcare,1861795,1,1,0,ok
-2048,CarGurus,1494259,0,1,0,ok
-2061,Onto Innovation,704532,1,5,0,ok
+2021,Dynatrace,1773383,0,0,0,ok
+2023,Rapid7,1560327,0,0,0,ok
+2032,Imprivata,1328015,0,0,0,ok
+2047,Definitive Healthcare,1861795,0,0,0,ok
+2048,CarGurus,1494259,0,0,0,ok
+2061,Onto Innovation,704532,0,0,0,ok
 2062,"Sun Life Financial, Inc.",1097362,0,0,0,no_tags
-2086,Semrush,1831840,1,1,0,ok
-2087,athenahealth,1131096,4,5,0,ok
-2090,Kymera Therapeutics,1815442,1,1,0,ok
-2093,Dianthus Therapeutics,1690585,3,1,0,ok
-2099,Keros Therapeutics,1664710,1,1,0,ok
-2101,Intellia Therapeutics,1652130,1,1,0,ok
-2108,Lendbuzz,1736734,0,0,0,fetch_failed
-2114,Ironwood Pharmaceuticals,1446847,5,5,0,ok
-2116,Vicarious Surgical,1812173,0,1,0,ok
-2121,Scholar Rock,1727196,1,1,0,ok
-2122,BeiGene,1651308,0,1,0,ok
-2126,Centessa Pharmaceuticals,1847903,1,5,0,ok
-2129,Bright Horizons,1437578,4,0,0,ok
+2086,Semrush,1831840,0,0,0,ok
+2087,athenahealth,1131096,0,0,0,ok
+2090,Kymera Therapeutics,1815442,0,0,0,ok
+2093,Dianthus Therapeutics,1690585,0,0,0,ok
+2099,Keros Therapeutics,1664710,0,0,0,ok
+2101,Intellia Therapeutics,1652130,0,0,0,ok
+2108,Lendbuzz,1736734,0,0,0,no_tags
+2114,Ironwood Pharmaceuticals,1446847,0,0,0,ok
+2116,Vicarious Surgical,1812173,0,0,0,ok
+2121,Scholar Rock,1727196,0,0,0,ok
+2122,BeiGene,1651308,0,0,0,ok
+2126,Centessa Pharmaceuticals,1847903,0,0,0,ok
+2129,Bright Horizons,1437578,0,0,0,ok
 2131,Mimecast,1644675,0,0,0,ok
-2142,Entegris,1101302,1,5,0,ok
-2145,Vertex Pharmaceuticals,875320,5,4,1,ok
-2146,Fractyl Health,1572616,0,1,0,ok
-2150,Beam Therapeutics,1745999,0,1,0,ok
-2157,LPL Financial,1397911,5,0,0,ok
-2159,Relay Therapeutics,1812364,1,0,0,ok
-2170,Aura,826253,4,4,0,ok
-2173,RSA Security,932064,0,0,0,fetch_failed
-2185,ZOE,1594879,1,0,0,ok
-2189,Bicycle Therapeutics,1761612,1,1,0,ok
-2201,"Nuvalent, Inc.",1861560,0,1,0,ok
-2240,Lantheus,1521036,2,9,2,ok
-2243,Acadian Asset Management,1748824,1,0,0,ok
+2142,Entegris,1101302,0,0,0,ok
+2145,Vertex Pharmaceuticals,875320,0,0,0,ok
+2146,Fractyl Health,1572616,0,0,0,ok
+2150,Beam Therapeutics,1745999,0,0,0,ok
+2157,LPL Financial,1397911,0,0,0,ok
+2159,Relay Therapeutics,1812364,0,0,0,ok
+2170,Aura,826253,0,0,0,ok
+2173,RSA Security,932064,0,0,0,no_tags
+2185,ZOE,1594879,0,0,0,ok
+2189,Bicycle Therapeutics,1761612,0,0,0,ok
+2201,"Nuvalent, Inc.",1861560,0,0,0,ok
+2240,Lantheus,1521036,0,0,0,ok
+2243,Acadian Asset Management,1748824,0,0,0,ok
 2247,Akoya,1711933,0,0,0,ok
-2248,Citizens,24090,15,0,0,ok
+2248,Citizens,24090,0,0,0,ok
 2257,Seaport Therapeutics,2042347,0,0,0,no_tags
-2261,SES AI,1819142,1,1,0,ok
-2265,Symbotic,1837240,1,1,0,ok
-2276,Cerence Inc.,1768267,1,1,0,ok
-2277,"KalVista Pharmaceuticals, Inc.",1348911,1,1,0,ok
-2284,Maxima Consulting,1596448,1,0,0,ok
-2285,"The TJX Companies, Inc.",109198,5,0,1,ok
-2300,"CIRCOR International, Inc.",1091883,4,4,0,ok
-2301,Xenon Pharmaceuticals Inc.,1582313,2,1,1,ok
-2303,Forrester,1023313,1,0,0,ok
+2261,SES AI,1819142,0,0,0,ok
+2265,Symbotic,0001837240,0,0,0,ok
+2276,Cerence Inc.,1768267,0,0,0,ok
+2277,"KalVista Pharmaceuticals, Inc.",1348911,0,0,0,ok
+2284,Maxima Consulting,1596448,0,0,0,ok
+2285,"The TJX Companies, Inc.",109198,0,0,0,ok
+2300,"CIRCOR International, Inc.",1091883,0,0,0,ok
+2301,Xenon Pharmaceuticals Inc.,1582313,0,0,0,ok
+2303,Forrester,1023313,0,0,0,ok
 2313,Allot,1365767,0,0,0,no_tags
-2320,Sentinel Group,889353,3,0,0,ok
-2326,Prime Medicine,1894562,1,1,0,ok
-2352,Foghorn Therapeutics,1822462,1,1,0,ok
-2354,ZoomInfo,1794515,1,1,0,ok
-2358,Guidewire Software,1528396,5,4,0,ok
-2363,Constant Contact,1405277,0,3,1,ok
-2366,"Praxis Precision Medicines, Inc.",1689548,1,1,0,ok
+2320,Sentinel Group,889353,0,0,0,ok
+2326,Prime Medicine,1894562,0,0,0,ok
+2352,Foghorn Therapeutics,1822462,0,0,0,ok
+2354,ZoomInfo,1794515,0,0,0,ok
+2358,Guidewire Software,1528396,0,0,0,ok
+2363,Constant Contact,1405277,0,0,0,ok
+2366,"Praxis Precision Medicines, Inc.",1689548,0,0,0,ok
 2371,Blueprint Medicines,1597264,0,0,0,ok
-2374,Revvity,31791,7,8,0,ok
-2391,Analogic,6284,2,2,1,ok
+2374,Revvity,31791,0,0,0,ok
+2391,Analogic,6284,0,0,0,ok
 2394,Victory Capital,1570827,0,0,0,ok
 2401,General Motors,40730,0,0,0,no_tags
-2402,SailPoint,2030781,1,1,0,ok
+2402,SailPoint,2030781,0,0,0,ok
 2415,SciPlay,1760717,0,0,0,ok
-2421,"Riot Platforms, Inc.",1167419,1,3,1,ok
-2446,Heartflow,1464521,1,1,0,ok
-2454,Ambiq Micro,1500412,1,1,0,ok
-2457,Natera,1604821,0,1,0,ok
-2465,MNTN,1891027,1,1,0,ok
-2469,Leidos,1336920,6,5,2,ok
-2477,Adobe,796343,17,0,0,ok
-2482,DISCO,1625641,1,1,0,ok
-2483,Iris Software Inc.,319240,1,1,0,ok
-2499,Ethos,1788451,1,0,0,ok
-2509,The Zebra,877212,8,13,3,ok
-2521,Securitize,2094496,0,0,0,fetch_failed
-2522,Accenture,1467373,6,6,0,ok
-2532,YETI,1670592,1,2,0,ok
-2536,Veracyte,1384101,1,1,2,ok
-2547,agilon health,1831097,1,0,0,ok
-2551,Richtech Robotics,1963685,1,1,0,ok
-2557,"Visa Inc,",1403161,10,0,0,ok
-2558,Volcon ePowersports,1829794,1,0,0,ok
-2588,Core Scientific,1839341,1,0,0,ok
-2598,Procore Technologies,1611052,1,1,0,ok
-2606,Sprinklr,1569345,2,2,0,ok
+2421,"Riot Platforms, Inc.",1167419,0,0,0,ok
+2446,Heartflow,1464521,0,0,0,ok
+2454,Ambiq Micro,1500412,0,0,0,ok
+2457,Natera,1604821,0,0,0,ok
+2465,MNTN,1891027,0,0,0,ok
+2469,Leidos,1336920,0,0,0,ok
+2477,Adobe,796343,0,0,0,ok
+2482,DISCO,1625641,0,0,0,ok
+2483,Iris Software Inc.,319240,0,0,0,ok
+2499,Ethos,1788451,0,0,0,ok
+2509,The Zebra,877212,0,0,0,ok
+2521,Securitize,2094496,0,0,0,no_tags
+2522,Accenture,1467373,0,0,0,ok
+2532,YETI,1670592,0,0,0,ok
+2536,Veracyte,1384101,0,0,0,ok
+2547,agilon health,1831097,0,0,0,ok
+2551,Richtech Robotics,1963685,0,0,0,ok
+2557,"Visa Inc,",1403161,0,0,0,ok
+2558,Volcon ePowersports,1829794,0,0,0,ok
+2588,Core Scientific,1839341,0,0,0,ok
+2598,Procore Technologies,1611052,0,0,0,ok
+2606,Sprinklr,1569345,0,0,0,ok
 2617,Embark,1827980,0,0,0,ok
 2623,SolarWinds,1739942,0,0,0,ok
-2628,Hippo Insurance,1828105,1,0,0,ok
-2634,Flex,866374,2,6,0,ok
-2647,Digital Realty,1494877,0,0,0,fetch_failed
+2628,Hippo Insurance,1828105,0,0,0,ok
+2634,Flex,866374,0,0,0,ok
+2647,Digital Realty,1494877,0,0,0,no_tags
 2659,CDK Global,1609702,0,0,0,ok
-2660,eBay,1065088,4,7,0,ok
+2660,eBay,1065088,0,0,0,ok
 2667,TrueCar,1327318,0,0,0,ok
-2684,Gartner,749251,4,0,0,ok
-2688,Vital Farms,1579733,1,0,0,ok
-2712,Asure Software,884144,7,5,0,ok
-2729,Care.com,1412270,0,0,1,ok
-2749,Dell Technologies,1571996,7,9,0,ok
-2759,Zendesk,1463172,1,0,1,ok
-2771,Microchip Technology Inc.,827054,0,2,4,ok
-2774,Confluent,1699838,1,1,0,ok
-2775,Firefly Aerospace,1860160,1,1,0,ok
-2783,Upland Software,1505155,2,2,0,ok
-2796,Way,23675,1,0,4,ok
-2800,Box,1372612,0,8,3,ok
-2801,GitLab,1653482,2,2,0,ok
-2805,Samsara,1530163,0,1,0,ok
-2809,Micron Technology,723125,0,3,2,ok
-2816,Cencora,1140859,7,0,0,ok
-2821,Comcast,1166691,13,0,0,ok
-2823,GRAIL,1699031,2,2,0,ok
-2836,Doximity,1516513,1,1,0,ok
-2843,Globe Life,320335,6,0,1,ok
-2844,Gloo,2069785,1,0,0,ok
-2847,Magna International,1093273,0,0,0,fetch_failed
-2851,PagerDuty,1568100,2,2,0,ok
+2684,Gartner,749251,0,0,0,ok
+2688,Vital Farms,1579733,0,0,0,ok
+2712,Asure Software,884144,0,0,0,ok
+2729,Care.com,1412270,0,0,0,ok
+2749,Dell Technologies,1571996,0,0,0,ok
+2759,Zendesk,1463172,0,0,0,ok
+2771,Microchip Technology Inc.,827054,0,0,0,ok
+2774,Confluent,1699838,0,0,0,ok
+2775,Firefly Aerospace,1860160,0,0,0,ok
+2783,Upland Software,1505155,0,0,0,ok
+2796,Way,23675,0,0,0,ok
+2800,Box,1372612,0,0,0,ok
+2801,GitLab,1653482,0,0,0,ok
+2805,Samsara,1530163,0,0,0,ok
+2809,Micron Technology,723125,0,0,0,ok
+2816,Cencora,1140859,0,0,0,ok
+2821,Comcast,1166691,0,0,0,ok
+2823,GRAIL,1699031,0,0,0,ok
+2836,Doximity,1516513,0,0,0,ok
+2843,Globe Life,320335,0,0,0,ok
+2844,Gloo,2069785,0,0,0,ok
+2847,Magna International,1093273,0,0,0,no_tags
+2851,PagerDuty,1568100,0,0,0,ok
 2864,Pluralsight,1725579,0,0,0,ok
-2871,DigitalOcean,1582961,1,1,0,ok
-2884,EchoStar,1415404,8,10,6,ok
-2886,Ibotta,1538379,1,1,0,ok
+2871,DigitalOcean,1582961,0,0,0,ok
+2884,EchoStar,1415404,0,0,0,ok
+2886,Ibotta,1538379,0,0,0,ok
 2899,FirstBank,778972,0,0,0,no_tags
 2905,Infosys,1067491,0,0,0,no_tags
-2913,Bandwidth Inc.,1514416,0,1,0,ok
-2943,Net Health,916085,4,0,0,ok
+2913,Bandwidth Inc.,1514416,0,0,0,ok
+2943,Net Health,916085,0,0,0,ok
 2944,Capital City Bank Group,726601,0,0,0,no_tags
-2954,IQVIA,1478242,1,0,2,ok
+2954,IQVIA,1478242,0,0,0,ok
 2963,WESCO International,929008,0,0,0,ok
-2964,Zumiez,1318008,1,0,0,ok
-2988,Smith,91142,7,13,1,ok
-2997,Red Hat,1087423,5,3,1,ok
-2998,Acadia Pharmaceuticals Inc.,1070494,3,3,2,ok
-3054,MARA,1507605,5,1,0,ok
-3055,Rapid Micro Biosystems,1380106,1,1,0,ok
-3072,FF Global Group,2102972,0,0,0,fetch_failed
+2964,Zumiez,1318008,0,0,0,ok
+2988,Smith,91142,0,0,0,ok
+2997,Red Hat,1087423,0,0,0,ok
+2998,Acadia Pharmaceuticals Inc.,1070494,0,0,0,ok
+3054,MARA,1507605,0,0,0,ok
+3055,Rapid Micro Biosystems,1380106,0,0,0,ok
+3072,FF Global Group,2102972,0,0,0,no_tags
 3075,Curaleaf,1756770,0,0,0,no_tags
-3110,LivaNova,1639691,1,1,0,ok
-3139,Mobile Solutions,842919,0,0,0,fetch_failed
-3147,CarMax,1170010,2,0,0,ok
-3174,HubSpot,1404655,1,1,1,ok
-3178,Labcorp,920148,10,0,0,ok
-3192,Revolution Medicines,1628171,1,1,0,ok
+3110,LivaNova,1639691,0,0,0,ok
+3139,Mobile Solutions,842919,0,0,0,no_tags
+3147,CarMax,1170010,0,0,0,ok
+3174,HubSpot,1404655,0,0,0,ok
+3178,Labcorp,920148,0,0,0,ok
+3192,Revolution Medicines,1628171,0,0,0,ok
 3197,Lamar Advertising Company,1090425,0,0,0,no_tags
-3200,FMC Corporation,37785,7,17,0,ok
-3216,I&M Bank,36270,7,0,4,ok
+3200,FMC Corporation,37785,0,0,0,ok
+3216,I&M Bank,36270,0,0,0,ok
 3226,Gener8,1443799,0,0,0,no_tags
-3231,StandardAero,2025410,1,0,0,ok
-3249,Recursion,1601830,1,1,0,ok
-3258,Ozone,314227,4,3,0,ok
-3275,Alignment Healthcare,1832466,2,0,0,ok
-3294,Weatherford,1453090,3,4,0,ok
+3231,StandardAero,2025410,0,0,0,ok
+3249,Recursion,1601830,0,0,0,ok
+3258,Ozone,314227,0,0,0,ok
+3275,Alignment Healthcare,1832466,0,0,0,ok
+3294,Weatherford,1453090,0,0,0,ok
 3299,First American Title,36047,0,0,0,ok
-3308,Unisys,746838,10,5,1,ok
-3316,Zoetis Inc.,1555280,1,12,0,ok
-3319,Oshkosh Corporation,775158,1,15,0,ok
-3349,Aspen Technology,929940,1,2,2,ok
+3308,Unisys,746838,0,0,0,ok
+3316,Zoetis Inc.,1555280,0,0,0,ok
+3319,Oshkosh Corporation,775158,0,0,0,ok
+3349,Aspen Technology,929940,0,0,0,ok
 3368,Capital Bank,1071992,0,0,0,no_tags
 3398,Kornit Digital,1625791,0,0,0,no_tags
-3422,Uniti AI,2020795,1,0,0,ok
-3473,"TTM Technologies, Inc.",1116942,1,2,0,ok
-3474,Navient,1593538,7,0,0,ok
-3496,Q ANALYSTS LLC,6292,2,0,0,ok
-3497,Septerna,1984086,1,1,0,ok
-3503,Neuberger Berman,1068144,0,0,0,fetch_failed
-3549,Avado,849101,0,0,0,fetch_failed
-3551,Mesa Laboratories,724004,0,1,3,ok
-3568,Velo3D,1825079,5,1,0,ok
-3570,Array,1100412,2,2,1,ok
-3576,Fuse,319016,3,0,0,ok
-3585,Catapult,2074220,0,0,0,fetch_failed
-3594,Church & Dwight,313927,1,4,1,ok
-3599,Gray Media,43196,1,0,0,ok
-3603,A.Team,318833,8,0,0,ok
-3609,Winton,857907,0,0,0,fetch_failed
-3612,Cohen & Steers,1284812,10,0,0,ok
+3422,Uniti AI,2020795,0,0,0,ok
+3473,"TTM Technologies, Inc.",1116942,0,0,0,ok
+3474,Navient,1593538,0,0,0,ok
+3496,Q ANALYSTS LLC,6292,0,0,0,ok
+3497,Septerna,1984086,0,0,0,ok
+3503,Neuberger Berman,1068144,0,0,0,no_tags
+3549,Avado,849101,0,0,0,no_tags
+3551,Mesa Laboratories,724004,0,0,0,ok
+3568,Velo3D,1825079,0,0,0,ok
+3570,Array,1100412,0,0,0,ok
+3576,Fuse,319016,0,0,0,ok
+3585,Catapult,2074220,0,0,0,no_tags
+3594,Church & Dwight,313927,0,0,0,ok
+3599,Gray Media,43196,0,0,0,ok
+3603,A.Team,318833,0,0,0,ok
+3609,Winton,857907,0,0,0,no_tags
+3612,Cohen & Steers,1284812,0,0,0,ok
 3620,Federal Home Loan Bank Of Pittsburgh,1330399,0,0,0,no_tags
 3623,Clubhouse,1389518,0,0,0,ok
 3632,Vertical Aerospace,1867102,0,0,0,no_tags
-3633,Unit,798949,12,0,0,ok
-3638,AND Global,64040,9,0,0,ok
-3643,The Scotts Miracle-Gro Company,825542,3,5,0,ok
-3651,Match Group,891103,2,1,5,ok
-3664,Equifax Inc.,33185,1,0,0,ok
-3680,Firefly,803578,5,1,0,ok
+3633,Unit,798949,0,0,0,ok
+3638,AND Global,64040,0,0,0,ok
+3643,The Scotts Miracle-Gro Company,825542,0,0,0,ok
+3651,Match Group,891103,0,0,0,ok
+3664,Equifax Inc.,33185,0,0,0,ok
+3680,Firefly,803578,0,0,0,ok
 3681,Zymeworks,1403752,0,0,0,ok
-3689,Kimball Electronics,1606757,1,11,0,ok
-3691,Advent Services,1744494,4,4,0,ok
-3735,G Adventures,1419122,1,0,0,ok
-3749,Deluxe,27996,1,0,5,ok
-3771,Archipelago Analytics,1107389,0,0,0,fetch_failed
+3689,Kimball Electronics,1606757,0,0,0,ok
+3691,Advent Services,1744494,0,0,0,ok
+3735,G Adventures,1419122,0,0,0,ok
+3749,Deluxe,27996,0,0,0,ok
+3771,Archipelago Analytics,1107389,0,0,0,no_tags
 3807,Roivant Sciences,1635088,0,0,0,ok
-3833,Limitless Management Group,1803977,2,0,0,ok
+3833,Limitless Management Group,1803977,0,0,0,ok
 3850,Lumenis,1004945,0,0,0,no_tags
-3851,Dow,1751788,6,7,0,ok
-3861,Raymond James,720005,4,0,2,ok
-3863,Telos Media,320121,1,1,0,ok
-3865,Cognition,1455365,0,1,0,ok
-3875,CIMA+,833298,0,0,0,fetch_failed
-3922,State Street,93751,7,0,0,ok
-3931,Quanta Services,1050915,1,0,0,ok
-3937,Eversource Energy,72741,5,0,0,ok
+3851,Dow,1751788,0,0,0,ok
+3861,Raymond James,720005,0,0,0,ok
+3863,Telos Media,320121,0,0,0,ok
+3865,Cognition,1455365,0,0,0,ok
+3875,CIMA+,833298,0,0,0,no_tags
+3922,State Street,93751,0,0,0,ok
+3931,Quanta Services,1050915,0,0,0,ok
+3937,Eversource Energy,72741,0,0,0,ok
 3940,Inari Medical,1531048,0,0,0,ok
-3981,Disruptive Technologies,1498380,0,3,0,ok
+3981,Disruptive Technologies,1498380,0,0,0,ok
+4002,Palantir Technologies,0001321655,6,6,0,ok
+4003,C3.ai,0001577526,5,5,0,ok
+4004,AppLovin,0001751008,5,5,0,ok
+4005,BigBear.ai,0001836981,5,4,0,ok
+4006,Veritone,0001615165,8,8,1,ok
+4007,Pegasystems,0001013857,3,11,4,ok
+4008,UiPath,0001734722,5,5,0,ok
+4009,Cerence,0001768267,6,6,0,ok
+4010,SoundHound AI,0001840856,0,4,0,ok
+4011,Recursion Pharmaceuticals,0001601830,5,5,0,ok
